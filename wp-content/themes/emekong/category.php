@@ -1,6 +1,14 @@
 <?php
 /**
- * The template for displaying Category pages
+ * The template for displaying Archive pages
+ *
+ * Used to display archive-type pages if nothing more specific matches a query.
+ * For example, puts together date-based pages if no date.php file exists.
+ *
+ * If you'd like to further customize these archive views, you may create a
+ * new template file for each specific one. For example, Emekong
+ * already has tag.php for Tag archives, category.php for Category archives,
+ * and author.php for Author archives.
  *
  * @link http://codex.wordpress.org/Template_Hierarchy
  *
@@ -11,48 +19,64 @@
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+    <div id="main-content" class="container">
+        <div class="head-page">
+            <!-- breadcrumb -->
+            <?php get_breadcrumbs(); ?>
+            <!--- end breadcrumb -->
+        </div>
+        <div id="primary" class="main-content">
+            <div class="content-duan">
+                <div class="main-content-duan">
+                    <div class="hot-new">
+                        <div class="page-title active">
+                            <h4>Tin nổi bật</h4>
+                        </div>
+                    </div>
+                    <!-- hot new -->
+                    <?php if (have_posts()) : ?>
 
-			<?php if ( have_posts() ) : ?>
+                        <?php while (have_posts()) : the_post(); ?>
+                            <?php if ($wp_query->current_post == 0): ?>
+                                <div class="hot-new-main">
+                                    <?php the_post_thumbnail(array(260, 260)); ?>
+                                    <div class="description-new">
+                                        <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 
-			<header class="archive-header">
-				<h1 class="archive-title"><?php printf( __( 'Category Archives: %s', 'emekong' ), single_cat_title( '', false ) ); ?></h1>
+                                        <p>
+                                            <?php the_excerpt(); ?>
+                                        </p>
+                                    </div>
+                                </div>
+                            <?php else: ?>
+                                <?php if ($wp_query->current_post <= 3): ?>
+                                    <?php if ($wp_query->current_post == 1): ?>
+                                        <div class="hot-new-catalogue box">
+                                    <?php endif; ?>
+                                    <div class="box-item">
+                                        <a href="#">
+                                            <?php the_post_thumbnail(array(75, 55)); ?>
+                                            <div class="box-item-description">
+                                                <p>
+                                                    <?php the_excerpt(); ?>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                <?php else: ?>
+                                <?php endif; ?>
+                            <?php endif; ?>
+                        <?php endwhile; ?>
+                        <?php emekong_paging_nav(); ?>
+                    <?php endif; ?>
+                    <!-- End hot new-->
+                </div>
+            </div>
 
-				<?php
-					// Show an optional term description.
-					$term_description = term_description();
-					if ( ! empty( $term_description ) ) :
-						printf( '<div class="taxonomy-description">%s</div>', $term_description );
-					endif;
-				?>
-			</header><!-- .archive-header -->
-
-			<?php
-					// Start the Loop.
-					while ( have_posts() ) : the_post();
-
-					/*
-					 * Include the post format-specific template for the content. If you want to
-					 * use this in a child theme, then include a file called called content-___.php
-					 * (where ___ is the post format) and that will be used instead.
-					 */
-					get_template_part( 'content', get_post_format() );
-
-					endwhile;
-					// Previous/next page navigation.
-					emekong_paging_nav();
-
-				else :
-					// If no content, include the "No posts found" template.
-					get_template_part( 'content', 'none' );
-
-				endif;
-			?>
-		</div><!-- #content -->
-	</section><!-- #primary -->
+        </div>
+        <!-- #content -->
+    </div><!-- #primary -->
 
 <?php
-get_sidebar( 'content' );
-get_sidebar();
+
 get_footer();

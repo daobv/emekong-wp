@@ -1,66 +1,29 @@
-<?php
-/**
- * The default template for displaying content
- *
- * Used for both single and index/archive/search.
- *
- * @package WordPress
- * @subpackage emekong
- * @since Emekong 1.0
- */
-?>
+<div class="home-news-cate" id="tabs-home-cate">
+    <ul id="tabs">
+        <li><a href="#tabs-1">Mới</a></li>
+        <li><a href="#tabs-2">Đọc nhiều</a></li>
+        <li><a href="#tabs-3">Nóng</a></li>
+    </ul>
+    <div id="tabs-1" class="tab-content">
+        <ul class="news-list">
+            <?php query_posts( 'posts_per_page=5&order=DESC' );?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php emekong_post_thumbnail(); ?>
+            <?php  while (have_posts()) : the_post();?>
+                <li>
+                    <h3><a href = "<?php the_permalink(); ?>"><?php the_title();?></a></h3>
+                    <div class="article-short">
+                        <a href = "<?php the_permalink(); ?>"><div class="img-thumnail"><?php the_post_thumbnail( array(100,94) ); ?></div></a>
+                        <div class="article-title"><?php the_excerpt(); ?></div>
+                    </div>
+                </li>
 
-	<header class="entry-header">
-		<?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) && emekong_categorized_blog() ) : ?>
-		<div class="entry-meta">
-			<span class="cat-links"><?php echo get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'emekong' ) ); ?></span>
-		</div>
-		<?php
-			endif;
-
-			if ( is_single() ) :
-				the_title( '<h1 class="entry-title">', '</h1>' );
-			else :
-				the_title( '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' );
-			endif;
-		?>
-
-		<div class="entry-meta">
-			<?php
-				if ( 'post' == get_post_type() )
-					emekong_posted_on();
-
-				if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
-			?>
-			<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'emekong' ), __( '1 Comment', 'emekong' ), __( '% Comments', 'emekong' ) ); ?></span>
-			<?php
-				endif;
-
-				edit_post_link( __( 'Edit', 'emekong' ), '<span class="edit-link">', '</span>' );
-			?>
-		</div><!-- .entry-meta -->
-	</header><!-- .entry-header -->
-
-	<?php if ( is_search() ) : ?>
-	<div class="entry-summary">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
-	<?php else : ?>
-	<div class="entry-content">
-		<?php
-			the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'emekong' ) );
-			wp_link_pages( array(
-				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'emekong' ) . '</span>',
-				'after'       => '</div>',
-				'link_before' => '<span>',
-				'link_after'  => '</span>',
-			) );
-		?>
-	</div><!-- .entry-content -->
-	<?php endif; ?>
-
-	<?php the_tags( '<footer class="entry-meta"><span class="tag-links">', '', '</span></footer>' ); ?>
-</article><!-- #post-## -->
+            <?php endwhile; wp_reset_query(); ?>
+        </ul>
+    </div>
+    <div id="tabs-2" class="tab-content">
+        Đọc nhiều nhất
+    </div>
+    <div id="tabs-3" class="tab-content">
+        Nóng
+    </div>
+</div>

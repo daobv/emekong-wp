@@ -75,7 +75,7 @@
             <div class="header-right">
                 <h2 class="tagline">Sàn giao dịch các dự án đầu tư</h2>
                 <div class="header-search">
-                    <?php get_search_form(); ?>
+                    <?php //get_search_form(); ?>
                 </div>
             </div>
         </div>

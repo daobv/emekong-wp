@@ -19,8 +19,13 @@
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+    <div id="main-content" class="container">
+        <div class="head-page">
+            <!-- breadcrumb -->
+            <?php get_breadcrumbs(); ?>
+            <!--- end breadcrumb -->
+        </div>
+        <div id="primary" class="main-content">
 
 			<?php if ( have_posts() ) : ?>
 
@@ -66,7 +71,7 @@ get_header(); ?>
 				endif;
 			?>
 		</div><!-- #content -->
-	</section><!-- #primary -->
+	</div><!-- #primary -->
 
 <?php
 get_sidebar( 'content' );

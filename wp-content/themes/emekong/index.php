@@ -33,7 +33,7 @@ get_header(); ?>
                     Tin mới
                 </div>
                 <div class="hot-new-content">
-                    <ul class="bxslider-news-letters">
+                    <ul>
                         <?php $posts_query = new WP_Query('posts_per_page=5');
                         while ($posts_query->have_posts()) : $posts_query->the_post();
                             ?>
@@ -46,18 +46,14 @@ get_header(); ?>
             <div class="col-3 col-left">
                 <div class="home-news-slider">
                     <ul class="bxslider">
-                        <li>
-                            <div class="article-img"><img src="media/article-img.jpg"  alt=""/> </div>
-                            <div class="article-title">Thông báo về việc công bố Danh mục dự án có sử dụng đất cần lựa chọn nhà đầu tư</div>
-                        </li>
-                        <li>
-                            <div class="article-img"><img src="media/article-img-2.jpg"  alt=""/> </div>
-                            <div class="article-title">Thông báo về việc công bố Danh mục dự án có sử dụng đất cần lựa chọn nhà đầu tư</div>
-                        </li>
-                        <li>
-                            <div class="article-img"><img src="media/article-img.jpg"  alt=""/> </div>
-                            <div class="article-title">Thông báo về việc công bố Danh mục dự án có sử dụng đất cần lựa chọn nhà đầu tư</div>
-                        </li>
+                        <?php query_posts($query_string."&featured=yes"); ?>
+                        <?php  while ($posts_query->have_posts()) : $posts_query->the_post();?>
+                            <li>
+                                <div class="article-img"><?php the_post_thumbnail( array(321,302) ); ?></div>
+                                <div class="article-title"><?php the_title();?></div>
+                            </li>
+
+                        <?php endwhile; wp_reset_query(); ?>
                     </ul>
                 </div>
                 <div class="grey-tabs tygia-tabs" id="tabs-tygia">
@@ -126,45 +122,7 @@ get_header(); ?>
                 </div>
             </div>
             <div class="col-3 col-center">
-                <div class="home-news-cate ui-tabs ui-widget ui-widget-content ui-corner-all" id="tabs-home-cate">
-                    <ul id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
-                        <li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="tabs-1" aria-labelledby="ui-id-20" aria-selected="true" aria-expanded="true"><a href="#tabs-1" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-20">Mới</a></li>
-                        <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-2" aria-labelledby="ui-id-21" aria-selected="false" aria-expanded="false"><a href="#tabs-2" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-21">Đọc nhiều</a></li>
-                        <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-3" aria-labelledby="ui-id-22" aria-selected="false" aria-expanded="false"><a href="#tabs-3" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-22">Nóng</a></li>
-                    </ul>
-                    <div id="tabs-1" class="tab-content ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-20" role="tabpanel" aria-hidden="false">
-                        <ul class="news-list">
-                            <li>
-                                <h3>Him Lam Chợ Lớn: Từ không gian sống đẳng cấp đến tiềm năng gia tăng giá trị</h3>
-                                <div class="article-short">
-                                    <div class="img-thumnail"><img src="media/article-img.jpg" alt=""></div>
-                                    <div class="article-title">Sửa đổi Luật nhằm hướng BĐS quay về giá trị thực</div>
-                                </div>
-                            </li>
-                            <li>
-                                <h3>Him Lam Chợ Lớn: Từ không gian sống đẳng cấp đến tiềm năng gia tăng giá trị</h3>
-                                <div class="article-short">
-                                    <div class="img-thumnail"><img src="media/article-img-2.jpg" alt=""></div>
-                                    <div class="article-title">Sửa đổi Luật nhằm hướng BĐS quay về giá trị thực</div>
-                                </div>
-                            </li>
-                            <li>
-                                <h3>Him Lam Chợ Lớn: Từ không gian sống đẳng cấp đến tiềm năng gia tăng giá trị</h3>
-                                <div class="article-short">
-                                    <div class="img-thumnail"><img src="media/article-img.jpg" alt=""></div>
-                                    <div class="article-title">Sửa đổi Luật nhằm hướng BĐS quay về giá trị thực</div>
-                                </div>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <div id="tabs-2" class="tab-content ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-21" role="tabpanel" aria-hidden="true" style="display: none;">
-                        Đọc nhiều nhất
-                    </div>
-                    <div id="tabs-3" class="tab-content ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-22" role="tabpanel" aria-hidden="true" style="display: none;">
-                        Nóng
-                    </div>
-                </div>
+                <?php  get_template_part('content'); ?>
             </div>
             <div class="col-3 col-right">
                 <div class="newsletter">
@@ -267,7 +225,7 @@ get_header(); ?>
                          * use this in a child theme, then include a file called called content-___.php
                          * (where ___ is the post format) and that will be used instead.
                          */
-                        get_template_part('content', get_post_format());
+                       // get_template_part('content', get_post_format());
 
                     endwhile;
                     // Previous/next post navigation.

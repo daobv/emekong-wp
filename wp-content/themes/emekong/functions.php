@@ -56,7 +56,7 @@ function get_breadcrumbs() {
     if ( is_category() ) {
         $catTitle = single_cat_title( "", false );
         $cat      = get_cat_ID( $catTitle );
-        echo '<div class="title-posts-detail">'.get_category_parents( $cat, TRUE, "" ).'</div>';
+        echo '<li class="current">'.get_category_parents( $cat, TRUE, "" ).'</li>';
     } elseif ( is_archive() && ! is_category() ) {
         if ( get_post_type() == "portfolio" ) {
             echo "Portfolio";
@@ -517,7 +517,11 @@ function emekong_post_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'post_class', 'emekong_post_classes' );
-
+/*Custom Excerpt Lenght */
+function custom_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 /**
  * Create a nicely formatted and more specific title element text for output
  * in head of document, based on current view.
