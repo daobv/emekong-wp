@@ -1,0 +1,1015 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-26 21:38+0600\n"
+"PO-Revision-Date: 2013-06-26 21:38+0600\n"
+"Last-Translator: Alan Armanov <airatzaf@yandex.ru>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: c:\\smartpress_pack\\smartpress\n"
+
+#: c:\smartpress_pack\smartpress/404.php:7
+#: c:\smartpress_pack\smartpress/archive.php:94
+#: c:\smartpress_pack\smartpress/index.php:76
+#: c:\smartpress_pack\smartpress/page.php:33
+#: c:\smartpress_pack\smartpress/single.php:97
+#: c:\smartpress_pack\smartpress/template-full.php:37
+msgid "Error 404 - Not Found"
+msgstr "Error 404 - Az oldal nem található"
+
+#: c:\smartpress_pack\smartpress/404.php:18
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+"Sajnos a keresett oldal nem található. Próbálja megismételni a keresést."
+
+#: c:\smartpress_pack\smartpress/adminfunctions.php:1771
+#: c:\smartpress_pack\smartpress/adminfunctions.php:1792
+#: c:\smartpress_pack\smartpress/adminfunctions.php:1815
+#: c:\smartpress_pack\smartpress/adminfunctions.php:1817
+#: c:\smartpress_pack\smartpress/header.php:383
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:61
+msgid "Close"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/archive.php:15
+#: c:\smartpress_pack\smartpress/functions.php:249
+#, php-format
+msgid "All posts in %s"
+msgstr "Minden bejegyzés %s - ban"
+
+#: c:\smartpress_pack\smartpress/archive.php:17
+#: c:\smartpress_pack\smartpress/functions.php:311
+#, php-format
+msgid "All posts tagged %s"
+msgstr "Minden bejegyzés %s - ban van jelölve"
+
+#: c:\smartpress_pack\smartpress/archive.php:19
+#: c:\smartpress_pack\smartpress/archive.php:21
+#: c:\smartpress_pack\smartpress/archive.php:23
+msgid "Archive for"
+msgstr "Archív "
+
+#: c:\smartpress_pack\smartpress/archive.php:25
+#: c:\smartpress_pack\smartpress/functions.php:319
+msgid "All posts by"
+msgstr "A felhasználó minden bejegyzése"
+
+#: c:\smartpress_pack\smartpress/archive.php:27
+msgid "Blog Archives"
+msgstr "A blog archívuma"
+
+#: c:\smartpress_pack\smartpress/archive.php:41
+#: c:\smartpress_pack\smartpress/functions.php:1099
+#: c:\smartpress_pack\smartpress/functions.php:1120
+#: c:\smartpress_pack\smartpress/index.php:18
+#: c:\smartpress_pack\smartpress/portfolio2col.php:62
+#: c:\smartpress_pack\smartpress/portfolio3col.php:62
+#: c:\smartpress_pack\smartpress/portfolio4col.php:62
+#: c:\smartpress_pack\smartpress/portfolio5col.php:63
+#: c:\smartpress_pack\smartpress/search.php:32
+#: c:\smartpress_pack\smartpress/single.php:15
+#: c:\smartpress_pack\smartpress/functions/recent_tabs.php:72
+#: c:\smartpress_pack\smartpress/functions/recent_tabs.php:110
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Állandó utalás a %s kokra"
+
+#: c:\smartpress_pack\smartpress/archive.php:45
+#: c:\smartpress_pack\smartpress/index.php:22
+#: c:\smartpress_pack\smartpress/single.php:19
+msgid "By"
+msgstr "Írta"
+
+#: c:\smartpress_pack\smartpress/archive.php:48
+#: c:\smartpress_pack\smartpress/index.php:25
+#: c:\smartpress_pack\smartpress/single.php:22
+msgid "With"
+msgstr "Segítségével"
+
+#: c:\smartpress_pack\smartpress/archive.php:48
+#: c:\smartpress_pack\smartpress/comments.php:23
+#: c:\smartpress_pack\smartpress/index.php:25
+#: c:\smartpress_pack\smartpress/single.php:22
+msgid "No Comments"
+msgstr "Nincs hozzáfűzni való"
+
+#: c:\smartpress_pack\smartpress/archive.php:48
+#: c:\smartpress_pack\smartpress/index.php:25
+#: c:\smartpress_pack\smartpress/single.php:22
+msgid "1 Comment"
+msgstr "1 hozzáfűzés"
+
+#: c:\smartpress_pack\smartpress/archive.php:48
+#: c:\smartpress_pack\smartpress/comments.php:23
+#: c:\smartpress_pack\smartpress/index.php:25
+#: c:\smartpress_pack\smartpress/single.php:22
+msgid "% Comments"
+msgstr "% hozzáfűzés"
+
+#: c:\smartpress_pack\smartpress/archive.php:67
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:728
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:731
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:808
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:811
+msgid " Read More &rArr;"
+msgstr "Olvassa továbvbá &rArr;"
+
+#: c:\smartpress_pack\smartpress/archive.php:83
+#: c:\smartpress_pack\smartpress/index.php:64
+#: c:\smartpress_pack\smartpress/search.php:56
+msgid "&lArr; Older Entries"
+msgstr "&lArr; A következő oldal"
+
+#: c:\smartpress_pack\smartpress/archive.php:84
+#: c:\smartpress_pack\smartpress/index.php:65
+#: c:\smartpress_pack\smartpress/search.php:57
+msgid "Newer Entries &rArr;"
+msgstr "Az előző oldal &rArr;"
+
+#: c:\smartpress_pack\smartpress/archive.php:98
+#: c:\smartpress_pack\smartpress/index.php:79
+#: c:\smartpress_pack\smartpress/page.php:36
+#: c:\smartpress_pack\smartpress/single.php:100
+#: c:\smartpress_pack\smartpress/template-full.php:40
+msgid "Sorry, but you are looking for something that is not here."
+msgstr "Elnézést, de itt nics az amit ön keres."
+
+#: c:\smartpress_pack\smartpress/comments.php:11
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Ez a bejegyzés jelszóval van védvde. Az elolvasásához adja meg a jelszót."
+
+#: c:\smartpress_pack\smartpress/comments.php:23
+msgid "One Comment"
+msgstr "Egy megjegyzés"
+
+#: c:\smartpress_pack\smartpress/comments.php:39
+msgid "Comments are closed."
+msgstr "A megjegyzések le vannak zárva"
+
+#: c:\smartpress_pack\smartpress/comments.php:49
+msgid "Leave a Comment"
+msgstr "Hagyjon megjegyzést"
+
+#: c:\smartpress_pack\smartpress/comments.php:49
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Válaszolni a %s - ra"
+
+#: c:\smartpress_pack\smartpress/comments.php:58
+#, fuzzy, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "A megjegyzéstételhez be kell lépni  a weboldalra."
+
+#: c:\smartpress_pack\smartpress/comments.php:65
+#, php-format
+msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr "Ön a %1$s név alatt lépett be. %2$s Kilépés &raquo;%3$s"
+
+#: c:\smartpress_pack\smartpress/comments.php:65
+msgid "Log out of this account"
+msgstr "Kilépni az adott fiókból."
+
+#: c:\smartpress_pack\smartpress/comments.php:70
+#: c:\smartpress_pack\smartpress/template-contact.php:105
+msgid "Name"
+msgstr "Neve"
+
+#: c:\smartpress_pack\smartpress/comments.php:73
+#: c:\smartpress_pack\smartpress/template-contact.php:112
+msgid "Email"
+msgstr "E-mail "
+
+#: c:\smartpress_pack\smartpress/comments.php:73
+msgid "(not published)"
+msgstr "(Nem nyílvános)"
+
+#: c:\smartpress_pack\smartpress/comments.php:76
+msgid "Website"
+msgstr "Weboldal"
+
+#: c:\smartpress_pack\smartpress/comments.php:83
+msgid "Submit Comment"
+msgstr "Hozzáadni a hozzáfűzést"
+
+#: c:\smartpress_pack\smartpress/functions.php:17
+msgid "main Menu"
+msgstr "Főmenü"
+
+#: c:\smartpress_pack\smartpress/functions.php:230
+msgid "Home"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/functions.php:308
+#: c:\smartpress_pack\smartpress/search.php:4
+#: c:\smartpress_pack\smartpress/searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/functions.php:327
+msgid "Page"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/functions.php:350
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: c:\smartpress_pack\smartpress/functions.php:353
+#: c:\smartpress_pack\smartpress/js/callme.php:23
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: c:\smartpress_pack\smartpress/functions.php:353
+msgid "[Edit]"
+msgstr "[Szerkesztés]"
+
+#: c:\smartpress_pack\smartpress/functions.php:356
+msgid "Your comment is awaiting moderation."
+msgstr "Az Ön hozzáfűzése a moderátor ellenőrzésére vár. "
+
+#: c:\smartpress_pack\smartpress/functions.php:405
+#, php-format
+msgid "View all items filed under %s"
+msgstr "Átnézni minden részletet amelyek a  %s - ban vannak. "
+
+#: c:\smartpress_pack\smartpress/functions.php:433
+msgid "Portfolio Items"
+msgstr "A portfólió részei "
+
+#: c:\smartpress_pack\smartpress/functions.php:435
+msgid "Add New Item"
+msgstr "Új részlet hozzáadása "
+
+#: c:\smartpress_pack\smartpress/functions.php:436
+msgid "Add New Portfolio"
+msgstr "Új portfólió hozzáadása."
+
+#: c:\smartpress_pack\smartpress/functions.php:437
+msgid "Edit Portfolio"
+msgstr " A portfólió szerkesztése"
+
+#: c:\smartpress_pack\smartpress/functions.php:438
+msgid "New Portfolio"
+msgstr "Új portfólió"
+
+#: c:\smartpress_pack\smartpress/functions.php:439
+msgid "View Portfolio"
+msgstr "A portfólió olvasása "
+
+#: c:\smartpress_pack\smartpress/functions.php:440
+msgid "Search Portfolio"
+msgstr "Portfólió keresés"
+
+#: c:\smartpress_pack\smartpress/functions.php:441
+msgid "No portfolios found"
+msgstr "Nem található egyetlen portfólió sem. "
+
+#: c:\smartpress_pack\smartpress/functions.php:442
+msgid "No portfolios found in Trash"
+msgstr "A kosárban nem található egyetlen portfólió sem "
+
+#: c:\smartpress_pack\smartpress/functions.php:466
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: c:\smartpress_pack\smartpress/functions.php:466
+msgid "Skill Type"
+msgstr "A szakmák fajtái "
+
+#: c:\smartpress_pack\smartpress/functions.php:474
+msgid "Portfolio Item Title"
+msgstr "A portfólió részletének címe "
+
+#: c:\smartpress_pack\smartpress/functions.php:475
+#: c:\smartpress_pack\smartpress/functions.php:485
+msgid "type"
+msgstr "típus"
+
+#: c:\smartpress_pack\smartpress/functions.php:486
+msgid "skill-type"
+msgstr "A szakosodás típusa"
+
+#: c:\smartpress_pack\smartpress/gallery2col.php:23
+#: c:\smartpress_pack\smartpress/gallery3col.php:23
+#: c:\smartpress_pack\smartpress/gallery4col.php:23
+#: c:\smartpress_pack\smartpress/gallery5col.php:23
+#: c:\smartpress_pack\smartpress/portfolio2col.php:23
+#: c:\smartpress_pack\smartpress/portfolio3col.php:23
+#: c:\smartpress_pack\smartpress/portfolio4col.php:23
+#: c:\smartpress_pack\smartpress/portfolio5col.php:23
+msgid "Filter:"
+msgstr "Szűrő:"
+
+#: c:\smartpress_pack\smartpress/links.php:20
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: c:\smartpress_pack\smartpress/search.php:66
+msgid "No Results Found"
+msgstr "Egy eredmény sem található"
+
+#: c:\smartpress_pack\smartpress/search.php:73
+msgid ""
+"Apologies, but the page you requested could not be found. Try another search"
+msgstr ""
+"Sajnos a keresett oldal nem található. Próbálja megismételni a keresést. "
+
+#: c:\smartpress_pack\smartpress/single.php:21
+msgid "In"
+msgstr "Ba (be)"
+
+#: c:\smartpress_pack\smartpress/single.php:23
+msgid "edit"
+msgstr "Szerkeszteni"
+
+#: c:\smartpress_pack\smartpress/single.php:74
+msgid "Tags"
+msgstr "Címkék"
+
+#: c:\smartpress_pack\smartpress/template-contact.php:87
+msgid "Thanks, your email was successfully sent."
+msgstr "Köszönjük, az Ön levele sikeresen el lett küldve. "
+
+#: c:\smartpress_pack\smartpress/template-contact.php:99
+msgid "There was an error submitting the form."
+msgstr "A forma küldése közben hiba lépett fel. "
+
+#: c:\smartpress_pack\smartpress/template-contact.php:101
+msgid "Send Us An Email"
+msgstr "Küldjön nekünk e-mailt"
+
+#: c:\smartpress_pack\smartpress/template-contact.php:120
+msgid "Message"
+msgstr "Üzenet"
+
+#: c:\smartpress_pack\smartpress/template-contact.php:126
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:59
+#, fuzzy
+msgid "Submit"
+msgstr "Hozzáadni a hozzáfűzést"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:143
+msgid "General Settings"
+msgstr "Álltalános beállítások"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:148
+msgid "Call Us in Top"
+msgstr "Hívjon bennünket a Top - on"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:149
+msgid "e.g. Call Us Free: (800) 888-7777"
+msgstr "Például hívjon ingyenesen: (800) 888-7777"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:154
+msgid "Top Bar"
+msgstr "Felső panel"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:167
+msgid "Google Map API"
+msgstr "A Google Map programm"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:168
+#, fuzzy
+msgid ""
+"For Google Map Shortcode <a href=\"https://developers.google.com/maps/signup"
+"\">Get Google Map API</a>"
+msgstr ""
+"Ahoz, hogy a Google Map Shortcode <a href=\\\"http://code.google.com/apis/"
+"maps/signup.html\\\"> használhassa, töltse le a Google Map API</a>"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:174
+msgid "Custom Logo"
+msgstr "Felhasználói logó"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:175
+msgid ""
+"Upload a logo for your theme, or image url. (e.g. http://example.com/logo."
+"png)"
+msgstr ""
+"Feltölteni a saját téma logójának vagy egy kép webcímét. (például,  http://"
+"example.com/logo.png)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:181
+#, fuzzy
+msgid "Enable Breadcrubs"
+msgstr "Bekapcsolni a csúszkákat"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:182
+#, fuzzy
+msgid "Check this to enable Breadcrubs."
+msgstr ""
+"Jelölje meg az adott mezőt, hogy bekapcsolódjon a demó (bemutató) panel "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:187
+msgid "Custom Favicon"
+msgstr "Az oldal felhasználójának ikonja "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:188
+msgid "Upload a (16x16px) Png or Gif image."
+msgstr "Feltölteni a képet (16x16 pixel)  Png vagy Gif formátumban"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:193
+#, fuzzy
+msgid "Contact Form Email Address"
+msgstr "Az e-mail kapcsolati címének formája "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:194
+msgid "Leave blank to use admin email."
+msgstr ""
+"Az adminisztrátor e-mail-jének felhasználásához hagyja a mezőt üresen. "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:199
+msgid "FeedBurner URL"
+msgstr "FeedBurner webcím"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:200
+msgid "Enter your FeedBurner URL"
+msgstr "Írja be a saját FeedBurner webcímét"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:205
+msgid "Show Demo panel"
+msgstr "Megjeleníteni a demo (bemutató) panelt"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:206
+msgid "Check this to enable a show demo panel."
+msgstr ""
+"Jelölje meg az adott mezőt, hogy bekapcsolódjon a demó (bemutató) panel "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:214
+msgid "Styling"
+msgstr "Az oldal stílusának beállításai "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:218
+msgid "Layout Style"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:219
+msgid "Wide, Boxed or SuperWide"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:225
+msgid "Predefinded skins"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:233
+msgid "Use Theme skin color"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:234
+msgid "Use a specific Theme skin color instead of predefined"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:239
+#, fuzzy
+msgid "Theme skin color"
+msgstr "A webcím színe a láblécben "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:240
+#, fuzzy
+msgid "(default #F95601)"
+msgstr "(hallgatólagosan #4E4F59)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:245
+msgid "Fixed Top Menu"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:246
+msgid "Fixed or Static"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:252
+#, fuzzy
+msgid "Header Style"
+msgstr "A blog címének megnevezése"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:253
+msgid "Select your header style"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:260
+#, fuzzy
+msgid "Footer Style"
+msgstr "Lábléc"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:261
+msgid "Dark or Light footer style"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:268
+msgid "Body Background color"
+msgstr "Az oldal alapszíne "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:269
+msgid "(default #FFFFFF)"
+msgstr "(hallgatólagosan #FFFFFF)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:274
+msgid "Texture Overlays"
+msgstr "A rátétek szerkezeti mintája "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:284
+msgid "Primary link color"
+msgstr "Az elsődleges webcím színe "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:285
+#, fuzzy
+msgid "(default #000000)"
+msgstr "(hallgatólagosan #4E4F59)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:290
+msgid "Primary link hover color"
+msgstr "A rákeresés elsődleges webcímémek színe "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:291
+msgid "(default #343434)"
+msgstr "(hallgatólagosan  #343434)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:297
+msgid "Main Layout"
+msgstr "A fő elrendezés (maket) "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:298
+msgid "Select sidebars alignment."
+msgstr "Válassza ki az oldalpanelek kiegyenesítésének típusát "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:307
+#, fuzzy
+msgid "Custom CSS"
+msgstr "Felhasználói Cmd"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:308
+#, fuzzy
+msgid "Enter some CSS."
+msgstr "Adjon meg bármely Cmd-t."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:316
+msgid "CallMe"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:321
+#, fuzzy
+msgid "Enable Callme"
+msgstr "Bekapcsolni a csúszkákat"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:322
+msgid "Enable request a callback function"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:327
+msgid "Callme button Text"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:333
+msgid "Callme email text"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:339
+msgid "Callme Name text"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:345
+msgid "Callme Phone text"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:351
+msgid "Callme Time text"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:360
+msgid "Menu"
+msgstr "Menü"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:365
+msgid "Menu Font family"
+msgstr "A menü betűtípusainak családja "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:366
+msgid ""
+"Menu Font family - Supported <a href=\\\"http://www.google.com/webfonts\\\"> "
+"Google Font Directory</a>."
+msgstr ""
+"A menü betűtípusainak családja - Támogatva <a href=\\\"http://www.google.com/"
+"webfonts\\\"> Google Font Directory</a>."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:372
+msgid "Menu Font size"
+msgstr "A menü betűtípusának mérete"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:381
+msgid "Fonts"
+msgstr "Betűtípusok"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:385
+msgid "Body Font family"
+msgstr "Betűtípus család a weboldal testében  "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:386
+msgid ""
+"Body Font family - Supported <a href=\\\"http://www.google.com/webfonts\\\"> "
+"Google Font Directory</a>."
+msgstr ""
+"Betűtípus család a weboldal testében - Támogatva <a href=\\\"http://www."
+"google.com/webfonts\\\"> Google Font Directory</a>."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:392
+msgid "Body Font size"
+msgstr "Betűtípus mérete a weboldal testében"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:399
+msgid "Body Font color"
+msgstr "Betűtípus színe a weboldal testében"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:405
+msgid "Headings Font family"
+msgstr "Betűtípus család a címszavakban "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:413
+msgid "Headings Font color"
+msgstr "Betűtípus színe a címszavakban"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:424
+msgid "SEO"
+msgstr "SEO"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:428
+msgid "Google Analytics or other Tracking Code "
+msgstr "Google Analytics  vagy más nyomonkövetési kód "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:429
+msgid "Paste your code here."
+msgstr "Írja be ide a saját kódját"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:434
+msgid "Homepage Title"
+msgstr "A főoldal megnevezése"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:435
+msgid "Enter Homepage Title"
+msgstr "Íra be a főoldal megnevezését"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:440
+msgid "Homepage Description"
+msgstr "A főoldal leírása"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:441
+msgid "Enter Homepage Description"
+msgstr "Írja be a főoldal leírását "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:446
+msgid "Homepage Keywords"
+msgstr "A főoldal kulcsszavai "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:447
+msgid "Enter Homepage Keywords."
+msgstr "Írja be a főoldal kulcsszavait"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:457
+msgid "Sliders"
+msgstr "Csúszkák"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:461
+msgid "Enable Slider"
+msgstr "Bekapcsolni a csúszkákat"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:462
+msgid "Check this to enable the slider on the homepage."
+msgstr "A főoldal csúszkájának kiválasztásához jelölje meg az adott mezőt "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:467
+msgid "Custom Slider"
+msgstr "Felhasználói csúszka"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:468
+msgid "Select Custom Slider."
+msgstr "Felhasználói csúszka választása"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:474
+msgid "Nivo Slider Effects"
+msgstr "A Nivo csúszkák effektusai"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:475
+msgid "Select Nivo Slider effect. Default \"random\" effect"
+msgstr ""
+"Válassza ki a  Slider effektusát. Az effektus hallgatólagosan\"random\""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:482
+msgid "Cycle Slider Effects"
+msgstr "Cycle (ciklikus) csúszkaeffektusok"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:483
+msgid "Select Cycle Slider effect. Default \"scrollRight\" effect"
+msgstr ""
+"Válassza a Cycle (ciklikus) csúszkaeffektust. Az effektus hallgatólagosan "
+"\"scrollRight\""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:489
+msgid "Accordion Slider Effects"
+msgstr " Accordion Slider (harmónika) csúszkaeffektus"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:490
+msgid "Select Accordion Slider effect. Default \"OutQuint\" effect"
+msgstr ""
+"Válassza az Accordion Slider (harmónika) csúszkaeffektust. Az effektus "
+"hallgatólagosan \"OutQuint\""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:496
+msgid "Sliders Timeout"
+msgstr "A csúszkák késleltetési ideje "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:497
+msgid "Choose the time in milliseconds for sliders timeout (1000 = 1second)"
+msgstr ""
+"Válassza a csúszkák késleltetési idejét millmásodpercekben (1000 = 1 "
+"másodperc)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:502
+msgid "Slider Image 1"
+msgstr "Az 1 - es csúszka képe"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:509
+msgid "Slider Image 1 URL"
+msgstr "Az 1 - es csúszka képének webcíme "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:510
+#: c:\smartpress_pack\smartpress/admin/options.php:541
+#: c:\smartpress_pack\smartpress/admin/options.php:559
+#: c:\smartpress_pack\smartpress/admin/options.php:580
+#: c:\smartpress_pack\smartpress/admin/options.php:598
+msgid "Choose a link URL for this image."
+msgstr "Válasszon webcímet az adott képnek "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:515
+msgid "Slider Image 1 Content"
+msgstr "Az 1 - es csúszka képének leírása "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:516
+msgid ""
+"Enter the content for this image and for \"Cycle Slider mini with static "
+"content\" "
+msgstr ""
+"Írja be az adott kép és a  \"statikus tartalmú Cycle (ciklikus) minicsúszka"
+"\" leírását "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:534
+msgid "Slider Image 2"
+msgstr "Az 2 - es csúszka képe"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:540
+msgid "Slider Image 2 URL"
+msgstr "Az 2 - es csúszka képének webcíme "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:546
+msgid "Slider Image 2 Content"
+msgstr "Az 2 - es csúszka képének leírása"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:547
+#: c:\smartpress_pack\smartpress/admin/options.php:565
+#: c:\smartpress_pack\smartpress/admin/options.php:586
+#: c:\smartpress_pack\smartpress/admin/options.php:604
+msgid "Enter the content for this image."
+msgstr "Írja be az adott kép leírását "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:552
+msgid "Slider Image 3"
+msgstr "Az 3 - as csúszka képe"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:558
+msgid "Slider Image 3 URL"
+msgstr "Az  3 - as csúszka képének webcíme"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:564
+msgid "Slider Image 3 Content"
+msgstr "Az 3 - as csúszka képének leírása"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:573
+msgid "Slider Image 4"
+msgstr "Az 4 - es csúszka képe"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:579
+msgid "Slider Image 4 URL"
+msgstr "Az 4 - es csúszka képének webcíme"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:585
+msgid "Slider Image 4 Content"
+msgstr "Az 4 - es csúszka képének leírása"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:591
+msgid "Slider Image 5"
+msgstr "Az 5 - ös csúszka képe"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:597
+msgid "Slider Image 5 URL"
+msgstr "Az 5 - ös csúszka képének webcíme"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:603
+msgid "Slider Image 5 Content"
+msgstr "Az 5 - ös csúszka képének leírása"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:612
+msgid "Blog"
+msgstr "Blog"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:616
+msgid "Blog Style"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:623
+msgid "Blog Header Title"
+msgstr "A blog címének megnevezése"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:624
+msgid "Enter the title of the portfolio area."
+msgstr "Írja be a portfólió területének megnevezését."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:629
+msgid "Blog Thumbnail Height"
+msgstr "A blog miiatűrjének magassága"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:630
+#, fuzzy
+msgid "default 300"
+msgstr "Hallgatólagosan 650"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:638
+msgid "Portfolio"
+msgstr "Portfólió"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:643
+msgid "Enable Lightbox"
+msgstr "A Lightbox bekapcsolása"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:644
+msgid "Check this to enable the lightbox effect."
+msgstr "Jelölje meg az adott mezőt, hogy a  lightboxeffektust használhassa.  "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:652
+msgid "Footer"
+msgstr "Lábléc"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:656
+msgid "Footer Headings Font color"
+msgstr "A lábléccímek betűtípusának színe "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:662
+msgid "Footer Font color"
+msgstr "A lábléc betűtípusának színe"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:668
+msgid "Footer Link color"
+msgstr "A webcím színe a láblécben "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:674
+msgid "Footer Link hover color"
+msgstr "A rákeresés  webcímémek színe a láblécben "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:681
+msgid "Footer Text Right"
+msgstr "A lábléc szövege a jobb szélen "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:682
+#: c:\smartpress_pack\smartpress/admin/options.php:688
+msgid "Enter the text you would like to display in the footer."
+msgstr "Írja be a láblécben megjelenítendő szöveget"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:687
+msgid "Footer Text Left"
+msgstr "A lábléc szövege a bal szélen"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:21
+msgid "A widget that display your photos."
+msgstr "A saját képek nézőkéjének widget - je"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:23
+msgid " | Flickr Photos"
+msgstr " | Flickr fényképek"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:75
+msgid "Title:"
+msgstr "Megnevezés:"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:80
+msgid "Flickr ID:"
+msgstr "Flickr azonosító:"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:85
+msgid "Number of Photos:"
+msgstr "A fényképek mennyisége:"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:94
+msgid "Type (user or group):"
+msgstr " Típus (felhasználó vagy csoport):"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:102
+msgid "Display (random or latest):"
+msgstr "Megjeleníteni (véletlenszerűen vagy az utolsót)"
+
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:121
+msgid "Top"
+msgstr "Fel"
+
+#: c:\smartpress_pack\smartpress/functions/subnav.php:22
+msgid "Display subpages if present page only."
+msgstr "Az aloldalak megjelenítése, ha legalább egy van "
+
+#: c:\smartpress_pack\smartpress/functions/subnav.php:24
+msgid " | Subpages"
+msgstr " | Aloldalak"
+
+#~ msgid "On"
+#~ msgstr "Ra"
+
+#~ msgid "portfolio"
+#~ msgstr "Portfólió"
+
+#~ msgid "Newer Entries  &#x21d2;"
+#~ msgstr "Új bejegyzések &#x21d2;"
+
+#~ msgid "To search type and hit enter"
+#~ msgstr ""
+#~ "A keresés megindításához írja be az adatot és nyomja meg a bevitelt. "
+
+#~ msgid "Enable Plain Text Logo"
+#~ msgstr "Az egyszerű szöveges logó bekapcsolása. "
+
+#~ msgid "Check this to enable a plain text logo."
+#~ msgstr ""
+#~ "Az egyszerű szöveges logó bekapcsolásához, jelölje meg a megadott mezőt."
+
+#~ msgid "Main Site Background color"
+#~ msgstr "A főoldal alapszíne "
+
+#~ msgid "Header Background color"
+#~ msgstr "A cím alapszíne "
+
+#~ msgid "(default #336699)"
+#~ msgstr "(hallgatólagosan #336699)"
+
+#~ msgid "Selection text background color"
+#~ msgstr "A háttér színe a szöveg kijelölésekor "
+
+#~ msgid "(default #78c246)"
+#~ msgstr "(hallgatólagosan  #78c246)"
+
+#~ msgid "Menu Background Color"
+#~ msgstr "A menü alapszíne"
+
+#~ msgid "Menu Font color"
+#~ msgstr "A menü betűtípusának színe"
+
+#~ msgid "Image must be 940px x 350px or 500 px x 350px for mini slider"
+#~ msgstr ""
+#~ "A minicsúszka képének 940 x 350 vagy 500 x 350 pixel méretűnek kell "
+#~ "lennie  "
+
+#~ msgid "Slider Image 6"
+#~ msgstr "Az 6 - os csúszka képe"
+
+#~ msgid "Slider Image 6 URL"
+#~ msgstr "Az 6 - os csúszka képének webcíme "
+
+#~ msgid "Slider Image 6 Content"
+#~ msgstr "Az 6 - os csúszka képének leírása"
+
+#~ msgid "Blog Thumbnail Width"
+#~ msgstr "A blog miiatűrjének szélessége "
+
+#~ msgid "default 240"
+#~ msgstr "Hallgatólagosan 240"
+
+#~ msgid "Show Featured Image"
+#~ msgstr "A kiválasztott kép megjelenítése"
+
+#~ msgid "Check this to show the featured image in blog posts."
+#~ msgstr ""
+#~ "Jelölje meg az adott mezőt, hogy a választott kép megjelenítődjön a "
+#~ "blogokban "
+
+#~ msgid "Footer Background color"
+#~ msgstr "A lábléc hátterének színe "
+
+#~ msgid "A widget display Recent tweets."
+#~ msgstr "A widget utolsó tweetjeinek megjelenítése "
+
+#~ msgid " | Recent Tweets"
+#~ msgstr " | Utolsó Tweetek"
+
+#~ msgid "Twitter Username e.g. alanarmanov"
+#~ msgstr "A Twitter felhasználójának neve, mint például, alanarmanov"
+
+#~ msgid "Number of tweets (max 20)"
+#~ msgstr "A tweetek mennyisége (max. 20)"
+
+#~ msgid "Follow Text e.g. Follow on Twitter"
+#~ msgstr "A Tweeter webcímének szövege, mint például, Kövessen a Tweeteren"

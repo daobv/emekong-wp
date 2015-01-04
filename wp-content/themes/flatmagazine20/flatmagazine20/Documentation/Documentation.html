@@ -1,0 +1,459 @@
+<html lang="en">
+<head>
+  <title>FlatMagazine Premium WordPress Theme</title>
+  <link type="text/css" href="js/themes/base/ui.all.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+  <script type="text/javascript" src="js/ui.core.js"></script>
+  <script type="text/javascript" src="js/ui.tabs.js"></script>
+  <link type="text/css" href="js/demos.css" rel="stylesheet" />
+  <script type="text/javascript">
+  $(function() {
+    $("#tabs").tabs().addClass('ui-tabs-vertical ui-helper-clearfix');
+    $("#tabs li").removeClass('ui-corner-top').addClass('ui-corner-left');
+  });
+  </script>
+  
+<script type="text/javascript">
+    (function($){  
+
+        $(function(){  
+            var e = $("#gotop");  
+            var speed = 500;  
+      
+            e.click(function(){  
+                $("html:not(:animated)" +( !$.browser.opera ? ",body:not(:animated)" : "")).animate({ scrollTop: 0}, 500 );  
+                return false; 
+            });  
+
+            function show_scrollTop(){  
+                ( $(window).scrollTop()>300 ) ? e.fadeIn(600) : e.fadeOut(600);
+            }  
+            $(window).scroll( function(){show_scrollTop()} ); show_scrollTop();  
+        });  
+      
+    })(jQuery)  
+</script>
+
+  <style type="text/css">
+  
+/* Vertical Tabs
+----------------------------------*/
+
+.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-selected { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; border-right-width: 1px; }
+.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right;}
+  </style>
+</head>
+<body>
+<div id="gotop">Go Top</div>
+<div class="demo">
+    <div id="header">
+        <h1><img src="img/logo.png"/> </h1>
+        <span style="
+                    color: #CCCCCC;
+                    float: right;
+                    margin-right: 10px;
+                    margin-top: -57px;
+        ">v1.4 by Alan Armanov - www.startis.ru/flatmagazine</span>
+    </div>
+
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Installation</a></li>
+    <li><a href="#tabs-2">Setup Homepage</a></li>
+    <li><a href="#tabs-6">Custom Homepage</a></li>
+    <li><a href="#tabs-3">Setup Blog Pages</a></li>
+    <li><a href="#tabs-13">Setup Contacts Page</a></li>
+    <li><a href="#tabs-16">Page Builder</a></li>
+    <li><a href="#tabs-9">Shortcodes</a></li>
+    <li><a href="#tabs-15">Code Snippets</a></li>
+    <li><a href="#tabs-11">Demo XML Data</a></li>
+    <li><a href="#tabs-4">Portfolio</a></li>
+    <li><a href="#tabs-5">Theme Options</a></li>
+    <li><a href="#tabs-7">Credits</a></li>
+    <li><a href="#tabs-8">Translation & Localization</a></li>
+  </ul>
+      <div id="tabs-1">
+        <h2>Installation</h2>
+        <p>First of all, thank you very much for purchasing this theme. This document describes how to install and use this theme. If you have any questions, feel free to ask them in the dedicated <a href="http://www.startis.ru/forums">support forum</a> or ThemeForest FlatMagazine page in comments.</p>
+        <h3>Installing WordPress:</h3>
+        <p><a href="http://codex.wordpress.org/Installing_WordPress">WordPress Codex</a> - general information about Wordpress and how to install it on your server</p>
+        
+        <h3>FlatMagazine Pack:</h3>
+<p><strong>flatmagazine.zip</strong> - this is the parent wordpress theme, install this via Wordpress.</p>
+<p><strong>flatmagazinechild.zip</strong> - this is the child theme for those people who wish to make advanced customizations.</p>
+<p><strong>Documentation Folder</strong> - Inside is a index.html file, double click that to see all the instructions and videos pertaining to the theme.</p>
+<p><strong>Languages Folder</strong> - this contains the .mo & .po translation files needed to translate the theme & also contains several languages already translated.</p>
+<p><strong>License Folder</strong> - this contains the licensing files.</p>
+<p><strong>XML Folder</strong> - this contains the XML file that you can import to receive our demo data. See that section of these docs for how to import this file.</p>
+
+        <h3>You can install theme in two ways:</h3>
+        <p>	<b>• FTP Upload:</b> Using your FTP program, upload the unzipped theme folder (flatmagazine) into the <b>/wp-
+content/themes/</b> folder on your server.</p>
+        <p> <b>• WordPress Upload:</b> Navigate to <b>Appearance &rArr; Add New Themes &rArr; Upload</b>. Go to browse, 
+and select zipped theme folder. Hit <b>Install Now</b> and the theme will be uploaded and 
+installed.</p>
+<img src="img/1306.png"/>
+        <p>After uploading it you will need to activate it. Go to <b>Appearance &rArr; Themes</b> and activate your chosen theme</p>
+        <h2>Set the menus</h2>
+        <p>Select your top and main menus</p>
+        <img src="img/0459.png"/>
+        <h2>Header Banner</h2>
+        <p>Header Banner code you can change in <b>Appearance &rArr; FlatMagazine Options &rArr; General Settings &rArr; Top Banner Area</b> </p>
+      </div>
+      
+      <div id="tabs-2">
+            <h2>Setup Homepage</h2>
+            <p>To setup the Homepage you need to create a new page - <b>Pages &rArr; Add New</b>. Select the <b>“Home template”</b> from the Page Attributes section and hit <b>Publish</b>.</p>
+            <img src="img/1336.png"/>
+            <p>Next, you need to define Front page. Go to <b>Settings &rArr; Reading</b> and configure the <b>Front Page Displays</b> setting. Select the <b>A static page</b>option and choose the page you have just created as your front page</p>
+            <img src="img/1340.png"/>  
+            
+             
+<h2>HomePage & Content Slider</h2> 
+<p>Use Shortcodes Generator or copy this example:</p> 
+<textarea style="width: 700px;height: 180px;">[slider][slide title="Welcome to FlatMagazin" text="Yes adidas ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo"][image src="http://www.startis.ru/flatmagazine/files/2013/06/Kf-zWtSMGkM.jpg" width="595" height="300" retina="true" ][/slide][slide title="Unique Flat Design News/Magazine theme" text="Perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo"][image src="http://www.startis.ru/flatmagazine/files/2013/06/lXYbPcIttIA.jpg" width="595" height="300" retina="true"][/slide][/slider]</textarea>
+<p>Slider in Shortcodes Generator</p>
+            <img src="img/1802.png"/><br />
+            <p>Shortcode structure</p>
+            [slider]<br />
+                [slide url="YOUR LINK" title="Your Title" text="Your Text"] Image or Content e.g. looks like in demo [image src="http://www.startis.ru/flatmagazine/files/2013/06/Kf-zWtSMGkM.jpg" width="595" height="300" retina="true"] [/slide]<br />
+                [slide url="YOUR LINK" title="Your Title" text="Your Text"] Image or Content e.g. looks like in demo [image src="http://www.startis.ru/flatmagazine/files/2013/06/Kf-zWtSMGkM.jpg" width="595" height="300" retina="true"] [/slide]<br />
+            [/slider]<br /><br /><br />
+            
+            <p>HomePage SEO settings</p>
+            <img src="img/1338.png"/>
+            
+
+      </div>
+      
+      
+      <div id="tabs-6">
+            <h2>Custom Homepage(Full)</h2>
+            <p>To setup the Homepage you need to create a new page - <b>Pages &rArr; Add New</b>. Select the <b>“Home template - Full width”</b> from the Page Attributes section and hit <b>Publish</b>.</p>
+            <p>its amazing works with Revoluiton PageBuilder (Any Layouts) - Look 3 Columns page - http://www.startis.ru/flatmagazine/home-pagebuilder-3-cols/</p>
+            <p>In this example i used 3 columns (1/2) (1/4) (1/4) </p>
+            <img src="img/0458.png"/>
+            <p>You can use it with Widget Areas</p>
+            <img src="img/0500.png"/>
+      </div>
+      
+      
+      <div id="tabs-3">
+            <h2>Setup Blog</h2>
+            <p>To setup the Blog you need to create a new page - <b>Pages &rArr; Add New</b> enter Title and hit <b>Publish</b>.</p>
+            <p>Next, you need to define Posts page. Go to <b>Settings &rArr; Reading</b> and configure the <b>Front Page Displays</b> setting. Select the <b>A static page</b> option and choose the page you have just created as your blog page</p>
+            <img src="img/1350.png"/>
+            <p>You can set posts count and hide Related Posts</p>    
+            <img src="img/0344.png"/>
+      </div>
+      
+      
+      
+      <div id="tabs-13">
+            <h2>Setup Contacts Page</h2>
+            <p>To setup the Contacts you need to create a new page - <b>Pages &rArr; Add New</b> enter Title. Next Select the <b>Template Contacts</b> from the Page Attributes section and hit <b>Publish</b></p>
+            You can also use the contact sidebar.
+            <img src="img/0409.png"/>    
+            <img src="img/0410.png"/>
+      </div>
+    
+      
+      <div id="tabs-16">
+            <h2>Revolution PageBuilder </h2>
+            <img src="img/0314.png"/>
+            Fist, for example, Drag 3 Columns e.g. 1/3 Columns, and after each column lines drag "Close Section" Element
+            <img src="img/1634.png"/>
+            it can be used like a full line colunm, look: 
+            <img src="img/1639.png"/>
+            <img src="img/1640.png"/>
+            in text block you can Use any additional shortcodes and icons, its very usefull and do your page very flexible! 
+            <img src="img/1642.png"/>
+            You can created Predefined Pages look, its easy: 
+            <img src="img/1644.png"/>
+      </div>
+    
+      
+      <div id="tabs-15">
+            <h2>Code Snippets</h2>
+            <h3>Contact Us</h3>
+            <textarea><ul class="contactbox"> <li>[icon name="icon-mobile-phone" size="2x"] (800) 888 7777Our support is available 24 Hours a day!</li>
+<li>[icon name="icon-skype" size="large"] alanarmanov</li>
+<li>[icon name="icon-envelope" size="large"] million@example.com</li>
+<li>[icon name="icon-map-marker" size="large"] UK, City of London, Guildhall, Wallstreet 123, office 770 </li></ul> 
+<br /></textarea>
+            For other snippets use Pages - New Page - Visual editor and hit Shortcodes or Pages 
+            <img src="img/0836.png"/>
+      </div>
+      
+      
+      <div id="tabs-9">
+            Go to <a href="#shcol">Columns Shortcodes</a> | <a href="#shfa">Icons Shortcodes</a> | <a href="#shopt">Shortcodes Options</a><br /><br />
+            <h2>How to Use Shortcodes</h2>
+            <img src="img/1402.png"/> 
+            <img src="img/1401.png"/>
+            
+            <h2 id="shcol">How to Use Column Shortcodes</h2>
+            <img src="img/1405.png"/> 
+            <img src="img/1406.png"/>
+            
+            <h2 id="shfa">How to Use Icons</h2>
+            <img src="img/1455.png"/> 
+            <img src="img/1456.png"/>
+            
+            <h2 id="shopt">Shortcodes Options</h2>
+<h4>[welcome_message button_text="BUTTON TEXT"] Your Content [/welcome_message]</h4>
+<strong>button_text</strong> - Button text  
+
+<h4>Page OnLoad Effects Shortcode - [onload_effect after_loading="true" name="from_left" delay="0"]</h4>  
+<strong>after_loading</strong> - effect when the page is loaded <br />
+<strong>name</strong> - effect name (from_left,from_right,from_top,from_bottom,zoomin,zoomout,rotate_from_left,rotate_from_right)<br />
+<strong>delay</strong> - delay after effects (1-10) 1 = 0,3s  <br />
+<img src="img/2210.png"/>
+
+<h4>[title] Your Title [/title]</h4>  
+
+<h4>[testimonial customer_image="URL" customer="John Doe. Marketing Director STARTIS Inc." url="#"] Your Testimonial Text [/testimonial]</h4>  
+<strong>customer_image</strong> - customer image url <br />
+<strong>customer</strong> - customer name and company<br />
+<strong>url</strong> - customer link 
+
+<h4>[highlight color="#336699"] Your content [/highlight]</h4>  
+<strong>color</strong> - highlight background color
+
+<h4>[dropcap color="#336699"] Your content [/highlight]</h4>  
+<strong>color</strong> - dropcap color
+
+<h4>[icon name="icon-camera" size="5x" color="#333333" align="left"]</h4>  
+<strong>name</strong> - FontAwesome icon name<br />
+<strong>sizes</strong> - Increase the icon size by using the large (33% increase), 2x, 3x, 4x, 5x classes <br />
+<strong>color</strong> - icon color<br />
+<strong>align</strong> - left or right<br />
+<strong>text</strong> - text<br />
+<strong>class</strong> - any FontAwesome class<br />
+<strong>url</strong> - icon link
+
+<h4>[sbutton],[rsbutton],[bigbutton],[3dbutton]</h4>
+<strong>textcolor</strong> - button text color<br />
+<strong>bgcolor</strong> - background color<br />
+<strong>textshadowcolor</strong> - text shadow color<br />
+<strong>align</strong> - left or right<br />
+<strong>url</strong> - button link<br />
+
+<h4>[info],[success],[error],[warning],[note]</h4>
+<strong>close</strong> - styled box close button
+
+<h4>[read_more]</h4>
+<strong>text</strong> - Read more text<br />
+<strong>align</strong> - left or right<br />
+<strong>url</strong> - link<br />
+<strong>target</strong> - link target<br />
+
+
+<h4>[custom_list]</h4>
+[custom_list style="list3"]<ul>
+<li>Your list item</li>
+<li>Your list item</li>
+<li>Your list item</li>
+</ul>[/custom_list]
+<img src="img/1738.png"/><br />
+<strong>style</strong> - bullet styles list1-list12
+
+<h4>[toggle title="Title"]content[/toggle]</h4>
+<strong>title</strong> - toggle title<br />
+
+<h4> Horizontal Tabs [tabs][tab title="title 1" icon="icon-picture"] content [/tab] [tab title="title 3"] content [/tab][/tabs]</h4>
+<strong>title</strong> - tabs title<br />
+<strong>icon</strong> - FontAwesome icon name
+
+<h4>Vertical Tabs [vtabs][tab title="title 1" icon="icon-picture"] content [/tab] [tab title="title 3"] content [/tab][/vtabs]</h4>
+<strong>title</strong> - tabs title<br />
+<strong>icon</strong> - FontAwesome icon name
+
+
+<h4>[accordions] [accordion title="title 1"] content [/accordion] [accordion title="title 2"] content [/accordion] [accordion title="title 3"] content [/accordion] [accordion title="title 4"] content [/accordion] [accordion title="title 5"] content [/accordion][/accordions]</h4>
+<strong>title</strong> - accordions title
+
+<h4>[recent_posts count="5" thumbnail="true" thumb_width="100" thumb_height="100" moretag="true" readmorelink="true" desc_length="240" category_id="12345"]</h4>
+<strong>count</strong> - count of posts <br />
+<strong>thumbnail</strong> - true or false<br />
+<strong>thumb_width</strong> - image width<br />
+<strong>thumb_height</strong> - image height<br />
+<strong>moretag</strong> - if you use more tags, true or false  <br />
+<strong>readmorelink</strong> - show read more link, true or false  <br />
+<strong>readmoretext</strong> - read more text, default (Read More)  <br />
+<strong>desc_length</strong> - excerpt length<br />
+<strong>category_id</strong> - category id <br />
+<img src="img/1753.png"/> 
+
+
+<h4>[recent_posts_slider count="5" thumbnail="true" thumb_width="100" thumb_height="100" moretag="true" readmorelink="true" desc_length="240" category_id="12345"]</h4>
+<strong>count</strong> - count of posts slides <br />
+<strong>thumb_width</strong> - slider width<br />
+<strong>thumb_height</strong> - slider height<br />
+<strong>moretag</strong> - if you use more tags, true or false  <br />
+<strong>readmorelink</strong> - show read more link, true or false  <br />
+<strong>readmoretext</strong> - read more text, default (Read More)  <br />
+<strong>desc_length</strong> - excerpt length<br />
+<strong>category_id</strong> - category id <br />
+<img src="img/1753.png"/> 
+
+
+<h4>[recent_posts_carousel count="5" thumbnail="true" thumb_width="100" thumb_height="100" moretag="true" readmorelink="true" desc_length="240" category_id="12345"]</h4>
+<strong>count</strong> - count of posts <br />
+<strong>thumb_width</strong> - image width<br />
+<strong>thumb_height</strong> - image height<br />
+<strong>category_id</strong> - category id <br />
+<img src="img/1753.png"/> 
+
+<h4>[portfolio_items count="6" category_name="photos" thumb_width="100" thumb_height="100" retina="true"]</h4>
+<strong>count</strong> - item count <br />
+<strong>category_name</strong> - portfolio categories slug <br />
+<strong>thumb_width</strong> - image width<br />
+<strong>thumb_height</strong> - image height<br />
+<strong>retina</strong> - retina 2x images, true or false  
+
+<h4>[portfolio_items_carousel count="6" category_name="photos" thumb_width="100" thumb_height="100"]</h4>
+<strong>count</strong> - item count <br />
+<strong>category_name</strong> - portfolio categories slug <br />
+<strong>thumb_width</strong> - image width<br />
+<strong>thumb_height</strong> - image height<br />
+
+<h4>Content Slider [slider style="blackslider arrowstop" width="600" height="400"] [slide]Images or any content[/slide] [slide]Images or any content[/slide] [slide]Images or any content[/slide] [/slider]</h4>
+<strong>style</strong> -  <strong>blackslider</strong> or <strong>whiteslider</strong> (arrows background), arrows default in middle position? if you want set in top use <strong>arrowstop</strong>, if bottom use <strong>arrowsbutton</strong>
+
+<h4>[image]</h4>
+<strong>src</strong> - image url<br />
+<strong>width</strong> - image width<br />
+<strong>height</strong> - image height<br />
+<strong>url</strong> - image link<br />
+<strong>align</strong> - left or right<br />
+<strong>title</strong> - alt title<br />
+<strong>retina</strong> - retina 2x images, true or false  <br />
+
+<h4>[lightbox]</h4>
+<strong>src</strong> - image url<br />
+<strong>width</strong> - image width<br />
+<strong>height</strong> - image height<br />
+<strong>url</strong> - image link<br />
+<strong>align</strong> - left or right<br />
+<strong>title</strong> - alt title<br />
+<strong>retina</strong> - retina 2x images, true or false  <br />
+
+
+
+<h4>Clients carousel [clients] 
+[client client="Client name" client_url="LINK" image="URL"]
+[client client="Client name" client_url="LINK" image="URL"]
+[client client="Client name" client_url="LINK" image="URL"]
+[client client="Client name" client_url="LINK" image="URL"]
+[client client="Client name" client_url="LINK" image="URL"]
+[client client="Client name" client_url="LINK" image="URL"]
+[client client="Client name" client_url="LINK" image="URL"]
+[client client="Client name" client_url="LINK" image="URL"][/clients]</h4>
+<strong>image</strong> - image url<br />
+<strong>width</strong> - image width<br />
+<strong>height</strong> - image height<br />
+<strong>client</strong> - Alt title client name <br />
+<strong>client_url</strong> - client link<br />
+
+ 
+<h4>[flickr]</h4>
+<strong>id</strong> - your Flick ID, use <a href="http://idgettr.com/">idGettr</a><br /> 
+<strong>count</strong> - images cont<br />
+<strong>display</strong> - latest or random<br />
+        
+      </div>
+            
+      <div id="tabs-11">
+            <h2>Demo XML Data</h2>
+    <img src="img/1543.png"/>
+    The XML file is included within the download package at root level in a folder called XML
+    
+    Navigate to WP Admin > Tools > Import
+    <img src="img/1547.png"/>
+    
+    Once its installed, select the XML file and upload it.
+    <img src="img/1551.png"/>
+    
+    Next, navigate to WP Admin > Settings > Reading Settings and set a front page and posts page
+    <img src="img/1340.png"/>
+
+      </div>
+      
+      
+      <div id="tabs-4">
+            <h2>Portfolio</h2>
+            <p>To create the Portfolio you need to create a new page - <b>Pages &rArr; Add New</b>. 
+            Select template from the Page Attributes section - <b>“Portfolio 2 columns”,“Portfolio 3 columns”,“Portfolio 4 columns” or “Portfolio 5 columns” </b>. Next, enter Title and hit <b>Publish</b>.</p>
+            <img src="img/1413.png"/>
+            <h3>Portfolio Items</h3>
+            <p>To add a new Portfolio Items you need to create a new items - <b>Portfolio &rArr; Add New Item</b>. 
+            <p>Next, you need to fill in fields:</p>   
+            <p>• Title</p> 
+            <p>• Content</p> 
+            <p>• Select Portfolio page (for connecting with portfolio page)</p> 
+            <p>• Featured Image</p>
+            <p>• Categories (for filtering items)</p>
+            <p>• Video url</p>
+             <img src="img/0418.png"/>
+      </div>
+      
+      <div id="tabs-5">      
+            <h2>Theme Options</h2>
+           <img src="img/0428.png"/>
+           
+           <h2>Styling</h2>
+           <p>if you use BOXED layout you can change background and if you use WIDE layout, you can changed only header background</p>
+           <img src="img/1732.png"/>                       
+                                  
+      </div>
+           
+
+      <div id="tabs-7">      
+            <h2>Credits</h2>
+            <li><a href="http://jquery.com/" target="_blank">jQuery JavaScript Library</a> by John Resig</li>
+		    <li><a href="http://users.tpg.com.au/j_birch/plugins/superfish/" target="_blank">Superfish</a> menu widget by Joel Birch</li>
+		    <li><a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/" target="_blank">jQuery validation plug-in</a> by Jorn Zaefferer</li>
+            <li><a href="http://www.eyecon.ro">Color picker</a> by Stefan Petre</li>
+            <li><a href="http://flexslider.woothemes.com">FlexSlider2</a> by WooThemes</li>
+            <li><a href="https://github.com/dreamerslab/jquery.actual">jquery.actual</a></li>
+            <li><a href="http://wordpress.org/extend/plugins/post-types-order/">Post Types Order Plugin</a></li>
+            <li><a href="http://razorjack.net/quicksand/index.html" target="_blank">Quicksand</a> by Jacek Galanciak</li>
+            <li><a href="http://dimsemenov.com/">Magnific Popup</a> by Dima Semenov</li>
+            <li><a href="http://selectivizr.com/" target="_blank">Selectivizr</a> by KeithClark</li>            
+      </div>
+      
+      <div id="tabs-8">      
+            <h2>Translation & Localization</h2>
+            <p>Select your .po file in pack e.g. ru_RU.po and paste in theme directory </p>
+&#x2611;    Simplified Chinese - zh_CN.po<br />
+&#x2611;    Traditional Chinese - zh_HK.po<br />
+&#x2611;    Japanese - ja.po<br />
+&#x2611;    Italian - it_IT.po<br />
+&#x2611;    French - fr_FR.po<br />
+&#x2611;    Russian - ru_RU.po<br />
+&#x2611;    Deutsch - de_DE.po<br />
+&#x2611;    Spanish - es.po<br />
+&#x2611;    Portuguese – Brazilian - pt_BR.po<br />
+&#x2611;    Norwegian - nb-NO.po<br />
+&#x2611;    Hungarian - hu_HU.po<br />
+&#x2611;    Swedish - sv_SE.po<br />
+&#x2611;    Polish - pl_PL.po<br />
+&#x2611;    Danish - da_DK.po<br />
+            <p>If you wont localization in other languages use default.po </p>
+      </div>
+</div>
+
+</div><!-- End demo -->
+
+<div class="demo-description">
+
+<p>FlatMagazine Premium Theme by <a href="http://www.startis.ru/" target="_blank">Alan Armanov</a> - <a href="http://www.startis.ru/flatmagazine/" target="_blank">Demo site</a> | <a href="http://www.startis.ru/forums">Support forum</a></p>
+
+</div><!-- End demo-description -->
+
+</body>
+</html>

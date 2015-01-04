@@ -1,0 +1,316 @@
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    list-style: none outside none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+    text-rendering: geometricprecision;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+:focus {
+    outline: 0 none;
+}
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.none {
+    display: none;
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: visible;
+    position: absolute;
+    width: 100%;
+}
+
+
+#demo-panel {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0 0 2px 0;
+    border-right: 2px solid rgba(0, 0, 0, 0.15);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.1);
+    color: #9F9F9F;
+    left: -197px;
+    position: absolute;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    top: 130px;
+    width: 196px;
+    z-index: 9000;
+}
+#demo-panel.demo-open {
+    left: 0;
+}
+#demo-panel-main {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 0 0 2px 0;
+    padding-bottom: 18px;
+}
+#demo-close {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0 2px 2px 0;
+    border-right: 2px solid rgba(0, 0, 0, 0.15);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.1);
+    display: block;
+    height: 96px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-top: 3px;
+    position: absolute;
+    right: -32px;
+    text-align: right;
+    top: -1px;
+    width: 18px;
+}
+#demo-close span {
+    background: url("data:image/gif;base64,R0lGODlhFABXAKIAAEFBQZeXl2pqatXV1f///8DAwOnp6fPz8ywAAAAAFABXAAADdUi63P4wykmrvTjrzbv/YCiOZGmeaBoOy+BWLBHLVDzPkd3COK5aN5fvcVMMHUXaZHhEMppE4W8jrEJzV2S28bp0MVbp1OtchrfMMVmzjYZrVHWnXc6c0XF5/glX+nNGO0uBhBJ3en0yX4aFeH6OSWZ8iJQKCQA7") no-repeat scroll 8px 6px #FFFFFF;
+    border-radius: 0 2px 2px 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 120%;
+}
+
+#demo-close span i {
+    font-size: 23px;
+    position: absolute;
+    right: 6px;
+    top: 5px;
+}
+#demo-inner {
+    padding: 0 10px;
+}
+#demo-inner form, .headerselect {
+    display: inline-block;
+    position: relative;
+}
+
+#demo-inner form:before {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #9C9CAC;
+    content: "\f0c9";
+    cursor: default;
+    display: block;
+    float: none;
+    font-family: FontAwesome;
+    font-size: 14px;
+    height: 18px;
+    position: absolute;
+    right: 2px;
+    text-align: center;
+    top: 3px;
+    width: 22px;
+    z-index: 2;
+}
+
+.mfp-arrow-left:before, .mfp-arrow-left .mfp-b {
+    content: "\f104";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 28px !important;
+    color: #FFFFFF;
+    text-indent: -1px;
+}
+
+.mfp-arrow-right:before, .mfp-arrow-right .mfp-b {
+    content: "\f105";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 28px !important;
+    color: #FFFFFF;
+    text-indent: 1px;
+    
+}
+
+button.mfp-arrow {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2) !important;
+    box-shadow: none !important;
+    height: 60px;
+    line-height: 58px;
+    width: 40px !important;
+}
+
+#demo-inner select {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 2px 2px 2px 2px;
+    color: #737378;
+    cursor: pointer;
+    font-size: 11px;
+    margin-left: 3px;
+    padding: 2px;
+    width: 173px !important;
+}
+
+#demo-panel h4.demo-title {
+    background: none repeat scroll 0 0 #F1F5F9;
+    border-radius: 2px;
+    border-top: 1px solid #F5F5F5;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05) inset;
+    color: #202231;
+    display: inline-block;
+    font-size: 13px;
+    margin: 6px 0 7px -3px;
+    padding: 4px 0 6px;
+    text-align: center;
+    text-shadow: 0 1px 1px #DBDBDB;
+    text-transform: uppercase;
+    width: 183px;
+}
+#demo-panel p {
+    font-family: Georgia,serif;
+    font-size: 10px;
+    font-style: italic;
+}
+.demo-sample-setting, .demo-pc-setting {
+    border: 0 solid #E2E2E2;
+    border-radius: 2px 2px 2px 2px;
+    display: block;
+    float: left;
+    height: 18px;
+    margin: 0 1px 4px 3px;
+    overflow: hidden;
+    position: relative;
+    text-indent: -9999px;
+    width: 18px;
+}
+.demo-sample-setting span.demo-sample-overlay, .demo-pc-setting span.demo-pc-overlay {
+    box-shadow: 0 -11px 0 rgba(0, 0, 0, 0.07) inset;
+    display: inline-block;
+    height: 23px;
+    left: -2px;
+    position: absolute;
+    top: -2px;
+    transform: rotate(-45deg);
+    width: 25px;
+}
+#demo-sample-color1 {
+    background: none repeat scroll 0 0 #95C343;
+}
+#demo-sample-color2 {
+    background: none repeat scroll 0 0 #19AFE5;
+}
+#demo-sample-color3 {
+    background: none repeat scroll 0 0 #1D83B9;
+}
+#demo-sample-color4 {
+    background: none repeat scroll 0 0 #447091;
+}
+#demo-sample-color5 {
+    background: none repeat scroll 0 0 #8572C1;
+}
+#demo-sample-color6 {
+    background: none repeat scroll 0 0 #4E4F59;
+}
+#demo-sample-color7 {
+    background: none repeat scroll 0 0 #4E4E4E;
+}
+#demo-sample-color8 {
+    background: none repeat scroll 0 0 #57699C;
+}
+#demo-sample-color9 {
+    background: none repeat scroll 0 0 #4E4E4E;
+}
+#demo-sample-color10 {
+    background: none repeat scroll 0 0 #633636;
+}
+#demo-sample-color11 {
+    background: none repeat scroll 0 0 #7D4E28;
+}
+#demo-sample-color12 {
+    background: none repeat scroll 0 0 #A22A2A;
+}
+#demo-sample-color13 {
+    background: none repeat scroll 0 0 #8DC563;
+}
+#demo-sample-color14 {
+    background: none repeat scroll 0 0 #667384;
+}
+#demo-sample-color15 {
+    background: none repeat scroll 0 0 #1AA54C;
+}
+#demo-sample-color16 {
+    background: none repeat scroll 0 0 #336699;
+}
+.demo-colorpicker {
+    background: url("images/colors.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: right;
+    height: 16px;
+    width: 21px;
+}
+.demo-font-picker {
+    margin-right: 7px;
+    margin-top: 2px;
+}
+.colorpicker {
+    z-index: 10000;
+}
+#demo-header-font, #demo-body-font {
+    float: right;
+    width: 200px;
+}
+.demo-entry {
+    padding: 10px 0;
+}
+.ss-radio-img-radio {
+    border: 3px solid #FFFFFF;
+    cursor: pointer;
+    display: none;
+    float: left;
+    margin: 0 5px 10px 0;
+}
+#ss_container .controls .ss-radio-img-selected {
+    border: 3px solid #CCCCCC;
+}
+.ss-radio-img-img {
+    cursor: pointer;
+    padding: 2px;
+    width: 18px;
+}
+#ss_container .controls .ss-border-width {
+    float: left;
+    width: 80px;
+}
+#ss_container .controls .ss-border-style {
+    float: left;
+    width: 120px;
+}

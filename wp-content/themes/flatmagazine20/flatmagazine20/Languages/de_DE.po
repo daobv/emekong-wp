@@ -1,0 +1,1004 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Smartpress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-26 21:35+0600\n"
+"PO-Revision-Date: 2013-06-26 21:35+0600\n"
+"Last-Translator: Alan Armanov <airatzaf@yandex.ru>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: c:\\smartpress_pack\\smartpress\n"
+
+#: c:\smartpress_pack\smartpress/404.php:7
+#: c:\smartpress_pack\smartpress/archive.php:94
+#: c:\smartpress_pack\smartpress/index.php:76
+#: c:\smartpress_pack\smartpress/page.php:33
+#: c:\smartpress_pack\smartpress/single.php:97
+#: c:\smartpress_pack\smartpress/template-full.php:37
+msgid "Error 404 - Not Found"
+msgstr "Error 404 - Not Found"
+
+#: c:\smartpress_pack\smartpress/404.php:18
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+"Entschuldigung, aber die Seite, die Sie aufgerufen haben, konnte nicht "
+"gefunden werden. "
+
+#: c:\smartpress_pack\smartpress/adminfunctions.php:1771
+#: c:\smartpress_pack\smartpress/adminfunctions.php:1792
+#: c:\smartpress_pack\smartpress/adminfunctions.php:1815
+#: c:\smartpress_pack\smartpress/adminfunctions.php:1817
+#: c:\smartpress_pack\smartpress/header.php:383
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:61
+msgid "Close"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/archive.php:15
+#: c:\smartpress_pack\smartpress/functions.php:249
+#, php-format
+msgid "All posts in %s"
+msgstr "Alle Beiträge in %s"
+
+#: c:\smartpress_pack\smartpress/archive.php:17
+#: c:\smartpress_pack\smartpress/functions.php:311
+#, php-format
+msgid "All posts tagged %s"
+msgstr "Alle Beiträge tagged %s"
+
+#: c:\smartpress_pack\smartpress/archive.php:19
+#: c:\smartpress_pack\smartpress/archive.php:21
+#: c:\smartpress_pack\smartpress/archive.php:23
+msgid "Archive for"
+msgstr "Archiv für"
+
+#: c:\smartpress_pack\smartpress/archive.php:25
+#: c:\smartpress_pack\smartpress/functions.php:319
+msgid "All posts by"
+msgstr "Alle Beiträge von"
+
+#: c:\smartpress_pack\smartpress/archive.php:27
+msgid "Blog Archives"
+msgstr "Blogarchive"
+
+#: c:\smartpress_pack\smartpress/archive.php:41
+#: c:\smartpress_pack\smartpress/functions.php:1099
+#: c:\smartpress_pack\smartpress/functions.php:1120
+#: c:\smartpress_pack\smartpress/index.php:18
+#: c:\smartpress_pack\smartpress/portfolio2col.php:62
+#: c:\smartpress_pack\smartpress/portfolio3col.php:62
+#: c:\smartpress_pack\smartpress/portfolio4col.php:62
+#: c:\smartpress_pack\smartpress/portfolio5col.php:63
+#: c:\smartpress_pack\smartpress/search.php:32
+#: c:\smartpress_pack\smartpress/single.php:15
+#: c:\smartpress_pack\smartpress/functions/recent_tabs.php:72
+#: c:\smartpress_pack\smartpress/functions/recent_tabs.php:110
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Permanenter Link zu %s"
+
+#: c:\smartpress_pack\smartpress/archive.php:45
+#: c:\smartpress_pack\smartpress/index.php:22
+#: c:\smartpress_pack\smartpress/single.php:19
+msgid "By"
+msgstr "Von"
+
+#: c:\smartpress_pack\smartpress/archive.php:48
+#: c:\smartpress_pack\smartpress/index.php:25
+#: c:\smartpress_pack\smartpress/single.php:22
+msgid "With"
+msgstr "Mit"
+
+#: c:\smartpress_pack\smartpress/archive.php:48
+#: c:\smartpress_pack\smartpress/comments.php:23
+#: c:\smartpress_pack\smartpress/index.php:25
+#: c:\smartpress_pack\smartpress/single.php:22
+msgid "No Comments"
+msgstr "Keine Kommentare"
+
+#: c:\smartpress_pack\smartpress/archive.php:48
+#: c:\smartpress_pack\smartpress/index.php:25
+#: c:\smartpress_pack\smartpress/single.php:22
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: c:\smartpress_pack\smartpress/archive.php:48
+#: c:\smartpress_pack\smartpress/comments.php:23
+#: c:\smartpress_pack\smartpress/index.php:25
+#: c:\smartpress_pack\smartpress/single.php:22
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: c:\smartpress_pack\smartpress/archive.php:67
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:728
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:731
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:808
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:811
+msgid " Read More &rArr;"
+msgstr "Lesen Sie mehr &rArr;"
+
+#: c:\smartpress_pack\smartpress/archive.php:83
+#: c:\smartpress_pack\smartpress/index.php:64
+#: c:\smartpress_pack\smartpress/search.php:56
+msgid "&lArr; Older Entries"
+msgstr "&lArr; Ältere Einträge"
+
+#: c:\smartpress_pack\smartpress/archive.php:84
+#: c:\smartpress_pack\smartpress/index.php:65
+#: c:\smartpress_pack\smartpress/search.php:57
+msgid "Newer Entries &rArr;"
+msgstr "Neuere Einträge &rArr;"
+
+#: c:\smartpress_pack\smartpress/archive.php:98
+#: c:\smartpress_pack\smartpress/index.php:79
+#: c:\smartpress_pack\smartpress/page.php:36
+#: c:\smartpress_pack\smartpress/single.php:100
+#: c:\smartpress_pack\smartpress/template-full.php:40
+msgid "Sorry, but you are looking for something that is not here."
+msgstr "Entschuldigung, aber Sie suchen etwas, was hier nicht vorhanden ist."
+
+#: c:\smartpress_pack\smartpress/comments.php:11
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Dieser Beitrag ist passwortgeschützt. Geben Sie Ihr Kennwort ein, um die "
+"Kommentare anzusehen."
+
+#: c:\smartpress_pack\smartpress/comments.php:23
+msgid "One Comment"
+msgstr "Ein Kommentar"
+
+#: c:\smartpress_pack\smartpress/comments.php:39
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: c:\smartpress_pack\smartpress/comments.php:49
+msgid "Leave a Comment"
+msgstr "Kommentar abgeben"
+
+#: c:\smartpress_pack\smartpress/comments.php:49
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Antwort auf %s abgeben"
+
+#: c:\smartpress_pack\smartpress/comments.php:58
+#, fuzzy, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "Sie müssen angemeldet sein, um einen Kommentar abzugeben."
+
+#: c:\smartpress_pack\smartpress/comments.php:65
+#, php-format
+msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr "Angemeldet als %1$s. %2$sAbgemeldet  &raquo;%3$s"
+
+#: c:\smartpress_pack\smartpress/comments.php:65
+msgid "Log out of this account"
+msgstr "Melden Sie sich von dem Benutzerkonto ab"
+
+#: c:\smartpress_pack\smartpress/comments.php:70
+#: c:\smartpress_pack\smartpress/template-contact.php:105
+msgid "Name"
+msgstr "Name"
+
+#: c:\smartpress_pack\smartpress/comments.php:73
+#: c:\smartpress_pack\smartpress/template-contact.php:112
+msgid "Email"
+msgstr "E-Mail"
+
+#: c:\smartpress_pack\smartpress/comments.php:73
+msgid "(not published)"
+msgstr "(nicht veröffentlicht)"
+
+#: c:\smartpress_pack\smartpress/comments.php:76
+msgid "Website"
+msgstr "Web-Seite"
+
+#: c:\smartpress_pack\smartpress/comments.php:83
+msgid "Submit Comment"
+msgstr "Kommentar abgeben"
+
+#: c:\smartpress_pack\smartpress/functions.php:17
+msgid "main Menu"
+msgstr "Hauptmenü"
+
+#: c:\smartpress_pack\smartpress/functions.php:230
+msgid "Home"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/functions.php:308
+#: c:\smartpress_pack\smartpress/search.php:4
+#: c:\smartpress_pack\smartpress/searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/functions.php:327
+msgid "Page"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/functions.php:350
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: c:\smartpress_pack\smartpress/functions.php:353
+#: c:\smartpress_pack\smartpress/js/callme.php:23
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s an %2$s"
+
+#: c:\smartpress_pack\smartpress/functions.php:353
+msgid "[Edit]"
+msgstr "[Bearbeiten]"
+
+#: c:\smartpress_pack\smartpress/functions.php:356
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar muss noch freigeschaltet werden."
+
+#: c:\smartpress_pack\smartpress/functions.php:405
+#, php-format
+msgid "View all items filed under %s"
+msgstr "Alle Positionen abgelegt unter %s"
+
+#: c:\smartpress_pack\smartpress/functions.php:433
+msgid "Portfolio Items"
+msgstr "Positionen des Portfolios"
+
+#: c:\smartpress_pack\smartpress/functions.php:435
+msgid "Add New Item"
+msgstr "Neue Position hinzufügen"
+
+#: c:\smartpress_pack\smartpress/functions.php:436
+msgid "Add New Portfolio"
+msgstr "Neues Portfolio hinzufügen"
+
+#: c:\smartpress_pack\smartpress/functions.php:437
+msgid "Edit Portfolio"
+msgstr "Portfolio bearbeiten"
+
+#: c:\smartpress_pack\smartpress/functions.php:438
+msgid "New Portfolio"
+msgstr "Neues Portfolio"
+
+#: c:\smartpress_pack\smartpress/functions.php:439
+msgid "View Portfolio"
+msgstr "Portfolio ansehen"
+
+#: c:\smartpress_pack\smartpress/functions.php:440
+msgid "Search Portfolio"
+msgstr "Portfolio durchsuchen"
+
+#: c:\smartpress_pack\smartpress/functions.php:441
+msgid "No portfolios found"
+msgstr "Keine Portfolios sind gefunden"
+
+#: c:\smartpress_pack\smartpress/functions.php:442
+msgid "No portfolios found in Trash"
+msgstr "Keine Portfolios sind im Papierkorb gefunden"
+
+#: c:\smartpress_pack\smartpress/functions.php:466
+msgid "Categories"
+msgstr "Kategorien"
+
+#: c:\smartpress_pack\smartpress/functions.php:466
+msgid "Skill Type"
+msgstr "Skill Type"
+
+#: c:\smartpress_pack\smartpress/functions.php:474
+msgid "Portfolio Item Title"
+msgstr "Titel der Positionen im Portfolio "
+
+#: c:\smartpress_pack\smartpress/functions.php:475
+#: c:\smartpress_pack\smartpress/functions.php:485
+msgid "type"
+msgstr "Eingeben"
+
+#: c:\smartpress_pack\smartpress/functions.php:486
+msgid "skill-type"
+msgstr "skill-type"
+
+#: c:\smartpress_pack\smartpress/gallery2col.php:23
+#: c:\smartpress_pack\smartpress/gallery3col.php:23
+#: c:\smartpress_pack\smartpress/gallery4col.php:23
+#: c:\smartpress_pack\smartpress/gallery5col.php:23
+#: c:\smartpress_pack\smartpress/portfolio2col.php:23
+#: c:\smartpress_pack\smartpress/portfolio3col.php:23
+#: c:\smartpress_pack\smartpress/portfolio4col.php:23
+#: c:\smartpress_pack\smartpress/portfolio5col.php:23
+msgid "Filter:"
+msgstr "Filter:"
+
+#: c:\smartpress_pack\smartpress/links.php:20
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: c:\smartpress_pack\smartpress/search.php:66
+msgid "No Results Found"
+msgstr "Keine Resultate gefunden"
+
+#: c:\smartpress_pack\smartpress/search.php:73
+msgid ""
+"Apologies, but the page you requested could not be found. Try another search"
+msgstr ""
+"Entschuldigung, die von Ihnen angegebene Seite wurde nicht gefunden. "
+"Versuchen Sie's mit einer anderen Suche"
+
+#: c:\smartpress_pack\smartpress/single.php:21
+msgid "In"
+msgstr "In"
+
+#: c:\smartpress_pack\smartpress/single.php:23
+msgid "edit"
+msgstr "bearbeiten"
+
+#: c:\smartpress_pack\smartpress/single.php:74
+msgid "Tags"
+msgstr "Tags"
+
+#: c:\smartpress_pack\smartpress/template-contact.php:87
+msgid "Thanks, your email was successfully sent."
+msgstr "Danke schön, Ihre E-Mail wurde erfolgreich gesendet."
+
+#: c:\smartpress_pack\smartpress/template-contact.php:99
+msgid "There was an error submitting the form."
+msgstr "Fehler beim Senden des Formulars."
+
+#: c:\smartpress_pack\smartpress/template-contact.php:101
+msgid "Send Us An Email"
+msgstr "Senden Sie an uns eine E-Mail"
+
+#: c:\smartpress_pack\smartpress/template-contact.php:120
+msgid "Message"
+msgstr "Nachricht"
+
+#: c:\smartpress_pack\smartpress/template-contact.php:126
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:59
+#, fuzzy
+msgid "Submit"
+msgstr "Kommentar abgeben"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:143
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:148
+msgid "Call Us in Top"
+msgstr "Rufen Sie uns einfach an"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:149
+msgid "e.g. Call Us Free: (800) 888-7777"
+msgstr "z.B.Rufen Sie uns kostenfrei an: (800) 888-7777"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:154
+msgid "Top Bar"
+msgstr "Kopf-Leiste"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:167
+msgid "Google Map API"
+msgstr "Google Map API"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:168
+#, fuzzy
+msgid ""
+"For Google Map Shortcode <a href=\"https://developers.google.com/maps/signup"
+"\">Get Google Map API</a>"
+msgstr ""
+"Für Google Map Shortcode <a href=\\\"http://code.google.com/apis/maps/signup."
+"html\\\">Google Map API herunterladen</a>"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:174
+msgid "Custom Logo"
+msgstr "Eigenes Logo"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:175
+msgid ""
+"Upload a logo for your theme, or image url. (e.g. http://example.com/logo."
+"png)"
+msgstr ""
+"Laden Sie ein Logo für Ihr Theme hoch., oder eine Bild-URL. (z.B. http://"
+"beispiel.com/logo.png)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:181
+#, fuzzy
+msgid "Enable Breadcrubs"
+msgstr "Schieberegler aktivieren"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:182
+#, fuzzy
+msgid "Check this to enable Breadcrubs."
+msgstr "Haken setzen, um Demofenster zu aktivieren."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:187
+msgid "Custom Favicon"
+msgstr "Eigenes  Favicon"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:188
+msgid "Upload a (16x16px) Png or Gif image."
+msgstr "Laden Sie ein (16x16px) Bild im Format PNG oder GIF hoch."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:193
+#, fuzzy
+msgid "Contact Form Email Address"
+msgstr "E-Mail-Kontaktformular Addremd"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:194
+msgid "Leave blank to use admin email."
+msgstr "Lassen Sie das Feld leer, um Admin-E-Mail zu nutzen."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:199
+msgid "FeedBurner URL"
+msgstr "FeedBurner URL"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:200
+msgid "Enter your FeedBurner URL"
+msgstr "Tragen Sie Ihr FeedBurner URL ein."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:205
+msgid "Show Demo panel"
+msgstr "Demfenster anzeigen"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:206
+msgid "Check this to enable a show demo panel."
+msgstr "Haken setzen, um Demofenster zu aktivieren."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:214
+msgid "Styling"
+msgstr "Styling"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:218
+msgid "Layout Style"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:219
+msgid "Wide, Boxed or SuperWide"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:225
+msgid "Predefinded skins"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:233
+msgid "Use Theme skin color"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:234
+msgid "Use a specific Theme skin color instead of predefined"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:239
+#, fuzzy
+msgid "Theme skin color"
+msgstr "Footer Linkfarbe"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:240
+#, fuzzy
+msgid "(default #F95601)"
+msgstr "(Grundeinstellung #4E4F59)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:245
+msgid "Fixed Top Menu"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:246
+msgid "Fixed or Static"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:252
+#, fuzzy
+msgid "Header Style"
+msgstr "Blog Header Title"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:253
+msgid "Select your header style"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:260
+#, fuzzy
+msgid "Footer Style"
+msgstr "Footer"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:261
+msgid "Dark or Light footer style"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:268
+msgid "Body Background color"
+msgstr "Body Hintergrundfarben"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:269
+msgid "(default #FFFFFF)"
+msgstr "(Grundeinstellung #FFFFFF)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:274
+msgid "Texture Overlays"
+msgstr "Strukturierungsfilter Überlagerungen"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:284
+msgid "Primary link color"
+msgstr "Primäre Linkfarbe"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:285
+#, fuzzy
+msgid "(default #000000)"
+msgstr "(Grundeinstellung #4E4F59)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:290
+msgid "Primary link hover color"
+msgstr "Änderung der primären Linkfarbe"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:291
+msgid "(default #343434)"
+msgstr "(Grundeinstellung #343434)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:297
+msgid "Main Layout"
+msgstr "Hauptlayout"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:298
+msgid "Select sidebars alignment."
+msgstr "Wählen Sie die Ausrichtung der Seitenleisten."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:307
+#, fuzzy
+msgid "Custom CSS"
+msgstr "Eigenes CSS"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:308
+#, fuzzy
+msgid "Enter some CSS."
+msgstr "Geben Sie ein CSS ein."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:316
+msgid "CallMe"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:321
+#, fuzzy
+msgid "Enable Callme"
+msgstr "Schieberegler aktivieren"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:322
+msgid "Enable request a callback function"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:327
+msgid "Callme button Text"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:333
+msgid "Callme email text"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:339
+msgid "Callme Name text"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:345
+msgid "Callme Phone text"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:351
+msgid "Callme Time text"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:360
+msgid "Menu"
+msgstr "Menü"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:365
+msgid "Menu Font family"
+msgstr "Menü Schriftenfamilie"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:366
+msgid ""
+"Menu Font family - Supported <a href=\\\"http://www.google.com/webfonts\\\"> "
+"Google Font Directory</a>."
+msgstr ""
+"Menü Schriftenfamilie - Supported <a href=\\\"http://www.google.com/webfonts"
+"\\\"> Google Schriftenverzeichnis</a>."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:372
+msgid "Menu Font size"
+msgstr "Menü Schriftgrad"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:381
+msgid "Fonts"
+msgstr "Schriftarten"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:385
+msgid "Body Font family"
+msgstr "Body Schriftenfamilie"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:386
+msgid ""
+"Body Font family - Supported <a href=\\\"http://www.google.com/webfonts\\\"> "
+"Google Font Directory</a>."
+msgstr ""
+"Body Schriftenfamilie - Supported <a href=\\\"http://www.google.com\\"
+"\">Google Schriftenverzeichnis"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:392
+msgid "Body Font size"
+msgstr "Body Schriftgrad"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:399
+msgid "Body Font color"
+msgstr "Body Schriftfarbe"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:405
+msgid "Headings Font family"
+msgstr "Überschrift Schriftenfamilie"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:413
+msgid "Headings Font color"
+msgstr "Überschriften Schriftfarbe"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:424
+msgid "SEO"
+msgstr "SEO"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:428
+msgid "Google Analytics or other Tracking Code "
+msgstr "Google Analytics oder anderer Tracking Code "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:429
+msgid "Paste your code here."
+msgstr "Fügen Sie hier den eigenen Code ein."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:434
+msgid "Homepage Title"
+msgstr "Homepage Titel"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:435
+msgid "Enter Homepage Title"
+msgstr "Homepage Title eingeben"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:440
+msgid "Homepage Description"
+msgstr "Homepage Beschreibung"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:441
+msgid "Enter Homepage Description"
+msgstr "Homepage Beschreibung eingeben"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:446
+msgid "Homepage Keywords"
+msgstr "Homepage Kennwort"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:447
+msgid "Enter Homepage Keywords."
+msgstr "Homepage Kennwort eingeben"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:457
+msgid "Sliders"
+msgstr "Schieberegler"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:461
+msgid "Enable Slider"
+msgstr "Schieberegler aktivieren"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:462
+msgid "Check this to enable the slider on the homepage."
+msgstr "Haken setzen, um den Slider auf der Homepage zu aktivieren."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:467
+msgid "Custom Slider"
+msgstr "Eigener Slider"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:468
+msgid "Select Custom Slider."
+msgstr "Eigenen Slider auswählen."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:474
+msgid "Nivo Slider Effects"
+msgstr "Nivo Slide-Effekte"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:475
+msgid "Select Nivo Slider effect. Default \"random\" effect"
+msgstr "Nivo Slider Effekt auswählen. Grundeinstellung \"random\" effect"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:482
+msgid "Cycle Slider Effects"
+msgstr "Cycle Slide-Effekte"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:483
+msgid "Select Cycle Slider effect. Default \"scrollRight\" effect"
+msgstr "Cycle Slide-Effekt auswählen. Grundeinstellung \"scrollRight\" effect"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:489
+msgid "Accordion Slider Effects"
+msgstr "Accordion Slide-Effekte"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:490
+msgid "Select Accordion Slider effect. Default \"OutQuint\" effect"
+msgstr "Accordion Slide-Effekt auswählen. Grundeinstellung \"OutQuint\" effect"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:496
+msgid "Sliders Timeout"
+msgstr "Sliders Zeitüberschreitung"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:497
+msgid "Choose the time in milliseconds for sliders timeout (1000 = 1second)"
+msgstr ""
+"Wählen Sie die Zeit in Millisekunden für Sliders Zeitüberschreitung (1000 = "
+"1Sekunde)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:502
+msgid "Slider Image 1"
+msgstr "Slider Bild 1"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:509
+msgid "Slider Image 1 URL"
+msgstr "Slider Bild 1 URL"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:510
+#: c:\smartpress_pack\smartpress/admin/options.php:541
+#: c:\smartpress_pack\smartpress/admin/options.php:559
+#: c:\smartpress_pack\smartpress/admin/options.php:580
+#: c:\smartpress_pack\smartpress/admin/options.php:598
+msgid "Choose a link URL for this image."
+msgstr "Wählen Sie eine Link-URL für dieses Bild."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:515
+msgid "Slider Image 1 Content"
+msgstr "Slider Bild 1 Inhalt"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:516
+msgid ""
+"Enter the content for this image and for \"Cycle Slider mini with static "
+"content\" "
+msgstr ""
+"Geben Sie den Inhalt für dieses Bild und für \"Cycle Slider Mini mit "
+"statischem Inhalt\" ein."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:534
+msgid "Slider Image 2"
+msgstr "Slider Bild 2"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:540
+msgid "Slider Image 2 URL"
+msgstr "Slider Bild 2 URL"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:546
+msgid "Slider Image 2 Content"
+msgstr "Slider Bild 2 Inhalt"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:547
+#: c:\smartpress_pack\smartpress/admin/options.php:565
+#: c:\smartpress_pack\smartpress/admin/options.php:586
+#: c:\smartpress_pack\smartpress/admin/options.php:604
+msgid "Enter the content for this image."
+msgstr "Geben Sie den Inhalt für dieses Bild ein."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:552
+msgid "Slider Image 3"
+msgstr "Slider Bild 3"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:558
+msgid "Slider Image 3 URL"
+msgstr "Slider Bild 3 URL"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:564
+msgid "Slider Image 3 Content"
+msgstr "Slider Bild 3 Inhalt"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:573
+msgid "Slider Image 4"
+msgstr "Slider Bild 4"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:579
+msgid "Slider Image 4 URL"
+msgstr "Slider Bild 4 URL"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:585
+msgid "Slider Image 4 Content"
+msgstr "Slider Bild 4 Inhalt"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:591
+msgid "Slider Image 5"
+msgstr "Slider Bild 5"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:597
+msgid "Slider Image 5 URL"
+msgstr "Slider Bild 5 URL"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:603
+msgid "Slider Image 5 Content"
+msgstr "Slider Bild 5 Inhalt"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:612
+msgid "Blog"
+msgstr "Blog"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:616
+msgid "Blog Style"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:623
+msgid "Blog Header Title"
+msgstr "Blog Header Title"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:624
+msgid "Enter the title of the portfolio area."
+msgstr "Geben Sie den Titel des Portfolios ein."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:629
+msgid "Blog Thumbnail Height"
+msgstr "Blog Thumbnail Höhe des Bildes"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:630
+#, fuzzy
+msgid "default 300"
+msgstr "Grundeinstellung 650"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:638
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:643
+msgid "Enable Lightbox"
+msgstr "Lichtbox aktivieren."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:644
+msgid "Check this to enable the lightbox effect."
+msgstr "Haken setzen, um den Lichtbox-Effekt zu aktivieren."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:652
+msgid "Footer"
+msgstr "Footer"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:656
+msgid "Footer Headings Font color"
+msgstr "Footer Überschrift Schriftenfamilie"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:662
+msgid "Footer Font color"
+msgstr "Footer Schriftfarbe"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:668
+msgid "Footer Link color"
+msgstr "Footer Linkfarbe"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:674
+msgid "Footer Link hover color"
+msgstr "Footer Änderung der Linkfarbe"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:681
+msgid "Footer Text Right"
+msgstr "Footer Text rechtsbündig ausrichten"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:682
+#: c:\smartpress_pack\smartpress/admin/options.php:688
+msgid "Enter the text you would like to display in the footer."
+msgstr "Geben Sie den Text ein, der in den Footer angezeigt werden soll."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:687
+msgid "Footer Text Left"
+msgstr "Footer Text linksbündig ausrichten"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:21
+msgid "A widget that display your photos."
+msgstr "Ihre Fotos mit Widget anzeigen"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:23
+msgid " | Flickr Photos"
+msgstr "|Flickr Fotos"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:75
+msgid "Title:"
+msgstr "Titel:"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:80
+msgid "Flickr ID:"
+msgstr "Flickr ID:"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:85
+msgid "Number of Photos:"
+msgstr "Anzahl der Fotos"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:94
+msgid "Type (user or group):"
+msgstr "Typ (Benutzer oder Gruppe)"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:102
+msgid "Display (random or latest):"
+msgstr "Anzeigen (zufällig oder die neuesten )"
+
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:121
+msgid "Top"
+msgstr "nach oben"
+
+#: c:\smartpress_pack\smartpress/functions/subnav.php:22
+msgid "Display subpages if present page only."
+msgstr "Anzeigen Unterseiten, wenn nur aktuelle Seite"
+
+#: c:\smartpress_pack\smartpress/functions/subnav.php:24
+msgid " | Subpages"
+msgstr "| Unterseiten"
+
+#~ msgid "On"
+#~ msgstr "Auf"
+
+#~ msgid "portfolio"
+#~ msgstr "Portfolio"
+
+#~ msgid "Newer Entries  &#x21d2;"
+#~ msgstr "Neuere Einträge  &#x21d2;"
+
+#~ msgid "To search type and hit enter"
+#~ msgstr "Beim Suchen geben Sie Schlüsselwörter ein und drücken Sie ENTER."
+
+#~ msgid "Enable Plain Text Logo"
+#~ msgstr "Plain Text Logo aktivieren"
+
+#~ msgid "Check this to enable a plain text logo."
+#~ msgstr "Haken setzen, um ein Plain Text Logo zu aktivieren."
+
+#~ msgid "Main Site Background color"
+#~ msgstr "Hauptseite Hintergrundfarben"
+
+#~ msgid "Header Background color"
+#~ msgstr " Header Hintergrundfarben"
+
+#~ msgid "(default #336699)"
+#~ msgstr "(Grundeinstellung #336699)"
+
+#~ msgid "Selection text background color"
+#~ msgstr "Auswahl der Text- und Hintergrundfarbe"
+
+#~ msgid "(default #78c246)"
+#~ msgstr "(Grundeinstellung #78c246)"
+
+#~ msgid "Menu Background Color"
+#~ msgstr "Menü Hintergrundfarbe"
+
+#~ msgid "Menu Font color"
+#~ msgstr "Menü Schriftfarbe"
+
+#~ msgid "Image must be 940px x 350px or 500 px x 350px for mini slider"
+#~ msgstr "Bild muss 940px x 350px oder 500 px x 350px für Minislider sein."
+
+#~ msgid "Slider Image 6"
+#~ msgstr "Slider Bild 6"
+
+#~ msgid "Slider Image 6 URL"
+#~ msgstr "Slider Bild 6 URL"
+
+#~ msgid "Slider Image 6 Content"
+#~ msgstr "Slider Bild 6 Inhalt"
+
+#~ msgid "Blog Thumbnail Width"
+#~ msgstr "Blog Thumbnail Breite des Bildes"
+
+#~ msgid "default 240"
+#~ msgstr "Grundeinstellung 240"
+
+#~ msgid "Show Featured Image"
+#~ msgstr "Featured Bild anzeigen"
+
+#~ msgid "Check this to show the featured image in blog posts."
+#~ msgstr "Haken setzen, um das featured Bild in Blogartikeln einzublenden."
+
+#~ msgid "Footer Background color"
+#~ msgstr "Footer Hintergrundfarben"
+
+#~ msgid "A widget display Recent tweets."
+#~ msgstr "Ein Widget zeigt letzte Tweets an."
+
+#~ msgid " | Recent Tweets"
+#~ msgstr "|Letzte Tweets"
+
+#~ msgid "Twitter Username e.g. alanarmanov"
+#~ msgstr "Twitter Benutzername z.B. alanarmanov"
+
+#~ msgid "Number of tweets (max 20)"
+#~ msgstr "Anzahl der Tweets (max.20)"
+
+#~ msgid "Follow Text e.g. Follow on Twitter"
+#~ msgstr "Text folgen z. B. auf Twitter folgen"

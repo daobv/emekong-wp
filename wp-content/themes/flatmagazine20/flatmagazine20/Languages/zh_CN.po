@@ -1,0 +1,992 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-26 21:50+0600\n"
+"PO-Revision-Date: 2013-06-26 21:50+0600\n"
+"Last-Translator: Alan Armanov <airatzaf@yandex.ru>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: C:\\smartpress_pack\\smartpress\n"
+
+#: C:\smartpress_pack\smartpress/404.php:7
+#: C:\smartpress_pack\smartpress/archive.php:94
+#: C:\smartpress_pack\smartpress/index.php:76
+#: C:\smartpress_pack\smartpress/page.php:33
+#: C:\smartpress_pack\smartpress/single.php:97
+#: C:\smartpress_pack\smartpress/template-full.php:37
+msgid "Error 404 - Not Found"
+msgstr "404 错误 - 找不到"
+
+#: C:\smartpress_pack\smartpress/404.php:18
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr "道歉，但您请求的页面找不到。也许搜索将有所帮助。"
+
+#: C:\smartpress_pack\smartpress/adminfunctions.php:1771
+#: C:\smartpress_pack\smartpress/adminfunctions.php:1792
+#: C:\smartpress_pack\smartpress/adminfunctions.php:1815
+#: C:\smartpress_pack\smartpress/adminfunctions.php:1817
+#: C:\smartpress_pack\smartpress/header.php:383
+#: C:\smartpress_pack\smartpress/functions/shortcodes.php:61
+msgid "Close"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/archive.php:15
+#: C:\smartpress_pack\smartpress/functions.php:249
+#, php-format
+msgid "All posts in %s"
+msgstr "于 %s 所有的职位"
+
+#: C:\smartpress_pack\smartpress/archive.php:17
+#: C:\smartpress_pack\smartpress/functions.php:311
+#, php-format
+msgid "All posts tagged %s"
+msgstr "所有的职位标签 %s"
+
+#: C:\smartpress_pack\smartpress/archive.php:19
+#: C:\smartpress_pack\smartpress/archive.php:21
+#: C:\smartpress_pack\smartpress/archive.php:23
+msgid "Archive for"
+msgstr "存档"
+
+#: C:\smartpress_pack\smartpress/archive.php:25
+#: C:\smartpress_pack\smartpress/functions.php:319
+msgid "All posts by"
+msgstr "用户所有的职位"
+
+#: C:\smartpress_pack\smartpress/archive.php:27
+msgid "Blog Archives"
+msgstr "博客存档"
+
+#: C:\smartpress_pack\smartpress/archive.php:41
+#: C:\smartpress_pack\smartpress/functions.php:1099
+#: C:\smartpress_pack\smartpress/functions.php:1120
+#: C:\smartpress_pack\smartpress/index.php:18
+#: C:\smartpress_pack\smartpress/portfolio2col.php:62
+#: C:\smartpress_pack\smartpress/portfolio3col.php:62
+#: C:\smartpress_pack\smartpress/portfolio4col.php:62
+#: C:\smartpress_pack\smartpress/portfolio5col.php:63
+#: C:\smartpress_pack\smartpress/search.php:32
+#: C:\smartpress_pack\smartpress/single.php:15
+#: C:\smartpress_pack\smartpress/functions/recent_tabs.php:72
+#: C:\smartpress_pack\smartpress/functions/recent_tabs.php:110
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "于 %s 永久链接"
+
+#: C:\smartpress_pack\smartpress/archive.php:45
+#: C:\smartpress_pack\smartpress/index.php:22
+#: C:\smartpress_pack\smartpress/single.php:19
+msgid "By"
+msgstr "写了"
+
+#: C:\smartpress_pack\smartpress/archive.php:48
+#: C:\smartpress_pack\smartpress/index.php:25
+#: C:\smartpress_pack\smartpress/single.php:22
+msgid "With"
+msgstr "用于"
+
+#: C:\smartpress_pack\smartpress/archive.php:48
+#: C:\smartpress_pack\smartpress/comments.php:23
+#: C:\smartpress_pack\smartpress/index.php:25
+#: C:\smartpress_pack\smartpress/single.php:22
+msgid "No Comments"
+msgstr "没有评论"
+
+#: C:\smartpress_pack\smartpress/archive.php:48
+#: C:\smartpress_pack\smartpress/index.php:25
+#: C:\smartpress_pack\smartpress/single.php:22
+msgid "1 Comment"
+msgstr "一条评论"
+
+#: C:\smartpress_pack\smartpress/archive.php:48
+#: C:\smartpress_pack\smartpress/comments.php:23
+#: C:\smartpress_pack\smartpress/index.php:25
+#: C:\smartpress_pack\smartpress/single.php:22
+msgid "% Comments"
+msgstr "% 评论"
+
+#: C:\smartpress_pack\smartpress/archive.php:67
+#: C:\smartpress_pack\smartpress/functions/shortcodes.php:728
+#: C:\smartpress_pack\smartpress/functions/shortcodes.php:731
+#: C:\smartpress_pack\smartpress/functions/shortcodes.php:808
+#: C:\smartpress_pack\smartpress/functions/shortcodes.php:811
+msgid " Read More &rArr;"
+msgstr "阅读更多 &rArr;"
+
+#: C:\smartpress_pack\smartpress/archive.php:83
+#: C:\smartpress_pack\smartpress/index.php:64
+#: C:\smartpress_pack\smartpress/search.php:56
+msgid "&lArr; Older Entries"
+msgstr "&lArr; 较早的项目"
+
+#: C:\smartpress_pack\smartpress/archive.php:84
+#: C:\smartpress_pack\smartpress/index.php:65
+#: C:\smartpress_pack\smartpress/search.php:57
+msgid "Newer Entries &rArr;"
+msgstr "较新的项目 &rArr;"
+
+#: C:\smartpress_pack\smartpress/archive.php:98
+#: C:\smartpress_pack\smartpress/index.php:79
+#: C:\smartpress_pack\smartpress/page.php:36
+#: C:\smartpress_pack\smartpress/single.php:100
+#: C:\smartpress_pack\smartpress/template-full.php:40
+msgid "Sorry, but you are looking for something that is not here."
+msgstr "很抱歉，但您正在寻找的东西不在这里。"
+
+#: C:\smartpress_pack\smartpress/comments.php:11
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "这篇文章用密码保护。为查看评论输入密码。"
+
+#: C:\smartpress_pack\smartpress/comments.php:23
+msgid "One Comment"
+msgstr "一条评论"
+
+#: C:\smartpress_pack\smartpress/comments.php:39
+msgid "Comments are closed."
+msgstr "被关闭评论。"
+
+#: C:\smartpress_pack\smartpress/comments.php:49
+msgid "Leave a Comment"
+msgstr "写下评论"
+
+#: C:\smartpress_pack\smartpress/comments.php:49
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "于 %s 写下回复"
+
+#: C:\smartpress_pack\smartpress/comments.php:58
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "您必须 %1$s 先登录 %2$s 后才能发表评论。"
+
+#: C:\smartpress_pack\smartpress/comments.php:65
+#, php-format
+msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr "您登录为 %1$s. %2$s 注销 &raquo;%3$s"
+
+#: C:\smartpress_pack\smartpress/comments.php:65
+msgid "Log out of this account"
+msgstr "与此帐户注销"
+
+#: C:\smartpress_pack\smartpress/comments.php:70
+#: C:\smartpress_pack\smartpress/template-contact.php:105
+msgid "Name"
+msgstr "名称"
+
+#: C:\smartpress_pack\smartpress/comments.php:73
+#: C:\smartpress_pack\smartpress/template-contact.php:112
+msgid "Email"
+msgstr "电邮"
+
+#: C:\smartpress_pack\smartpress/comments.php:73
+msgid "(not published)"
+msgstr "(未发布)"
+
+#: C:\smartpress_pack\smartpress/comments.php:76
+msgid "Website"
+msgstr "网站"
+
+#: C:\smartpress_pack\smartpress/comments.php:83
+msgid "Submit Comment"
+msgstr "提交评论"
+
+#: C:\smartpress_pack\smartpress/functions.php:17
+msgid "main Menu"
+msgstr "主菜单"
+
+#: C:\smartpress_pack\smartpress/functions.php:230
+msgid "Home"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/functions.php:308
+#: C:\smartpress_pack\smartpress/search.php:4
+#: C:\smartpress_pack\smartpress/searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/functions.php:327
+msgid "Page"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/functions.php:350
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: C:\smartpress_pack\smartpress/functions.php:353
+#: C:\smartpress_pack\smartpress/js/callme.php:23
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s 于 %2$s"
+
+#: C:\smartpress_pack\smartpress/functions.php:353
+msgid "[Edit]"
+msgstr "[编辑]"
+
+#: C:\smartpress_pack\smartpress/functions.php:356
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#: C:\smartpress_pack\smartpress/functions.php:405
+#, php-format
+msgid "View all items filed under %s"
+msgstr "在 %s 下提出的所有项目查看"
+
+#: C:\smartpress_pack\smartpress/functions.php:433
+msgid "Portfolio Items"
+msgstr "投资组合项目"
+
+#: C:\smartpress_pack\smartpress/functions.php:435
+msgid "Add New Item"
+msgstr "添加新项目"
+
+#: C:\smartpress_pack\smartpress/functions.php:436
+msgid "Add New Portfolio"
+msgstr "添加新投资组合"
+
+#: C:\smartpress_pack\smartpress/functions.php:437
+msgid "Edit Portfolio"
+msgstr "编辑投资组合"
+
+#: C:\smartpress_pack\smartpress/functions.php:438
+msgid "New Portfolio"
+msgstr "新投资组合"
+
+#: C:\smartpress_pack\smartpress/functions.php:439
+msgid "View Portfolio"
+msgstr "查看新投资组合"
+
+#: C:\smartpress_pack\smartpress/functions.php:440
+msgid "Search Portfolio"
+msgstr "搜索投资组合"
+
+#: C:\smartpress_pack\smartpress/functions.php:441
+msgid "No portfolios found"
+msgstr "一个投资组合也找不到"
+
+#: C:\smartpress_pack\smartpress/functions.php:442
+msgid "No portfolios found in Trash"
+msgstr "在垃圾桶内一个投资组合也找不到"
+
+#: C:\smartpress_pack\smartpress/functions.php:466
+msgid "Categories"
+msgstr "分类"
+
+#: C:\smartpress_pack\smartpress/functions.php:466
+msgid "Skill Type"
+msgstr "技能型"
+
+#: C:\smartpress_pack\smartpress/functions.php:474
+msgid "Portfolio Item Title"
+msgstr "投资组合项目标题"
+
+#: C:\smartpress_pack\smartpress/functions.php:475
+#: C:\smartpress_pack\smartpress/functions.php:485
+msgid "type"
+msgstr "类型"
+
+#: C:\smartpress_pack\smartpress/functions.php:486
+msgid "skill-type"
+msgstr "技能型"
+
+#: C:\smartpress_pack\smartpress/gallery2col.php:23
+#: C:\smartpress_pack\smartpress/gallery3col.php:23
+#: C:\smartpress_pack\smartpress/gallery4col.php:23
+#: C:\smartpress_pack\smartpress/gallery5col.php:23
+#: C:\smartpress_pack\smartpress/portfolio2col.php:23
+#: C:\smartpress_pack\smartpress/portfolio3col.php:23
+#: C:\smartpress_pack\smartpress/portfolio4col.php:23
+#: C:\smartpress_pack\smartpress/portfolio5col.php:23
+msgid "Filter:"
+msgstr "过滤器:"
+
+#: C:\smartpress_pack\smartpress/links.php:20
+msgid "Edit"
+msgstr "编辑"
+
+#: C:\smartpress_pack\smartpress/search.php:66
+msgid "No Results Found"
+msgstr "一个结果也找不到"
+
+#: C:\smartpress_pack\smartpress/search.php:73
+msgid ""
+"Apologies, but the page you requested could not be found. Try another search"
+msgstr "道歉，但您请求的页面找不到。也许搜索。"
+
+#: C:\smartpress_pack\smartpress/single.php:21
+msgid "In"
+msgstr "以"
+
+#: C:\smartpress_pack\smartpress/single.php:23
+msgid "edit"
+msgstr "编辑"
+
+#: C:\smartpress_pack\smartpress/single.php:74
+msgid "Tags"
+msgstr "标签"
+
+#: C:\smartpress_pack\smartpress/template-contact.php:87
+msgid "Thanks, your email was successfully sent."
+msgstr "谢谢，您的电邮已成功地发送。"
+
+#: C:\smartpress_pack\smartpress/template-contact.php:99
+msgid "There was an error submitting the form."
+msgstr "提交表格时发生错误。"
+
+#: C:\smartpress_pack\smartpress/template-contact.php:101
+msgid "Send Us An Email"
+msgstr "给我们发送电邮"
+
+#: C:\smartpress_pack\smartpress/template-contact.php:120
+msgid "Message"
+msgstr "邮件"
+
+#: C:\smartpress_pack\smartpress/template-contact.php:126
+#: C:\smartpress_pack\smartpress/functions/shortcodes.php:59
+#, fuzzy
+msgid "Submit"
+msgstr "提交评论"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:143
+msgid "General Settings"
+msgstr "常规设置"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:148
+msgid "Call Us in Top"
+msgstr "给我们打电话 (在页首上有电话号码)"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:149
+msgid "e.g. Call Us Free: (800) 888-7777"
+msgstr "例如给我们免费地打电话: (800) 888-7777"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:154
+msgid "Top Bar"
+msgstr "顶栏"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:167
+msgid "Google Map API"
+msgstr "谷歌地图的空气污染指数"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:168
+#, fuzzy
+msgid ""
+"For Google Map Shortcode <a href=\"https://developers.google.com/maps/signup"
+"\">Get Google Map API</a>"
+msgstr ""
+"对于谷歌地图简码 <a href=\\\"http://code.google.com/apis/maps/signup.html\\"
+"\">获取谷歌地图空气污染指数</a>"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:174
+msgid "Custom Logo"
+msgstr "自定义徽标"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:175
+msgid ""
+"Upload a logo for your theme, or image url. (e.g. http://example.com/logo."
+"png)"
+msgstr "上传你的主题徽标，或图片的网址。 (例如,  http://example.com/logo.png)"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:181
+#, fuzzy
+msgid "Enable Breadcrubs"
+msgstr "启用滑块"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:182
+#, fuzzy
+msgid "Check this to enable Breadcrubs."
+msgstr "为显示演示面板复选这个"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:187
+msgid "Custom Favicon"
+msgstr "自定义徽图标"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:188
+msgid "Upload a (16x16px) Png or Gif image."
+msgstr "上载 （16x16px） PNG 或 GIF 图像。"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:193
+#, fuzzy
+msgid "Contact Form Email Address"
+msgstr "电邮联系的表格"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:194
+msgid "Leave blank to use admin email."
+msgstr "留空使用管理员电邮。"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:199
+msgid "FeedBurner URL"
+msgstr "FeedBurner 的网址"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:200
+msgid "Enter your FeedBurner URL"
+msgstr "输入您的 FeedBurner 网址 "
+
+#: C:\smartpress_pack\smartpress/admin/options.php:205
+msgid "Show Demo panel"
+msgstr "显示演示面板"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:206
+msgid "Check this to enable a show demo panel."
+msgstr "为显示演示面板复选这个"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:214
+msgid "Styling"
+msgstr "造型"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:218
+msgid "Layout Style"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:219
+msgid "Wide, Boxed or SuperWide"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:225
+msgid "Predefinded skins"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:233
+msgid "Use Theme skin color"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:234
+msgid "Use a specific Theme skin color instead of predefined"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:239
+#, fuzzy
+msgid "Theme skin color"
+msgstr "页脚链接颜色"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:240
+#, fuzzy
+msgid "(default #F95601)"
+msgstr "(默认 #4E4F59)"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:245
+msgid "Fixed Top Menu"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:246
+msgid "Fixed or Static"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:252
+#, fuzzy
+msgid "Header Style"
+msgstr "博客头的标题"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:253
+msgid "Select your header style"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:260
+#, fuzzy
+msgid "Footer Style"
+msgstr "页脚"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:261
+msgid "Dark or Light footer style"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:268
+msgid "Body Background color"
+msgstr "体的背景颜色"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:269
+msgid "(default #FFFFFF)"
+msgstr "(默认 #FFFFFF)"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:274
+msgid "Texture Overlays"
+msgstr "纹理覆盖"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:284
+msgid "Primary link color"
+msgstr "主链接的颜色"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:285
+#, fuzzy
+msgid "(default #000000)"
+msgstr "(默认 #4E4F59)"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:290
+msgid "Primary link hover color"
+msgstr "主链接悬停颜色"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:291
+msgid "(default #343434)"
+msgstr "(默认 #343434)"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:297
+msgid "Main Layout"
+msgstr "主要布局"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:298
+msgid "Select sidebars alignment."
+msgstr "选择侧边栏对齐。"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:307
+#, fuzzy
+msgid "Custom CSS"
+msgstr "自定义 CMD"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:308
+#, fuzzy
+msgid "Enter some CSS."
+msgstr "输入一些 CMD。"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:316
+msgid "CallMe"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:321
+#, fuzzy
+msgid "Enable Callme"
+msgstr "启用滑块"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:322
+msgid "Enable request a callback function"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:327
+msgid "Callme button Text"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:333
+msgid "Callme email text"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:339
+msgid "Callme Name text"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:345
+msgid "Callme Phone text"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:351
+msgid "Callme Time text"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:360
+msgid "Menu"
+msgstr "菜单"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:365
+msgid "Menu Font family"
+msgstr "菜单上的字体"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:366
+msgid ""
+"Menu Font family - Supported <a href=\\\"http://www.google.com/webfonts\\\"> "
+"Google Font Directory</a>."
+msgstr ""
+"菜单上的字体 - 支持 <a href=\\\"http://www.google.com/webfonts\\\"> 谷歌字体"
+"目录 </a>."
+
+#: C:\smartpress_pack\smartpress/admin/options.php:372
+msgid "Menu Font size"
+msgstr "菜单上的字体大小"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:381
+msgid "Fonts"
+msgstr "字体"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:385
+msgid "Body Font family"
+msgstr "正文字体"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:386
+msgid ""
+"Body Font family - Supported <a href=\\\"http://www.google.com/webfonts\\\"> "
+"Google Font Directory</a>."
+msgstr ""
+"正文字体 - 支持 <a href=\\\"http://www.google.com/webfonts\\\"> 谷歌字体目录 "
+"</a>."
+
+#: C:\smartpress_pack\smartpress/admin/options.php:392
+msgid "Body Font size"
+msgstr "正文字体大小"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:399
+msgid "Body Font color"
+msgstr "正文字体颜色"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:405
+msgid "Headings Font family"
+msgstr "标题的字体"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:413
+msgid "Headings Font color"
+msgstr "标题的字体颜色"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:424
+msgid "SEO"
+msgstr "搜索引擎优化"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:428
+msgid "Google Analytics or other Tracking Code "
+msgstr "谷歌分析或其他跟踪代码"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:429
+msgid "Paste your code here."
+msgstr "这里粘贴你的代码。"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:434
+msgid "Homepage Title"
+msgstr "首页标题"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:435
+msgid "Enter Homepage Title"
+msgstr "输入主页标题"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:440
+msgid "Homepage Description"
+msgstr "首页说明"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:441
+msgid "Enter Homepage Description"
+msgstr "输入首页说明"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:446
+msgid "Homepage Keywords"
+msgstr "首页关键字"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:447
+msgid "Enter Homepage Keywords."
+msgstr "输入首页关键字"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:457
+msgid "Sliders"
+msgstr "滑块"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:461
+msgid "Enable Slider"
+msgstr "启用滑块"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:462
+msgid "Check this to enable the slider on the homepage."
+msgstr "为启用首页的滑块复选这个"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:467
+msgid "Custom Slider"
+msgstr "自定义滑块"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:468
+msgid "Select Custom Slider."
+msgstr "选择自定义滑块。"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:474
+msgid "Nivo Slider Effects"
+msgstr "Nivo 滑块效应"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:475
+msgid "Select Nivo Slider effect. Default \"random\" effect"
+msgstr "选择 Nivo 滑块效应. 默认效应 \"random\""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:482
+msgid "Cycle Slider Effects"
+msgstr "Cycle 滑块效应"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:483
+msgid "Select Cycle Slider effect. Default \"scrollRight\" effect"
+msgstr "选择 Cycle 滑块效应. 默认效应  \"scrollRight\""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:489
+msgid "Accordion Slider Effects"
+msgstr "Accordion 滑块效应"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:490
+msgid "Select Accordion Slider effect. Default \"OutQuint\" effect"
+msgstr "选择 Accordion 滑块效应. 默认效应 \"OutQuint\""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:496
+msgid "Sliders Timeout"
+msgstr "滑块超时"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:497
+msgid "Choose the time in milliseconds for sliders timeout (1000 = 1second)"
+msgstr "以毫秒时间选择滑块超时 (1000 = 1 秒)"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:502
+msgid "Slider Image 1"
+msgstr "滑块图片 1"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:509
+msgid "Slider Image 1 URL"
+msgstr "滑块图片 1 网址"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:510
+#: C:\smartpress_pack\smartpress/admin/options.php:541
+#: C:\smartpress_pack\smartpress/admin/options.php:559
+#: C:\smartpress_pack\smartpress/admin/options.php:580
+#: C:\smartpress_pack\smartpress/admin/options.php:598
+msgid "Choose a link URL for this image."
+msgstr "选择这张图片的网址链接。"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:515
+msgid "Slider Image 1 Content"
+msgstr "滑块图片 1 内容"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:516
+msgid ""
+"Enter the content for this image and for \"Cycle Slider mini with static "
+"content\" "
+msgstr "输入此图片的内容  \"与静态内容 Cycle 微型滑块\" "
+
+#: C:\smartpress_pack\smartpress/admin/options.php:534
+msgid "Slider Image 2"
+msgstr "滑块图片 2"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:540
+msgid "Slider Image 2 URL"
+msgstr "滑块图片 2 网址"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:546
+msgid "Slider Image 2 Content"
+msgstr "滑块图片 2 内容"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:547
+#: C:\smartpress_pack\smartpress/admin/options.php:565
+#: C:\smartpress_pack\smartpress/admin/options.php:586
+#: C:\smartpress_pack\smartpress/admin/options.php:604
+msgid "Enter the content for this image."
+msgstr "输入此图片的内容。"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:552
+msgid "Slider Image 3"
+msgstr "滑块图片 3"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:558
+msgid "Slider Image 3 URL"
+msgstr "滑块图片 3 网址"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:564
+msgid "Slider Image 3 Content"
+msgstr "滑块图片 3 内容"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:573
+msgid "Slider Image 4"
+msgstr "滑块图片 4"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:579
+msgid "Slider Image 4 URL"
+msgstr "滑块图片 4 网址"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:585
+msgid "Slider Image 4 Content"
+msgstr "滑块图片 4 内容"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:591
+msgid "Slider Image 5"
+msgstr "滑块图片 5"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:597
+msgid "Slider Image 5 URL"
+msgstr "滑块图片 5 网址"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:603
+msgid "Slider Image 5 Content"
+msgstr "滑块图片 5 内容"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:612
+msgid "Blog"
+msgstr "博客"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:616
+msgid "Blog Style"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:623
+msgid "Blog Header Title"
+msgstr "博客头的标题"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:624
+msgid "Enter the title of the portfolio area."
+msgstr "输入标题的组合面积。"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:629
+msgid "Blog Thumbnail Height"
+msgstr "博客缩略图高度"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:630
+#, fuzzy
+msgid "default 300"
+msgstr "默认 650"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:638
+msgid "Portfolio"
+msgstr "投资组合"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:643
+msgid "Enable Lightbox"
+msgstr "启用灯箱"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:644
+msgid "Check this to enable the lightbox effect."
+msgstr "为使用灯箱效应复选这个。"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:652
+msgid "Footer"
+msgstr "页脚"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:656
+msgid "Footer Headings Font color"
+msgstr "页脚标题字体颜色"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:662
+msgid "Footer Font color"
+msgstr "页脚字体颜色"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:668
+msgid "Footer Link color"
+msgstr "页脚链接颜色"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:674
+msgid "Footer Link hover color"
+msgstr "页脚链接悬停颜色"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:681
+msgid "Footer Text Right"
+msgstr "页脚右侧的文本"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:682
+#: C:\smartpress_pack\smartpress/admin/options.php:688
+msgid "Enter the text you would like to display in the footer."
+msgstr "输入您想在页脚中显示的文本。"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:687
+msgid "Footer Text Left"
+msgstr "页脚左侧的文本"
+
+#: C:\smartpress_pack\smartpress/functions/flickr.php:21
+msgid "A widget that display your photos."
+msgstr "显示您照片的窗口小部件。"
+
+#: C:\smartpress_pack\smartpress/functions/flickr.php:23
+msgid " | Flickr Photos"
+msgstr " | Flickr 照片"
+
+#: C:\smartpress_pack\smartpress/functions/flickr.php:75
+msgid "Title:"
+msgstr "标题："
+
+#: C:\smartpress_pack\smartpress/functions/flickr.php:80
+msgid "Flickr ID:"
+msgstr "Flickr 的编号："
+
+#: C:\smartpress_pack\smartpress/functions/flickr.php:85
+msgid "Number of Photos:"
+msgstr "照片数量："
+
+#: C:\smartpress_pack\smartpress/functions/flickr.php:94
+msgid "Type (user or group):"
+msgstr "类型（用户或小组）："
+
+#: C:\smartpress_pack\smartpress/functions/flickr.php:102
+msgid "Display (random or latest):"
+msgstr "显示（随机或最新）："
+
+#: C:\smartpress_pack\smartpress/functions/shortcodes.php:121
+msgid "Top"
+msgstr "回首页"
+
+#: C:\smartpress_pack\smartpress/functions/subnav.php:22
+msgid "Display subpages if present page only."
+msgstr "如果有目前的页面只显示子页面。"
+
+#: C:\smartpress_pack\smartpress/functions/subnav.php:24
+msgid " | Subpages"
+msgstr " | 子页面"
+
+#~ msgid "On"
+#~ msgstr "关于"
+
+#~ msgid "portfolio"
+#~ msgstr "投资组合"
+
+#~ msgid "Newer Entries  &#x21d2;"
+#~ msgstr "较新的条目 &#x21d2;"
+
+#~ msgid "To search type and hit enter"
+#~ msgstr "要搜索的类型，并按下回车键"
+
+#~ msgid "Enable Plain Text Logo"
+#~ msgstr "启用简单的文本徽标"
+
+#~ msgid "Check this to enable a plain text logo."
+#~ msgstr "为启用简单的文本徽标复选这个"
+
+#~ msgid "Main Site Background color"
+#~ msgstr "主网站的背景颜色"
+
+#~ msgid "Header Background color"
+#~ msgstr "标题背景颜色"
+
+#~ msgid "(default #336699)"
+#~ msgstr "(默认 #336699)"
+
+#~ msgid "Selection text background color"
+#~ msgstr "选择文本的背景颜色"
+
+#~ msgid "(default #78c246)"
+#~ msgstr "(默认 #78c246)"
+
+#~ msgid "Menu Background Color"
+#~ msgstr "菜单的背景颜色"
+
+#~ msgid "Menu Font color"
+#~ msgstr "菜单上的字体颜色"
+
+#~ msgid "Image must be 940px x 350px or 500 px x 350px for mini slider"
+#~ msgstr "图片必须是 940px x 350px 或 500px x 350px 微型滑块"
+
+#~ msgid "Slider Image 6"
+#~ msgstr "滑块图片 6"
+
+#~ msgid "Slider Image 6 URL"
+#~ msgstr "滑块图片 6 网址"
+
+#~ msgid "Slider Image 6 Content"
+#~ msgstr "滑块图片 6 内容"
+
+#~ msgid "Blog Thumbnail Width"
+#~ msgstr "博客缩略图宽度"
+
+#~ msgid "default 240"
+#~ msgstr "默认 240"
+
+#~ msgid "Show Featured Image"
+#~ msgstr "显示推荐图片"
+
+#~ msgid "Check this to show the featured image in blog posts."
+#~ msgstr "为显示博客文章的功能图像复选这个。"
+
+#~ msgid "Footer Background color"
+#~ msgstr "页脚的背景颜色"
+
+#~ msgid "A widget display Recent tweets."
+#~ msgstr "窗口小部件显示最近的 Tweets。"
+
+#~ msgid " | Recent Tweets"
+#~ msgstr " | 最近的 Tweets"
+
+#~ msgid "Twitter Username e.g. alanarmanov"
+#~ msgstr "Twitter 用户名，例如 Alanarmanov"
+
+#~ msgid "Number of tweets (max 20)"
+#~ msgstr "Tweets 的号码 （最多二十个）"
+
+#~ msgid "Follow Text e.g. Follow on Twitter"
+#~ msgstr "按照文本，例如按照在 Twitter"

@@ -1,0 +1,276 @@
+
+
+
+
+
+.shortbox * {
+ transition-duration: 0.3s;
+ transition-property: all;
+ transition-timing-function: linear;
+}
+
+.shortbox {
+    background: none repeat scroll 0 0 #EEF1F4;
+    border: 12px solid #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.26) !important;
+    display: none;
+    height: 70%;
+    margin: 0 auto !important;
+    overflow: scroll !important;
+    position: fixed;
+    top: 122px;
+    width: 72% !important;
+    z-index: 2147483647;
+}
+
+.shortbox ul {
+    margin: 0;
+    width: 100%;
+}
+
+
+
+.shortbox ul b {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #E7E9EB;
+    border-top: 1px solid #FFFFFF;
+    box-shadow: 0 1px 2px #E2E8F1;
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 7px 3% 5px;
+    text-align: center;
+    width: 94%;
+}
+    
+.shortbox li {
+    cursor: pointer;
+    margin: 0;
+    padding: 0 10px 0 10px;
+}
+
+
+.shortbox li {
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    margin: 0 0 0 1%;
+    min-width: 245px;
+    padding: 10px 0;
+    text-shadow: 0 2px 0 #FFFFFF;
+    vertical-align: top;
+    width: 31%;
+}
+
+.shortbox li li {
+    background: none repeat scroll 0 0 #F5F6F8;
+    border-bottom: 1px solid #E7E9EB;
+    border-top: 1px solid #FBFDFF;
+    box-shadow: 0 1px 2px #D8DEE7;
+    display: inline-block;
+    float: none;
+    font-size: 11px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+    min-width: 0;
+    padding: 5px 0 5px 4%;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 46%;
+}
+
+.shortbox li li:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    text-indent: 0;
+}
+
+.shortbox li b:hover {
+    background: none repeat scroll 0 0 #FCFCFC;
+    box-shadow: 0 1px 3px #B5B5B5;
+    color: #000000;
+    text-indent: 0;
+} 
+
+.shortbox i {
+    color: #2D6694;
+    display: inline-block;
+    margin-left: -9px;
+    margin-right: 3px;
+}
+
+
+.mce-i-startis_button, .mce-i-startis_columns, .mce-i-startis_icons {
+    background: url("images/shortsprite.png") no-repeat scroll center center #FFFFFF !important;
+    border: 1px solid #CFD1D3 !important;
+    border-radius: 3px !important;
+    box-shadow: 0 1px 2px #D8D8D8 !important;
+    color: #666666 !important;
+    cursor: pointer;
+    font-size: 12px !important;
+    margin-right: 0 !important;
+    overflow: hidden;
+    padding: 3px 5px 0 22px !important;
+    position: relative !important;
+    width: 65px !important;
+}
+
+.mce-i-startis_button:after {
+    content: 'Shortcodes';
+}
+
+.mce-i-startis_columns:after {
+    content: 'Columns';
+}
+
+.mce-i-startis_icons:after {
+    content: 'Icons';
+}
+
+
+.mce-i-startis_button:after, .mce-i-startis_columns:after ,.mce-i-startis_icons:after {
+    color: #777777;
+    left: 24px;
+    margin-top: 0;
+    position: absolute;
+    top: 1px;
+}
+
+
+
+a.mce_startis_button span, a.mce_startis_columns span, a.mce_startis_pages span, a.mce_startis_icons span,
+a#content_startis_button span, a#content_startis_columns span, a#content_startis_pages span, a#content_startis_icons span {
+    color: #666666;
+    display: inline-block !important;
+    left: 23px;
+    position: absolute;
+    top: 3px;
+    cursor: pointer;
+}
+
+a.mce_startis_button span:hover, a.mce_startis_columns span:hover, a.mce_startis_pages span:hover, a.mce_startis_icons span:hover,
+a#content_startis_button span:hover, a#content_startis_columns span:hover, a#content_startis_pages span:hover, a#content_startis_icons span:hover {
+    color: #222;
+}
+
+.mce-i-startis_button {
+    background-position: -18px -39px !important;
+}
+
+.mce-i-startis_columns {
+    background-position: -37px -19px !important;
+    width: 54px !important;
+}
+
+.mce-i-startis_icons {
+    background-position: 2px -59px !important;
+    text-indent: 1px;
+    width: 33px !important;
+}
+
+.mce_startis_button {
+    width: 100%;
+}
+
+.shortbox .closedrop {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px #D8DFE6;
+    cursor: pointer;
+    padding: 5px 10px;
+    position: absolute;
+    right: 7px;
+    top: 10px;
+}
+
+.shortbox .closedrop i {
+    margin-left: 0;
+}
+
+#dropicons.shortbox i {
+    margin-left: 0;
+}
+
+#dropicons {
+    box-shadow: -2px 3px 6px rgba(0, 0, 0, 0.15) inset;
+    overflow: scroll;
+}
+
+#dropicons section {
+    display: inline-block;
+    padding: 10px 10px 10px 21px;
+}
+
+#dropicons section .alert-info {
+    display: inline-block;
+    width: 100%;
+}
+
+
+#dropicons h2 {
+    margin: 0 0 5px;
+}
+
+.shortbox .span3 {
+    display: inline-block;
+    height: 35px;
+    margin-right: 13px;
+    text-align: center;
+    width: 37px;
+}
+
+.shortbox .the-icons a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 1px 1px #D8DFE6;
+    color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    font-size: 18px !important;
+    height: 25px;
+    overflow: hidden;
+    padding-top: 7px;
+    text-align: center;
+    text-decoration: none !important;
+    text-indent: 1px;
+    text-shadow: 0 0 0 #FFFFFF;
+    width: 35px;
+}
+
+
+
+.shortbox .the-icons i:hover {
+    color: #F95601;
+}
+
+.shorcont {
+    display: none;
+}
+
+
+@media (min-width:1100px) {
+.shortbox li {
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    margin: 0 0 0 1%;
+    min-width: 245px;
+    padding: 10px 0;
+    text-shadow: 0 2px 0 #FFFFFF;
+    vertical-align: top;
+    width: 44%;
+}
+}
+
+@media (max-width:1100px) {
+ /*   .shortbox {
+    overflow: scroll;
+    }
+    
+.shortbox li {
+    float: none;
+    vertical-align: top;
+}*/
+
+}

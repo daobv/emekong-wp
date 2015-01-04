@@ -1,0 +1,1007 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-26 21:39+0600\n"
+"PO-Revision-Date: 2013-06-26 21:39+0600\n"
+"Last-Translator: Alan Armanov <airatzaf@yandex.ru>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: c:\\smartpress_pack\\smartpress\n"
+
+#: c:\smartpress_pack\smartpress/404.php:7
+#: c:\smartpress_pack\smartpress/archive.php:94
+#: c:\smartpress_pack\smartpress/index.php:76
+#: c:\smartpress_pack\smartpress/page.php:33
+#: c:\smartpress_pack\smartpress/single.php:97
+#: c:\smartpress_pack\smartpress/template-full.php:37
+msgid "Error 404 - Not Found"
+msgstr "エラー404　ページが見つかりませんでした"
+
+#: c:\smartpress_pack\smartpress/404.php:18
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+"残念ながら、あなたがリクエストしたページは見つかりませんでした。おそらく、検"
+"索が役立ちます。"
+
+#: c:\smartpress_pack\smartpress/adminfunctions.php:1771
+#: c:\smartpress_pack\smartpress/adminfunctions.php:1792
+#: c:\smartpress_pack\smartpress/adminfunctions.php:1815
+#: c:\smartpress_pack\smartpress/adminfunctions.php:1817
+#: c:\smartpress_pack\smartpress/header.php:383
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:61
+msgid "Close"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/archive.php:15
+#: c:\smartpress_pack\smartpress/functions.php:249
+#, php-format
+msgid "All posts in %s"
+msgstr "%sの全ての投稿"
+
+#: c:\smartpress_pack\smartpress/archive.php:17
+#: c:\smartpress_pack\smartpress/functions.php:311
+#, php-format
+msgid "All posts tagged %s"
+msgstr "全ての投稿に%sのタグを付ける"
+
+#: c:\smartpress_pack\smartpress/archive.php:19
+#: c:\smartpress_pack\smartpress/archive.php:21
+#: c:\smartpress_pack\smartpress/archive.php:23
+msgid "Archive for"
+msgstr "アーカイブ"
+
+#: c:\smartpress_pack\smartpress/archive.php:25
+#: c:\smartpress_pack\smartpress/functions.php:319
+msgid "All posts by"
+msgstr "ユーザーの全ての投稿"
+
+#: c:\smartpress_pack\smartpress/archive.php:27
+msgid "Blog Archives"
+msgstr "ブログのアーカイブ"
+
+#: c:\smartpress_pack\smartpress/archive.php:41
+#: c:\smartpress_pack\smartpress/functions.php:1099
+#: c:\smartpress_pack\smartpress/functions.php:1120
+#: c:\smartpress_pack\smartpress/index.php:18
+#: c:\smartpress_pack\smartpress/portfolio2col.php:62
+#: c:\smartpress_pack\smartpress/portfolio3col.php:62
+#: c:\smartpress_pack\smartpress/portfolio4col.php:62
+#: c:\smartpress_pack\smartpress/portfolio5col.php:63
+#: c:\smartpress_pack\smartpress/search.php:32
+#: c:\smartpress_pack\smartpress/single.php:15
+#: c:\smartpress_pack\smartpress/functions/recent_tabs.php:72
+#: c:\smartpress_pack\smartpress/functions/recent_tabs.php:110
+#, php-format
+msgid "Permanent Link to %s"
+msgstr " %sへ常にリンク"
+
+#: c:\smartpress_pack\smartpress/archive.php:45
+#: c:\smartpress_pack\smartpress/index.php:22
+#: c:\smartpress_pack\smartpress/single.php:19
+msgid "By"
+msgstr "投稿者"
+
+#: c:\smartpress_pack\smartpress/archive.php:48
+#: c:\smartpress_pack\smartpress/index.php:25
+#: c:\smartpress_pack\smartpress/single.php:22
+msgid "With"
+msgstr "コメント数"
+
+#: c:\smartpress_pack\smartpress/archive.php:48
+#: c:\smartpress_pack\smartpress/comments.php:23
+#: c:\smartpress_pack\smartpress/index.php:25
+#: c:\smartpress_pack\smartpress/single.php:22
+msgid "No Comments"
+msgstr "ノーコメント"
+
+#: c:\smartpress_pack\smartpress/archive.php:48
+#: c:\smartpress_pack\smartpress/index.php:25
+#: c:\smartpress_pack\smartpress/single.php:22
+msgid "1 Comment"
+msgstr "１つのコメント"
+
+#: c:\smartpress_pack\smartpress/archive.php:48
+#: c:\smartpress_pack\smartpress/comments.php:23
+#: c:\smartpress_pack\smartpress/index.php:25
+#: c:\smartpress_pack\smartpress/single.php:22
+msgid "% Comments"
+msgstr "%のコメント"
+
+#: c:\smartpress_pack\smartpress/archive.php:67
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:728
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:731
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:808
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:811
+msgid " Read More &rArr;"
+msgstr "もっと読む&rArr;"
+
+#: c:\smartpress_pack\smartpress/archive.php:83
+#: c:\smartpress_pack\smartpress/index.php:64
+#: c:\smartpress_pack\smartpress/search.php:56
+msgid "&lArr; Older Entries"
+msgstr "&lArr;過去のエントリー"
+
+#: c:\smartpress_pack\smartpress/archive.php:84
+#: c:\smartpress_pack\smartpress/index.php:65
+#: c:\smartpress_pack\smartpress/search.php:57
+msgid "Newer Entries &rArr;"
+msgstr "最新のエントリー&rArr;"
+
+#: c:\smartpress_pack\smartpress/archive.php:98
+#: c:\smartpress_pack\smartpress/index.php:79
+#: c:\smartpress_pack\smartpress/page.php:36
+#: c:\smartpress_pack\smartpress/single.php:100
+#: c:\smartpress_pack\smartpress/template-full.php:40
+msgid "Sorry, but you are looking for something that is not here."
+msgstr "残念ながら、探しているものはここにありません。"
+
+#: c:\smartpress_pack\smartpress/comments.php:11
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"この投稿はパスワードで保護されています。コメントを表示するのに、パスワードを"
+"入力してください。"
+
+#: c:\smartpress_pack\smartpress/comments.php:23
+msgid "One Comment"
+msgstr "一つのコメント"
+
+#: c:\smartpress_pack\smartpress/comments.php:39
+msgid "Comments are closed."
+msgstr "コメントは締め切られました。"
+
+#: c:\smartpress_pack\smartpress/comments.php:49
+msgid "Leave a Comment"
+msgstr "コメントを残す"
+
+#: c:\smartpress_pack\smartpress/comments.php:49
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "%sへの返信を残す"
+
+#: c:\smartpress_pack\smartpress/comments.php:58
+#, fuzzy, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "コメントするのに %2$s に %1$s をログインする必要があります。"
+
+#: c:\smartpress_pack\smartpress/comments.php:65
+#, php-format
+msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr "%1$sとしてログインする. %2$sLog out &raquo;%3$s"
+
+#: c:\smartpress_pack\smartpress/comments.php:65
+msgid "Log out of this account"
+msgstr "このアカウントからログアウトする"
+
+#: c:\smartpress_pack\smartpress/comments.php:70
+#: c:\smartpress_pack\smartpress/template-contact.php:105
+msgid "Name"
+msgstr "名前"
+
+#: c:\smartpress_pack\smartpress/comments.php:73
+#: c:\smartpress_pack\smartpress/template-contact.php:112
+msgid "Email"
+msgstr "Eメール"
+
+#: c:\smartpress_pack\smartpress/comments.php:73
+msgid "(not published)"
+msgstr "(公表されていない)"
+
+#: c:\smartpress_pack\smartpress/comments.php:76
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: c:\smartpress_pack\smartpress/comments.php:83
+msgid "Submit Comment"
+msgstr "コメントを送信する"
+
+#: c:\smartpress_pack\smartpress/functions.php:17
+msgid "main Menu"
+msgstr "メインメニュー"
+
+#: c:\smartpress_pack\smartpress/functions.php:230
+msgid "Home"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/functions.php:308
+#: c:\smartpress_pack\smartpress/search.php:4
+#: c:\smartpress_pack\smartpress/searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/functions.php:327
+msgid "Page"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/functions.php:350
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: c:\smartpress_pack\smartpress/functions.php:353
+#: c:\smartpress_pack\smartpress/js/callme.php:23
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: c:\smartpress_pack\smartpress/functions.php:353
+msgid "[Edit]"
+msgstr "「編集」"
+
+#: c:\smartpress_pack\smartpress/functions.php:356
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認を待っています。"
+
+#: c:\smartpress_pack\smartpress/functions.php:405
+#, php-format
+msgid "View all items filed under %s"
+msgstr " %sにある項目全てを見る"
+
+#: c:\smartpress_pack\smartpress/functions.php:433
+msgid "Portfolio Items"
+msgstr "ポートフォリオの項目"
+
+#: c:\smartpress_pack\smartpress/functions.php:435
+msgid "Add New Item"
+msgstr "新しい項目を追加する"
+
+#: c:\smartpress_pack\smartpress/functions.php:436
+msgid "Add New Portfolio"
+msgstr "新しいポートフォリオを追加する"
+
+#: c:\smartpress_pack\smartpress/functions.php:437
+msgid "Edit Portfolio"
+msgstr "ポートフォリオを編集する"
+
+#: c:\smartpress_pack\smartpress/functions.php:438
+msgid "New Portfolio"
+msgstr "新しいポートフォリオ"
+
+#: c:\smartpress_pack\smartpress/functions.php:439
+msgid "View Portfolio"
+msgstr "ポートフォリオを見る"
+
+#: c:\smartpress_pack\smartpress/functions.php:440
+msgid "Search Portfolio"
+msgstr "ポートフォリオを検索する"
+
+#: c:\smartpress_pack\smartpress/functions.php:441
+msgid "No portfolios found"
+msgstr "ポートフォリオが見つかりませんでした"
+
+#: c:\smartpress_pack\smartpress/functions.php:442
+msgid "No portfolios found in Trash"
+msgstr "ゴミ箱にポートフォリオが見つかりませんでした"
+
+#: c:\smartpress_pack\smartpress/functions.php:466
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: c:\smartpress_pack\smartpress/functions.php:466
+msgid "Skill Type"
+msgstr "スキルタイプ"
+
+#: c:\smartpress_pack\smartpress/functions.php:474
+msgid "Portfolio Item Title"
+msgstr "ポートフォリオの項目のタイトル"
+
+#: c:\smartpress_pack\smartpress/functions.php:475
+#: c:\smartpress_pack\smartpress/functions.php:485
+msgid "type"
+msgstr "タイプ"
+
+#: c:\smartpress_pack\smartpress/functions.php:486
+msgid "skill-type"
+msgstr "スキルタイプ"
+
+#: c:\smartpress_pack\smartpress/gallery2col.php:23
+#: c:\smartpress_pack\smartpress/gallery3col.php:23
+#: c:\smartpress_pack\smartpress/gallery4col.php:23
+#: c:\smartpress_pack\smartpress/gallery5col.php:23
+#: c:\smartpress_pack\smartpress/portfolio2col.php:23
+#: c:\smartpress_pack\smartpress/portfolio3col.php:23
+#: c:\smartpress_pack\smartpress/portfolio4col.php:23
+#: c:\smartpress_pack\smartpress/portfolio5col.php:23
+msgid "Filter:"
+msgstr "フィルター"
+
+#: c:\smartpress_pack\smartpress/links.php:20
+msgid "Edit"
+msgstr "編集"
+
+#: c:\smartpress_pack\smartpress/search.php:66
+msgid "No Results Found"
+msgstr "リクエストが見つかりませんでした"
+
+#: c:\smartpress_pack\smartpress/search.php:73
+msgid ""
+"Apologies, but the page you requested could not be found. Try another search"
+msgstr ""
+"残念ながら、あなたがリクエストしたページは見つかりませんでした。もう一度、検"
+"索してください。"
+
+#: c:\smartpress_pack\smartpress/single.php:21
+msgid "In"
+msgstr "カテゴリー"
+
+#: c:\smartpress_pack\smartpress/single.php:23
+msgid "edit"
+msgstr "編集"
+
+#: c:\smartpress_pack\smartpress/single.php:74
+msgid "Tags"
+msgstr "タグ"
+
+#: c:\smartpress_pack\smartpress/template-contact.php:87
+msgid "Thanks, your email was successfully sent."
+msgstr "ありがとうございます。あなたのEメールは送信されました。"
+
+#: c:\smartpress_pack\smartpress/template-contact.php:99
+msgid "There was an error submitting the form."
+msgstr "フォーム送信にエラーが発生しました。"
+
+#: c:\smartpress_pack\smartpress/template-contact.php:101
+msgid "Send Us An Email"
+msgstr "私たちにEメールを送信してください"
+
+#: c:\smartpress_pack\smartpress/template-contact.php:120
+msgid "Message"
+msgstr "メッセージ"
+
+#: c:\smartpress_pack\smartpress/template-contact.php:126
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:59
+#, fuzzy
+msgid "Submit"
+msgstr "コメントを送信する"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:143
+msgid "General Settings"
+msgstr "一般設定"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:148
+msgid "Call Us in Top"
+msgstr "私たちに電話してください（一番上にある番号）"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:149
+msgid "e.g. Call Us Free: (800) 888-7777"
+msgstr "例　無料電話番号: (800) 888-7777"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:154
+msgid "Top Bar"
+msgstr "トップバー"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:167
+msgid "Google Map API"
+msgstr "Google Map API"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:168
+#, fuzzy
+msgid ""
+"For Google Map Shortcode <a href=\"https://developers.google.com/maps/signup"
+"\">Get Google Map API</a>"
+msgstr ""
+" Google Mapのショートコード  <a href=\\\"http://code.google.com/apis/maps/"
+"signup.html\\\">Get Google Map API</a>"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:174
+msgid "Custom Logo"
+msgstr "カスタムロゴ"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:175
+msgid ""
+"Upload a logo for your theme, or image url. (e.g. http://example.com/logo."
+"png)"
+msgstr ""
+"あなたのテーマのロゴや画像のURLをアップロード　（例、http://example.com/logo."
+"png)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:181
+#, fuzzy
+msgid "Enable Breadcrubs"
+msgstr "スライダーを有効にする"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:182
+#, fuzzy
+msgid "Check this to enable Breadcrubs."
+msgstr "デモパネルを表示するために、これをチェックする"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:187
+msgid "Custom Favicon"
+msgstr "カスタムファビコン"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:188
+msgid "Upload a (16x16px) Png or Gif image."
+msgstr "PNGまたはGIF画像（16x16px）をアップロードする"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:193
+#, fuzzy
+msgid "Contact Form Email Address"
+msgstr "Eメールアドレスのコンタクトフォーム"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:194
+msgid "Leave blank to use admin email."
+msgstr "管理者のEメールを使用するために空白を残してください"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:199
+msgid "FeedBurner URL"
+msgstr "FeedBurner URL"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:200
+msgid "Enter your FeedBurner URL"
+msgstr "あなたのFeedBurner URLを入力してください"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:205
+msgid "Show Demo panel"
+msgstr "デモパネルを表示する"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:206
+msgid "Check this to enable a show demo panel."
+msgstr "デモパネルを表示するために、これをチェックする"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:214
+msgid "Styling"
+msgstr "ページスタイルの設定"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:218
+msgid "Layout Style"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:219
+msgid "Wide, Boxed or SuperWide"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:225
+msgid "Predefinded skins"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:233
+msgid "Use Theme skin color"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:234
+msgid "Use a specific Theme skin color instead of predefined"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:239
+#, fuzzy
+msgid "Theme skin color"
+msgstr "フッターリンクの色"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:240
+#, fuzzy
+msgid "(default #F95601)"
+msgstr "(default #4E4F59)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:245
+msgid "Fixed Top Menu"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:246
+msgid "Fixed or Static"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:252
+#, fuzzy
+msgid "Header Style"
+msgstr "ブログのヘッダータイトル"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:253
+msgid "Select your header style"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:260
+#, fuzzy
+msgid "Footer Style"
+msgstr "フッター"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:261
+msgid "Dark or Light footer style"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:268
+msgid "Body Background color"
+msgstr "ボディー背景色"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:269
+msgid "(default #FFFFFF)"
+msgstr "(default #FFFFFF)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:274
+msgid "Texture Overlays"
+msgstr "テクスチャオーバーレイ"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:284
+msgid "Primary link color"
+msgstr "プライマリリンクの色"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:285
+#, fuzzy
+msgid "(default #000000)"
+msgstr "(default #4E4F59)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:290
+msgid "Primary link hover color"
+msgstr "マウスを合わせたときのプライマリリンクの色"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:291
+msgid "(default #343434)"
+msgstr "(default #343434)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:297
+msgid "Main Layout"
+msgstr "メインレイアウト"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:298
+msgid "Select sidebars alignment."
+msgstr "サイドバーのアライメントを選択してください"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:307
+#, fuzzy
+msgid "Custom CSS"
+msgstr "カスタムCmd"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:308
+#, fuzzy
+msgid "Enter some CSS."
+msgstr "いくつかのCmdを入力する"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:316
+msgid "CallMe"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:321
+#, fuzzy
+msgid "Enable Callme"
+msgstr "スライダーを有効にする"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:322
+msgid "Enable request a callback function"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:327
+msgid "Callme button Text"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:333
+msgid "Callme email text"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:339
+msgid "Callme Name text"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:345
+msgid "Callme Phone text"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:351
+msgid "Callme Time text"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:360
+msgid "Menu"
+msgstr "メニュー"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:365
+msgid "Menu Font family"
+msgstr "フォントファミリーのメニュー"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:366
+msgid ""
+"Menu Font family - Supported <a href=\\\"http://www.google.com/webfonts\\\"> "
+"Google Font Directory</a>."
+msgstr ""
+"フォントファミリーのメニューはサポートされています。<a href=\\\"http://www."
+"google.com/webfonts\\\"> Google Font Directory</a>."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:372
+msgid "Menu Font size"
+msgstr "フォントサイズのメニュー"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:381
+msgid "Fonts"
+msgstr "フォント"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:385
+msgid "Body Font family"
+msgstr "ボディーのフォントファミリー"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:386
+msgid ""
+"Body Font family - Supported <a href=\\\"http://www.google.com/webfonts\\\"> "
+"Google Font Directory</a>."
+msgstr ""
+"ボディーのフォントファミリーはサポートされている　<a href=\\\"http://www."
+"google.com/webfonts\\\"> Google Font Directory</a>."
+
+#: c:\smartpress_pack\smartpress/admin/options.php:392
+msgid "Body Font size"
+msgstr "ボディーのフォントサイズ"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:399
+msgid "Body Font color"
+msgstr "ボディーのフォントの色"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:405
+msgid "Headings Font family"
+msgstr "ヘッダーのフォントファミリー"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:413
+msgid "Headings Font color"
+msgstr "ヘッダーのフォントの色"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:424
+msgid "SEO"
+msgstr "SEO"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:428
+msgid "Google Analytics or other Tracking Code "
+msgstr "Google Analyticsまたは他のトラッキングコード"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:429
+msgid "Paste your code here."
+msgstr "あなたのコードをここに貼り付けてください。"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:434
+msgid "Homepage Title"
+msgstr "ホームページのタイトル"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:435
+msgid "Enter Homepage Title"
+msgstr "ホームページのタイトルを入力する"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:440
+msgid "Homepage Description"
+msgstr "ホームページの説明"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:441
+msgid "Enter Homepage Description"
+msgstr "ホームページの説明を入力する"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:446
+msgid "Homepage Keywords"
+msgstr "ホームページのキーワード"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:447
+msgid "Enter Homepage Keywords."
+msgstr "ホームページのキーワードを入力する"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:457
+msgid "Sliders"
+msgstr "スライダー"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:461
+msgid "Enable Slider"
+msgstr "スライダーを有効にする"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:462
+msgid "Check this to enable the slider on the homepage."
+msgstr "ホームページのスライダーを有効にするために、これをチェックする"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:467
+msgid "Custom Slider"
+msgstr "カスタムスライダー"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:468
+msgid "Select Custom Slider."
+msgstr "カスタムスライダーを選択する"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:474
+msgid "Nivo Slider Effects"
+msgstr "Nivoスライダーエフェクト"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:475
+msgid "Select Nivo Slider effect. Default \"random\" effect"
+msgstr "Nivoスライダーエフェクトを選択する。 デフォルトエフェクト \"random\""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:482
+msgid "Cycle Slider Effects"
+msgstr "スライダーエフェクトのサイクル"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:483
+msgid "Select Cycle Slider effect. Default \"scrollRight\" effect"
+msgstr ""
+"スライダーエフェクトのサイクルを選択する。 デフォルトエフェクト\"scrollRight"
+"\" "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:489
+msgid "Accordion Slider Effects"
+msgstr "Accordion スライダーのエフェクト"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:490
+msgid "Select Accordion Slider effect. Default \"OutQuint\" effect"
+msgstr ""
+"Accordion スライダーのエフェクトを選択してください。デフォルトエフェクト "
+"\"OutQuint\" "
+
+#: c:\smartpress_pack\smartpress/admin/options.php:496
+msgid "Sliders Timeout"
+msgstr "スライダーのタイムアウト"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:497
+msgid "Choose the time in milliseconds for sliders timeout (1000 = 1second)"
+msgstr ""
+"スライダーのタイムアウト時間（ミリ秒単位）を選択してください(1000 = 1second)"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:502
+msgid "Slider Image 1"
+msgstr "スライダー画像１"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:509
+msgid "Slider Image 1 URL"
+msgstr "スライダー画像１のURL"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:510
+#: c:\smartpress_pack\smartpress/admin/options.php:541
+#: c:\smartpress_pack\smartpress/admin/options.php:559
+#: c:\smartpress_pack\smartpress/admin/options.php:580
+#: c:\smartpress_pack\smartpress/admin/options.php:598
+msgid "Choose a link URL for this image."
+msgstr "この画像のURLリンクを選択してください。"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:515
+msgid "Slider Image 1 Content"
+msgstr "スライダー画像１のコンテンツ"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:516
+msgid ""
+"Enter the content for this image and for \"Cycle Slider mini with static "
+"content\" "
+msgstr ""
+"この画像と \"Cycle Slider mini with static content\" のコンテンツを入力する"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:534
+msgid "Slider Image 2"
+msgstr "スライダー画像２"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:540
+msgid "Slider Image 2 URL"
+msgstr "スライダー画像２のURL"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:546
+msgid "Slider Image 2 Content"
+msgstr "スライダー画像２のコンテンツ"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:547
+#: c:\smartpress_pack\smartpress/admin/options.php:565
+#: c:\smartpress_pack\smartpress/admin/options.php:586
+#: c:\smartpress_pack\smartpress/admin/options.php:604
+msgid "Enter the content for this image."
+msgstr "この画像のコンテンツを入力する。"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:552
+msgid "Slider Image 3"
+msgstr "スライダー画像３"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:558
+msgid "Slider Image 3 URL"
+msgstr "スライダー画像３のURL"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:564
+msgid "Slider Image 3 Content"
+msgstr "スライダー画像３のコンテンツ"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:573
+msgid "Slider Image 4"
+msgstr "スライダー画像４"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:579
+msgid "Slider Image 4 URL"
+msgstr "スライダー４画像のURL"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:585
+msgid "Slider Image 4 Content"
+msgstr "スライダー画像４のコンテンツ"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:591
+msgid "Slider Image 5"
+msgstr "スライダー画像５"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:597
+msgid "Slider Image 5 URL"
+msgstr "スライダー画像５のURL"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:603
+msgid "Slider Image 5 Content"
+msgstr "スライダー画像５のコンテンツ"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:612
+msgid "Blog"
+msgstr "ブログ"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:616
+msgid "Blog Style"
+msgstr ""
+
+#: c:\smartpress_pack\smartpress/admin/options.php:623
+msgid "Blog Header Title"
+msgstr "ブログのヘッダータイトル"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:624
+msgid "Enter the title of the portfolio area."
+msgstr "ポートフォリオエリアのタイトルを入力する。"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:629
+msgid "Blog Thumbnail Height"
+msgstr "ブログのサムネイルの高さ"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:630
+#, fuzzy
+msgid "default 300"
+msgstr "デフォルト650"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:638
+msgid "Portfolio"
+msgstr "ポートフォリオ"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:643
+msgid "Enable Lightbox"
+msgstr "Lightboxを有効にする　"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:644
+msgid "Check this to enable the lightbox effect."
+msgstr "lightboxのエフェクトを有効にするために、これをチェックする"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:652
+msgid "Footer"
+msgstr "フッター"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:656
+msgid "Footer Headings Font color"
+msgstr "ヘッダーのフォントの色"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:662
+msgid "Footer Font color"
+msgstr "フッターのフォントの色"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:668
+msgid "Footer Link color"
+msgstr "フッターリンクの色"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:674
+msgid "Footer Link hover color"
+msgstr "マウスを合わせたときのフッターリンクの色"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:681
+msgid "Footer Text Right"
+msgstr "フッターテキストの右"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:682
+#: c:\smartpress_pack\smartpress/admin/options.php:688
+msgid "Enter the text you would like to display in the footer."
+msgstr "フッターに表示したいテキストを入力してください。"
+
+#: c:\smartpress_pack\smartpress/admin/options.php:687
+msgid "Footer Text Left"
+msgstr "フッターテキストの左"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:21
+msgid "A widget that display your photos."
+msgstr "あなたの写真を表示するウィジェット"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:23
+msgid " | Flickr Photos"
+msgstr " |　 Flickr 写真"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:75
+msgid "Title:"
+msgstr "タイトル："
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:80
+msgid "Flickr ID:"
+msgstr "Flickr ID:"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:85
+msgid "Number of Photos:"
+msgstr "写真の数:"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:94
+msgid "Type (user or group):"
+msgstr "タイプ (ユーザーまたは グループ):"
+
+#: c:\smartpress_pack\smartpress/functions/flickr.php:102
+msgid "Display (random or latest):"
+msgstr "表示する　（ランダムまたは最新）"
+
+#: c:\smartpress_pack\smartpress/functions/shortcodes.php:121
+msgid "Top"
+msgstr "トップ"
+
+#: c:\smartpress_pack\smartpress/functions/subnav.php:22
+msgid "Display subpages if present page only."
+msgstr "サブページページが一つでもあるなら、表示する"
+
+#: c:\smartpress_pack\smartpress/functions/subnav.php:24
+msgid " | Subpages"
+msgstr " | サブページ"
+
+#~ msgid "On"
+#~ msgstr "年月日"
+
+#~ msgid "portfolio"
+#~ msgstr "ポートフォリオ"
+
+#~ msgid "Newer Entries  &#x21d2;"
+#~ msgstr "最新のエントリー &#x21d2;"
+
+#~ msgid "To search type and hit enter"
+#~ msgstr "検索するのにタイプを入力してエンターを押してください"
+
+#~ msgid "Enable Plain Text Logo"
+#~ msgstr "プレーンテキストのロゴを有効にする"
+
+#~ msgid "Check this to enable a plain text logo."
+#~ msgstr "プレーンテキストのロゴを有効にするために、これをチェックする"
+
+#~ msgid "Main Site Background color"
+#~ msgstr "メインサイトの背景色"
+
+#~ msgid "Header Background color"
+#~ msgstr "ヘッダーの背景色"
+
+#~ msgid "(default #336699)"
+#~ msgstr "(default #336699)"
+
+#~ msgid "Selection text background color"
+#~ msgstr "選択したテキストの背景色"
+
+#~ msgid "(default #78c246)"
+#~ msgstr "(default #78c246)"
+
+#~ msgid "Menu Background Color"
+#~ msgstr "メニューの背景色"
+
+#~ msgid "Menu Font color"
+#~ msgstr "フォントの色のメニュー"
+
+#~ msgid "Image must be 940px x 350px or 500 px x 350px for mini slider"
+#~ msgstr ""
+#~ "画像のサイズは940px x 350pxまたはミニスライダー用に500 px x 350pxの必要が"
+#~ "ある"
+
+#~ msgid "Slider Image 6"
+#~ msgstr "スライダー画像６"
+
+#~ msgid "Slider Image 6 URL"
+#~ msgstr "スライダー画像６のURL"
+
+#~ msgid "Slider Image 6 Content"
+#~ msgstr "スライダー画像６のコンテンツ"
+
+#~ msgid "Blog Thumbnail Width"
+#~ msgstr "ブログのサムネイルの幅"
+
+#~ msgid "default 240"
+#~ msgstr "デフォルト240"
+
+#~ msgid "Show Featured Image"
+#~ msgstr "アイキャッチ画像を表示する"
+
+#~ msgid "Check this to show the featured image in blog posts."
+#~ msgstr "ブログの投稿にアイキャッチ画像を表示するために、これをチェックする"
+
+#~ msgid "Footer Background color"
+#~ msgstr "フッターの背景色"
+
+#~ msgid "A widget display Recent tweets."
+#~ msgstr "最近のツイートを表示するウィジェット"
+
+#~ msgid " | Recent Tweets"
+#~ msgstr " | 最近のツイート"
+
+#~ msgid "Twitter Username e.g. alanarmanov"
+#~ msgstr "ツイッターのユーザー名、例　alanarmanov"
+
+#~ msgid "Number of tweets (max 20)"
+#~ msgstr "ツイート数　（最大20）"
+
+#~ msgid "Follow Text e.g. Follow on Twitter"
+#~ msgstr "テキストを目で追う、例：ツイッターを追って"

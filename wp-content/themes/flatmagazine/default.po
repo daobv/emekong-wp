@@ -1,0 +1,860 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MillionDollars\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-19 23:44+0500\n"
+"PO-Revision-Date: 2011-08-19 23:44+0500\n"
+"Last-Translator: Alan Armanov <airatzaf@yandex.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: c:\\milliondollars\\\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: c:\\milliondollars\n"
+
+#: c:\milliondollars/404.php:7
+#: c:\milliondollars/archive.php:83
+#: c:\milliondollars/index.php:58
+#: c:\milliondollars/page.php:32
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: c:\milliondollars/404.php:17
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr ""
+
+#: c:\milliondollars/archive.php:13
+#, php-format
+msgid "All posts in %s"
+msgstr ""
+
+#: c:\milliondollars/archive.php:15
+#, php-format
+msgid "All posts tagged %s"
+msgstr ""
+
+#: c:\milliondollars/archive.php:17
+#: c:\milliondollars/archive.php:19
+#: c:\milliondollars/archive.php:21
+msgid "Archive for"
+msgstr ""
+
+#: c:\milliondollars/archive.php:23
+msgid "All posts by"
+msgstr ""
+
+#: c:\milliondollars/archive.php:25
+msgid "Blog Archives"
+msgstr ""
+
+#: c:\milliondollars/archive.php:38
+#: c:\milliondollars/archive.php:42
+#: c:\milliondollars/index.php:14
+#: c:\milliondollars/index.php:18
+#: c:\milliondollars/portfolio2col.php:61
+#: c:\milliondollars/portfolio3col.php:61
+#: c:\milliondollars/portfolio4col.php:62
+#: c:\milliondollars/portfolio5col.php:63
+#: c:\milliondollars/search.php:22
+#: c:\milliondollars/search.php:26
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: c:\milliondollars/archive.php:52
+#: c:\milliondollars/index.php:28
+#: c:\milliondollars/search.php:37
+msgid "By"
+msgstr ""
+
+#: c:\milliondollars/archive.php:53
+#: c:\milliondollars/index.php:29
+#: c:\milliondollars/search.php:38
+msgid "On"
+msgstr ""
+
+#: c:\milliondollars/archive.php:54
+#: c:\milliondollars/index.php:30
+#: c:\milliondollars/search.php:39
+msgid "In"
+msgstr ""
+
+#: c:\milliondollars/archive.php:55
+#: c:\milliondollars/index.php:31
+#: c:\milliondollars/search.php:40
+msgid "With"
+msgstr ""
+
+#: c:\milliondollars/archive.php:55
+#: c:\milliondollars/comments.php:23
+#: c:\milliondollars/index.php:31
+#: c:\milliondollars/search.php:40
+msgid "No Comments"
+msgstr ""
+
+#: c:\milliondollars/archive.php:55
+#: c:\milliondollars/index.php:31
+#: c:\milliondollars/search.php:40
+msgid "1 Comment"
+msgstr ""
+
+#: c:\milliondollars/archive.php:55
+#: c:\milliondollars/comments.php:23
+#: c:\milliondollars/index.php:31
+#: c:\milliondollars/search.php:40
+msgid "% Comments"
+msgstr ""
+
+#: c:\milliondollars/archive.php:56
+#: c:\milliondollars/index.php:32
+#: c:\milliondollars/search.php:42
+msgid "edit"
+msgstr ""
+
+#: c:\milliondollars/archive.php:62
+#: c:\milliondollars/index.php:37
+#: c:\milliondollars/search.php:49
+msgid " Read More &rArr;"
+msgstr ""
+
+#: c:\milliondollars/archive.php:74
+#: c:\milliondollars/index.php:49
+#: c:\milliondollars/search.php:62
+msgid "&lArr; Older Entries"
+msgstr ""
+
+#: c:\milliondollars/archive.php:75
+#: c:\milliondollars/search.php:63
+msgid "Newer Entries &rArr;"
+msgstr ""
+
+#: c:\milliondollars/archive.php:87
+#: c:\milliondollars/index.php:61
+#: c:\milliondollars/page.php:35
+msgid "Sorry, but you are looking for something that is not here."
+msgstr ""
+
+#: c:\milliondollars/comments.php:11
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: c:\milliondollars/comments.php:23
+msgid "One Comment"
+msgstr ""
+
+#: c:\milliondollars/comments.php:39
+msgid "Comments are closed."
+msgstr ""
+
+#: c:\milliondollars/comments.php:49
+msgid "Leave a Comment"
+msgstr ""
+
+#: c:\milliondollars/comments.php:49
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: c:\milliondollars/comments.php:58
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: c:\milliondollars/comments.php:65
+#, php-format
+msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr ""
+
+#: c:\milliondollars/comments.php:65
+msgid "Log out of this account"
+msgstr ""
+
+#: c:\milliondollars/comments.php:70
+msgid "Name"
+msgstr ""
+
+#: c:\milliondollars/comments.php:73
+msgid "Email"
+msgstr ""
+
+#: c:\milliondollars/comments.php:73
+msgid "(not published)"
+msgstr ""
+
+#: c:\milliondollars/comments.php:76
+msgid "Website"
+msgstr ""
+
+#: c:\milliondollars/comments.php:83
+msgid "Submit Comment"
+msgstr ""
+
+#: c:\milliondollars/functions.php:17
+msgid "main Menu"
+msgstr ""
+
+#: c:\milliondollars/functions.php:185
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: c:\milliondollars/functions.php:188
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: c:\milliondollars/functions.php:188
+msgid "[Edit]"
+msgstr ""
+
+#: c:\milliondollars/functions.php:191
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: c:\milliondollars/functions.php:235
+#, php-format
+msgid "View all items filed under %s"
+msgstr ""
+
+#: c:\milliondollars/functions.php:263
+msgid "Portfolio Items"
+msgstr ""
+
+#: c:\milliondollars/functions.php:264
+msgid "Portfolio"
+msgstr ""
+
+#: c:\milliondollars/functions.php:265
+msgid "Add New Item"
+msgstr ""
+
+#: c:\milliondollars/functions.php:266
+msgid "Add New Portfolio"
+msgstr ""
+
+#: c:\milliondollars/functions.php:267
+msgid "Edit Portfolio"
+msgstr ""
+
+#: c:\milliondollars/functions.php:268
+msgid "New Portfolio"
+msgstr ""
+
+#: c:\milliondollars/functions.php:269
+msgid "View Portfolio"
+msgstr ""
+
+#: c:\milliondollars/functions.php:270
+msgid "Search Portfolio"
+msgstr ""
+
+#: c:\milliondollars/functions.php:271
+msgid "No portfolios found"
+msgstr ""
+
+#: c:\milliondollars/functions.php:272
+msgid "No portfolios found in Trash"
+msgstr ""
+
+#: c:\milliondollars/functions.php:281
+#: c:\milliondollars/functions.php:290
+#: c:\milliondollars/functions.php:296
+msgid "portfolio"
+msgstr ""
+
+#: c:\milliondollars/functions.php:296
+#: c:\milliondollars/functions.php:315
+msgid "skill-type"
+msgstr ""
+
+#: c:\milliondollars/functions.php:296
+msgid "Categories"
+msgstr ""
+
+#: c:\milliondollars/functions.php:296
+msgid "Skill Type"
+msgstr ""
+
+#: c:\milliondollars/functions.php:303
+msgid "Portfolio Item Title"
+msgstr ""
+
+#: c:\milliondollars/functions.php:304
+#: c:\milliondollars/functions.php:314
+msgid "type"
+msgstr ""
+
+#: c:\milliondollars/index.php:50
+msgid "Newer Entries  &#x21d2;"
+msgstr ""
+
+#: c:\milliondollars/links.php:20
+msgid "Edit"
+msgstr ""
+
+#: c:\milliondollars/portfolio2col.php:22
+#: c:\milliondollars/portfolio3col.php:22
+#: c:\milliondollars/portfolio4col.php:23
+#: c:\milliondollars/portfolio5col.php:23
+msgid "Filter:"
+msgstr ""
+
+#: c:\milliondollars/search.php:41
+msgid "Tags"
+msgstr ""
+
+#: c:\milliondollars/search.php:70
+msgid "No Results Found"
+msgstr ""
+
+#: c:\milliondollars/search.php:77
+msgid "Apologies, but the page you requested could not be found. Try another search"
+msgstr ""
+
+#: c:\milliondollars/searchform.php:3
+msgid "To search type and hit enter"
+msgstr ""
+
+#: c:\milliondollars/template-contact.php:83
+msgid "Thanks, your email was successfully sent."
+msgstr ""
+
+#: c:\milliondollars/template-contact.php:95
+msgid "There was an error submitting the form."
+msgstr ""
+
+#: c:\milliondollars/template-contact.php:97
+msgid "Send Us An Email"
+msgstr ""
+
+#: c:\milliondollars/template-contact.php:116
+msgid "Message"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:141
+msgid "General Settings"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:145
+msgid "Call Us in Top"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:146
+msgid "e.g. Call Us Free: (800) 888-7777"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:151
+msgid "Top Bar"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:167
+msgid "Google Map API"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:168
+msgid "For Google Map Shortcode <a href=\\\"http://code.google.com/apis/maps/signup.html\\\">Get Google Map API</a>"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:174
+msgid "Custom Logo"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:175
+msgid "Upload a logo for your theme, or image url. (e.g. http://example.com/logo.png)"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:180
+msgid "Enable Plain Text Logo"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:181
+msgid "Check this to enable a plain text logo."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:186
+msgid "Custom Favicon"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:187
+msgid "Upload a (16x16px) Png or Gif image."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:192
+msgid "Contact Form Email Addremd"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:193
+msgid "Leave blank to use admin email."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:198
+msgid "FeedBurner URL"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:199
+msgid "Enter your FeedBurner URL"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:204
+msgid "Show Demo panel"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:205
+msgid "Check this to enable a show demo panel."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:213
+msgid "Styling"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:216
+msgid "Body Background color"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:217
+#: c:\milliondollars/admin/options.php:287
+msgid "(default #4E4F59)"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:222
+msgid "Texture Overlays"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:230
+msgid "Main Site Background color"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:231
+msgid "(default #FFFFFF)"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:237
+msgid "Header Background color"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:244
+msgid "Primary link color"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:245
+msgid "(default #336699)"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:250
+msgid "Primary link hover color"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:251
+msgid "(default #343434)"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:256
+msgid "Selection text background color"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:257
+msgid "(default #78c246)"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:263
+msgid "Main Layout"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:264
+msgid "Select sidebars alignment."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:273
+msgid "Custom Cmd"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:274
+msgid "Enter some Cmd."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:283
+msgid "Menu"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:286
+msgid "Menu Background Color"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:292
+msgid "Menu Font family"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:293
+msgid "Menu Font family - Supported <a href=\\\"http://www.google.com/webfonts\\\"> Google Font Directory</a>."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:299
+msgid "Menu Font size"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:306
+msgid "Menu Font color"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:314
+msgid "Fonts"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:317
+msgid "Body Font family"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:318
+msgid "Body Font family - Supported <a href=\\\"http://www.google.com/webfonts\\\"> Google Font Directory</a>."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:324
+msgid "Body Font size"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:331
+msgid "Body Font color"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:337
+msgid "Headings Font family"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:345
+msgid "Headings Font color"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:356
+msgid "SEO"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:359
+msgid "Google Analytics or other Tracking Code "
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:360
+msgid "Paste your code here."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:365
+msgid "Homepage Title"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:366
+msgid "Enter Homepage Title"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:371
+msgid "Homepage Description"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:372
+msgid "Enter Homepage Description"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:377
+msgid "Homepage Keywords"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:378
+msgid "Enter Homepage Keywords."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:388
+msgid "Sliders"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:391
+msgid "Enable Slider"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:392
+msgid "Check this to enable the slider on the homepage."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:397
+msgid "Custom Slider"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:398
+msgid "Select Custom Slider."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:404
+msgid "Nivo Slider Effects"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:405
+msgid "Select Nivo Slider effect. Default \"random\" effect"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:412
+msgid "Cycle Slider Effects"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:413
+msgid "Select Cycle Slider effect. Default \"scrollRight\" effect"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:419
+msgid "Accordion Slider Effects"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:420
+msgid "Select Accordion Slider effect. Default \"OutQuint\" effect"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:426
+msgid "Sliders Timeout"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:427
+msgid "Choose the time in milliseconds for sliders timeout (1000 = 1second)"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:432
+msgid "Slider Image 1"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:433
+#: c:\milliondollars/admin/options.php:452
+#: c:\milliondollars/admin/options.php:470
+#: c:\milliondollars/admin/options.php:488
+#: c:\milliondollars/admin/options.php:506
+#: c:\milliondollars/admin/options.php:524
+msgid "Image must be 940px x 350px or 500 px x 350px for mini slider"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:439
+msgid "Slider Image 1 URL"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:440
+#: c:\milliondollars/admin/options.php:458
+#: c:\milliondollars/admin/options.php:476
+#: c:\milliondollars/admin/options.php:494
+#: c:\milliondollars/admin/options.php:512
+#: c:\milliondollars/admin/options.php:530
+msgid "Choose a link URL for this image."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:445
+msgid "Slider Image 1 Content"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:446
+msgid "Enter the content for this image and for \"Cycle Slider mini with static content\" "
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:451
+msgid "Slider Image 2"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:457
+msgid "Slider Image 2 URL"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:463
+msgid "Slider Image 2 Content"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:464
+#: c:\milliondollars/admin/options.php:482
+#: c:\milliondollars/admin/options.php:500
+#: c:\milliondollars/admin/options.php:518
+#: c:\milliondollars/admin/options.php:536
+msgid "Enter the content for this image."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:469
+msgid "Slider Image 3"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:475
+msgid "Slider Image 3 URL"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:481
+msgid "Slider Image 3 Content"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:487
+msgid "Slider Image 4"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:493
+msgid "Slider Image 4 URL"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:499
+msgid "Slider Image 4 Content"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:505
+msgid "Slider Image 5"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:511
+msgid "Slider Image 5 URL"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:517
+msgid "Slider Image 5 Content"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:523
+msgid "Slider Image 6"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:529
+msgid "Slider Image 6 URL"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:535
+msgid "Slider Image 6 Content"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:545
+msgid "Blog"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:548
+msgid "Blog Header Title"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:549
+msgid "Enter the title of the portfolio area."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:554
+msgid "Blog Thumbnail Width"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:555
+msgid "default 650"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:560
+msgid "Blog Thumbnail Height"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:561
+msgid "default 240"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:566
+msgid "Show Featured Image"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:567
+msgid "Check this to show the featured image in blog posts."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:579
+msgid "Enable Lightbox"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:580
+msgid "Check this to enable the lightbox effect."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:588
+msgid "Footer"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:591
+msgid "Footer Background color"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:597
+msgid "Footer Headings Font color"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:603
+msgid "Footer Font color"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:609
+msgid "Footer Link color"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:615
+msgid "Footer Link hover color"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:622
+msgid "Footer Text Right"
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:623
+#: c:\milliondollars/admin/options.php:629
+msgid "Enter the text you would like to display in the footer."
+msgstr ""
+
+#: c:\milliondollars/admin/options.php:628
+msgid "Footer Text Left"
+msgstr ""
+
+#: c:\milliondollars/functions/flickr.php:21
+msgid "A widget that display your photos."
+msgstr ""
+
+#: c:\milliondollars/functions/flickr.php:23
+msgid " | Flickr Photos"
+msgstr ""
+
+#: c:\milliondollars/functions/flickr.php:75
+#: c:\milliondollars/functions/tweets.php:82
+msgid "Title:"
+msgstr ""
+
+#: c:\milliondollars/functions/flickr.php:80
+msgid "Flickr ID:"
+msgstr ""
+
+#: c:\milliondollars/functions/flickr.php:85
+msgid "Number of Photos:"
+msgstr ""
+
+#: c:\milliondollars/functions/flickr.php:94
+msgid "Type (user or group):"
+msgstr ""
+
+#: c:\milliondollars/functions/flickr.php:102
+msgid "Display (random or latest):"
+msgstr ""
+
+#: c:\milliondollars/functions/shortcodes.php:66
+msgid "Top"
+msgstr ""
+
+#: c:\milliondollars/functions/subnav.php:22
+msgid "Display subpages if present page only."
+msgstr ""
+
+#: c:\milliondollars/functions/subnav.php:24
+msgid " | Subpages"
+msgstr ""
+
+#: c:\milliondollars/functions/tweets.php:22
+msgid "A widget display Recent tweets."
+msgstr ""
+
+#: c:\milliondollars/functions/tweets.php:24
+msgid " | Recent Tweets"
+msgstr ""
+
+#: c:\milliondollars/functions/tweets.php:87
+msgid "Twitter Username e.g. alanarmanov"
+msgstr ""
+
+#: c:\milliondollars/functions/tweets.php:92
+msgid "Number of tweets (max 20)"
+msgstr ""
+
+#: c:\milliondollars/functions/tweets.php:97
+msgid "Follow Text e.g. Follow on Twitter"
+msgstr ""
+

@@ -1,0 +1,831 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-03 19:34+0500\n"
+"PO-Revision-Date: 2013-06-26 21:51+0600\n"
+"Last-Translator: Alan Armanov <airatzaf@yandex.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: en\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: C:\\smartpress_pack\\smartpress\n"
+
+#: c:\limitless/404.php:7 c:\limitless/archive.php:83
+#: c:\limitless/index.php:58 c:\limitless/page.php:32
+msgid "Error 404 - Not Found"
+msgstr "404 錯誤 - 找不到"
+
+#: c:\limitless/404.php:17
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr "請道歉，但您請求的頁面找不到。也許搜索將有所幫助。"
+
+#: c:\limitless/archive.php:13
+#, php-format
+msgid "All posts in %s"
+msgstr "於 %s 所有的職位"
+
+#: c:\limitless/archive.php:15
+#, php-format
+msgid "All posts tagged %s"
+msgstr "所有的職位標簽 %s"
+
+#: c:\limitless/archive.php:17 c:\limitless/archive.php:19
+#: c:\limitless/archive.php:21
+msgid "Archive for"
+msgstr "存檔"
+
+#: c:\limitless/archive.php:23
+msgid "All posts by"
+msgstr "用戶所有的職位"
+
+#: c:\limitless/archive.php:25
+msgid "Blog Archives"
+msgstr "博客存檔"
+
+#: c:\limitless/archive.php:38 c:\limitless/archive.php:42
+#: c:\limitless/index.php:14 c:\limitless/index.php:18
+#: c:\limitless/portfolio2col.php:61 c:\limitless/portfolio3col.php:61
+#: c:\limitless/portfolio4col.php:62 c:\limitless/portfolio5col.php:63
+#: c:\limitless/search.php:22 c:\limitless/search.php:26
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "於 %s 永久鏈接"
+
+#: c:\limitless/archive.php:52 c:\limitless/index.php:28
+#: c:\limitless/search.php:37
+msgid "By"
+msgstr "寫了"
+
+#: c:\limitless/archive.php:53 c:\limitless/index.php:29
+#: c:\limitless/search.php:38
+msgid "On"
+msgstr "關於"
+
+#: c:\limitless/archive.php:54 c:\limitless/index.php:30
+#: c:\limitless/search.php:39
+msgid "In"
+msgstr "以"
+
+#: c:\limitless/archive.php:55 c:\limitless/index.php:31
+#: c:\limitless/search.php:40
+msgid "With"
+msgstr "用於"
+
+#: c:\limitless/archive.php:55 c:\limitless/comments.php:23
+#: c:\limitless/index.php:31 c:\limitless/search.php:40
+msgid "No Comments"
+msgstr "沒有評論"
+
+#: c:\limitless/archive.php:55 c:\limitless/index.php:31
+#: c:\limitless/search.php:40
+msgid "1 Comment"
+msgstr "一條評論"
+
+#: c:\limitless/archive.php:55 c:\limitless/comments.php:23
+#: c:\limitless/index.php:31 c:\limitless/search.php:40
+msgid "% Comments"
+msgstr "% 評論"
+
+#: c:\limitless/archive.php:56 c:\limitless/index.php:32
+#: c:\limitless/search.php:42
+msgid "edit"
+msgstr "編輯"
+
+#: c:\limitless/archive.php:62 c:\limitless/index.php:37
+#: c:\limitless/search.php:49
+msgid " Read More &rArr;"
+msgstr "閱讀更多 &rArr;"
+
+#: c:\limitless/archive.php:74 c:\limitless/index.php:49
+#: c:\limitless/search.php:62
+msgid "&lArr; Older Entries"
+msgstr "&lArr; 較早的項目"
+
+#: c:\limitless/archive.php:75 c:\limitless/search.php:63
+msgid "Newer Entries &rArr;"
+msgstr "較新的項目 &rArr;"
+
+#: c:\limitless/archive.php:87 c:\limitless/index.php:61
+#: c:\limitless/page.php:35
+msgid "Sorry, but you are looking for something that is not here."
+msgstr "很抱歉，但您正在尋找的東西不在這裡。"
+
+#: c:\limitless/comments.php:11
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "這篇文章用密碼保護。為查看評論輸入密碼。"
+
+#: c:\limitless/comments.php:23
+msgid "One Comment"
+msgstr "一條評論"
+
+#: c:\limitless/comments.php:39
+msgid "Comments are closed."
+msgstr "被關閉評論。"
+
+#: c:\limitless/comments.php:49
+msgid "Leave a Comment"
+msgstr "寫下評論"
+
+#: c:\limitless/comments.php:49
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "於 %s 寫下回復"
+
+#: c:\limitless/comments.php:58
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "您必須 %1$s 先登錄 %2$s 后才能發表評論。"
+
+#: c:\limitless/comments.php:65
+#, php-format
+msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr "您登錄為 %1$s. %2$s 注銷 &raquo;%3$s"
+
+#: c:\limitless/comments.php:65
+msgid "Log out of this account"
+msgstr "與此帳戶注銷"
+
+#: c:\limitless/comments.php:70
+msgid "Name"
+msgstr "名稱"
+
+#: c:\limitless/comments.php:73
+msgid "Email"
+msgstr "電郵"
+
+#: c:\limitless/comments.php:73
+msgid "(not published)"
+msgstr "(未發布)"
+
+#: c:\limitless/comments.php:76
+msgid "Website"
+msgstr "網站"
+
+#: c:\limitless/comments.php:83
+msgid "Submit Comment"
+msgstr "提交評論"
+
+#: c:\limitless/functions.php:17
+msgid "main Menu"
+msgstr "主菜單"
+
+#: c:\limitless/functions.php:185
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: c:\limitless/functions.php:188
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s 於 %2$s"
+
+#: c:\limitless/functions.php:188
+msgid "[Edit]"
+msgstr "[編輯]"
+
+#: c:\limitless/functions.php:191
+msgid "Your comment is awaiting moderation."
+msgstr "您的評論正在等待審核。"
+
+#: c:\limitless/functions.php:235
+#, php-format
+msgid "View all items filed under %s"
+msgstr "在 %s 下提出的所有項目查看"
+
+#: c:\limitless/functions.php:263
+msgid "Portfolio Items"
+msgstr "投資組合項目"
+
+#: c:\limitless/functions.php:264
+msgid "Portfolio"
+msgstr "投資組合"
+
+#: c:\limitless/functions.php:265
+msgid "Add New Item"
+msgstr "添加新項目"
+
+#: c:\limitless/functions.php:266
+msgid "Add New Portfolio"
+msgstr "添加新投資組合"
+
+#: c:\limitless/functions.php:267
+msgid "Edit Portfolio"
+msgstr "編輯投資組合"
+
+#: c:\limitless/functions.php:268
+msgid "New Portfolio"
+msgstr "新投資組合"
+
+#: c:\limitless/functions.php:269
+msgid "View Portfolio"
+msgstr "查看新投資組合"
+
+#: c:\limitless/functions.php:270 c:\\limitless/functions.php:271
+#: c:\\limitless/functions.php:272 c:\limitless/functions.php:281
+#: c:\limitless/functions.php:290 c:\limitless/functions.php:296
+msgid "portfolio"
+msgstr "投資組合"
+
+#: c:\limitless/functions.php:296 c:\limitless/functions.php:315
+msgid "skill-type"
+msgstr "技能型"
+
+#: c:\limitless/functions.php:296
+msgid "Categories"
+msgstr "分類"
+
+#: c:\limitless/functions.php:296
+msgid "Skill Type"
+msgstr "技能型"
+
+#: c:\limitless/functions.php:303
+msgid "Portfolio Item Title"
+msgstr "投資組合項目標題"
+
+#: c:\limitless/functions.php:304 c:\limitless/functions.php:314
+msgid "type"
+msgstr "類型"
+
+#: c:\limitless/index.php:50
+msgid "Newer Entries  &#x21d2;"
+msgstr "较新的条目 &#x21d2;"
+
+#: c:\limitless/links.php:20
+msgid "Edit"
+msgstr "編輯"
+
+#: c:\limitless/portfolio2col.php:22 c:\limitless/portfolio3col.php:22
+#: c:\limitless/portfolio4col.php:23 c:\limitless/portfolio5col.php:23
+msgid "Filter:"
+msgstr "過濾器:"
+
+#: c:\limitless/search.php:41
+msgid "Tags"
+msgstr "標簽"
+
+#: c:\limitless/search.php:70
+msgid "No Results Found"
+msgstr "一個結果也找不到"
+
+#: c:\limitless/search.php:77
+msgid ""
+"Apologies, but the page you requested could not be found. Try another search"
+msgstr "請道歉，但您請求的頁面找不到。也許搜索。"
+
+#: c:\limitless/searchform.php:3
+msgid "To search type and hit enter"
+msgstr "要搜索的類型，並按下回車鍵"
+
+#: c:\limitless/template-contact.php:83
+msgid "Thanks, your email was successfully sent."
+msgstr "謝謝，您的電郵已成功地發送。"
+
+#: c:\limitless/template-contact.php:95
+msgid "There was an error submitting the form."
+msgstr "提交表格時發生錯誤。"
+
+#: c:\limitless/template-contact.php:97
+msgid "Send Us An Email"
+msgstr "給我們發送電郵"
+
+#: c:\limitless/template-contact.php:116
+msgid "Message"
+msgstr "郵件"
+
+#: c:\limitless/admin/options.php:141
+msgid "General Settings"
+msgstr "常規設置"
+
+#: c:\limitless/admin/options.php:145
+msgid "Call Us in Top"
+msgstr "給我們打電話 (在頁首上有電話號碼)"
+
+#: c:\limitless/admin/options.php:146
+msgid "e.g. Call Us Free: (800) 888-7777"
+msgstr "例如給我們免費地打電話: (800) 888-7777"
+
+#: c:\limitless/admin/options.php:151
+msgid "Top Bar"
+msgstr "頂欄"
+
+#: c:\limitless/admin/options.php:167
+msgid "Google Map API"
+msgstr "谷歌地圖的空氣污染指數"
+
+#: c:\limitless/admin/options.php:168
+msgid ""
+"For Google Map Shortcode <a href=\\\"http://code.google.com/apis/maps/signup."
+"html\\\">Get Google Map API</a>"
+msgstr ""
+"對於谷歌地圖簡碼 <a href=\\\"http://code.google.com/apis/maps/signup.html\\"
+"\">獲取谷歌地圖空氣污染指數</a>"
+
+#: c:\limitless/admin/options.php:174
+msgid "Custom Logo"
+msgstr "自定義徽標"
+
+#: c:\limitless/admin/options.php:175
+msgid ""
+"Upload a logo for your theme, or image url. (e.g. http://example.com/logo."
+"png)"
+msgstr "上傳你的主題徽標，或圖片的網址。 (例如,  http://example.com/logo.png)"
+
+#: c:\limitless/admin/options.php:180
+msgid "Enable Plain Text Logo"
+msgstr "啟用簡單的文本徽標"
+
+#: c:\limitless/admin/options.php:181
+msgid "Check this to enable a plain text logo."
+msgstr "為啟用簡單的文本徽標復選這個"
+
+#: c:\limitless/admin/options.php:186
+msgid "Custom Favicon"
+msgstr "自定義徽圖標"
+
+#: c:\limitless/admin/options.php:187
+msgid "Upload a (16x16px) Png or Gif image."
+msgstr "上載 （16x16px） PNG 或 GIF 圖像。"
+
+#: c:\limitless/admin/options.php:192
+msgid "Contact Form Email Addremd"
+msgstr "電郵聯系的表格"
+
+#: c:\limitless/admin/options.php:193
+msgid "Leave blank to use admin email."
+msgstr "留空使用管理員電郵。"
+
+#: c:\limitless/admin/options.php:198
+msgid "FeedBurner URL"
+msgstr "FeedBurner 的網址"
+
+#: c:\limitless/admin/options.php:199
+msgid "Enter your FeedBurner URL"
+msgstr "輸入您的 FeedBurner 網址"
+
+#: c:\limitless/admin/options.php:204
+msgid "Show Demo panel"
+msgstr "顯示演示面板"
+
+#: c:\limitless/admin/options.php:205
+msgid "Check this to enable a show demo panel."
+msgstr "為顯示演示面板復選這個"
+
+#: c:\limitless/admin/options.php:213
+msgid "Styling"
+msgstr "造型"
+
+#: c:\limitless/admin/options.php:216
+msgid "Body Background color"
+msgstr "體的背景顏色"
+
+#: c:\limitless/admin/options.php:217 c:\limitless/admin/options.php:287
+msgid "(default #4E4F59)"
+msgstr "(默認 #4E4F59)"
+
+#: c:\limitless/admin/options.php:222
+msgid "Texture Overlays"
+msgstr "纹理覆盖"
+
+#: c:\limitless/admin/options.php:230
+msgid "Main Site Background color"
+msgstr "主網站的背景顏色"
+
+#: c:\limitless/admin/options.php:231
+msgid "(default #FFFFFF)"
+msgstr "(默認 #FFFFFF)"
+
+#: c:\limitless/admin/options.php:237
+msgid "Header Background color"
+msgstr "標題背景顏色"
+
+#: c:\limitless/admin/options.php:244
+msgid "Primary link color"
+msgstr "主鏈接的顏色"
+
+#: c:\limitless/admin/options.php:245
+msgid "(default #336699)"
+msgstr "(默認 #336699)"
+
+#: c:\limitless/admin/options.php:250
+msgid "Primary link hover color"
+msgstr "主鏈接懸停顏色"
+
+#: c:\limitless/admin/options.php:251
+msgid "(default #343434)"
+msgstr "(默認 #343434)"
+
+#: c:\limitless/admin/options.php:256
+msgid "Selection text background color"
+msgstr "選擇文本的背景顏色"
+
+#: c:\limitless/admin/options.php:257
+msgid "(default #78c246)"
+msgstr "(默認 #78c246)"
+
+#: c:\limitless/admin/options.php:263
+msgid "Main Layout"
+msgstr "主要布局"
+
+#: c:\limitless/admin/options.php:264
+msgid "Select sidebars alignment."
+msgstr "選擇側邊欄對齊。"
+
+#: c:\limitless/admin/options.php:273
+msgid "Custom Cmd"
+msgstr "自定義 CMD"
+
+#: c:\limitless/admin/options.php:274
+msgid "Enter some Cmd."
+msgstr "輸入一些 CMD。"
+
+#: c:\limitless/admin/options.php:283
+msgid "Menu"
+msgstr "菜單"
+
+#: c:\limitless/admin/options.php:286
+msgid "Menu Background Color"
+msgstr "菜單的背景顏色"
+
+#: c:\limitless/admin/options.php:292
+msgid "Menu Font family"
+msgstr "菜單上的字體"
+
+#: c:\limitless/admin/options.php:293
+msgid ""
+"Menu Font family - Supported <a href=\\\"http://www.google.com/webfonts\\\"> "
+"Google Font Directory</a>."
+msgstr ""
+"菜單上的字體 - 支持 <a href=\\\"http://www.google.com/webfonts\\\"> 谷歌字體"
+"目錄 </a>."
+
+#: c:\limitless/admin/options.php:299
+msgid "Menu Font size"
+msgstr "菜單上的字體大小"
+
+#: c:\limitless/admin/options.php:306
+msgid "Menu Font color"
+msgstr "菜單上的字體顏色"
+
+#: c:\limitless/admin/options.php:314
+msgid "Fonts"
+msgstr "字體"
+
+#: c:\limitless/admin/options.php:317
+msgid "Body Font family"
+msgstr "正文字體"
+
+#: c:\limitless/admin/options.php:318
+msgid ""
+"Body Font family - Supported <a href=\\\"http://www.google.com/webfonts\\\"> "
+"Google Font Directory</a>."
+msgstr ""
+"正文字體 - 支持 <a href=\\\"http://www.google.com/webfonts\\\"> 谷歌字體目錄 "
+"</a>."
+
+#: c:\limitless/admin/options.php:324
+msgid "Body Font size"
+msgstr "正文字體大小"
+
+#: c:\limitless/admin/options.php:331
+msgid "Body Font color"
+msgstr "正文字體顏色"
+
+#: c:\limitless/admin/options.php:337
+msgid "Headings Font family"
+msgstr "標題的字體"
+
+#: c:\limitless/admin/options.php:345
+msgid "Headings Font color"
+msgstr "標題的字體顏色"
+
+#: c:\limitless/admin/options.php:356
+msgid "SEO"
+msgstr "搜索引擎優化"
+
+#: c:\limitless/admin/options.php:359
+msgid "Google Analytics or other Tracking Code "
+msgstr "谷歌分析或其他跟蹤代碼"
+
+#: c:\limitless/admin/options.php:360
+msgid "Paste your code here."
+msgstr "這裡粘貼你的代碼。"
+
+#: c:\limitless/admin/options.php:365
+msgid "Homepage Title"
+msgstr "首頁標題"
+
+#: c:\limitless/admin/options.php:366
+msgid "Enter Homepage Title"
+msgstr "輸入主頁標題"
+
+#: c:\limitless/admin/options.php:371
+msgid "Homepage Description"
+msgstr "首頁說明"
+
+#: c:\limitless/admin/options.php:372
+msgid "Enter Homepage Description"
+msgstr "輸入首頁說明"
+
+#: c:\limitless/admin/options.php:377
+msgid "Homepage Keywords"
+msgstr "首頁關鍵字"
+
+#: c:\limitless/admin/options.php:378
+msgid "Enter Homepage Keywords."
+msgstr "輸入首頁關鍵字"
+
+#: c:\limitless/admin/options.php:388
+msgid "Sliders"
+msgstr "滑塊"
+
+#: c:\limitless/admin/options.php:391
+msgid "Enable Slider"
+msgstr "啟用滑塊"
+
+#: c:\limitless/admin/options.php:392
+msgid "Check this to enable the slider on the homepage."
+msgstr "為啟用首頁的滑塊復選這個"
+
+#: c:\limitless/admin/options.php:397
+msgid "Custom Slider"
+msgstr "自定義滑塊"
+
+#: c:\limitless/admin/options.php:398
+msgid "Select Custom Slider."
+msgstr "選擇自定義滑塊。"
+
+#: c:\limitless/admin/options.php:404
+msgid "Nivo Slider Effects"
+msgstr "Nivo 滑塊效應"
+
+#: c:\limitless/admin/options.php:405
+msgid "Select Nivo Slider effect. Default \"random\" effect"
+msgstr "選擇 Nivo 滑塊效應. 默認效應 \"random\""
+
+#: c:\limitless/admin/options.php:412
+msgid "Cycle Slider Effects"
+msgstr "Cycle 滑塊效應"
+
+#: c:\limitless/admin/options.php:413
+msgid "Select Cycle Slider effect. Default \"scrollRight\" effect"
+msgstr "選擇 Cycle 滑塊效應. 默認效應  \"scrollRight\""
+
+#: c:\limitless/admin/options.php:419
+msgid "Accordion Slider Effects"
+msgstr "Accordion 滑塊效應"
+
+#: c:\limitless/admin/options.php:420
+msgid "Select Accordion Slider effect. Default \"OutQuint\" effect"
+msgstr "選擇 Accordion 滑塊效應. 默認效應 \"OutQuint\""
+
+#: c:\limitless/admin/options.php:426
+msgid "Sliders Timeout"
+msgstr "滑塊超時"
+
+#: c:\limitless/admin/options.php:427
+msgid "Choose the time in milliseconds for sliders timeout (1000 = 1second)"
+msgstr "以毫秒時間選擇滑塊超時 (1000 = 1 秒)"
+
+#: c:\limitless/admin/options.php:432
+msgid "Slider Image 1"
+msgstr "滑塊圖片 1"
+
+#: c:\limitless/admin/options.php:433 c:\limitless/admin/options.php:452
+#: c:\limitless/admin/options.php:470 c:\limitless/admin/options.php:488
+#: c:\limitless/admin/options.php:506 c:\limitless/admin/options.php:524
+msgid "Image must be 940px x 350px or 500 px x 350px for mini slider"
+msgstr "圖片必須是 940px x 350px 或 500px x 350px 微型滑塊"
+
+#: c:\limitless/admin/options.php:439
+msgid "Slider Image 1 URL"
+msgstr "滑塊圖片 1 網址"
+
+#: c:\limitless/admin/options.php:440 c:\limitless/admin/options.php:458
+#: c:\limitless/admin/options.php:476 c:\limitless/admin/options.php:494
+#: c:\limitless/admin/options.php:512 c:\limitless/admin/options.php:530
+msgid "Choose a link URL for this image."
+msgstr "選擇這張圖片的網址鏈接。"
+
+#: c:\limitless/admin/options.php:445
+msgid "Slider Image 1 Content"
+msgstr "滑塊圖片 1 内容"
+
+#: c:\limitless/admin/options.php:446
+msgid ""
+"Enter the content for this image and for Cycle Slider mini with static "
+"content "
+msgstr "輸入此圖片的內容 與靜態內容 Cycle 微型滑塊"
+
+#: c:\limitless/admin/options.php:451
+msgid "Slider Image 2"
+msgstr "滑塊圖片 2"
+
+#: c:\limitless/admin/options.php:457
+msgid "Slider Image 2 URL"
+msgstr "滑塊圖片 2 網址"
+
+#: c:\limitless/admin/options.php:463
+msgid "Slider Image 2 Content"
+msgstr "滑塊圖片 2 内容"
+
+#: c:\limitless/admin/options.php:464 c:\limitless/admin/options.php:482
+#: c:\limitless/admin/options.php:500 c:\limitless/admin/options.php:518
+#: c:\limitless/admin/options.php:536
+msgid "Enter the content for this image."
+msgstr "輸入此圖片的內容。"
+
+#: c:\limitless/admin/options.php:469
+msgid "Slider Image 3"
+msgstr "滑塊圖片 3"
+
+#: c:\limitless/admin/options.php:475
+msgid "Slider Image 3 URL"
+msgstr "滑塊圖片 3 網址"
+
+#: c:\limitless/admin/options.php:481
+msgid "Slider Image 3 Content"
+msgstr "滑塊圖片 3 内容"
+
+#: c:\limitless/admin/options.php:487
+msgid "Slider Image 4"
+msgstr "滑塊圖片 4"
+
+#: c:\limitless/admin/options.php:493
+msgid "Slider Image 4 URL"
+msgstr "滑塊圖片 4 網址"
+
+#: c:\limitless/admin/options.php:499
+msgid "Slider Image 4 Content"
+msgstr "滑塊圖片 4 内容"
+
+#: c:\limitless/admin/options.php:505
+msgid "Slider Image 5"
+msgstr "滑塊圖片 5"
+
+#: c:\limitless/admin/options.php:511
+msgid "Slider Image 5 URL"
+msgstr "滑塊圖片 5 網址"
+
+#: c:\limitless/admin/options.php:517
+msgid "Slider Image 5 Content"
+msgstr "滑塊圖片 5 内容"
+
+#: c:\limitless/admin/options.php:523
+msgid "Slider Image 6"
+msgstr "滑塊圖片 6"
+
+#: c:\limitless/admin/options.php:529
+msgid "Slider Image 6 URL"
+msgstr "滑塊圖片 6 網址"
+
+#: c:\limitless/admin/options.php:535
+msgid "Slider Image 6 Content"
+msgstr "滑塊圖片 6 内容"
+
+#: c:\limitless/admin/options.php:545
+msgid "Blog"
+msgstr "博客"
+
+#: c:\limitless/admin/options.php:548
+msgid "Blog Header Title"
+msgstr "博客頭的標題"
+
+#: c:\limitless/admin/options.php:549
+msgid "Enter the title of the portfolio area."
+msgstr "輸入標題的組合面積。"
+
+#: c:\limitless/admin/options.php:554
+msgid "Blog Thumbnail Width"
+msgstr "博客縮略圖寬度"
+
+#: c:\limitless/admin/options.php:555
+msgid "default 650"
+msgstr "默認 650"
+
+#: c:\limitless/admin/options.php:560
+msgid "Blog Thumbnail Height"
+msgstr "博客縮略圖高度"
+
+#: c:\limitless/admin/options.php:561
+msgid "default 240"
+msgstr "默認 240"
+
+#: c:\limitless/admin/options.php:566
+msgid "Show Featured Image"
+msgstr "顯示推薦圖片"
+
+#: c:\limitless/admin/options.php:567
+msgid "Check this to show the featured image in blog posts."
+msgstr "為顯示博客文章的功能圖像復選這個。"
+
+#: c:\limitless/admin/options.php:579
+msgid "Enable Lightbox"
+msgstr "啟用燈箱"
+
+#: c:\limitless/admin/options.php:580
+msgid "Check this to enable the lightbox effect."
+msgstr "為使用燈箱效應復選這個。"
+
+#: c:\limitless/admin/options.php:588
+msgid "Footer"
+msgstr "頁腳"
+
+#: c:\limitless/admin/options.php:591
+msgid "Footer Background color"
+msgstr "頁腳的背景顏色"
+
+#: c:\limitless/admin/options.php:597
+msgid "Footer Headings Font color"
+msgstr "頁腳標題字體顏色"
+
+#: c:\limitless/admin/options.php:603
+msgid "Footer Font color"
+msgstr "頁腳字體顏色"
+
+#: c:\limitless/admin/options.php:609
+msgid "Footer Link color"
+msgstr "頁腳鏈接顏色"
+
+#: c:\limitless/admin/options.php:615
+msgid "Footer Link hover color"
+msgstr "頁腳鏈接懸停顏色"
+
+#: c:\limitless/admin/options.php:622
+msgid "Footer Text Right"
+msgstr "頁腳右側的文本"
+
+#: c:\limitless/admin/options.php:623 c:\limitless/admin/options.php:629
+msgid "Enter the text you would like to display in the footer."
+msgstr "輸入您想在頁腳中顯示的文本。"
+
+#: c:\limitless/admin/options.php:628
+msgid "Footer Text Left"
+msgstr "頁腳左側的文本"
+
+#: c:\limitless/functions/flickr.php:21
+msgid "A widget that display your photos."
+msgstr "顯示您照片的窗口小部件。"
+
+#: c:\limitless/functions/flickr.php:23
+msgid " | Flickr Photos"
+msgstr " | Flickr 照片"
+
+#: c:\limitless/functions/flickr.php:75 c:\limitless/functions/tweets.php:82
+msgid "Title:"
+msgstr "標題："
+
+#: c:\limitless/functions/flickr.php:80
+msgid "Flickr ID:"
+msgstr "Flickr 的編號："
+
+#: c:\limitless/functions/flickr.php:85
+msgid "Number of Photos:"
+msgstr "照片數量："
+
+#: c:\limitless/functions/flickr.php:94
+msgid "Type (user or group):"
+msgstr "類型（用戶或小組）："
+
+#: c:\limitless/functions/flickr.php:102
+msgid "Display (random or latest):"
+msgstr "顯示（隨機或最新）："
+
+#: c:\limitless/functions/shortcodes.php:66
+msgid "Top"
+msgstr "回首頁"
+
+#: c:\limitless/functions/subnav.php:22
+msgid "Display subpages if present page only."
+msgstr "如果有目前的頁面隻顯示子頁面。"
+
+#: c:\limitless/functions/subnav.php:24
+msgid " | Subpages"
+msgstr " | 子頁面"
+
+#: c:\limitless/functions/tweets.php:22
+msgid "A widget display Recent tweets."
+msgstr "窗口小部件顯示最近的 Tweets。"
+
+#: c:\limitless/functions/tweets.php:24
+msgid " | Recent Tweets"
+msgstr " | 最近的 Tweets "
+
+#: c:\limitless/functions/tweets.php:87
+msgid "Twitter Username e.g. alanarmanov"
+msgstr "Twitter 用戶名，例如 Alanarmanov "
+
+#: c:\limitless/functions/tweets.php:92
+msgid "Number of tweets (max 20)"
+msgstr "Tweets 的號碼 （最多二十個）"
+
+#: c:\limitless/functions/tweets.php:97
+msgid "Follow Text e.g. Follow on Twitter"
+msgstr "按照文本，例如按照在 Twitter"

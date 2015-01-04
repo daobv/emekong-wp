@@ -1,0 +1,999 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-26 21:49+0600\n"
+"PO-Revision-Date: 2013-06-26 21:50+0600\n"
+"Last-Translator: Alan Armanov <airatzaf@yandex.ru>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: C:\\smartpress_pack\\smartpress\n"
+
+#: C:\smartpress_pack\smartpress/404.php:7
+#: C:\smartpress_pack\smartpress/archive.php:94
+#: C:\smartpress_pack\smartpress/index.php:76
+#: C:\smartpress_pack\smartpress/page.php:33
+#: C:\smartpress_pack\smartpress/single.php:97
+#: C:\smartpress_pack\smartpress/template-full.php:37
+msgid "Error 404 - Not Found"
+msgstr "Fel kod 404 - Hittade inga sidor"
+
+#: C:\smartpress_pack\smartpress/404.php:18
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+"Ursäkter, men sidan du begärde inte kunde hittas. Kanske sökning fungerar"
+
+#: C:\smartpress_pack\smartpress/adminfunctions.php:1771
+#: C:\smartpress_pack\smartpress/adminfunctions.php:1792
+#: C:\smartpress_pack\smartpress/adminfunctions.php:1815
+#: C:\smartpress_pack\smartpress/adminfunctions.php:1817
+#: C:\smartpress_pack\smartpress/header.php:383
+#: C:\smartpress_pack\smartpress/functions/shortcodes.php:61
+msgid "Close"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/archive.php:15
+#: C:\smartpress_pack\smartpress/functions.php:249
+#, php-format
+msgid "All posts in %s"
+msgstr "Alla inlägg i%s"
+
+#: C:\smartpress_pack\smartpress/archive.php:17
+#: C:\smartpress_pack\smartpress/functions.php:311
+#, php-format
+msgid "All posts tagged %s"
+msgstr "Alla inlägg taggade% s"
+
+#: C:\smartpress_pack\smartpress/archive.php:19
+#: C:\smartpress_pack\smartpress/archive.php:21
+#: C:\smartpress_pack\smartpress/archive.php:23
+msgid "Archive for"
+msgstr "Arkiv för"
+
+#: C:\smartpress_pack\smartpress/archive.php:25
+#: C:\smartpress_pack\smartpress/functions.php:319
+msgid "All posts by"
+msgstr "Alla inlägg av"
+
+#: C:\smartpress_pack\smartpress/archive.php:27
+msgid "Blog Archives"
+msgstr "Bloggarkiv"
+
+#: C:\smartpress_pack\smartpress/archive.php:41
+#: C:\smartpress_pack\smartpress/functions.php:1099
+#: C:\smartpress_pack\smartpress/functions.php:1120
+#: C:\smartpress_pack\smartpress/index.php:18
+#: C:\smartpress_pack\smartpress/portfolio2col.php:62
+#: C:\smartpress_pack\smartpress/portfolio3col.php:62
+#: C:\smartpress_pack\smartpress/portfolio4col.php:62
+#: C:\smartpress_pack\smartpress/portfolio5col.php:63
+#: C:\smartpress_pack\smartpress/search.php:32
+#: C:\smartpress_pack\smartpress/single.php:15
+#: C:\smartpress_pack\smartpress/functions/recent_tabs.php:72
+#: C:\smartpress_pack\smartpress/functions/recent_tabs.php:110
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Permanent länk till%s"
+
+#: C:\smartpress_pack\smartpress/archive.php:45
+#: C:\smartpress_pack\smartpress/index.php:22
+#: C:\smartpress_pack\smartpress/single.php:19
+msgid "By"
+msgstr "Av"
+
+#: C:\smartpress_pack\smartpress/archive.php:48
+#: C:\smartpress_pack\smartpress/index.php:25
+#: C:\smartpress_pack\smartpress/single.php:22
+msgid "With"
+msgstr "Med"
+
+#: C:\smartpress_pack\smartpress/archive.php:48
+#: C:\smartpress_pack\smartpress/comments.php:23
+#: C:\smartpress_pack\smartpress/index.php:25
+#: C:\smartpress_pack\smartpress/single.php:22
+msgid "No Comments"
+msgstr "ingen kommentar"
+
+#: C:\smartpress_pack\smartpress/archive.php:48
+#: C:\smartpress_pack\smartpress/index.php:25
+#: C:\smartpress_pack\smartpress/single.php:22
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: C:\smartpress_pack\smartpress/archive.php:48
+#: C:\smartpress_pack\smartpress/comments.php:23
+#: C:\smartpress_pack\smartpress/index.php:25
+#: C:\smartpress_pack\smartpress/single.php:22
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: C:\smartpress_pack\smartpress/archive.php:67
+#: C:\smartpress_pack\smartpress/functions/shortcodes.php:728
+#: C:\smartpress_pack\smartpress/functions/shortcodes.php:731
+#: C:\smartpress_pack\smartpress/functions/shortcodes.php:808
+#: C:\smartpress_pack\smartpress/functions/shortcodes.php:811
+msgid " Read More &rArr;"
+msgstr "Läs mer &rArr;"
+
+#: C:\smartpress_pack\smartpress/archive.php:83
+#: C:\smartpress_pack\smartpress/index.php:64
+#: C:\smartpress_pack\smartpress/search.php:56
+msgid "&lArr; Older Entries"
+msgstr "&lArr; Förra sidan"
+
+#: C:\smartpress_pack\smartpress/archive.php:84
+#: C:\smartpress_pack\smartpress/index.php:65
+#: C:\smartpress_pack\smartpress/search.php:57
+msgid "Newer Entries &rArr;"
+msgstr "Nästa sida &rArr;"
+
+#: C:\smartpress_pack\smartpress/archive.php:98
+#: C:\smartpress_pack\smartpress/index.php:79
+#: C:\smartpress_pack\smartpress/page.php:36
+#: C:\smartpress_pack\smartpress/single.php:100
+#: C:\smartpress_pack\smartpress/template-full.php:40
+msgid "Sorry, but you are looking for something that is not here."
+msgstr "Tyvärr, men du letar efter något som inte finns här"
+
+#: C:\smartpress_pack\smartpress/comments.php:11
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Detta inlägg är lösenordsskyddat.Ange ditt lösenord för att visa "
+"kommentarerna."
+
+#: C:\smartpress_pack\smartpress/comments.php:23
+msgid "One Comment"
+msgstr "En kommentar"
+
+#: C:\smartpress_pack\smartpress/comments.php:39
+msgid "Comments are closed."
+msgstr "Kommentarer avstängda för det här inlägget."
+
+#: C:\smartpress_pack\smartpress/comments.php:49
+msgid "Leave a Comment"
+msgstr "Lämna en kommentar"
+
+#: C:\smartpress_pack\smartpress/comments.php:49
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Lämna ett svar til %s"
+
+#: C:\smartpress_pack\smartpress/comments.php:58
+#, fuzzy, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "Du bör vara %1$s loggat in %2$s för kunna lägga till en kommentar"
+
+#: C:\smartpress_pack\smartpress/comments.php:65
+#, php-format
+msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr "Inloggad som %1$s. %2$sLoggat ut &raquo;%3$s"
+
+#: C:\smartpress_pack\smartpress/comments.php:65
+msgid "Log out of this account"
+msgstr "Logg deg av kontoen"
+
+#: C:\smartpress_pack\smartpress/comments.php:70
+#: C:\smartpress_pack\smartpress/template-contact.php:105
+msgid "Name"
+msgstr "Namn"
+
+#: C:\smartpress_pack\smartpress/comments.php:73
+#: C:\smartpress_pack\smartpress/template-contact.php:112
+msgid "Email"
+msgstr "E-post"
+
+#: C:\smartpress_pack\smartpress/comments.php:73
+msgid "(not published)"
+msgstr "(inte publicerat)"
+
+#: C:\smartpress_pack\smartpress/comments.php:76
+msgid "Website"
+msgstr "webbplats"
+
+#: C:\smartpress_pack\smartpress/comments.php:83
+msgid "Submit Comment"
+msgstr "Publicera en kommentar"
+
+#: C:\smartpress_pack\smartpress/functions.php:17
+msgid "main Menu"
+msgstr "Huvudmeny"
+
+#: C:\smartpress_pack\smartpress/functions.php:230
+msgid "Home"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/functions.php:308
+#: C:\smartpress_pack\smartpress/search.php:4
+#: C:\smartpress_pack\smartpress/searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/functions.php:327
+msgid "Page"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/functions.php:350
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: C:\smartpress_pack\smartpress/functions.php:353
+#: C:\smartpress_pack\smartpress/js/callme.php:23
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: C:\smartpress_pack\smartpress/functions.php:353
+msgid "[Edit]"
+msgstr "(Ändra)"
+
+#: C:\smartpress_pack\smartpress/functions.php:356
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar väntar på moderering"
+
+#: C:\smartpress_pack\smartpress/functions.php:405
+#, php-format
+msgid "View all items filed under %s"
+msgstr "Visa alla poster samlas in %s"
+
+#: C:\smartpress_pack\smartpress/functions.php:433
+msgid "Portfolio Items"
+msgstr "Portfolio objekter"
+
+#: C:\smartpress_pack\smartpress/functions.php:435
+msgid "Add New Item"
+msgstr "Lägga till ett nytt inslag"
+
+#: C:\smartpress_pack\smartpress/functions.php:436
+msgid "Add New Portfolio"
+msgstr "Lägg till en ny portfolio"
+
+#: C:\smartpress_pack\smartpress/functions.php:437
+msgid "Edit Portfolio"
+msgstr "Ändra portefølje"
+
+#: C:\smartpress_pack\smartpress/functions.php:438
+msgid "New Portfolio"
+msgstr "Ny portefølje"
+
+#: C:\smartpress_pack\smartpress/functions.php:439
+msgid "View Portfolio"
+msgstr "Se portefølje"
+
+#: C:\smartpress_pack\smartpress/functions.php:440
+msgid "Search Portfolio"
+msgstr "Søk portefølje"
+
+#: C:\smartpress_pack\smartpress/functions.php:441
+msgid "No portfolios found"
+msgstr "Ingen portofoljer ble funnet"
+
+#: C:\smartpress_pack\smartpress/functions.php:442
+msgid "No portfolios found in Trash"
+msgstr "Inga portofoljer hittades i papperskorgen"
+
+#: C:\smartpress_pack\smartpress/functions.php:466
+msgid "Categories"
+msgstr "Kategorier"
+
+#: C:\smartpress_pack\smartpress/functions.php:466
+msgid "Skill Type"
+msgstr "Spesialisering type"
+
+#: C:\smartpress_pack\smartpress/functions.php:474
+msgid "Portfolio Item Title"
+msgstr "Tittel for Portefølje Element"
+
+#: C:\smartpress_pack\smartpress/functions.php:475
+#: C:\smartpress_pack\smartpress/functions.php:485
+msgid "type"
+msgstr "type"
+
+#: C:\smartpress_pack\smartpress/functions.php:486
+msgid "skill-type"
+msgstr "Spesialisering type"
+
+#: C:\smartpress_pack\smartpress/gallery2col.php:23
+#: C:\smartpress_pack\smartpress/gallery3col.php:23
+#: C:\smartpress_pack\smartpress/gallery4col.php:23
+#: C:\smartpress_pack\smartpress/gallery5col.php:23
+#: C:\smartpress_pack\smartpress/portfolio2col.php:23
+#: C:\smartpress_pack\smartpress/portfolio3col.php:23
+#: C:\smartpress_pack\smartpress/portfolio4col.php:23
+#: C:\smartpress_pack\smartpress/portfolio5col.php:23
+msgid "Filter:"
+msgstr "Filter:"
+
+#: C:\smartpress_pack\smartpress/links.php:20
+msgid "Edit"
+msgstr "Ändra"
+
+#: C:\smartpress_pack\smartpress/search.php:66
+msgid "No Results Found"
+msgstr "Inga träffar"
+
+#: C:\smartpress_pack\smartpress/search.php:73
+msgid ""
+"Apologies, but the page you requested could not be found. Try another search"
+msgstr ""
+"Ursäkter, men sidan du begärde inte kunde hittas.Försök med en annan sökning"
+
+#: C:\smartpress_pack\smartpress/single.php:21
+msgid "In"
+msgstr "Inn"
+
+#: C:\smartpress_pack\smartpress/single.php:23
+msgid "edit"
+msgstr "ändra"
+
+#: C:\smartpress_pack\smartpress/single.php:74
+msgid "Tags"
+msgstr "Etikettar"
+
+#: C:\smartpress_pack\smartpress/template-contact.php:87
+msgid "Thanks, your email was successfully sent."
+msgstr "Takk,ditt e-postmeddelandet  har skickats"
+
+#: C:\smartpress_pack\smartpress/template-contact.php:99
+msgid "There was an error submitting the form."
+msgstr " Ett fel uppstod när formuläret skulle skickas"
+
+#: C:\smartpress_pack\smartpress/template-contact.php:101
+msgid "Send Us An Email"
+msgstr "Skicka e-post till oss"
+
+#: C:\smartpress_pack\smartpress/template-contact.php:120
+msgid "Message"
+msgstr "Besked"
+
+#: C:\smartpress_pack\smartpress/template-contact.php:126
+#: C:\smartpress_pack\smartpress/functions/shortcodes.php:59
+#, fuzzy
+msgid "Submit"
+msgstr "Publicera en kommentar"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:143
+msgid "General Settings"
+msgstr "Allmänna inställningar"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:148
+msgid "Call Us in Top"
+msgstr "Ring oss (se översta raden)"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:149
+msgid "e.g. Call Us Free: (800) 888-7777"
+msgstr "t.ex. Ring oss gratis:(800) 888-7777"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:154
+msgid "Top Bar"
+msgstr "översta panel"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:167
+msgid "Google Map API"
+msgstr "Google karta API"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:168
+#, fuzzy
+msgid ""
+"For Google Map Shortcode <a href=\"https://developers.google.com/maps/signup"
+"\">Get Google Map API</a>"
+msgstr ""
+"För Google karta kortkod<a href=\\\"http://code.google.com/apis/maps/signup."
+"html\\\">Få Google Kart API</a>"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:174
+msgid "Custom Logo"
+msgstr "Anpassad logo"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:175
+msgid ""
+"Upload a logo for your theme, or image url. (e.g. http://example.com/logo."
+"png)"
+msgstr ""
+"Ladda upp en logo för ditt tema eller bildlänken(t.ex. http://example.com/"
+"logo.png)"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:181
+#, fuzzy
+msgid "Enable Breadcrubs"
+msgstr "Aktiver Slider"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:182
+#, fuzzy
+msgid "Check this to enable Breadcrubs."
+msgstr "Kolla här för att aktivera show demo panel"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:187
+msgid "Custom Favicon"
+msgstr "Anpassad Favorittikon"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:188
+msgid "Upload a (16x16px) Png or Gif image."
+msgstr "Ladda upp (16x16px) Png eller Gif bilde."
+
+#: C:\smartpress_pack\smartpress/admin/options.php:193
+#, fuzzy
+msgid "Contact Form Email Address"
+msgstr " kontaktformuläret för e-postadress"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:194
+msgid "Leave blank to use admin email."
+msgstr "Lämna fältet tomt om du vill använda admin e-post."
+
+#: C:\smartpress_pack\smartpress/admin/options.php:199
+msgid "FeedBurner URL"
+msgstr "FeedBurner URL"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:200
+msgid "Enter your FeedBurner URL"
+msgstr "Ange din FeedBurner URL"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:205
+msgid "Show Demo panel"
+msgstr "Visa Demo panel"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:206
+msgid "Check this to enable a show demo panel."
+msgstr "Kolla här för att aktivera show demo panel"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:214
+msgid "Styling"
+msgstr "Styling"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:218
+msgid "Layout Style"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:219
+msgid "Wide, Boxed or SuperWide"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:225
+msgid "Predefinded skins"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:233
+msgid "Use Theme skin color"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:234
+msgid "Use a specific Theme skin color instead of predefined"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:239
+#, fuzzy
+msgid "Theme skin color"
+msgstr "Länkfärg  för Sidfot länk"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:240
+#, fuzzy
+msgid "(default #F95601)"
+msgstr "(standard #4E4F59)"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:245
+msgid "Fixed Top Menu"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:246
+msgid "Fixed or Static"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:252
+#, fuzzy
+msgid "Header Style"
+msgstr "Sidhuvudsbild titelen för  blogg"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:253
+msgid "Select your header style"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:260
+#, fuzzy
+msgid "Footer Style"
+msgstr "Sidfot"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:261
+msgid "Dark or Light footer style"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:268
+msgid "Body Background color"
+msgstr "Bakgrundsfärg för webbplats"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:269
+msgid "(default #FFFFFF)"
+msgstr "(standard #FFFFFF)"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:274
+msgid "Texture Overlays"
+msgstr "Texture Överlägg"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:284
+msgid "Primary link color"
+msgstr "Färgen før primär länke"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:285
+#, fuzzy
+msgid "(default #000000)"
+msgstr "(standard #4E4F59)"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:290
+msgid "Primary link hover color"
+msgstr "Hover  färgen før primär länke"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:291
+msgid "(default #343434)"
+msgstr "(standard #343434)"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:297
+msgid "Main Layout"
+msgstr "Huvudlayout"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:298
+msgid "Select sidebars alignment."
+msgstr "Välj sidofält justering."
+
+#: C:\smartpress_pack\smartpress/admin/options.php:307
+#, fuzzy
+msgid "Custom CSS"
+msgstr "Anpassad CSS"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:308
+#, fuzzy
+msgid "Enter some CSS."
+msgstr "Ange något CSS "
+
+#: C:\smartpress_pack\smartpress/admin/options.php:316
+msgid "CallMe"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:321
+#, fuzzy
+msgid "Enable Callme"
+msgstr "Aktiver Slider"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:322
+msgid "Enable request a callback function"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:327
+msgid "Callme button Text"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:333
+msgid "Callme email text"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:339
+msgid "Callme Name text"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:345
+msgid "Callme Phone text"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:351
+msgid "Callme Time text"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:360
+msgid "Menu"
+msgstr "Meny"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:365
+msgid "Menu Font family"
+msgstr "Textfamilj för meny"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:366
+msgid ""
+"Menu Font family - Supported <a href=\\\"http://www.google.com/webfonts\\\"> "
+"Google Font Directory</a>."
+msgstr ""
+"Textfamilj för meny - stöds <a href=\\\"http://www.google.com/webfonts\\\"> "
+"Google Font Directory</a>."
+
+#: C:\smartpress_pack\smartpress/admin/options.php:372
+msgid "Menu Font size"
+msgstr "Textstorlek för meny"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:381
+msgid "Fonts"
+msgstr "Typsnitter"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:385
+msgid "Body Font family"
+msgstr "Textfamilj för webplats"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:386
+msgid ""
+"Body Font family - Supported <a href=\\\"http://www.google.com/webfonts\\\"> "
+"Google Font Directory</a>."
+msgstr ""
+"Textfamilj för webplats - stöder <a href=\\\"http://www.google.com/webfonts\\"
+"\"> Google Font Directory</a>."
+
+#: C:\smartpress_pack\smartpress/admin/options.php:392
+msgid "Body Font size"
+msgstr "Textstorlek för webplats"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:399
+msgid "Body Font color"
+msgstr "Textsfärg för webplats"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:405
+msgid "Headings Font family"
+msgstr "Textfamilj for rubriker"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:413
+msgid "Headings Font color"
+msgstr "Textsfärg för rubriker"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:424
+msgid "SEO"
+msgstr "SEO"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:428
+msgid "Google Analytics or other Tracking Code "
+msgstr "Google Analytics eller annan spårningskod"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:429
+msgid "Paste your code here."
+msgstr " Klistra in koden"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:434
+msgid "Homepage Title"
+msgstr "Hemsidans Titel "
+
+#: C:\smartpress_pack\smartpress/admin/options.php:435
+msgid "Enter Homepage Title"
+msgstr "Ange Hemsidans Titel "
+
+#: C:\smartpress_pack\smartpress/admin/options.php:440
+msgid "Homepage Description"
+msgstr "Hemsidans beskrivning"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:441
+msgid "Enter Homepage Description"
+msgstr "Ange hemsidans beskrivning"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:446
+msgid "Homepage Keywords"
+msgstr "Hemsidans nyckelord"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:447
+msgid "Enter Homepage Keywords."
+msgstr "Ange hemsidans nyckelord"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:457
+msgid "Sliders"
+msgstr "Sliders"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:461
+msgid "Enable Slider"
+msgstr "Aktiver Slider"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:462
+msgid "Check this to enable the slider on the homepage."
+msgstr "Kolla här för att aktivera slider på  hemsidan."
+
+#: C:\smartpress_pack\smartpress/admin/options.php:467
+msgid "Custom Slider"
+msgstr "Anpassad Slider"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:468
+msgid "Select Custom Slider."
+msgstr " Välj  anpassad Slider"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:474
+msgid "Nivo Slider Effects"
+msgstr "Nivo Slider Effekter"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:475
+msgid "Select Nivo Slider effect. Default \"random\" effect"
+msgstr "Velg Nivo Slider Effekt. Default \"random\"effekt"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:482
+msgid "Cycle Slider Effects"
+msgstr "Cycle Slider Effekt"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:483
+msgid "Select Cycle Slider effect. Default \"scrollRight\" effect"
+msgstr " Välj Cycle Slider effekt. Default \"scrollRight\" effekt"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:489
+msgid "Accordion Slider Effects"
+msgstr "Accordion Slider Effekt"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:490
+msgid "Select Accordion Slider effect. Default \"OutQuint\" effect"
+msgstr " Välj Accordion Slider effekt. Default \"OutQuint\" effekt"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:496
+msgid "Sliders Timeout"
+msgstr "Tidsgräns för slider"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:497
+msgid "Choose the time in milliseconds for sliders timeout (1000 = 1second)"
+msgstr " Välj sliderens tidsgrens i millesekunder (1000 = 1second)"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:502
+msgid "Slider Image 1"
+msgstr "Slider bild 1"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:509
+msgid "Slider Image 1 URL"
+msgstr "Länk tili Sliders Bild 1"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:510
+#: C:\smartpress_pack\smartpress/admin/options.php:541
+#: C:\smartpress_pack\smartpress/admin/options.php:559
+#: C:\smartpress_pack\smartpress/admin/options.php:580
+#: C:\smartpress_pack\smartpress/admin/options.php:598
+msgid "Choose a link URL for this image."
+msgstr "Välj en länk till bilden"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:515
+msgid "Slider Image 1 Content"
+msgstr "Innehåll till Sliders Bild 1"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:516
+msgid ""
+"Enter the content for this image and for \"Cycle Slider mini with static "
+"content\" "
+msgstr ""
+"Skriv innhold for dette bilde og for \"Cycle Slider mini med statisk innhold"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:534
+msgid "Slider Image 2"
+msgstr "Slider  Bild 2"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:540
+msgid "Slider Image 2 URL"
+msgstr "Länk tili Sliders Bild 2"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:546
+msgid "Slider Image 2 Content"
+msgstr "Innehåll till Sliders Bild 2"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:547
+#: C:\smartpress_pack\smartpress/admin/options.php:565
+#: C:\smartpress_pack\smartpress/admin/options.php:586
+#: C:\smartpress_pack\smartpress/admin/options.php:604
+msgid "Enter the content for this image."
+msgstr "Ange innehållet för bilden"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:552
+msgid "Slider Image 3"
+msgstr "Slider  Bild 3"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:558
+msgid "Slider Image 3 URL"
+msgstr "Länk tili Sliders Bild 3"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:564
+msgid "Slider Image 3 Content"
+msgstr "Innehåll till Sliders Bild 3"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:573
+msgid "Slider Image 4"
+msgstr "Slider Bild 4"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:579
+msgid "Slider Image 4 URL"
+msgstr "Länk tili Sliders Bild 4"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:585
+msgid "Slider Image 4 Content"
+msgstr "Innehåll till Sliders Bild 4"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:591
+msgid "Slider Image 5"
+msgstr "Slider Bild 5"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:597
+msgid "Slider Image 5 URL"
+msgstr "Länk tili Sliders Bild 5"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:603
+msgid "Slider Image 5 Content"
+msgstr "Innehåll till Sliders Bild 5"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:612
+msgid "Blog"
+msgstr "Blogg"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:616
+msgid "Blog Style"
+msgstr ""
+
+#: C:\smartpress_pack\smartpress/admin/options.php:623
+msgid "Blog Header Title"
+msgstr "Sidhuvudsbild titelen för  blogg"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:624
+msgid "Enter the title of the portfolio area."
+msgstr "Ange en titel till Portfolio."
+
+#: C:\smartpress_pack\smartpress/admin/options.php:629
+msgid "Blog Thumbnail Height"
+msgstr "Höjd för bloggminiatyrer"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:630
+#, fuzzy
+msgid "default 300"
+msgstr "standard 650"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:638
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:643
+msgid "Enable Lightbox"
+msgstr "Aktivera Lightbox"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:644
+msgid "Check this to enable the lightbox effect."
+msgstr "Kolla här för att aktivere  lightbox effektet"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:652
+msgid "Footer"
+msgstr "Sidfot"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:656
+msgid "Footer Headings Font color"
+msgstr "Rubrikfärg för Sidfot"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:662
+msgid "Footer Font color"
+msgstr "textsfärg för Sidfot"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:668
+msgid "Footer Link color"
+msgstr "Länkfärg  för Sidfot länk"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:674
+msgid "Footer Link hover color"
+msgstr "Länkfärg  för Sidfots hover  länk"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:681
+msgid "Footer Text Right"
+msgstr "Sidfotstext till Höger"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:682
+#: C:\smartpress_pack\smartpress/admin/options.php:688
+msgid "Enter the text you would like to display in the footer."
+msgstr "Ange texten som ska visas i sidfoten"
+
+#: C:\smartpress_pack\smartpress/admin/options.php:687
+msgid "Footer Text Left"
+msgstr "Sidfotstext till vänster"
+
+#: C:\smartpress_pack\smartpress/functions/flickr.php:21
+msgid "A widget that display your photos."
+msgstr "Widget som visar dina bilder."
+
+#: C:\smartpress_pack\smartpress/functions/flickr.php:23
+msgid " | Flickr Photos"
+msgstr " | Flickr Bilder"
+
+#: C:\smartpress_pack\smartpress/functions/flickr.php:75
+msgid "Title:"
+msgstr "Titel:"
+
+#: C:\smartpress_pack\smartpress/functions/flickr.php:80
+msgid "Flickr ID:"
+msgstr "Flickr ID:"
+
+#: C:\smartpress_pack\smartpress/functions/flickr.php:85
+msgid "Number of Photos:"
+msgstr "Antal bilder:"
+
+#: C:\smartpress_pack\smartpress/functions/flickr.php:94
+msgid "Type (user or group):"
+msgstr "Typ (användare eller grupp):"
+
+#: C:\smartpress_pack\smartpress/functions/flickr.php:102
+msgid "Display (random or latest):"
+msgstr " Visa ( slumpmässigt eller senast)"
+
+#: C:\smartpress_pack\smartpress/functions/shortcodes.php:121
+msgid "Top"
+msgstr "Topp"
+
+#: C:\smartpress_pack\smartpress/functions/subnav.php:22
+msgid "Display subpages if present page only."
+msgstr " Visa undersidor om nuvarande webplatsen finns."
+
+#: C:\smartpress_pack\smartpress/functions/subnav.php:24
+msgid " | Subpages"
+msgstr " | Undersidor"
+
+#~ msgid "On"
+#~ msgstr "PÅ"
+
+#~ msgid "portfolio"
+#~ msgstr "portefølje"
+
+#~ msgid "Newer Entries  &#x21d2;"
+#~ msgstr "Nyere innlegg &#x21d2;"
+
+#~ msgid "To search type and hit enter"
+#~ msgstr " Om du vill söka, börjar skriva och tryck sedan på ENTER"
+
+#~ msgid "Enable Plain Text Logo"
+#~ msgstr "Aktivera klar text logo"
+
+#~ msgid "Check this to enable a plain text logo."
+#~ msgstr "Kolla här för att aktivera en klartext logo"
+
+#~ msgid "Main Site Background color"
+#~ msgstr "Huvudsidans bakgrundsfärg"
+
+#~ msgid "Header Background color"
+#~ msgstr "sidhuvudets bakgrundsfärg"
+
+#~ msgid "(default #336699)"
+#~ msgstr "(standard #336699)"
+
+#~ msgid "Selection text background color"
+#~ msgstr " Val av text bakgrundsfärg"
+
+#~ msgid "(default #78c246)"
+#~ msgstr "(standard #78c246)"
+
+#~ msgid "Menu Background Color"
+#~ msgstr "Bakgrundsfärg för meny"
+
+#~ msgid "Menu Font color"
+#~ msgstr "textsfärg för meny"
+
+#~ msgid "Image must be 940px x 350px or 500 px x 350px for mini slider"
+#~ msgstr "Bilden skal vara 940px x 350px or 500 px x 350px for mini slider"
+
+#~ msgid "Slider Image 6"
+#~ msgstr "Slider Bild 6"
+
+#~ msgid "Slider Image 6 URL"
+#~ msgstr "Länk tili Sliders Bild 6"
+
+#~ msgid "Slider Image 6 Content"
+#~ msgstr "Innehåll till Sliders Bild 1"
+
+#~ msgid "Blog Thumbnail Width"
+#~ msgstr "Bredd för miniatyrer"
+
+#~ msgid "default 240"
+#~ msgstr "standard240"
+
+#~ msgid "Show Featured Image"
+#~ msgstr "Visa utvald bild"
+
+#~ msgid "Check this to show the featured image in blog posts."
+#~ msgstr "Kolla här för att visa utvalde bilden i blogginlägg."
+
+#~ msgid "Footer Background color"
+#~ msgstr "bakgrundsfärgen för sidfot"
+
+#~ msgid "A widget display Recent tweets."
+#~ msgstr "Visas senaste tweets i Widget"
+
+#~ msgid " | Recent Tweets"
+#~ msgstr " | Senaste Tweets"
+
+#~ msgid "Twitter Username e.g. alanarmanov"
+#~ msgstr "Twitter användarnamn t.ex. alanarmanov"
+
+#~ msgid "Number of tweets (max 20)"
+#~ msgstr "Antal tweets (max)"
+
+#~ msgid "Follow Text e.g. Follow on Twitter"
+#~ msgstr "Följ Text t.ex. Följ oss på Twitter"
