@@ -161,6 +161,7 @@ table {
 .hot-new-main .description-new h4{color:#055699;font-weight: bold;font-size: 14px;padding-bottom: 15px;}
 .hot-new-catalogue{width: 49%;float: right;margin-left: 2%}
 .box .box-item{margin: 10px 0;}
+.box .box-item a:hover{  text-decoration: none;  }
 .box .box-item img{display: inline-block;vertical-align: top;width: 30%;height: 57px;border:2px solid #ccc;}
 .box .box-item .box-item-description{display: inline-block;vertical-align: top;width: 66%;margin-left: 2%;}
 .box .box-item a{color: #000;}

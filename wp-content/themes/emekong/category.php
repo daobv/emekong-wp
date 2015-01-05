@@ -34,40 +34,47 @@ get_header(); ?>
                         </div>
                     </div>
                     <!-- hot new -->
-                    <?php if (have_posts()) : ?>
+                    <?php $posts_query = new WP_Query($query_string . '&posts_per_page=8'); ?>
+                    <?php if ($posts_query->have_posts()) : ?>
+                        <?php $posts_query->the_post(); ?>
+                        <div class="hot-new-main">
+                            <?php the_post_thumbnail(array(260, 260)); ?>
+                            <div class="description-new">
+                                <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 
-                        <?php while (have_posts()) : the_post(); ?>
-                            <?php if ($wp_query->current_post == 0): ?>
-                                <div class="hot-new-main">
-                                    <?php the_post_thumbnail(array(260, 260)); ?>
-                                    <div class="description-new">
-                                        <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-
-                                        <p>
-                                            <?php the_excerpt(); ?>
-                                        </p>
-                                    </div>
+                                <p>
+                                    <?php the_excerpt(); ?>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hot-new-catalogue box">
+                            <?php for ($i = 0; $i < 3; $i++): ?>
+                                <?php if (!$posts_query->have_posts()) break; ?>
+                                <?php $posts_query->the_post(); ?>
+                                <div class="box-item">
+                                    <a href="<?php the_permalink(); ?>">
+                                        <?php the_post_thumbnail(array(75, 55)); ?>
+                                        <div class="box-item-description">
+                                            <p>
+                                                <?php the_excerpt(); ?>
+                                            </p>
+                                        </div>
+                                    </a>
                                 </div>
-                            <?php else: ?>
-                                <?php if ($wp_query->current_post <= 3): ?>
-                                    <?php if ($wp_query->current_post == 1): ?>
-                                        <div class="hot-new-catalogue box">
-                                    <?php endif; ?>
-                                    <div class="box-item">
-                                        <a href="#">
-                                            <?php the_post_thumbnail(array(75, 55)); ?>
-                                            <div class="box-item-description">
-                                                <p>
-                                                    <?php the_excerpt(); ?>
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                <?php else: ?>
-                                <?php endif; ?>
-                            <?php endif; ?>
-                        <?php endwhile; ?>
-                        <?php emekong_paging_nav(); ?>
+                            <?php endfor; ?>
+                            <div class="other-new">
+                                <ul class="box-list">
+                                    <?php for ($i = 0; $i < 4; $i++): ?>
+                                        <?php if (!$posts_query->have_posts()) break; ?>
+                                        <?php $posts_query->the_post(); ?>
+                                        <li><a href="<?php the_permalink(); ?>">
+                                                <?php the_title();?>
+                                            </a>
+                                        </li>
+                                    <?php endfor; ?>
+                                </ul>
+                            </div>
+                        </div>
                     <?php endif; ?>
                     <!-- End hot new-->
                 </div>

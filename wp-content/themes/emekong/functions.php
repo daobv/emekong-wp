@@ -56,7 +56,7 @@ function get_breadcrumbs() {
     if ( is_category() ) {
         $catTitle = single_cat_title( "", false );
         $cat      = get_cat_ID( $catTitle );
-        echo '<li class="current">'.get_category_parents( $cat, TRUE, "" ).'</li>';
+        echo '<li>'.get_category_parents( $cat, TRUE, "" ).'</li>';
     } elseif ( is_archive() && ! is_category() ) {
         if ( get_post_type() == "portfolio" ) {
             echo "Portfolio";
@@ -71,8 +71,8 @@ function get_breadcrumbs() {
         if ( get_post_type() == 'post' ) {
             $category    = get_the_category();
             $category_id = get_cat_ID( $category[0]->cat_name );
-            echo '<div class="title-posts-detail">'.get_category_parents( $category_id, TRUE, "" ).'</div>';
-            echo '<div class="title-posts-detail">'.the_title( '', '', FALSE ).'</div>';
+            echo '<li class="current">'.get_category_parents( $category_id, TRUE, "" ).'</li>';
+            echo '<li>'.the_title( '', '', FALSE ).'</li>';
         } else {
             echo get_post_type();
             echo get_the_title();
