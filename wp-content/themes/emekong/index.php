@@ -24,7 +24,148 @@ get_header(); ?>
         </div>
         <div id="primary" class="main-content">
             <!-- Projects block-->
+            <div class="project-block">
+                <div class="find-project">
+                    <div class="title-prj">
+                        <h2>Tìm kiếm dự án</h2>
+                    </div>
+                    <div class="find-project-content">
+                        <div class="find-box-search">
+                            <input type="text" class="textbox" placeholder="Nhập từ khóa tìm kiếm">
+                        </div>
+                        <div class="find-box">
+                            <label for="">Loại dự án</label>
+                            <select name="" id="">
+                                <option value="">Đầu tư trong nước</option>
+                                <option value="">Đầu tư nước ngoài</option>
+                            </select>
+                        </div>
+                        <div class="find-box">
+                            <label for="">Lĩnh vực</label>
+                            <select name="" id="">
+                                <option value="">Công nghiệp</option>
+                                <option value="">Nông nghiệp</option>
+                            </select>
+                        </div>
+                        <div class="find-box">
+                            <label for="">Quốc gia</label>
+                            <select name="" id="">
+                                <option value="">Việt Nam</option>
+                                <option value="">English</option>
+                            </select>
+                        </div>
+                        <div class="find-box">
+                            <label for="">Tỉnh thành phố</label>
+                            <select name="" id="">
+                                <option value="">Hà Nội</option>
+                                <option value="">Tp:Hồ Chí Minh</option>
+                            </select>
+                        </div>
+                        <div class="btn-find-box"><button type="submit" class="button" value="Tìm kiếm"></button></div>
 
+                    </div>
+                </div>
+                <div class="project-tabs" id="tabs-project">
+                    <ul>
+                        <li><a href="#tabs-1">Dự án mới</a></li>
+                        <li><a href="#tabs-2">Dự án trọng điểm Quốc gia</a></li>
+                        <li><a href="#tabs-3">Dự án đầu tư nước ngoài</a></li>
+                        <li><a href="#tabs-4">Dự án Doanh nghiệp</a></li>
+                        <li><a href="#tabs-5">Dự án Trong nước</a></li>
+                    </ul>
+                    <div id="tabs-1" class="tab-content">
+                        <ul class="bxslider">
+                            <li>
+                                <ul class="item-list">
+                                    <li>
+                                        <div class="item-article new sale">
+                                            <div class="image-wrap"><img src="media/duan1.jpg" alt=""></div>
+                                            <h3 class="article-name"><a href="#"> Việt Phú Garden </a></h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article new sale">
+                                            <div class="image-wrap"><img src="media/duan1.jpg" alt=""></div>
+                                            <h3 class="article-name"><a href="#"> Việt Phú Garden </a></h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article new sale">
+                                            <div class="image-wrap"><img src="media/duan1.jpg" alt=""></div>
+                                            <h3 class="article-name"><a href="#"> Việt Phú Garden </a></h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article new sale">
+                                            <div class="image-wrap"><img src="media/duan1.jpg" alt=""></div>
+                                            <h3 class="article-name"><a href="#"> Việt Phú Garden </a></h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article new sale">
+                                            <div class="image-wrap"><img src="media/duan1.jpg" alt=""></div>
+                                            <h3 class="article-name"><a href="#"> Việt Phú Garden </a></h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article new sale">
+                                            <div class="image-wrap"><img src="media/duan1.jpg" alt=""></div>
+                                            <h3 class="article-name"><a href="#"> Việt Phú Garden </a></h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="item-list">
+                                    <li>
+                                        <div class="item-article new sale">
+                                            <div class="image-wrap"><img src="media/duan1.jpg" alt=""></div>
+                                            <h3 class="article-name"><a href="#"> Việt Phú Garden </a></h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article new sale">
+                                            <div class="image-wrap"><img src="media/duan1.jpg" alt=""></div>
+                                            <h3 class="article-name"><a href="#"> Việt Phú Garden </a></h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article new sale">
+                                            <div class="image-wrap"><img src="media/duan1.jpg" alt=""></div>
+                                            <h3 class="article-name"><a href="#"> Việt Phú Garden </a></h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-article new sale">
+                                            <div class="image-wrap"><img src="media/duan1.jpg" alt=""></div>
+                                            <h3 class="article-name"><a href="#"> Việt Phú Garden </a></h3>
+                                            <p class="article-add">Bình Chánh/ TP.HCM</p>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="tabs-2" class="tab-content">
+                        a
+                    </div>
+                    <div id="tabs-3" class="tab-content">
+                        b
+                    </div>
+                    <div id="tabs-4" class="tab-content"></div>
+                    <div id="tabs-5" class="tab-content"></div>
+                </div>
+            </div><!--End block search project-->
             <!-- End Projects Block -->
             <div id="content" class="main-home"">
             <div class="hot-news-line">
@@ -46,7 +187,7 @@ get_header(); ?>
             <div class="col-3 col-left">
                 <div class="home-news-slider">
                     <ul class="bxslider">
-                        <?php query_posts($query_string."&featured=yes"); ?>
+                        <?php $posts_query = new WP_Query($query_string."&featured=yes&'posts_per_page=5'"); ?>
                         <?php  while ($posts_query->have_posts()) : $posts_query->the_post();?>
                             <li>
                                 <div class="article-img"><?php the_post_thumbnail( array(321,302) ); ?></div>

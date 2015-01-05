@@ -12,7 +12,7 @@
                 <li>
                     <h3><a href = "<?php the_permalink(); ?>"><?php the_title();?></a></h3>
                     <div class="article-short">
-                        <a href = "<?php the_permalink(); ?>"><div class="img-thumnail"><?php the_post_thumbnail( array(100,94) ); ?></div></a>
+                        <a href = "<?php the_permalink(); ?>"><div class="img-thumnail"><?php the_post_thumbnail( array(94,94) ); ?></div></a>
                         <div class="article-title"><?php the_excerpt(); ?></div>
                     </div>
                 </li>
