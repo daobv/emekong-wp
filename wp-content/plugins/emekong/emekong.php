@@ -33,7 +33,7 @@ function wp_emekong_project_menu() {
     $function		=	'list_projects';
     $icon			=	plugin_dir_url( __FILE__ ).'images/logo_22.png';
     add_menu_page($page_title,$menu_title,$capability,$menu_slug,$function,$icon);
-    add_submenu_page( $menu_slug, "Emekong Projects", "Add New", $capability,'project-edit', $function = '' ) ;
+    add_submenu_page( $menu_slug, "Emekong Projects", "Add New", $capability,'project-add', 'project_add') ;
 }
 
 //	add "Settings" link to plugin page
@@ -44,5 +44,10 @@ function wp_logo_plugin_action_links($links) {
     return $links;
 }
 function list_projects(){
-
+    global $wpdb;
+    include('inc/projects.php');
+}
+function project_add(){
+    global $wpdb;
+    include('inc/project-add.php');
 }

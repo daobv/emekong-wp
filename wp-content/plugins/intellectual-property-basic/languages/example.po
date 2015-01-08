@@ -1,0 +1,1591 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IProperty\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-27 10:10-0800\n"
+"PO-Revision-Date: 2013-02-27 10:10-0800\n"
+"Last-Translator: The Theme Foundry <info@thethemefoundry.com>\n"
+"Language-Team: The Thinkery\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../src/forms.php:20
+#, php-format
+msgid "Missing %s argument to iproperty_capture_form"
+msgstr ""
+
+#: ../src/forms.php:27
+#, php-format
+msgid "Function %s is not a valid function"
+msgstr ""
+
+#: ../src/iproperty.php:540
+msgid "All Properties"
+msgstr ""
+
+#: ../src/menus.php:4
+msgid "IProperty Pages"
+msgstr ""
+
+#: ../src/menus.php:23
+#: ../src/settings.php:30
+msgid "Advanced Search"
+msgstr ""
+
+#: ../src/menus.php:34
+msgid "All Agents"
+msgstr ""
+
+#: ../src/menus.php:45
+msgid "All Companies"
+msgstr ""
+
+#: ../src/menus.php:73
+msgid "IProperty Agents"
+msgstr ""
+
+#: ../src/settings.php:21
+msgid "IProperty"
+msgstr ""
+
+#: ../src/settings.php:24
+msgid "General"
+msgstr ""
+
+#: ../src/settings.php:25
+msgid "Currency"
+msgstr ""
+
+#: ../src/settings.php:26
+msgid "Defaults"
+msgstr ""
+
+#: ../src/settings.php:27
+msgid "Featured"
+msgstr ""
+
+#: ../src/settings.php:28
+msgid "Property"
+msgstr ""
+
+#: ../src/settings.php:29
+msgid "Quick Filter"
+msgstr ""
+
+#: ../src/settings.php:32
+msgid "Yes"
+msgstr ""
+
+#: ../src/settings.php:32
+msgid "No"
+msgstr ""
+
+#: ../src/settings.php:39
+msgid "Require Admin to Publish"
+msgstr ""
+
+#: ../src/settings.php:40
+msgid "Enabling this option means agents will not be able to \"publish\" their properties until an admin approves their changes."
+msgstr ""
+
+#: ../src/settings.php:45
+msgid "Use responsive CSS"
+msgstr ""
+
+#: ../src/settings.php:50
+msgid "Use Theme Sidebar"
+msgstr ""
+
+#: ../src/settings.php:51
+msgid "If your theme includes a sidebar, enabling this option attempts to include it on IProperty views."
+msgstr ""
+
+#: ../src/settings.php:56
+msgid "FT&#178;"
+msgstr ""
+
+#: ../src/settings.php:57
+msgid "M&#178;"
+msgstr ""
+
+#: ../src/settings.php:60
+msgid "Measurement Units"
+msgstr ""
+
+#: ../src/settings.php:65
+msgid "Fractional Baths"
+msgstr ""
+
+#: ../src/settings.php:66
+msgid "Show fractional baths instead of full integers. If this is set to yes, there will be the option to select quarter, half, or full baths."
+msgstr ""
+
+#: ../src/settings.php:70
+msgid "Days New"
+msgstr ""
+
+#: ../src/settings.php:72
+msgid "Days for properties to remain new."
+msgstr ""
+
+#: ../src/settings.php:76
+msgid "Days Updated"
+msgstr ""
+
+#: ../src/settings.php:78
+msgid "Days for properties to show as updated. Set to 0 to disable."
+msgstr ""
+
+#: ../src/settings.php:83
+msgid "CSS"
+msgstr ""
+
+#: ../src/settings.php:84
+msgid "None"
+msgstr ""
+
+#: ../src/settings.php:87
+msgid "Banner Display"
+msgstr ""
+
+#: ../src/settings.php:91
+msgid "Accent Color"
+msgstr ""
+
+#: ../src/settings.php:95
+msgid "Secondary Accent Color"
+msgstr ""
+
+#: ../src/settings.php:100
+msgid "Force Accent Colors"
+msgstr ""
+
+#: ../src/settings.php:101
+msgid "If you are having issues with accent colors coming through or have overwritten IProperty styles with your own, enabling this option will attempt to force IProperty accent colors to be set."
+msgstr ""
+
+#: ../src/settings.php:106
+msgid "Show Footer"
+msgstr ""
+
+#: ../src/settings.php:112
+msgid "Currency Symbol"
+msgstr ""
+
+#: ../src/settings.php:116
+msgid "Before"
+msgstr ""
+
+#: ../src/settings.php:117
+msgid "After"
+msgstr ""
+
+#: ../src/settings.php:120
+msgid "Symbol Position"
+msgstr ""
+
+#: ../src/settings.php:124
+msgid "Decimal Digits"
+msgstr ""
+
+#: ../src/settings.php:133
+msgid "Number Format"
+msgstr ""
+
+#: ../src/settings.php:142
+msgid "Default Company"
+msgstr ""
+
+#: ../src/settings.php:146
+msgid "&mdash; Select Agent &mdash;"
+msgstr ""
+
+#: ../src/settings.php:151
+msgid "Default Agent"
+msgstr ""
+
+#: ../src/settings.php:172
+msgid "Default State"
+msgstr ""
+
+#: ../src/settings.php:176
+msgid "Default Country"
+msgstr ""
+
+#: ../src/settings.php:182
+msgid "Top"
+msgstr ""
+
+#: ../src/settings.php:183
+msgid "Bottom"
+msgstr ""
+
+#: ../src/settings.php:186
+msgid "Featured Position"
+msgstr ""
+
+#: ../src/settings.php:190
+msgid "Featured Accent Color"
+msgstr ""
+
+#: ../src/settings.php:194
+msgid "Number of Featured Items"
+msgstr ""
+
+#: ../src/settings.php:200
+msgid "Show on Regular Property List Pages"
+msgstr ""
+
+#: ../src/settings.php:205
+msgid "Show on Category Pages"
+msgstr ""
+
+#: ../src/settings.php:210
+msgid "Show on Agent Pages"
+msgstr ""
+
+#: ../src/settings.php:215
+msgid "Show on Company Pages"
+msgstr ""
+
+#: ../src/settings.php:221
+#: ../src/settings.php:323
+msgid "Properties Per Page"
+msgstr ""
+
+#: ../src/settings.php:227
+msgid "Show Agent(s)"
+msgstr ""
+
+#: ../src/settings.php:231
+msgid "Site Admin"
+msgstr ""
+
+#: ../src/settings.php:232
+msgid "Agent"
+msgstr ""
+
+#: ../src/settings.php:233
+msgid "Company"
+msgstr ""
+
+#: ../src/settings.php:234
+msgid "Agent and Company"
+msgstr ""
+
+#: ../src/settings.php:237
+msgid "Send Requests to"
+msgstr ""
+
+#: ../src/settings.php:238
+msgid "Who should the \"Request a Showing\" form send emails to?"
+msgstr ""
+
+#: ../src/settings.php:243
+msgid "Copy Admin on Showing Requests"
+msgstr ""
+
+#: ../src/settings.php:244
+msgid "Should the admin be BCC'd on showing requests?"
+msgstr ""
+
+#: ../src/settings.php:249
+msgid "Copy Admin on Send to Friend"
+msgstr ""
+
+#: ../src/settings.php:250
+msgid "Should the admin be BCC'd on send to friend requests?"
+msgstr ""
+
+#: ../src/settings.php:255
+msgid "Store Forms"
+msgstr ""
+
+#: ../src/settings.php:262
+msgid "Show Keyword Search"
+msgstr ""
+
+#: ../src/settings.php:267
+msgid "Show Category"
+msgstr ""
+
+#: ../src/settings.php:272
+#: ../src/settings.php:423
+msgid "Show Sale Type"
+msgstr ""
+
+#: ../src/settings.php:277
+msgid "Show City"
+msgstr ""
+
+#: ../src/settings.php:282
+#: ../src/settings.php:443
+msgid "Show County"
+msgstr ""
+
+#: ../src/settings.php:287
+#: ../src/settings.php:433
+msgid "Show State"
+msgstr ""
+
+#: ../src/settings.php:292
+#: ../src/settings.php:448
+msgid "Show Region"
+msgstr ""
+
+#: ../src/settings.php:297
+#: ../src/settings.php:438
+msgid "Show Province"
+msgstr ""
+
+#: ../src/settings.php:302
+#: ../src/settings.php:428
+msgid "Show Country"
+msgstr ""
+
+#: ../src/settings.php:307
+msgid "Show Minimum Beds"
+msgstr ""
+
+#: ../src/settings.php:312
+msgid "Show Minimum Baths"
+msgstr ""
+
+#: ../src/settings.php:317
+msgid "Show Price Range"
+msgstr ""
+
+#: ../src/settings.php:328
+msgid "Standard"
+msgstr ""
+
+#: ../src/settings.php:329
+msgid "Tabular"
+msgstr ""
+
+#: ../src/settings.php:332
+msgid "Results Layout"
+msgstr ""
+
+#: ../src/settings.php:333
+msgid "How search results are displayed."
+msgstr ""
+
+#: ../src/settings.php:337
+msgid "Price Low"
+msgstr ""
+
+#: ../src/settings.php:342
+msgid "Price High"
+msgstr ""
+
+#: ../src/settings.php:347
+msgid "Beds Low"
+msgstr ""
+
+#: ../src/settings.php:352
+msgid "Beds High"
+msgstr ""
+
+#: ../src/settings.php:357
+msgid "Baths Low"
+msgstr ""
+
+#: ../src/settings.php:362
+msgid "Baths High"
+msgstr ""
+
+#: ../src/settings.php:367
+msgid "FT&#178;/M&#178; Low"
+msgstr ""
+
+#: ../src/settings.php:372
+msgid "FT&#178;/M&#178; High"
+msgstr ""
+
+#: ../src/settings.php:377
+msgid "Default Map Latitude"
+msgstr ""
+
+#: ../src/settings.php:382
+msgid "Default Map Longitude"
+msgstr ""
+
+#: ../src/settings.php:387
+msgid "Default Map Zoom Level"
+msgstr ""
+
+#: ../src/settings.php:392
+msgid "Hybrid"
+msgstr ""
+
+#: ../src/settings.php:393
+msgid "Roadmap"
+msgstr ""
+
+#: ../src/settings.php:394
+msgid "Satellite"
+msgstr ""
+
+#: ../src/settings.php:395
+msgid "Terrain"
+msgstr ""
+
+#: ../src/settings.php:398
+msgid "Default Map Type"
+msgstr ""
+
+#: ../src/settings.php:403
+msgid "Show Radius"
+msgstr ""
+
+#: ../src/settings.php:408
+msgid "Show HOA"
+msgstr ""
+
+#: ../src/settings.php:413
+msgid "Show REO"
+msgstr ""
+
+#: ../src/settings.php:418
+msgid "Show Frontage"
+msgstr ""
+
+#: ../src/settings.php:453
+msgid "Show Thumbnail"
+msgstr ""
+
+#: ../src/settings.php:458
+msgid "Rollover Preview"
+msgstr ""
+
+#: ../src/template_handling.php:10
+msgid "advanced-search"
+msgstr ""
+
+#: ../src/template_handling.php:11
+msgid "agent"
+msgstr ""
+
+#: ../src/template_handling.php:12
+msgid "agents"
+msgstr ""
+
+#: ../src/template_handling.php:13
+msgid "company"
+msgstr ""
+
+#: ../src/template_handling.php:14
+msgid "companies"
+msgstr ""
+
+#: ../src/template_handling.php:16
+msgid "page"
+msgstr ""
+
+#: ../src/template_handling.php:17
+msgid "contact"
+msgstr ""
+
+#: ../src/advanced_search/hooks.php:77
+msgid "Keyword..."
+msgstr ""
+
+#: ../src/classes/property.php:199
+msgid "Call for address"
+msgstr ""
+
+#: ../src/email_templates/contact_agent.php:1
+#: ../src/email_templates/contact_company.php:1
+#, php-format
+msgid "%1$s (%2$s) has sent a contact form inquiry for %3$s from %4$s on %5$s"
+msgstr ""
+
+#: ../src/email_templates/contact_agent.php:4
+#: ../src/email_templates/contact_company.php:4
+msgid "Name:"
+msgstr ""
+
+#: ../src/email_templates/contact_agent.php:6
+#: ../src/email_templates/contact_company.php:6
+msgid "Email:"
+msgstr ""
+
+#: ../src/email_templates/contact_agent.php:9
+#: ../src/email_templates/contact_company.php:9
+msgid "Phone:"
+msgstr ""
+
+#: ../src/email_templates/contact_agent.php:13
+#: ../src/email_templates/contact_company.php:13
+msgid "Evening Phone:"
+msgstr ""
+
+#: ../src/email_templates/contact_agent.php:17
+#: ../src/email_templates/contact_company.php:17
+msgid "Contact Preference:"
+msgstr ""
+
+#: ../src/email_templates/contact_agent.php:21
+#: ../src/email_templates/contact_company.php:21
+msgid "Contact Time:"
+msgstr ""
+
+#: ../src/email_templates/contact_agent.php:25
+#: ../src/email_templates/contact_company.php:25
+msgid "Comments:"
+msgstr ""
+
+#: ../src/email_templates/request_a_showing.php:1
+#, php-format
+msgid "%1$s (%2$s) has requested to have a showing for the %3$s property found at %4$s on %5$s"
+msgstr ""
+
+#: ../src/email_templates/request_a_showing.php:29
+#: ../src/email_templates/send_to_friend.php:13
+msgid "Please follow the link below to view the property details:"
+msgstr ""
+
+#: ../src/email_templates/request_a_showing.php:35
+#: ../src/email_templates/send_to_friend.php:19
+#, php-format
+msgid "Generated by Intellectual Property (c) on %s"
+msgstr ""
+
+#: ../src/email_templates/send_to_friend.php:1
+#, php-format
+msgid "Your friend, %1$s (%2$s) has sent you an invitation to view a property he/she found at %3$s on %4$s."
+msgstr ""
+
+#: ../src/email_templates/send_to_friend.php:9
+msgid "Friend Comments:"
+msgstr ""
+
+#: ../src/integrations/captcha.php:7
+msgid "Please complete:"
+msgstr ""
+
+#: ../src/integrations/captcha.php:20
+msgid "Please complete the CAPTCHA"
+msgstr ""
+
+#: ../src/post_types/property/meta_box.php:9
+msgid "Intellectual Property Meta"
+msgstr ""
+
+#: ../src/post_types/property/meta_box.php:109
+msgid "Sale type is required"
+msgstr ""
+
+#: ../src/post_types/property/meta_box.php:113
+#: ../src/post_types/property/meta_box.php:126
+msgid "At least one category is required"
+msgstr ""
+
+#: ../src/post_types/property/setup.php:16
+msgid "Properties"
+msgstr ""
+
+#: ../src/post_types/property/setup.php:19
+msgid "Add New Property"
+msgstr ""
+
+#: ../src/post_types/property/setup.php:20
+msgid "Edit Property"
+msgstr ""
+
+#: ../src/post_types/property/setup.php:21
+msgid "Add Property"
+msgstr ""
+
+#: ../src/post_types/property/setup.php:22
+msgid "View Property"
+msgstr ""
+
+#: ../src/post_types/property/setup.php:23
+msgid "Search Properties"
+msgstr ""
+
+#: ../src/post_types/property/setup.php:24
+msgid "No Properties Found"
+msgstr ""
+
+#: ../src/post_types/property/setup.php:25
+msgid "No Properties Found in Trash"
+msgstr ""
+
+#: ../src/post_types/property/setup.php:37
+msgid "property"
+msgstr ""
+
+#: ../src/post_types/property/setup.php:229
+msgid "All properties"
+msgstr ""
+
+#: ../src/post_types/property/tabs/directions.php:6
+msgid "Directions"
+msgstr ""
+
+#: ../src/post_types/property/tabs/mortgage_calculator.php:5
+msgid "Mortgage Calculator"
+msgstr ""
+
+#: ../src/post_types/property/tabs/request_a_showing.php:54
+#: ../src/roles/forms.php:33
+msgid "Name is required"
+msgstr ""
+
+#: ../src/post_types/property/tabs/request_a_showing.php:58
+#: ../src/roles/forms.php:37
+msgid "Email is required"
+msgstr ""
+
+#: ../src/post_types/property/tabs/request_a_showing.php:62
+#: ../src/roles/forms.php:41
+msgid "Please select a contact preference"
+msgstr ""
+
+#: ../src/post_types/property/tabs/request_a_showing.php:66
+#: ../src/roles/forms.php:45
+msgid "Email must be a valid email address"
+msgstr ""
+
+#: ../src/post_types/property/tabs/request_a_showing.php:133
+#, php-format
+msgid "%1$s Property Showing Request! [%2$s]"
+msgstr ""
+
+#: ../src/post_types/property/tabs/request_a_showing.php:140
+#: ../src/roles/forms.php:83
+msgid "Copy of: "
+msgstr ""
+
+#: ../src/post_types/property/tabs/request_a_showing.php:195
+msgid "The following errors prevented your showing request from being sent:"
+msgstr ""
+
+#: ../src/post_types/property/tabs/request_a_showing.php:205
+msgid "Thank you! Your request for a property showing has been sent!"
+msgstr ""
+
+#: ../src/post_types/property/tabs/request_a_showing.php:215
+msgid "Request a Showing"
+msgstr ""
+
+#: ../src/post_types/property/tabs/send_to_friend.php:54
+msgid "Your name is required"
+msgstr ""
+
+#: ../src/post_types/property/tabs/send_to_friend.php:58
+msgid "Your email is required"
+msgstr ""
+
+#: ../src/post_types/property/tabs/send_to_friend.php:62
+msgid "Your email must be a valid email address"
+msgstr ""
+
+#: ../src/post_types/property/tabs/send_to_friend.php:66
+msgid "At least one friend&apos;s email is required"
+msgstr ""
+
+#: ../src/post_types/property/tabs/send_to_friend.php:73
+msgid "Your friend&apos;s email must be a valid email address"
+msgstr ""
+
+#: ../src/post_types/property/tabs/send_to_friend.php:98
+#, php-format
+msgid "%s has sent you an invitation to view a property!"
+msgstr ""
+
+#: ../src/post_types/property/tabs/send_to_friend.php:117
+msgid "Send to a friend"
+msgstr ""
+
+#: ../src/post_types/property/tabs/send_to_friend.php:130
+msgid "The following errors prevented your notification from being sent:"
+msgstr ""
+
+#: ../src/post_types/property/tabs/send_to_friend.php:140
+msgid "Thank you! Your friend has been sent an email with a link to this property!"
+msgstr ""
+
+#: ../src/roles/forms.php:76
+#, php-format
+msgid "%1$s Contact Request! [%2$s]"
+msgstr ""
+
+#: ../src/roles/forms.php:111
+msgid "The following errors prevented your contact request from being sent:"
+msgstr ""
+
+#: ../src/roles/forms.php:121
+msgid "Thank you! Your contact request has been sent!"
+msgstr ""
+
+#: ../src/roles/hooks.php:24
+msgid "Phone"
+msgstr ""
+
+#: ../src/roles/hooks.php:25
+msgid "Mobile"
+msgstr ""
+
+#: ../src/roles/hooks.php:26
+msgid "Fax"
+msgstr ""
+
+#: ../src/roles/hooks.php:27
+msgid "License"
+msgstr ""
+
+#: ../src/roles/hooks.php:29
+msgid "Street"
+msgstr ""
+
+#: ../src/roles/hooks.php:30
+msgid "Street 2"
+msgstr ""
+
+#: ../src/roles/hooks.php:31
+msgid "City"
+msgstr ""
+
+#: ../src/roles/hooks.php:32
+msgid "State"
+msgstr ""
+
+#: ../src/roles/hooks.php:33
+msgid "Province"
+msgstr ""
+
+#: ../src/roles/hooks.php:34
+msgid "Postal Code"
+msgstr ""
+
+#: ../src/roles/hooks.php:35
+msgid "Country"
+msgstr ""
+
+#: ../src/roles/hooks.php:37
+msgid "MSN"
+msgstr ""
+
+#: ../src/roles/hooks.php:38
+msgid "Skype"
+msgstr ""
+
+#: ../src/roles/hooks.php:39
+msgid "GTalk"
+msgstr ""
+
+#: ../src/roles/hooks.php:40
+msgid "LinkedIn"
+msgstr ""
+
+#: ../src/roles/hooks.php:41
+msgid "Facebook"
+msgstr ""
+
+#: ../src/roles/hooks.php:42
+msgid "Twitter"
+msgstr ""
+
+#: ../src/roles/hooks.php:43
+msgid "Other"
+msgstr ""
+
+#: ../src/roles/setup.php:38
+msgid "Super Agent"
+msgstr ""
+
+#: ../src/taxonomies/amenity/setup.php:10
+msgid "Amenities"
+msgstr ""
+
+#: ../src/taxonomies/amenity/setup.php:11
+msgid "Amenity"
+msgstr ""
+
+#: ../src/taxonomies/amenity/setup.php:12
+msgid "Search Amenities"
+msgstr ""
+
+#: ../src/taxonomies/amenity/setup.php:13
+msgid "All Amenities"
+msgstr ""
+
+#: ../src/taxonomies/amenity/setup.php:14
+msgid "Parent Amenity"
+msgstr ""
+
+#: ../src/taxonomies/amenity/setup.php:15
+msgid "Parent Amenity:"
+msgstr ""
+
+#: ../src/taxonomies/amenity/setup.php:16
+msgid "Edit Amenity"
+msgstr ""
+
+#: ../src/taxonomies/amenity/setup.php:17
+msgid "Update Amenity"
+msgstr ""
+
+#: ../src/taxonomies/amenity/setup.php:18
+msgid "Add New Amenity"
+msgstr ""
+
+#: ../src/taxonomies/amenity/setup.php:19
+msgid "New Amenity Name"
+msgstr ""
+
+#: ../src/taxonomies/amenity/setup.php:20
+msgid "Add or remove amenities"
+msgstr ""
+
+#: ../src/taxonomies/amenity/setup.php:21
+msgid "Choose from the most used amenities"
+msgstr ""
+
+#: ../src/taxonomies/amenity/setup.php:25
+msgid "property-amenity"
+msgstr ""
+
+#: ../src/taxonomies/category/setup.php:10
+msgid "Categories"
+msgstr ""
+
+#: ../src/taxonomies/category/setup.php:11
+msgid "Category"
+msgstr ""
+
+#: ../src/taxonomies/category/setup.php:12
+msgid "Search Categories"
+msgstr ""
+
+#: ../src/taxonomies/category/setup.php:13
+msgid "All Categories"
+msgstr ""
+
+#: ../src/taxonomies/category/setup.php:14
+msgid "Parent Category"
+msgstr ""
+
+#: ../src/taxonomies/category/setup.php:15
+msgid "Parent Category:"
+msgstr ""
+
+#: ../src/taxonomies/category/setup.php:16
+msgid "Edit Category"
+msgstr ""
+
+#: ../src/taxonomies/category/setup.php:17
+msgid "Update Category"
+msgstr ""
+
+#: ../src/taxonomies/category/setup.php:18
+msgid "Add New Category"
+msgstr ""
+
+#: ../src/taxonomies/category/setup.php:19
+msgid "New Category Name"
+msgstr ""
+
+#: ../src/taxonomies/category/setup.php:20
+msgid "Add or remove categories"
+msgstr ""
+
+#: ../src/taxonomies/category/setup.php:21
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: ../src/taxonomies/category/setup.php:25
+msgid "property-category"
+msgstr ""
+
+#: ../src/taxonomies/category/setup.php:48
+msgid "IProperty Property Category Meta Box"
+msgstr ""
+
+#: ../src/taxonomies/category/setup.php:59
+msgid "Category Image "
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:19
+#: ../src/taxonomies/company/setup.php:21
+msgid "Companies"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:22
+msgid "Search Companies"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:23
+msgid "Popular Companies"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:25
+msgid "Edit Company"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:26
+msgid "Update Company"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:27
+msgid "Add New Company"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:28
+msgid "New Company Name"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:29
+msgid "Separate companies with commas"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:30
+msgid "Add or remove companies"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:31
+msgid "Choose from the most popular companies"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:81
+msgid "Users"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:174
+msgid "Select Company"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:189
+msgid "There are no companies available."
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:251
+msgid "<strong>ERROR</strong>: Company is required for agents."
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:265
+msgid "IProperty Company Meta Box"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:276
+msgid "Email"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:291
+msgid "Website"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:321
+msgid "Postal code"
+msgstr ""
+
+#: ../src/taxonomies/company/setup.php:331
+msgid "Company Image "
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:10
+msgid "Sale Types"
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:11
+msgid "Sale Type"
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:12
+msgid "Search Sale Types"
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:13
+msgid "All Sale Types"
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:14
+msgid "Parent Sale Type"
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:15
+msgid "Parent Sale Type:"
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:16
+msgid "Edit Sale Type"
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:17
+msgid "Update Sale Type"
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:18
+msgid "Add New Sale Type"
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:19
+msgid "New Sale Type Name"
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:20
+msgid "Add or remove sale types"
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:21
+msgid "Choose from the most used sale types"
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:25
+msgid "property-sale-type"
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:47
+msgid "Sale type"
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:71
+msgid "sale type admin"
+msgstr ""
+
+#: ../src/taxonomies/sale_type/setup.php:72
+#, php-format
+msgid "Sale types can be added via the %s page"
+msgstr ""
+
+#: ../src/vendor/struts/classes/struts/options.php:15
+msgid "Options"
+msgstr ""
+
+#: ../src/vendor/struts/classes/struts/options.php:18
+msgid "Theme Options"
+msgstr ""
+
+#: ../src/vendor/struts/classes/struts/options.php:174
+msgid "Options already initialized. Struts no longer requires manual initialization."
+msgstr ""
+
+#: ../src/vendor/struts/classes/struts/options.php:323
+#, php-format
+msgid "Section with name &lsquo;%1$s&rsquo; not defined"
+msgstr ""
+
+#: ../src/vendor/struts/classes/struts/option/color.php:35
+msgid "show color picker"
+msgstr ""
+
+#: ../src/vendor/struts/templates/default.php:7
+msgid "Settings updated successfully."
+msgstr ""
+
+#: ../src/vendor/struts/templates/default.php:13
+msgid "Edit"
+msgstr ""
+
+#: ../src/vendor/struts/templates/default.php:21
+msgid "Save changes"
+msgstr ""
+
+#: ../src/vendor/Tax-Meta-Class/Tax-meta-class/Tax-meta-class.php:250
+msgid "Delete this image"
+msgstr ""
+
+#: ../src/vendor/Tax-Meta-Class/Tax-meta-class/Tax-meta-class.php:250
+#: ../src/vendor/Tax-Meta-Class/Tax-meta-class/Tax-meta-class.php:875
+msgid "Delete"
+msgstr ""
+
+#: ../src/vendor/Tax-Meta-Class/Tax-meta-class/Tax-meta-class.php:350
+msgid "Cannot delete file. Something's wrong."
+msgstr ""
+
+#: ../src/vendor/Tax-Meta-Class/Tax-meta-class/Tax-meta-class.php:575
+#: ../src/vendor/Tax-Meta-Class/Tax-meta-class/Tax-meta-class.php:622
+msgid "Remove"
+msgstr ""
+
+#: ../src/vendor/Tax-Meta-Class/Tax-meta-class/Tax-meta-class.php:588
+msgid "Add"
+msgstr ""
+
+#: ../src/vendor/Tax-Meta-Class/Tax-meta-class/Tax-meta-class.php:871
+msgid "Uploaded files"
+msgstr ""
+
+#: ../src/vendor/Tax-Meta-Class/Tax-meta-class/Tax-meta-class.php:882
+msgid "Upload new files"
+msgstr ""
+
+#: ../src/vendor/Tax-Meta-Class/Tax-meta-class/Tax-meta-class.php:888
+msgid "Add more files"
+msgstr ""
+
+#: ../src/vendor/Tax-Meta-Class/Tax-meta-class/Tax-meta-class.php:940
+msgid "Select a color"
+msgstr ""
+
+#: ../src/view_helpers/admin.php:131
+msgid "Minimum beds"
+msgstr ""
+
+#: ../src/view_helpers/admin.php:146
+msgid "Minimum baths"
+msgstr ""
+
+#: ../src/view_helpers/admin.php:171
+msgid "Min Price"
+msgstr ""
+
+#: ../src/view_helpers/admin.php:189
+msgid "Max Price"
+msgstr ""
+
+#: ../src/view_helpers/admin.php:198
+msgid "&mdash; Select Company &mdash;"
+msgstr ""
+
+#: ../src/view_helpers/admin.php:214
+msgid "&mdash; Select Agents &mdash;"
+msgstr ""
+
+#: ../src/view_helpers/common.php:10
+msgid "Post"
+msgstr ""
+
+#: ../src/view_helpers/common.php:11
+msgid "Agent(s)"
+msgstr ""
+
+#: ../src/view_helpers/common.php:12
+msgid "Reference ID"
+msgstr ""
+
+#: ../src/view_helpers/common.php:13
+msgid "Available date"
+msgstr ""
+
+#: ../src/view_helpers/common.php:14
+#: ../src/views/_advanced_search_form.php:22
+msgid "Price"
+msgstr ""
+
+#: ../src/view_helpers/common.php:15
+msgid "per"
+msgstr ""
+
+#: ../src/view_helpers/common.php:16
+msgid "Original price"
+msgstr ""
+
+#: ../src/view_helpers/common.php:18
+#: ../src/view_helpers/common.php:173
+msgid "Call for price"
+msgstr ""
+
+#: ../src/view_helpers/common.php:23
+msgid "Postcode"
+msgstr ""
+
+#: ../src/view_helpers/common.php:26
+#: ../src/view_helpers/quick_search_and_filter.php:62
+#: ../src/views/_advanced_search_form.php:87
+msgid "Region"
+msgstr ""
+
+#: ../src/view_helpers/common.php:27
+#: ../src/view_helpers/quick_search_and_filter.php:60
+#: ../src/views/_advanced_search_form.php:94
+msgid "County"
+msgstr ""
+
+#: ../src/view_helpers/common.php:28
+msgid "Latitude"
+msgstr ""
+
+#: ../src/view_helpers/common.php:29
+msgid "Longitude"
+msgstr ""
+
+#: ../src/view_helpers/common.php:30
+msgid "Hide Address"
+msgstr ""
+
+#: ../src/view_helpers/common.php:31
+#: ../src/views/_advanced_search_form.php:20
+msgid "Beds"
+msgstr ""
+
+#: ../src/view_helpers/common.php:32
+#: ../src/views/_advanced_search_form.php:21
+msgid "Baths"
+msgstr ""
+
+#: ../src/view_helpers/common.php:33
+#: ../src/view_helpers/common.php:63
+msgid "FT&#178; building"
+msgstr ""
+
+#: ../src/view_helpers/common.php:34
+#: ../src/view_helpers/common.php:71
+msgid "FT&#178; lot"
+msgstr ""
+
+#: ../src/view_helpers/common.php:35
+msgid "Lot type"
+msgstr ""
+
+#: ../src/view_helpers/common.php:36
+msgid "Year built"
+msgstr ""
+
+#: ../src/view_helpers/common.php:37
+msgid "Heating"
+msgstr ""
+
+#: ../src/view_helpers/common.php:38
+msgid "Cooling"
+msgstr ""
+
+#: ../src/view_helpers/common.php:39
+msgid "Fuel"
+msgstr ""
+
+#: ../src/view_helpers/common.php:40
+msgid "Garage type"
+msgstr ""
+
+#: ../src/view_helpers/common.php:41
+msgid "Garage size"
+msgstr ""
+
+#: ../src/view_helpers/common.php:42
+msgid "Siding"
+msgstr ""
+
+#: ../src/view_helpers/common.php:43
+msgid "Roof"
+msgstr ""
+
+#: ../src/view_helpers/common.php:44
+msgid "Reception"
+msgstr ""
+
+#: ../src/view_helpers/common.php:45
+msgid "Tax"
+msgstr ""
+
+#: ../src/view_helpers/common.php:46
+msgid "Income"
+msgstr ""
+
+#: ../src/view_helpers/common.php:47
+msgid "Zoning"
+msgstr ""
+
+#: ../src/view_helpers/common.php:48
+msgid "View"
+msgstr ""
+
+#: ../src/view_helpers/common.php:49
+msgid "School district"
+msgstr ""
+
+#: ../src/view_helpers/common.php:50
+msgid "House style"
+msgstr ""
+
+#: ../src/view_helpers/common.php:51
+#: ../src/views/_advanced_search_form.php:65
+msgid "Frontage"
+msgstr ""
+
+#: ../src/view_helpers/common.php:52
+#: ../src/views/_advanced_search_form.php:57
+msgid "REO"
+msgstr ""
+
+#: ../src/view_helpers/common.php:53
+#: ../src/views/_advanced_search_form.php:61
+msgid "HOA"
+msgstr ""
+
+#: ../src/view_helpers/common.php:54
+msgid "Virtual tour URL"
+msgstr ""
+
+#: ../src/view_helpers/common.php:61
+msgid "M&#178; building"
+msgstr ""
+
+#: ../src/view_helpers/common.php:69
+msgid "M&#178; lot"
+msgstr ""
+
+#: ../src/view_helpers/common.php:79
+msgid "No label"
+msgstr ""
+
+#: ../src/view_helpers/google_maps.php:13
+msgid "ID:"
+msgstr ""
+
+#: ../src/view_helpers/google_maps.php:14
+msgid "Price:"
+msgstr ""
+
+#: ../src/views/_404.php:4
+msgid "Sorry, no records were found. Please try again."
+msgstr ""
+
+#: ../src/views/_advanced_search_form.php:44
+msgid "Search radius"
+msgstr ""
+
+#: ../src/views/_compact_property.php:12
+msgid "New"
+msgstr ""
+
+#: ../src/views/_compact_property.php:14
+msgid "Updated"
+msgstr ""
+
+#: ../src/views/_featured_posts.php:3
+msgid "Featured Properties"
+msgstr ""
+
+#: ../src/views/_quick_filter.php:58
+msgid "Min Beds"
+msgstr ""
+
+#: ../src/views/_quick_filter.php:71
+msgid "Min Baths"
+msgstr ""
+
+#: ../src/views/_quick_filter.php:106
+msgid "Title"
+msgstr ""
+
+#: ../src/views/_quick_filter.php:111
+msgid "Listed Date"
+msgstr ""
+
+#: ../src/views/_quick_filter.php:112
+msgid "Modified Date"
+msgstr ""
+
+#: ../src/views/_quick_filter.php:117
+msgid "Sort By:"
+msgstr ""
+
+#: ../src/views/_quick_filter.php:128
+msgid "Descending"
+msgstr ""
+
+#: ../src/views/_quick_filter.php:131
+msgid "Ascending"
+msgstr ""
+
+#: ../src/views/_tabular_property.php:7
+msgid "Prop ID"
+msgstr ""
+
+#: ../src/views/_tabular_property.php:19
+msgid "Preview"
+msgstr ""
+
+#: ../src/views/home.php:25
+#, php-format
+msgid "Properties: %d"
+msgstr ""
+
+#: ../src/views/home.php:28
+msgid "Child categories:"
+msgstr ""
+
+#: ../src/views/home.php:48
+msgid "No categories found"
+msgstr ""
+
+#: ../src/views/single_agent.php:24
+#: ../src/views/single_agent.php:35
+#: ../src/views/single_company.php:42
+#: ../src/views/single_company.php:56
+msgid "Contact"
+msgstr ""
+
+#: ../src/views/single_company.php:36
+#: ../src/views/single_company.php:53
+msgid "Agents"
+msgstr ""
+
+#: ../src/views/single_property.php:22
+#, php-format
+msgid "Available %s"
+msgstr ""
+
+#: ../src/views/single_property.php:35
+msgid "Gallery"
+msgstr ""
+
+#: ../src/views/single_property.php:43
+msgid "Map"
+msgstr ""
+
+#: ../src/views/single_property.php:49
+msgid "Street View"
+msgstr ""
+
+#: ../src/views/single_property.php:85
+msgid "Overview"
+msgstr ""
+
+#: ../src/views/single_property.php:91
+#: ../src/views/admin/property_meta.php:52
+msgid "Details"
+msgstr ""
+
+#: ../src/views/single_property.php:119
+msgid "For more information, contact:"
+msgstr ""
+
+#: ../src/views/admin/open_house_meta.php:2
+msgid "Start"
+msgstr ""
+
+#: ../src/views/admin/open_house_meta.php:4
+msgid "End"
+msgstr ""
+
+#: ../src/views/admin/property_meta.php:26
+msgid "Location"
+msgstr ""
+
+#: ../src/views/admin/property_meta.php:46
+msgid "Choose a point on the map to set the latitude/longitude for this property."
+msgstr ""
+
+#: ../src/views/common/_contact_form.php:19
+msgid "Either"
+msgstr ""
+
+#: ../src/views/common/_contact_form.php:27
+msgid "Morning"
+msgstr ""
+
+#: ../src/views/common/_contact_form.php:28
+msgid "Afternoon"
+msgstr ""
+
+#: ../src/views/common/_contact_form.php:29
+msgid "Night"
+msgstr ""
+
+#: ../src/views/common/_contact_form.php:36
+msgid "Special Requests or Comments:"
+msgstr ""
+
+#: ../src/views/common/_contact_form.php:42
+msgid "Send a copy of this request to my email"
+msgstr ""
+
+#: ../src/views/single_agent/tabs/_properties.php:4
+#: ../src/views/single_company/tabs/_properties.php:12
+#, php-format
+msgid "Listings by %s"
+msgstr ""
+
+#: ../src/views/single_property/main_tabs/_details.php:3
+msgid "Virtual Tour"
+msgstr ""
+
+#: ../src/views/single_property/main_tabs/_details.php:17
+msgid "Last Updated"
+msgstr ""
+
+#: ../src/views/single_property/main_tabs/_details.php:33
+msgid "Other Details"
+msgstr ""
+
+#: ../src/views/single_property/main_tabs/_request_a_showing.php:5
+msgid "Please complete the form below to request a showing for this property. We will review your request and respond to you as soon as possible. Please add any additional notes or comments that we will need to know about your request."
+msgstr ""
+
+#: ../src/views/single_property/main_tabs/_send_to_friend.php:3
+msgid "If you would like to send this property to a friend that you think may be interested, please complete the form below. To send this property to multiple friends, enter each email separated by a comma in the 'Friends Email' field."
+msgstr ""
+
+#: ../src/views/single_property/main_tabs/_send_to_friend.php:9
+msgid "Your Name:"
+msgstr ""
+
+#: ../src/views/single_property/main_tabs/_send_to_friend.php:10
+msgid "Your Email:"
+msgstr ""
+
+#: ../src/views/single_property/main_tabs/_send_to_friend.php:11
+msgid "Friend(s) Emails:"
+msgstr ""
+
+#: ../src/views/single_property/main_tabs/_send_to_friend.php:13
+msgid "Enter multiple emails separated by comma."
+msgstr ""
+
+#: ../src/views/single_property/top_tabs/_directions.php:2
+msgid "Please enter your starting address in the form input below"
+msgstr ""
+
+#: ../src/views/single_property/top_tabs/_mortgage_calculator.php:4
+msgid "House Price:"
+msgstr ""
+
+#: ../src/views/single_property/top_tabs/_mortgage_calculator.php:8
+msgid "Down Payment:"
+msgstr ""
+
+#: ../src/views/single_property/top_tabs/_mortgage_calculator.php:12
+msgid "Annual Interest (%):"
+msgstr ""
+
+#: ../src/views/single_property/top_tabs/_mortgage_calculator.php:16
+msgid "Term (in Years):"
+msgstr ""
+
+#: ../src/views/single_property/top_tabs/_mortgage_calculator.php:25
+msgid "Mortgage Principle:"
+msgstr ""
+
+#: ../src/views/single_property/top_tabs/_mortgage_calculator.php:29
+msgid "Total Payments:"
+msgstr ""
+
+#: ../src/views/single_property/top_tabs/_mortgage_calculator.php:33
+msgid "Monthly Payment:"
+msgstr ""
+
+#: ../src/widget_templates/quick_search.php:3
+msgid "Property Search"
+msgstr ""
+
+#: ../src/widget_templates/quick_search.php:51
+msgid "Minimum Bed/Bath"
+msgstr ""
+
+#: ../src/widget_templates/quick_search.php:82
+msgid "Price Range"
+msgstr ""
+
+#: ../src/widget_templates/reference_id_search.php:3
+msgid "Search by Reference ID"
+msgstr ""
+
+#: ../src/widget_templates/reference_id_search.php:7
+msgid "Ref #"
+msgstr ""
+
+#: ../src/widget_templates/forms/quick_search.php:2
+msgid "Note: Search options will display only if there is more than one choice for a field, regardless of the option being enabled here."
+msgstr ""
+

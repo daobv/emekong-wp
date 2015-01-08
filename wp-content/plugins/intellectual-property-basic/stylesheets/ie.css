@@ -1,0 +1,3 @@
+.non-responsive .iproperty-slider-container { margin-right: 5% !important; }
+.non-responsive .iproperty-profile-details .iproperty-profile-image img { width: 100%; }
+.non-responsive .archive-property ul.property-categories li:after { content: ""; }

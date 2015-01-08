@@ -1,0 +1,1040 @@
+.primary-border { border: 1px solid #dedede; }
+
+.primary-border-bottom { border-bottom: 1px solid #dedede; }
+
+.primary-background-color { background-color: #dedede; }
+
+.secondary-background-color { background-color: #f9f9f9; }
+
+.primary-background-color.iproperty-active { background-color: #f9f9f9; }
+
+.secondary-background-color.iproperty-active { background-color: #dedede; }
+
+.iproperty-featured-container .featured-text-color { color: #ff120a; }
+
+.iproperty-featured-agents-container .featured-text-color { color: #ff120a; }
+
+.iproperty-featured-companies-container .featured-text-color { color: #ff120a; }
+
+.iproperty-profile-details { overflow: hidden; *zoom: 1; margin: 0; padding: 10px; }
+.iproperty-profile-details:nth-child(even) { background-color: #f7f7f7; }
+.iproperty-profile-details h1 { font-size: 16px; margin: 0 0 10px 0 !important; }
+.iproperty-profile-details h1 a { text-decoration: none; }
+.iproperty-profile-details .iproperty-profile-image img { max-width: 100%; height: auto; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
+.iproperty-profile-details .iproperty-profile-column { margin: 0 0 10px 0; font-size: 13px; }
+.iproperty-profile-details .iproperty-address-container { overflow: hidden; *zoom: 1; clear: both; margin-bottom: 10px; }
+.iproperty-profile-details .iproperty-address-container .address-label { display: block; font-weight: bold; width: 5em; margin-right: 1em; float: left; }
+.iproperty-profile-details .iproperty-address-container .iproperty-profile-address { font-style: normal; float: left; margin: 0; }
+.iproperty-profile-details .iproperty-contact-info-list { list-style-type: none !important; word-break: break-all; margin: 0 0 10px 0; padding: 0; }
+.iproperty-profile-details .iproperty-contact-info-list li { overflow: hidden; *zoom: 1; margin: 0 0 6px 0; clear: both; line-height: 1.2em; word-break: normal; }
+.iproperty-profile-details .iproperty-contact-info-list li .contact-label { font-weight: bold; width: 5em; margin-right: 0.5em; display: inline-block; }
+
+.iproperty-header-with-margin { margin: 0 0 10px 0 !important; word-wrap: normal; }
+
+.map-info-window { width: 450px !important; overflow: hidden; }
+.map-info-window .info-window-image { float: left; margin: 0 10px 0 0; width: 135px; }
+.map-info-window .info-window-image img { max-width: 100% !important; }
+.map-info-window .info-window-content { float: left; width: 267px; }
+.map-info-window p, .map-info-window li, .map-info-window .info-window-excerpt { margin: 0 0 0.5em 0 !important; }
+.map-info-window .info-window-details { overflow: hidden; *zoom: 1; padding: 0; margin: 0; }
+.map-info-window .info-window-details li { display: block; float: left; margin: 0 0.5em 0 0; font-size: 12px; font-weight: bold; }
+.map-info-window .info-window-details li:after { content: "|"; margin-left: 0.5em; }
+.map-info-window .info-window-details li:last-child:after { content: ""; margin-left: 0; }
+.map-info-window .info-window-excerpt { margin-top: 8px; clear: both; }
+
+.iproperty-thumbnail { position: relative; display: block; width: 54%; float: left; margin: 4px 3% 0 4px; text-decoration: none; }
+.iproperty-thumbnail img { width: 100%; height: auto; display: block; margin: 0; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; }
+.iproperty-thumbnail .iproperty-price { display: block; text-align: center; border-top: none; padding: 4px 0; font-size: 1em; line-height: 1.1; }
+
+.archive-property .iproperty-thumbnail { margin-left: 3px; }
+
+.iproperty-ribbon-wrapper { width: 85px; height: 88px; overflow: hidden; position: absolute; top: -3px; left: -4px; }
+
+.iproperty-ribbon { -webkit-box-shadow: rgba(0, 0, 0, 0.3), 0px 0px 3px; -moz-box-shadow: rgba(0, 0, 0, 0.3), 0px 0px 3px; box-shadow: rgba(0, 0, 0, 0.3), 0px 0px 3px; -webkit-transform: rotate(315deg); -moz-transform: rotate(315deg); -ms-transform: rotate(315deg); -o-transform: rotate(315deg); transform: rotate(315deg); font: bold 13px Sans-Serif; text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px; color: #ededed; text-align: center; position: relative; padding: 7px 0; left: -27px; top: 15px; width: 120px; }
+
+.iproperty-ribbon:before, .iproperty-ribbon:after { content: ""; position: absolute; bottom: -2px; border-left: 3px solid transparent; border-right: 3px solid transparent; }
+
+.iproperty-ribbon:before { left: 0; }
+
+.iproperty-ribbon:after { right: 3px; }
+
+.iproperty-ribbon-green { background-color: #BFDC7A; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bfdc7a), color-stop(100%, #8ebf45)); background: -webkit-linear-gradient(top, #bfdc7a, #8ebf45); background: -moz-linear-gradient(top, #bfdc7a, #8ebf45); background: -o-linear-gradient(top, #bfdc7a, #8ebf45); background: linear-gradient(top, #bfdc7a, #8ebf45); }
+
+.iproperty-ribbon-green:before, .iproperty-ribbon-green:after { border-top: 3px solid #6e8900; }
+
+.iproperty-ribbon-blue { background-color: #0024D5; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0024d5), color-stop(100%, #041d9b)); background: -webkit-linear-gradient(top, #0024d5, #041d9b); background: -moz-linear-gradient(top, #0024d5, #041d9b); background: -o-linear-gradient(top, #0024d5, #041d9b); background: linear-gradient(top, #0024d5, #041d9b); }
+
+.iproperty-ribbon-blue:before, .iproperty-ribbon-blue:after { border-top: 3px solid #6e8900; }
+
+.iproperty-footer { margin: 10px 0; font-size: 11px; text-align: center; clear: both; }
+
+.iproperty-page-title { font-size: 1.5em; margin: 1em 0; }
+.iproperty-page-title img { margin: 0; }
+
+.iproperty-notification { -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; background-color: #e8d425; padding: 8px; margin: 10px 0; }
+.iproperty-notification h4 { margin: 0 !important; }
+.iproperty-notification ul { margin: 0 !important; list-style: disc inside; }
+.iproperty-notification ul li { margin: 4px 0; }
+
+.iproperty-success { background-color: #358c28; color: #ffffff !important; }
+.iproperty-success * { color: #ffffff !important; }
+
+.iproperty-error { background-color: #f22b2b; color: #ffffff !important; }
+.iproperty-error * { color: #ffffff !important; }
+
+.iproperty-no-records-found { margin: 20px 0; }
+
+.iproperty-original-price { text-decoration: line-through; color: red; margin-right: 10px; }
+
+.iproperty-pagination { margin: 5px 0; }
+
+#iproperty-main-container { position: relative; }
+
+/* General styles for the tabbed sections */
+#iproperty-main-container ul.iproperty-tab-controls { position: relative; bottom: -1px; margin: 0 !important; z-index: 10; padding: 0 !important; overflow: hidden; *zoom: 1; }
+#iproperty-main-container ul.iproperty-tab-controls li { display: block; float: left; border-bottom: none; padding: 4px 10px; margin: 0 5px 0 0; font-size: 12px; }
+#iproperty-main-container ul.iproperty-tab-controls li a { text-decoration: none; color: #000; }
+
+.iproperty-tab-panel { overflow: hidden; *zoom: 1; background-color: #f9f9f9; padding: 0.75em; }
+.iproperty-tab-panel.iproperty-hidden { display: none; }
+.iproperty-tab-panel.iproperty-active { display: block; }
+
+.iproperty-profile-image { overflow: hidden; *zoom: 1; padding: 3px; border: 1px solid #cccccc; max-width: 150px; line-height: 1em; }
+
+#iproperty-offline-message { padding: 15px 0; }
+
+.iproperty-featured-agents-header { margin: 10px 0; }
+
+.iproperty-banner { width: 7em; padding: 0.5em 0.25em; text-align: center; background: #358c28; color: #fff; font-weight: bold; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; opacity: 0.85; display: block; }
+
+.iproperty-banner-updated { background: #202d93; }
+
+.iproperty-banner-featured { margin: 5px; }
+
+#iproperty-header-links { padding: 10px; text-align: right; }
+#iproperty-header-links a { padding: 0 5px; color: #000; text-decoration: none; }
+
+#iproperty-no-properties-found { padding: 10px; background: #e9e9e9; }
+
+#iproperty-disclaimer { clear: both; margin: 10px 0; font-size: 10px; color: #999999; line-height: 15px; }
+
+#iproperty-quick-filter select, #iproperty-quick-filter input[type="text"], .widget_ipropertyquicksearchwidget select, .widget_ipropertyquicksearchwidget input[type="text"] { margin: 3px 0; }
+
+.iproperty-widescreen .iproperty-profile-details, .iproperty-non-responsive .iproperty-profile-details { border-bottom: none; }
+.iproperty-widescreen .iproperty-banner-featured, .iproperty-non-responsive .iproperty-banner-featured { margin: 5px auto 0 auto; }
+
+.iproperty-single-company-agent .iproperty-company-description { margin: 10px 0 20px 0; }
+.iproperty-single-company-agent .profile-header { margin-bottom: 10px; }
+.iproperty-single-company-agent .iproperty-profile-details { padding: 0; }
+.iproperty-single-company-agent .iproperty-profile-details .profile-header { padding-bottom: 2%; margin-bottom: 2%; overflow: hidden; *zoom: 1; }
+
+.iproperty-profile-image { margin: 0; }
+
+.iproperty-agent-list-container .iproperty-profile-details .iproperty-agent-details-name-heading { font-size: 14px; }
+.iproperty-agent-list-container .iproperty-profile-details .iproperty-agent-details-name-heading a { font-size: 14px; }
+.iproperty-agent-list-container .iproperty-profile-details .iproperty-profile-image { max-width: 125px; }
+.iproperty-agent-list-container .iproperty-profile-details .iproperty-contact-info-list li { overflow: visible; }
+
+.iproperty-widescreen .iproperty-single-company-agent .iproperty-profile-details .iproperty-agent-details-name-heading, .iproperty-widescreen .iproperty-agent-list-container .iproperty-profile-details .iproperty-agent-details-name-heading, .iproperty-widescreen .iproperty-company-archive .iproperty-profile-details .iproperty-agent-details-name-heading, .iproperty-non-responsive .iproperty-single-company-agent .iproperty-profile-details .iproperty-agent-details-name-heading, .iproperty-non-responsive .iproperty-agent-list-container .iproperty-profile-details .iproperty-agent-details-name-heading, .iproperty-non-responsive .iproperty-company-archive .iproperty-profile-details .iproperty-agent-details-name-heading { text-align: center; }
+.iproperty-widescreen .iproperty-single-company-agent .iproperty-profile-details .iproperty-profile-column, .iproperty-widescreen .iproperty-agent-list-container .iproperty-profile-details .iproperty-profile-column, .iproperty-widescreen .iproperty-company-archive .iproperty-profile-details .iproperty-profile-column, .iproperty-non-responsive .iproperty-single-company-agent .iproperty-profile-details .iproperty-profile-column, .iproperty-non-responsive .iproperty-agent-list-container .iproperty-profile-details .iproperty-profile-column, .iproperty-non-responsive .iproperty-company-archive .iproperty-profile-details .iproperty-profile-column { float: left; margin-right: 2%; }
+.iproperty-widescreen .iproperty-single-company-agent .iproperty-profile-details #iproperty-agent-name-image, .iproperty-widescreen .iproperty-agent-list-container .iproperty-profile-details #iproperty-agent-name-image, .iproperty-widescreen .iproperty-company-archive .iproperty-profile-details #iproperty-agent-name-image, .iproperty-non-responsive .iproperty-single-company-agent .iproperty-profile-details #iproperty-agent-name-image, .iproperty-non-responsive .iproperty-agent-list-container .iproperty-profile-details #iproperty-agent-name-image, .iproperty-non-responsive .iproperty-company-archive .iproperty-profile-details #iproperty-agent-name-image { width: 25%; margin-bottom: 0; }
+.iproperty-widescreen .iproperty-single-company-agent .iproperty-profile-details #iproperty-agent-name-image .iproperty-profile-image, .iproperty-widescreen .iproperty-agent-list-container .iproperty-profile-details #iproperty-agent-name-image .iproperty-profile-image, .iproperty-widescreen .iproperty-company-archive .iproperty-profile-details #iproperty-agent-name-image .iproperty-profile-image, .iproperty-non-responsive .iproperty-single-company-agent .iproperty-profile-details #iproperty-agent-name-image .iproperty-profile-image, .iproperty-non-responsive .iproperty-agent-list-container .iproperty-profile-details #iproperty-agent-name-image .iproperty-profile-image, .iproperty-non-responsive .iproperty-company-archive .iproperty-profile-details #iproperty-agent-name-image .iproperty-profile-image { max-width: 100%; }
+.iproperty-widescreen .iproperty-single-company-agent .iproperty-profile-details #iproperty-agent-contact-details, .iproperty-widescreen .iproperty-single-company-agent .iproperty-profile-details #iproperty-agent-address, .iproperty-widescreen .iproperty-agent-list-container .iproperty-profile-details #iproperty-agent-contact-details, .iproperty-widescreen .iproperty-agent-list-container .iproperty-profile-details #iproperty-agent-address, .iproperty-widescreen .iproperty-company-archive .iproperty-profile-details #iproperty-agent-contact-details, .iproperty-widescreen .iproperty-company-archive .iproperty-profile-details #iproperty-agent-address, .iproperty-non-responsive .iproperty-single-company-agent .iproperty-profile-details #iproperty-agent-contact-details, .iproperty-non-responsive .iproperty-single-company-agent .iproperty-profile-details #iproperty-agent-address, .iproperty-non-responsive .iproperty-agent-list-container .iproperty-profile-details #iproperty-agent-contact-details, .iproperty-non-responsive .iproperty-agent-list-container .iproperty-profile-details #iproperty-agent-address, .iproperty-non-responsive .iproperty-company-archive .iproperty-profile-details #iproperty-agent-contact-details, .iproperty-non-responsive .iproperty-company-archive .iproperty-profile-details #iproperty-agent-address { width: 34%; }
+.iproperty-widescreen .iproperty-profile-image, .iproperty-non-responsive .iproperty-profile-image { margin: 0; }
+
+.archive-property { overflow: hidden; *zoom: 1; clear: both; padding: 2% 0; }
+.archive-property header, .archive-property ul.property-details, .archive-property section { float: right; width: 40%; }
+.archive-property header { margin: 0 0 7px 0; }
+.archive-property header h3 { margin: 0; font-weight: normal; line-height: 1; }
+.archive-property header h3 a { text-decoration: none; }
+.archive-property header h3 address { display: inline; font-style: normal; }
+.archive-property ul.property-details { list-style: none; margin: 0; padding: 0; }
+.archive-property ul.property-details li { margin: 0 0 0.5em 0; }
+.archive-property ul.property-details li span.iproperty-details-label { font-weight: bold; }
+.archive-property .property-description { clear: both; display: none; }
+.archive-property .property-description p { margin: 0 0 0.25em 0; line-height: 1; }
+.archive-property .property-description .iproperty-property-listing-info { font-size: 11px; font-weight: bold; font-style: italic; color: #999; margin-top: 10px; }
+.archive-property ul.property-categories { margin-left: 0; margin-right: 0; margin-top: 0.5em; padding: 0; list-style: none; }
+.archive-property ul.property-categories li { display: block; float: left; margin: 0 0.5em 0 0; }
+.archive-property ul.property-categories li a { text-decoration: none; }
+.archive-property ul.property-categories li:after { content: "|"; margin-left: 0.5em; }
+.archive-property ul.property-categories li:last-child:after { content: ""; margin-left: 0; }
+.archive-property footer { overflow: hidden; *zoom: 1; clear: both; }
+
+.tax-property-category .iproperty-category-description-container { overflow: hidden; *zoom: 1; margin: 10px 0; clear: both; }
+.tax-property-category .iproperty-category-image { float: left; margin-right: 10px; }
+
+.iproperty-filter-form { clear: both; margin: 10px 0; }
+.iproperty-filter-form select, .iproperty-filter-form input { width: auto; }
+
+.iproperty-open-house-description { margin: 5px 0 !important; }
+
+.iproperty-compact-open-house-header { margin: 0 0 5px 0 !important; }
+
+.iproperty-widescreen .archive-property .iproperty-thumbnail, .iproperty-non-responsive .archive-property .iproperty-thumbnail { width: 19%; margin-right: 2%; }
+.iproperty-widescreen .archive-property footer, .iproperty-non-responsive .archive-property footer { float: right; clear: none; }
+.iproperty-widescreen .archive-property header, .iproperty-widescreen .archive-property footer, .iproperty-widescreen .archive-property .property-description, .iproperty-widescreen .archive-property .iproperty-open-house-description, .iproperty-widescreen .archive-property .open-house-dates, .iproperty-widescreen .archive-property ul.property-details, .iproperty-non-responsive .archive-property header, .iproperty-non-responsive .archive-property footer, .iproperty-non-responsive .archive-property .property-description, .iproperty-non-responsive .archive-property .iproperty-open-house-description, .iproperty-non-responsive .archive-property .open-house-dates, .iproperty-non-responsive .archive-property ul.property-details { width: 77%; }
+.iproperty-widescreen .archive-property.with-thumbnail .property-description, .iproperty-widescreen .archive-property.with-thumbnail .iproperty-open-house-description, .iproperty-widescreen .archive-property.with-thumbnail .open-house-dates, .iproperty-non-responsive .archive-property.with-thumbnail .property-description, .iproperty-non-responsive .archive-property.with-thumbnail .iproperty-open-house-description, .iproperty-non-responsive .archive-property.with-thumbnail .open-house-dates { clear: none; display: block; float: right; }
+.iproperty-widescreen .archive-property.with-thumbnail ul.property-details, .iproperty-non-responsive .archive-property.with-thumbnail ul.property-details { margin: 0 0 7px 0; }
+.iproperty-widescreen .archive-property.with-thumbnail ul.property-details li, .iproperty-non-responsive .archive-property.with-thumbnail ul.property-details li { display: block; float: left; margin: 0 1em 0 0; }
+.iproperty-widescreen .archive-property.with-thumbnail ul.property-details li:after, .iproperty-non-responsive .archive-property.with-thumbnail ul.property-details li:after { margin-left: 0.5em; }
+.iproperty-widescreen .archive-property.with-thumbnail ul.property-details li:last-child:after, .iproperty-non-responsive .archive-property.with-thumbnail ul.property-details li:last-child:after { margin-left: 0; }
+
+.iproperty-mortgage-inputs-container { float: left; margin: 0; }
+.iproperty-mortgage-inputs-container input { max-width: 100%; }
+
+#iproperty-mortgage-calculator-inputs-container { width: 30%; margin-right: 10%; }
+
+#iproperty-mortgage-calculator-buttons-container { width: 8%; margin-right: 10%; position: relative; height: 180px; }
+#iproperty-mortgage-calculator-buttons-container input[type="submit"] { position: absolute; top: 42%; padding: 11px 0; text-align: center; width: 100%; }
+
+#iproperty-mortgage-calculator-outputs-container { width: 30%; }
+
+.iproperty-mortgage-calculator-input label { font-size: 12px; margin: 8px 0 4px 0; }
+.iproperty-mortgage-calculator-input label, .iproperty-mortgage-calculator-input input { display: block; width: 100%; }
+.iproperty-mortgage-calculator-input input { max-width: 125px; }
+
+.single-property { /* Need to reset figure if the theme has not */ /* First list of ~6 important property details */ }
+.single-property figure { margin: 0; }
+.single-property section { margin-bottom: 2%; }
+.single-property h1#iproperty-title { font-size: 2em; margin-bottom: 0.45em; }
+.single-property .iproperty-single-property-info-container { font-size: 1.2em; margin: 0.75em 0; }
+.single-property #iproperty-available-date { margin-bottom: 0.75em; padding-left: 20px; background: url(images/calendar.png) no-repeat; }
+.single-property ul#iproperty-top-details { overflow: hidden; *zoom: 1; list-style: none; margin: 0; padding: 0; }
+.single-property ul#iproperty-top-details li { margin: 0 4% 5px 0; width: 47%; float: left; display: block; padding: 10px 0; text-align: center; }
+.single-property ul#iproperty-top-details li:nth-child(2n + 1) { clear: left; }
+.single-property ul#iproperty-top-details li:nth-child(2n) { margin: 0; }
+.single-property #iproperty-info-tabs h3, .single-property #iproperty-info-tabs h4 { margin: 10px 0; }
+.single-property .iproperty-description p { line-height: 1.5em; margin: 0 0 0.75em 0; }
+.single-property #iproperty-info-tabs .iproperty-tab-panel ul { list-style-position: inside; list-style-type: disc; }
+.single-property #iproperty-info-tabs .iproperty-tab-panel ul li { margin: 0 0 8px 0; }
+.single-property #iproperty-gallery, .single-property #iproperty-single-property-gallery-modal { position: relative; }
+.single-property #iproperty-gallery .iproperty-rslides, .single-property #iproperty-single-property-gallery-modal .iproperty-rslides { position: relative; list-style: none; overflow: hidden; width: 100%; padding: 0; margin: 0; }
+.single-property #iproperty-gallery .iproperty-rslides li, .single-property #iproperty-single-property-gallery-modal .iproperty-rslides li { margin: 0; position: absolute; display: none; width: 100%; left: 0; top: 0; }
+.single-property #iproperty-gallery .iproperty-rslides li:first-child, .single-property #iproperty-single-property-gallery-modal .iproperty-rslides li:first-child { position: relative; display: block; float: left; }
+.single-property #iproperty-gallery .iproperty-rslides img, .single-property #iproperty-single-property-gallery-modal .iproperty-rslides img { display: block; height: auto; float: left; width: 100%; max-width: 100%; border: 0; }
+.single-property #iproperty-gallery .iproperty-rslides-pager, .single-property #iproperty-single-property-gallery-modal .iproperty-rslides-pager { margin: 2% 0; list-style: none; }
+.single-property #iproperty-gallery .iproperty-rslides-pager li, .single-property #iproperty-single-property-gallery-modal .iproperty-rslides-pager li { float: left; margin: 0 2% 0 0; display: block; }
+.single-property #iproperty-gallery .rslides_nav, .single-property #iproperty-single-property-gallery-modal .rslides_nav { -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; border-radius: 24px; position: absolute; bottom: 20px; z-index: 10; display: block; font-size: 20px; line-height: 20px; text-align: center; text-decoration: none; width: 24px; height: 24px; padding: 10px; color: black; background-color: #f9f9f9; border: 1px solid #dedede; opacity: 0.7; }
+.single-property #iproperty-gallery .rslides_nav.prev, .single-property #iproperty-single-property-gallery-modal .rslides_nav.prev { left: 20px; }
+.single-property #iproperty-gallery .rslides_nav.next, .single-property #iproperty-single-property-gallery-modal .rslides_nav.next { right: 20px; }
+.single-property #iproperty-gallery .rslides_nav:hover, .single-property #iproperty-single-property-gallery-modal .rslides_nav:hover { opacity: 0.85; }
+.single-property #iproperty-gallery .iproperty-gallery-caption, .single-property #iproperty-single-property-gallery-modal .iproperty-gallery-caption { font-size: 14px; margin-bottom: 0; display: none; min-height: 24px; clear: both; }
+.single-property #iproperty-single-property-gallery-modal .rslides_nav { opacity: 0.5; bottom: 40px; }
+.single-property #iproperty-single-property-gallery-modal .rslides_nav:hover { opacity: 0.65; }
+.single-property #iproperty-single-property-gallery-modal .iproperty-gallery-caption { display: block; }
+.single-property #iproperty-single-map, .single-property #iproperty-street-view-map { width: 520px; height: 350px; max-width: 100%; }
+.single-property #iproperty-agents { overflow: hidden; *zoom: 1; }
+
+#iproperty_map_canvas img, #iproperty-single-map img, #iproperty-street-view-map img { max-width: none; }
+
+.iproperty-form-input { margin: 6px 0; }
+.iproperty-form-input label { width: 140px; text-align: right; display: inline-block; font-size: 13px; }
+.iproperty-form-input .iproperty-radio-select-options { display: inline-block; max-width: 8em; }
+.iproperty-form-input .iproperty-radio-select-options label { width: auto; }
+.iproperty-form-input .iproperty-radio-select-options .iproperty-radio-select-option { display: block; }
+.iproperty-form-input input[type="text"], .iproperty-form-input input[type="email"] { width: 13em; }
+.iproperty-form-input textarea { width: 11em; }
+
+.iproperty-form-input > label { float: left; margin-right: 5px; }
+
+#iproperty-contact-form-copy-to-my-email { margin-left: 50px; }
+
+.iproperty-tab-panel-textarea label { vertical-align: top; }
+
+.iproperty-form-input-instructions { font-size: 0.8em; margin-left: 140px; }
+
+#iproperty-directions-container table, #iproperty-directions-container .adp-substep { border: none; }
+#iproperty-directions-container td { vertical-align: middle; }
+#iproperty-directions-container .adp-text { padding-left: 10px; }
+#iproperty-directions-container .adp-directions td, #iproperty-directions-container .adp-summary { padding-bottom: 10px; }
+#iproperty-directions-container .adp-placemark img { margin: 6px; max-width: none; }
+#iproperty-directions-container .adp-substep { min-width: 20px; }
+
+#iproperty_directions_start { width: 20em; }
+
+.iproperty-form-input input[type="submit"], #iproperty-send-to-friend-form input[type="submit"] { margin-left: 140px; }
+
+.iproperty-virtual-tour { display: inline-block; margin-bottom: 10px; padding: 5px 10px 5px 33px; background: url(images/virtual-tour-icon.png) no-repeat 8px 8px; min-height: 25px; line-height: 25px; }
+
+.iproperty-details-tab-main-details { padding: 10px; margin-bottom: 10px; }
+
+.iproperty-details-tab-main-detail { margin-bottom: 5px !important; }
+
+.iproperty-details-tab-main-detail-label { font-weight: bold; }
+
+.iproperty-details-tab-main-details-categories { margin-top: 10px; }
+
+.iproperty-expandable-form-container { clear: both; overflow: hidden; *zoom: 1; margin-bottom: 10px; }
+
+.iproperty-expandable-form { background-color: #efefef; padding: 20px; clear: both; margin-bottom: 10px; }
+
+.iproperty-expandable-form-checkbox-container { margin-left: 140px; }
+
+#iproperty-currency-select { margin: 10px 0; }
+
+table#iproperty-currency-prices th { background-color: #d9d9d9; }
+table#iproperty-currency-prices td, table#iproperty-currency-prices th { width: 50%; }
+
+#iproperty-single-property-open-houses { margin: 10px 0; }
+
+.iproperty-single-property-open-house { margin: 5px 0; padding: 10px; display: inline-block; clear: both; }
+
+.iproperty-open-house-time, .iproperty-open-house-content { margin: 10px 0 5px 0; }
+
+.iproperty-open-house-through { font-size: 0.8em; font-style: italic; display: inline-block; margin: 5px 0; }
+
+.iproperty-open-houses-header { padding: 10px; display: inline-block; }
+
+#iproperty-agents, #iproperty-single-property-open-houses { padding: 5px; background-color: #ffffff; }
+#iproperty-agents .iproperty-profile-details, #iproperty-single-property-open-houses .iproperty-profile-details { background-color: #ffffff; }
+
+#iproperty_directions_submit { margin-left: 5px; }
+
+@media print { .single-property .iproperty-tab-controls { display: none; }
+  .single-property .iproperty-tab-panel { display: block !important; margin-bottom: 15px; border: none !important; }
+  .single-property #iproperty-top-tabs .iproperty-tab-panel:not(#iproperty-gallery) { display: none !important; }
+  .single-property .rslides_nav { display: none !important; }
+  .single-property #iproperty-info-request-a-showing, .single-property #iproperty-info-send-to-friend { display: none !important; } }
+.iproperty-widescreen .single-property #iproperty-top-tabs, .iproperty-non-responsive .single-property #iproperty-top-tabs { width: 62%; float: left; margin-right: 3%; }
+.iproperty-widescreen .single-property ul#iproperty-top-details, .iproperty-non-responsive .single-property ul#iproperty-top-details { width: 35%; float: left; margin: 21px 0 0 0; }
+.iproperty-widescreen .single-property ul#iproperty-top-details li, .iproperty-non-responsive .single-property ul#iproperty-top-details li { width: 99%; float: none; margin: 0 0 5px 0; }
+.iproperty-widescreen .single-property ul#iproperty-top-details li:nth-child(2n + 1), .iproperty-non-responsive .single-property ul#iproperty-top-details li:nth-child(2n + 1) { clear: none; }
+.iproperty-widescreen .single-property ul#iproperty-top-details li:nth-child(2n), .iproperty-non-responsive .single-property ul#iproperty-top-details li:nth-child(2n) { margin: 0 0 5px 0; }
+.iproperty-widescreen .single-property #iproperty-info-agents-container, .iproperty-non-responsive .single-property #iproperty-info-agents-container { overflow: hidden; *zoom: 1; clear: both; }
+.iproperty-widescreen .single-property .iproperty-amenity-list, .iproperty-non-responsive .single-property .iproperty-amenity-list { float: left; width: 40%; margin-right: 2%; }
+.iproperty-widescreen .single-property #iproperty-overview-info-container, .iproperty-non-responsive .single-property #iproperty-overview-info-container { width: 64%; float: left; margin-right: 3%; }
+.iproperty-widescreen .single-property #iproperty-agents, .iproperty-widescreen .single-property #iproperty-single-property-open-houses, .iproperty-non-responsive .single-property #iproperty-agents, .iproperty-non-responsive .single-property #iproperty-single-property-open-houses { float: right; width: 30%; clear: right; }
+.iproperty-widescreen .single-property .iproperty-open-houses-header, .iproperty-non-responsive .single-property .iproperty-open-houses-header { display: block; text-align: center; }
+.iproperty-widescreen .single-property .iproperty-radio-select-options, .iproperty-non-responsive .single-property .iproperty-radio-select-options { max-width: 100%; }
+
+.iproperty-modal { display: none; width: 600px; background: #eee; padding: 15px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 0 10px #000; -moz-box-shadow: 0 0 10px #000; -o-box-shadow: 0 0 10px #000; -ms-box-shadow: 0 0 10px #000; box-shadow: 0 0 10px #000; }
+
+.iproperty-modal a.close-modal { position: absolute; top: -12.5px; right: -12.5px; display: block; width: 30px; height: 30px; text-indent: -9999px; background: url(images/close.png) no-repeat 0 0; }
+
+.iproperty-modal-spinner { display: none; width: 64px; height: 64px; position: fixed; top: 50%; left: 50%; margin-right: -32px; margin-top: -32px; background: url(images/spinner.gif) #111111 no-repeat center center; -webkit-border-radius: 8px; -moz-border-radius: 8px; -o-border-radius: 8px; -ms-border-radius: 8px; border-radius: 8px; }
+
+.iproperty-featured-container { margin: 10px 0; }
+
+#iproperty-home .iproperty-category { margin-bottom: 2%; padding: 2%; overflow: hidden; *zoom: 1; /* Many themes will apply a margin-bottom on all paragraphs. We don't need it here */ }
+#iproperty-home .iproperty-category header figure.iproperty-category-icon { padding: 0; margin: 0 3% 3% 0; float: left; width: 48%; padding: 1%; }
+#iproperty-home .iproperty-category header figure.iproperty-category-icon img { width: 100%; height: auto; }
+#iproperty-home .iproperty-category header h2, #iproperty-home .iproperty-category header h3 { /* If the theme forces a clear on headings, our styles break, so let's prevent that */ clear: none; margin: 5px 0; }
+#iproperty-home .iproperty-category .iproperty-category-description { margin-bottom: 0; }
+#iproperty-home .iproperty-category .iproperty-child-categories { list-style-position: inside; margin-bottom: 2%; }
+
+.iproperty-widescreen #iproperty-home .iproperty-category, .iproperty-non-responsive #iproperty-home .iproperty-category { float: left; width: 43%; }
+.iproperty-widescreen #iproperty-home .iproperty-category:nth-child(even), .iproperty-non-responsive #iproperty-home .iproperty-category:nth-child(even) { margin-left: 4%; }
+.iproperty-widescreen #iproperty-home .iproperty-category:nth-child(odd), .iproperty-non-responsive #iproperty-home .iproperty-category:nth-child(odd) { clear: left; }
+.iproperty-widescreen #iproperty-home .iproperty-category header figure.iproperty-category-icon, .iproperty-non-responsive #iproperty-home .iproperty-category header figure.iproperty-category-icon { max-width: 150px; }
+
+/*
+ * jQuery UI CSS Framework 1.10.0
+ * http://jqueryui.com
+ *
+ * Copyright 2013 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ */
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden { display: none; }
+
+.ui-helper-hidden-accessible { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+.ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+
+.ui-helper-clearfix:before, .ui-helper-clearfix:after { content: ""; display: table; }
+
+.ui-helper-clearfix:after { clear: both; }
+
+.ui-helper-clearfix { min-height: 0; /* support: IE7 */ }
+
+.ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter: Alpha(Opacity=0); }
+
+.ui-front { z-index: 100; }
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled { cursor: default !important; }
+
+/* Icons
+----------------------------------*/
+/* states and images */
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+
+/* Misc visuals
+----------------------------------*/
+/* Overlays */
+.ui-widget-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; }
+
+/*
+ * jQuery UI Slider 1.10.0
+ * http://jqueryui.com
+ *
+ * Copyright 2013 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Slider#theming
+ */
+.ui-slider { position: relative; text-align: left; }
+
+.ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 1.2em; height: 1.2em; cursor: default; }
+
+.ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
+
+/* For IE8 - See #6727 */
+.ui-slider.ui-state-disabled .ui-slider-handle, .ui-slider.ui-state-disabled .ui-slider-range { filter: inherit; }
+
+.ui-slider-horizontal { height: .8em; }
+
+.ui-slider-horizontal .ui-slider-handle { top: -0.3em; margin-left: -0.6em; }
+
+.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+
+.ui-slider-horizontal .ui-slider-range-min { left: 0; }
+
+.ui-slider-horizontal .ui-slider-range-max { right: 0; }
+
+.ui-slider-vertical { width: .8em; height: 100px; }
+
+.ui-slider-vertical .ui-slider-handle { left: -0.3em; margin-left: 0; margin-bottom: -0.6em; }
+
+.ui-slider-vertical .ui-slider-range { left: 0; width: 100%; }
+
+.ui-slider-vertical .ui-slider-range-min { bottom: 0; }
+
+.ui-slider-vertical .ui-slider-range-max { top: 0; }
+
+/*
+ * jQuery UI CSS Framework 1.10.0
+ * http://jqueryui.com
+ *
+ * Copyright 2013 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ *
+ * To view and modify this theme, visit http://jqueryui.com/themeroller/
+ */
+/* Component containers
+----------------------------------*/
+.ui-widget { font-family: Verdana, Arial, sans-serif; font-size: 1.1em; }
+
+.ui-widget .ui-widget { font-size: 1em; }
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Verdana, Arial, sans-serif; font-size: 1em; }
+
+.ui-widget-content { border: 1px solid #aaaaaa; background: white url(images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x; color: #222222; }
+
+.ui-widget-content a { color: #222222; }
+
+.ui-widget-header { border: 1px solid #aaaaaa; background: #cccccc url(images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x; color: #222222; font-weight: bold; }
+
+.ui-widget-header a { color: #222222; }
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid lightgrey; background: #e6e6e6 url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #555555; }
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #555555; text-decoration: none; }
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #999999; background: #dadada url(images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #212121; }
+
+.ui-state-hover a, .ui-state-hover a:hover, .ui-state-hover a:link, .ui-state-hover a:visited { color: #212121; text-decoration: none; }
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #aaaaaa; background: white url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #212121; }
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #212121; text-decoration: none; }
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight { border: 1px solid #fcefa1; background: #fbf9ee url(images/ui-bg_glass_55_fbf9ee_1x400.png) 50% 50% repeat-x; color: #363636; }
+
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a, .ui-widget-header .ui-state-highlight a { color: #363636; }
+
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error { border: 1px solid #cd0a0a; background: #fef1ec url(images/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x; color: #cd0a0a; }
+
+.ui-state-error a, .ui-widget-content .ui-state-error a, .ui-widget-header .ui-state-error a { color: #cd0a0a; }
+
+.ui-state-error-text, .ui-widget-content .ui-state-error-text, .ui-widget-header .ui-state-error-text { color: #cd0a0a; }
+
+.ui-priority-primary, .ui-widget-content .ui-priority-primary, .ui-widget-header .ui-priority-primary { font-weight: bold; }
+
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary, .ui-widget-header .ui-priority-secondary { opacity: .7; filter: Alpha(Opacity=70); font-weight: normal; }
+
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled { opacity: .35; filter: Alpha(Opacity=35); background-image: none; }
+
+.ui-state-disabled .ui-icon { filter: Alpha(Opacity=35); /* For IE8 - See #6059 */ }
+
+/* Icons
+----------------------------------*/
+/* states and images */
+.ui-icon { width: 16px; height: 16px; background-position: 16px 16px; }
+
+.ui-icon, .ui-widget-content .ui-icon { background-image: url(images/ui-icons_222222_256x240.png); }
+
+.ui-widget-header .ui-icon { background-image: url(images/ui-icons_222222_256x240.png); }
+
+.ui-state-default .ui-icon { background-image: url(images/ui-icons_888888_256x240.png); }
+
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon { background-image: url(images/ui-icons_454545_256x240.png); }
+
+.ui-state-active .ui-icon { background-image: url(images/ui-icons_454545_256x240.png); }
+
+.ui-state-highlight .ui-icon { background-image: url(images/ui-icons_2e83ff_256x240.png); }
+
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon { background-image: url(images/ui-icons_cd0a0a_256x240.png); }
+
+/* positioning */
+.ui-icon-carat-1-n { background-position: 0 0; }
+
+.ui-icon-carat-1-ne { background-position: -16px 0; }
+
+.ui-icon-carat-1-e { background-position: -32px 0; }
+
+.ui-icon-carat-1-se { background-position: -48px 0; }
+
+.ui-icon-carat-1-s { background-position: -64px 0; }
+
+.ui-icon-carat-1-sw { background-position: -80px 0; }
+
+.ui-icon-carat-1-w { background-position: -96px 0; }
+
+.ui-icon-carat-1-nw { background-position: -112px 0; }
+
+.ui-icon-carat-2-n-s { background-position: -128px 0; }
+
+.ui-icon-carat-2-e-w { background-position: -144px 0; }
+
+.ui-icon-triangle-1-n { background-position: 0 -16px; }
+
+.ui-icon-triangle-1-ne { background-position: -16px -16px; }
+
+.ui-icon-triangle-1-e { background-position: -32px -16px; }
+
+.ui-icon-triangle-1-se { background-position: -48px -16px; }
+
+.ui-icon-triangle-1-s { background-position: -64px -16px; }
+
+.ui-icon-triangle-1-sw { background-position: -80px -16px; }
+
+.ui-icon-triangle-1-w { background-position: -96px -16px; }
+
+.ui-icon-triangle-1-nw { background-position: -112px -16px; }
+
+.ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+
+.ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+
+.ui-icon-arrow-1-n { background-position: 0 -32px; }
+
+.ui-icon-arrow-1-ne { background-position: -16px -32px; }
+
+.ui-icon-arrow-1-e { background-position: -32px -32px; }
+
+.ui-icon-arrow-1-se { background-position: -48px -32px; }
+
+.ui-icon-arrow-1-s { background-position: -64px -32px; }
+
+.ui-icon-arrow-1-sw { background-position: -80px -32px; }
+
+.ui-icon-arrow-1-w { background-position: -96px -32px; }
+
+.ui-icon-arrow-1-nw { background-position: -112px -32px; }
+
+.ui-icon-arrow-2-n-s { background-position: -128px -32px; }
+
+.ui-icon-arrow-2-ne-sw { background-position: -144px -32px; }
+
+.ui-icon-arrow-2-e-w { background-position: -160px -32px; }
+
+.ui-icon-arrow-2-se-nw { background-position: -176px -32px; }
+
+.ui-icon-arrowstop-1-n { background-position: -192px -32px; }
+
+.ui-icon-arrowstop-1-e { background-position: -208px -32px; }
+
+.ui-icon-arrowstop-1-s { background-position: -224px -32px; }
+
+.ui-icon-arrowstop-1-w { background-position: -240px -32px; }
+
+.ui-icon-arrowthick-1-n { background-position: 0 -48px; }
+
+.ui-icon-arrowthick-1-ne { background-position: -16px -48px; }
+
+.ui-icon-arrowthick-1-e { background-position: -32px -48px; }
+
+.ui-icon-arrowthick-1-se { background-position: -48px -48px; }
+
+.ui-icon-arrowthick-1-s { background-position: -64px -48px; }
+
+.ui-icon-arrowthick-1-sw { background-position: -80px -48px; }
+
+.ui-icon-arrowthick-1-w { background-position: -96px -48px; }
+
+.ui-icon-arrowthick-1-nw { background-position: -112px -48px; }
+
+.ui-icon-arrowthick-2-n-s { background-position: -128px -48px; }
+
+.ui-icon-arrowthick-2-ne-sw { background-position: -144px -48px; }
+
+.ui-icon-arrowthick-2-e-w { background-position: -160px -48px; }
+
+.ui-icon-arrowthick-2-se-nw { background-position: -176px -48px; }
+
+.ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+
+.ui-icon-arrowthickstop-1-e { background-position: -208px -48px; }
+
+.ui-icon-arrowthickstop-1-s { background-position: -224px -48px; }
+
+.ui-icon-arrowthickstop-1-w { background-position: -240px -48px; }
+
+.ui-icon-arrowreturnthick-1-w { background-position: 0 -64px; }
+
+.ui-icon-arrowreturnthick-1-n { background-position: -16px -64px; }
+
+.ui-icon-arrowreturnthick-1-e { background-position: -32px -64px; }
+
+.ui-icon-arrowreturnthick-1-s { background-position: -48px -64px; }
+
+.ui-icon-arrowreturn-1-w { background-position: -64px -64px; }
+
+.ui-icon-arrowreturn-1-n { background-position: -80px -64px; }
+
+.ui-icon-arrowreturn-1-e { background-position: -96px -64px; }
+
+.ui-icon-arrowreturn-1-s { background-position: -112px -64px; }
+
+.ui-icon-arrowrefresh-1-w { background-position: -128px -64px; }
+
+.ui-icon-arrowrefresh-1-n { background-position: -144px -64px; }
+
+.ui-icon-arrowrefresh-1-e { background-position: -160px -64px; }
+
+.ui-icon-arrowrefresh-1-s { background-position: -176px -64px; }
+
+.ui-icon-arrow-4 { background-position: 0 -80px; }
+
+.ui-icon-arrow-4-diag { background-position: -16px -80px; }
+
+.ui-icon-extlink { background-position: -32px -80px; }
+
+.ui-icon-newwin { background-position: -48px -80px; }
+
+.ui-icon-refresh { background-position: -64px -80px; }
+
+.ui-icon-shuffle { background-position: -80px -80px; }
+
+.ui-icon-transfer-e-w { background-position: -96px -80px; }
+
+.ui-icon-transferthick-e-w { background-position: -112px -80px; }
+
+.ui-icon-folder-collapsed { background-position: 0 -96px; }
+
+.ui-icon-folder-open { background-position: -16px -96px; }
+
+.ui-icon-document { background-position: -32px -96px; }
+
+.ui-icon-document-b { background-position: -48px -96px; }
+
+.ui-icon-note { background-position: -64px -96px; }
+
+.ui-icon-mail-closed { background-position: -80px -96px; }
+
+.ui-icon-mail-open { background-position: -96px -96px; }
+
+.ui-icon-suitcase { background-position: -112px -96px; }
+
+.ui-icon-comment { background-position: -128px -96px; }
+
+.ui-icon-person { background-position: -144px -96px; }
+
+.ui-icon-print { background-position: -160px -96px; }
+
+.ui-icon-trash { background-position: -176px -96px; }
+
+.ui-icon-locked { background-position: -192px -96px; }
+
+.ui-icon-unlocked { background-position: -208px -96px; }
+
+.ui-icon-bookmark { background-position: -224px -96px; }
+
+.ui-icon-tag { background-position: -240px -96px; }
+
+.ui-icon-home { background-position: 0 -112px; }
+
+.ui-icon-flag { background-position: -16px -112px; }
+
+.ui-icon-calendar { background-position: -32px -112px; }
+
+.ui-icon-cart { background-position: -48px -112px; }
+
+.ui-icon-pencil { background-position: -64px -112px; }
+
+.ui-icon-clock { background-position: -80px -112px; }
+
+.ui-icon-disk { background-position: -96px -112px; }
+
+.ui-icon-calculator { background-position: -112px -112px; }
+
+.ui-icon-zoomin { background-position: -128px -112px; }
+
+.ui-icon-zoomout { background-position: -144px -112px; }
+
+.ui-icon-search { background-position: -160px -112px; }
+
+.ui-icon-wrench { background-position: -176px -112px; }
+
+.ui-icon-gear { background-position: -192px -112px; }
+
+.ui-icon-heart { background-position: -208px -112px; }
+
+.ui-icon-star { background-position: -224px -112px; }
+
+.ui-icon-link { background-position: -240px -112px; }
+
+.ui-icon-cancel { background-position: 0 -128px; }
+
+.ui-icon-plus { background-position: -16px -128px; }
+
+.ui-icon-plusthick { background-position: -32px -128px; }
+
+.ui-icon-minus { background-position: -48px -128px; }
+
+.ui-icon-minusthick { background-position: -64px -128px; }
+
+.ui-icon-close { background-position: -80px -128px; }
+
+.ui-icon-closethick { background-position: -96px -128px; }
+
+.ui-icon-key { background-position: -112px -128px; }
+
+.ui-icon-lightbulb { background-position: -128px -128px; }
+
+.ui-icon-scissors { background-position: -144px -128px; }
+
+.ui-icon-clipboard { background-position: -160px -128px; }
+
+.ui-icon-copy { background-position: -176px -128px; }
+
+.ui-icon-contact { background-position: -192px -128px; }
+
+.ui-icon-image { background-position: -208px -128px; }
+
+.ui-icon-video { background-position: -224px -128px; }
+
+.ui-icon-script { background-position: -240px -128px; }
+
+.ui-icon-alert { background-position: 0 -144px; }
+
+.ui-icon-info { background-position: -16px -144px; }
+
+.ui-icon-notice { background-position: -32px -144px; }
+
+.ui-icon-help { background-position: -48px -144px; }
+
+.ui-icon-check { background-position: -64px -144px; }
+
+.ui-icon-bullet { background-position: -80px -144px; }
+
+.ui-icon-radio-on { background-position: -96px -144px; }
+
+.ui-icon-radio-off { background-position: -112px -144px; }
+
+.ui-icon-pin-w { background-position: -128px -144px; }
+
+.ui-icon-pin-s { background-position: -144px -144px; }
+
+.ui-icon-play { background-position: 0 -160px; }
+
+.ui-icon-pause { background-position: -16px -160px; }
+
+.ui-icon-seek-next { background-position: -32px -160px; }
+
+.ui-icon-seek-prev { background-position: -48px -160px; }
+
+.ui-icon-seek-end { background-position: -64px -160px; }
+
+.ui-icon-seek-start { background-position: -80px -160px; }
+
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+.ui-icon-seek-first { background-position: -80px -160px; }
+
+.ui-icon-stop { background-position: -96px -160px; }
+
+.ui-icon-eject { background-position: -112px -160px; }
+
+.ui-icon-volume-off { background-position: -128px -160px; }
+
+.ui-icon-volume-on { background-position: -144px -160px; }
+
+.ui-icon-power { background-position: 0 -176px; }
+
+.ui-icon-signal-diag { background-position: -16px -176px; }
+
+.ui-icon-signal { background-position: -32px -176px; }
+
+.ui-icon-battery-0 { background-position: -48px -176px; }
+
+.ui-icon-battery-1 { background-position: -64px -176px; }
+
+.ui-icon-battery-2 { background-position: -80px -176px; }
+
+.ui-icon-battery-3 { background-position: -96px -176px; }
+
+.ui-icon-circle-plus { background-position: 0 -192px; }
+
+.ui-icon-circle-minus { background-position: -16px -192px; }
+
+.ui-icon-circle-close { background-position: -32px -192px; }
+
+.ui-icon-circle-triangle-e { background-position: -48px -192px; }
+
+.ui-icon-circle-triangle-s { background-position: -64px -192px; }
+
+.ui-icon-circle-triangle-w { background-position: -80px -192px; }
+
+.ui-icon-circle-triangle-n { background-position: -96px -192px; }
+
+.ui-icon-circle-arrow-e { background-position: -112px -192px; }
+
+.ui-icon-circle-arrow-s { background-position: -128px -192px; }
+
+.ui-icon-circle-arrow-w { background-position: -144px -192px; }
+
+.ui-icon-circle-arrow-n { background-position: -160px -192px; }
+
+.ui-icon-circle-zoomin { background-position: -176px -192px; }
+
+.ui-icon-circle-zoomout { background-position: -192px -192px; }
+
+.ui-icon-circle-check { background-position: -208px -192px; }
+
+.ui-icon-circlesmall-plus { background-position: 0 -208px; }
+
+.ui-icon-circlesmall-minus { background-position: -16px -208px; }
+
+.ui-icon-circlesmall-close { background-position: -32px -208px; }
+
+.ui-icon-squaresmall-plus { background-position: -48px -208px; }
+
+.ui-icon-squaresmall-minus { background-position: -64px -208px; }
+
+.ui-icon-squaresmall-close { background-position: -80px -208px; }
+
+.ui-icon-grip-dotted-vertical { background-position: 0 -224px; }
+
+.ui-icon-grip-dotted-horizontal { background-position: -16px -224px; }
+
+.ui-icon-grip-solid-vertical { background-position: -32px -224px; }
+
+.ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
+
+.ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+
+.ui-icon-grip-diagonal-se { background-position: -80px -224px; }
+
+/* Misc visuals
+----------------------------------*/
+/* Corner radius */
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl { border-top-left-radius: 4px; }
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr { border-top-right-radius: 4px; }
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl { border-bottom-left-radius: 4px; }
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { border-bottom-right-radius: 4px; }
+
+/* Overlays */
+.ui-widget-overlay { background: #aaaaaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x; opacity: 0.3; filter: Alpha(Opacity=30); }
+
+.ui-widget-shadow { margin: -8px 0 0 -8px; padding: 8px; background: #aaaaaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x; opacity: 0.3; filter: Alpha(Opacity=30); border-radius: 8px; }
+
+/*
+ * jQuery UI Tooltip 1.10.0
+ * http://jqueryui.com
+ *
+ * Copyright 2013 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ */
+.ui-tooltip { padding: 8px; position: absolute; z-index: 9999; max-width: 300px; -webkit-box-shadow: 0 0 5px #aaa; box-shadow: 0 0 5px #aaa; }
+
+body .ui-tooltip { border-width: 2px; }
+
+/*
+ * jQuery UI Dialog 1.10.0
+ * http://jqueryui.com
+ *
+ * Copyright 2013 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Dialog#theming
+ */
+.ui-dialog { position: absolute; top: 0; left: 0; padding: .2em; outline: 0; }
+
+.ui-dialog .ui-dialog-titlebar { padding: .4em 1em; position: relative; }
+
+.ui-dialog .ui-dialog-title { float: left; margin: .1em 0; white-space: nowrap; width: 90%; overflow: hidden; text-overflow: ellipsis; }
+
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: .3em; top: 50%; width: 21px; margin: -10px 0 0 0; padding: 1px; height: 20px; }
+
+.ui-dialog .ui-dialog-content { position: relative; border: 0; padding: .5em 1em; background: none; overflow: auto; }
+
+.ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0 0 0; background-image: none; margin-top: .5em; padding: .3em 1em .5em .4em; }
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset { float: right; }
+
+.ui-dialog .ui-dialog-buttonpane button { margin: .5em .4em .5em 0; cursor: pointer; }
+
+.ui-dialog .ui-resizable-se { width: 12px; height: 12px; right: -5px; bottom: -5px; background-position: 16px 16px; }
+
+.ui-draggable .ui-dialog-titlebar { cursor: move; }
+
+/*
+ * jQuery UI Datepicker 1.10.0
+ * http://jqueryui.com
+ *
+ * Copyright 2013 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Datepicker#theming
+ */
+.ui-datepicker { width: 17em; padding: .2em .2em 0; display: none; }
+
+.ui-datepicker .ui-datepicker-header { position: relative; padding: .2em 0; }
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next { position: absolute; top: 2px; width: 1.8em; height: 1.8em; }
+
+.ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover { top: 1px; }
+
+.ui-datepicker .ui-datepicker-prev { left: 2px; }
+
+.ui-datepicker .ui-datepicker-next { right: 2px; }
+
+.ui-datepicker .ui-datepicker-prev-hover { left: 1px; }
+
+.ui-datepicker .ui-datepicker-next-hover { right: 1px; }
+
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span { display: block; position: absolute; left: 50%; margin-left: -8px; top: 50%; margin-top: -8px; }
+
+.ui-datepicker .ui-datepicker-title { margin: 0 2.3em; line-height: 1.8em; text-align: center; }
+
+.ui-datepicker .ui-datepicker-title select { font-size: 1em; margin: 1px 0; }
+
+.ui-datepicker select.ui-datepicker-month-year { width: 100%; }
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year { width: 49%; }
+
+.ui-datepicker table { width: 100%; font-size: .9em; border-collapse: collapse; margin: 0 0 .4em; }
+
+.ui-datepicker th { padding: .7em .3em; text-align: center; font-weight: bold; border: 0; }
+
+.ui-datepicker td { border: 0; padding: 1px; }
+
+.ui-datepicker td span, .ui-datepicker td a { display: block; padding: .2em; text-align: right; text-decoration: none; }
+
+.ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: .7em 0 0 0; padding: 0 .2em; border-left: 0; border-right: 0; border-bottom: 0; }
+
+.ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: .5em .2em .4em; cursor: pointer; padding: .2em .6em .3em .6em; width: auto; overflow: visible; }
+
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float: left; }
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi { width: auto; }
+
+.ui-datepicker-multi .ui-datepicker-group { float: left; }
+
+.ui-datepicker-multi .ui-datepicker-group table { width: 95%; margin: 0 auto .4em; }
+
+.ui-datepicker-multi-2 .ui-datepicker-group { width: 50%; }
+
+.ui-datepicker-multi-3 .ui-datepicker-group { width: 33.3%; }
+
+.ui-datepicker-multi-4 .ui-datepicker-group { width: 25%; }
+
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header, .ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header { border-left-width: 0; }
+
+.ui-datepicker-multi .ui-datepicker-buttonpane { clear: left; }
+
+.ui-datepicker-row-break { clear: both; width: 100%; font-size: 0; }
+
+/* RTL support */
+.ui-datepicker-rtl { direction: rtl; }
+
+.ui-datepicker-rtl .ui-datepicker-prev { right: 2px; left: auto; }
+
+.ui-datepicker-rtl .ui-datepicker-next { left: 2px; right: auto; }
+
+.ui-datepicker-rtl .ui-datepicker-prev:hover { right: 1px; left: auto; }
+
+.ui-datepicker-rtl .ui-datepicker-next:hover { left: 1px; right: auto; }
+
+.ui-datepicker-rtl .ui-datepicker-buttonpane { clear: right; }
+
+.ui-datepicker-rtl .ui-datepicker-buttonpane button { float: left; }
+
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current, .ui-datepicker-rtl .ui-datepicker-group { float: right; }
+
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header, .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header { border-right-width: 0; border-left-width: 1px; }
+
+.iproperty-slider-container { position: relative; margin-top: 10px; }
+
+.iproperty-slider-current-value { margin-bottom: 10px; position: absolute; top: 0; }
+
+.iproperty-slider-current-value-min { left: 0; }
+
+.iproperty-slider-current-value-max { right: 0; }
+
+.iproperty-slider-label { text-align: center; }
+
+.iproperty-slider-current-value, .iproperty-slider-label { font-size: 12px; }
+
+.iproperty-slider { clear: both; margin: 10px 0; }
+
+.iproperty-category-select li { display: inline-block; margin: 0 5px 0 0 !important; }
+
+.iproperty-input-container { margin-bottom: 10px; }
+
+#iproperty_map_overlay { position: absolute; height: 370px; width: 100%; top: 0; left: 0; background-color: black; opacity: 0; pointer-events: none; display: none; }
+#iproperty_map_overlay .iproperty-loading { position: absolute; top: 50%; left: 50%; width: 31px; height: 31px; margin-top: -15px; /* Half the height */ margin-left: -15px; /* Half the width */ }
+
+#iproperty_advanced_search_form input, #iproperty_advanced_search_form select { margin-bottom: 0; }
+#iproperty_advanced_search_form ul { margin: 0; }
+#iproperty_advanced_search_form .ui-slider-handle { width: 0.9em; }
+
+.iproperty-widescreen .iproperty-slider-container, .iproperty-non-responsive .iproperty-slider-container { width: 45%; float: left; }
+.iproperty-widescreen .iproperty-slider-container:nth-of-type(odd), .iproperty-non-responsive .iproperty-slider-container:nth-of-type(odd) { margin-right: 10%; }
+
+table.iproperty-results-table { border-bottom: 1px solid #ededed; color: #757575; font-size: 12px; line-height: 2; margin: 0 0 24px; width: 100%; }
+table.iproperty-results-table th { font-size: 11px; line-height: 2.181818182; font-weight: bold; text-transform: uppercase; color: #636363; vertical-align: middle; background-color: #f9f9f9; }
+table.iproperty-results-table th.iproperty-sortable-header { cursor: pointer; }
+table.iproperty-results-table th, table.iproperty-results-table td { border-top: 1px solid #ededed; border-left: 1px solid #ededed; border-right: 1px solid #ededed; text-align: center; padding: 6px 10px 6px 0; }
+table.iproperty-results-table .iproperty-sort-icon { margin-bottom: -1px; display: inline; }
+table.iproperty-results-table .iproperty-thumbnail-preview { display: inline; }
+
+#iproperty-clear-advanced-search { display: block; margin-left: auto; margin-right: auto; width: 150px; text-align: center; padding: 7px; border: 1px solid #d9d9d9; color: #000000; text-decoration: none; margin-top: 5px; background-color: #e9e9e9; }
+#iproperty-clear-advanced-search:hover { background-color: #d9d9d9; }
+
+#iproperty-total-results { position: absolute; bottom: 20px; right: 20px; background-color: #f9f9f9; border: 2px solid #d9d9d9; padding: 10px; font-size: 18px; }
+
+.iproperty-map-preview { cursor: pointer; -webkit-transition: all 0.25s; -moz-transition: all 0.25s; -o-transition: all 0.25s; transition: all 0.25s; }
+.iproperty-map-preview:hover { -webkit-transform: scale(1.5, 1.5); -moz-transform: scale(1.5, 1.5); -ms-transform: scale(1.5, 1.5); -o-transform: scale(1.5, 1.5); transform: scale(1.5, 1.5); }
+
+.iproperty-quick-search-widget-input { margin: 0.25em 0; }
+
+.iproperty-quick-search-widget-input-description { font-size: 12px; margin: 0.5em 0; }
+
+.widget_ipropertyrandompropertywidget .iproperty-widget-property-container, .widget_ipropertyfeaturedpropertieswidget .iproperty-widget-property-container { margin: 8px 0; }
+.widget_ipropertyrandompropertywidget .iproperty-thumbnail, .widget_ipropertyfeaturedpropertieswidget .iproperty-thumbnail { margin-bottom: 8px; }
+.widget_ipropertyrandompropertywidget h4, .widget_ipropertyrandompropertywidget h5, .widget_ipropertyrandompropertywidget .iproperty-widget-property-excerpt, .widget_ipropertyrandompropertywidget iproperty-widget-property-price, .widget_ipropertyfeaturedpropertieswidget h4, .widget_ipropertyfeaturedpropertieswidget h5, .widget_ipropertyfeaturedpropertieswidget .iproperty-widget-property-excerpt, .widget_ipropertyfeaturedpropertieswidget iproperty-widget-property-price { margin: 8px 0; clear: both; }
+.widget_ipropertyrandompropertywidget h5, .widget_ipropertyrandompropertywidget .iproperty-widget-property-excerpt, .widget_ipropertyfeaturedpropertieswidget h5, .widget_ipropertyfeaturedpropertieswidget .iproperty-widget-property-excerpt { font-style: italic; }
+.widget_ipropertyrandompropertywidget .iproperty-widget-property-price, .widget_ipropertyfeaturedpropertieswidget .iproperty-widget-property-price { font-weight: bold; }
