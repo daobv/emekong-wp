@@ -1,0 +1,3595 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Javo House v1.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-16 09:06:20+0000\n"
+"Last-Translator: javo <javothemes@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:17
+#@ javo_fr
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: 404.php:21
+#@ javo_fr
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: archive.php:30
+#, php-format
+#@ javo_fr
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:32
+#, php-format
+#@ javo_fr
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:32
+#@ javo_fr
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:34
+#, php-format
+#@ javo_fr
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:34
+#@ javo_fr
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:36
+#@ javo_fr
+msgid "Archives"
+msgstr ""
+
+#: author.php:33
+#, php-format
+#@ javo_fr
+msgid "Author Archives: %s"
+msgstr ""
+
+#: author.php:64
+#: content.php:59
+#, php-format
+#@ javo_fr
+msgid "About %s"
+msgstr ""
+
+#: category.php:22
+#, php-format
+#@ javo_fr
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:29
+#@ javo_fr
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:29
+#@ javo_fr
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:29
+#@ javo_fr
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:42
+#@ javo_fr
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43
+#@ javo_fr
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:44
+#@ javo_fr
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:53
+#@ javo_fr
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:70
+#@ javo_fr
+msgid "commentform"
+msgstr ""
+
+#: comments.php:71
+#@ javo_fr
+msgid "submit"
+msgstr ""
+
+#: comments.php:72
+#@ javo_fr
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:73
+#, php-format
+#@ javo_fr
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:74
+#@ javo_fr
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:75
+#@ javo_fr
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:78
+#@ javo_fr
+msgid "Comment (required)"
+msgstr ""
+
+#: comments.php:78
+#@ javo_fr
+msgid "Submit"
+msgstr ""
+
+#: comments.php:82
+#, php-format
+#@ javo_fr
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:88
+#, php-format
+#@ javo_fr
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:95
+#@ javo_fr
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:104
+#@ javo_fr
+msgid "Name (required)"
+msgstr ""
+
+#: comments.php:107
+#@ javo_fr
+msgid "Email (required)"
+msgstr ""
+
+#: comments.php:110
+#@ javo_fr
+msgid "Site"
+msgstr ""
+
+#: content-aside.php:15
+#: content-image.php:13
+#: content-link.php:14
+#: content-quote.php:13
+#: content-status.php:31
+#: content.php:41
+#@ javo_fr
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-aside.php:20
+#: content-link.php:18
+#: content-quote.php:17
+#: content-status.php:15
+#, php-format
+#@ javo_fr
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-aside.php:23
+#: content-image.php:23
+#: content-link.php:21
+#: content-quote.php:20
+#: content-status.php:37
+#: content.php:30
+#@ javo_fr
+msgid "Leave a reply"
+msgstr ""
+
+#: content-aside.php:23
+#: content-image.php:23
+#: content-link.php:21
+#: content-quote.php:20
+#: content-status.php:37
+#: content.php:30
+#@ javo_fr
+msgid "1 Reply"
+msgstr ""
+
+#: content-aside.php:23
+#: content-image.php:23
+#: content-link.php:21
+#: content-quote.php:20
+#: content-status.php:37
+#: content.php:30
+#@ javo_fr
+msgid "% Replies"
+msgstr ""
+
+#: content-aside.php:26
+#: content-image.php:26
+#: content-link.php:24
+#: content-page.php:24
+#: content-quote.php:23
+#: content-status.php:40
+#: content.php:48
+#: image.php:37
+#: library/wp_init.php:458
+#: templates/parts/property-type1.php:59
+#: templates/parts/property-type2.php:56
+#@ javo_fr
+msgid "Edit"
+msgstr ""
+
+#: content-link.php:12
+#: templates/parts/modal-emailme.php:50
+#@ javo_fr
+msgid "Link"
+msgstr ""
+
+#: content-none.php:13
+#: index.php:50
+#: search.php:36
+#@ javo_fr
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:17
+#: index.php:54
+#@ javo_fr
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr ""
+
+#: content-page.php:21
+#: content.php:42
+#: image.php:102
+#@ javo_fr
+msgid "Pages:"
+msgstr ""
+
+#: content.php:16
+#@ javo_fr
+msgid "Featured post"
+msgstr ""
+
+#: content.php:63
+#, php-format
+#@ javo_fr
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: footer.php:29
+#@ javo_fr
+msgid "footer_menu"
+msgstr ""
+
+#: footer.php:32
+#@ javo_fr
+msgid "wp_page_menu"
+msgstr ""
+
+#: image.php:26
+#, php-format
+#@ javo_fr
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr ""
+
+#: image.php:41
+#@ javo_fr
+msgid "&larr; Previous"
+msgstr ""
+
+#: image.php:42
+#@ javo_fr
+msgid "Next &rarr;"
+msgstr ""
+
+#: inc/custom-header.php:41
+#@ javo_fr
+msgid "javo_house_header_style"
+msgstr ""
+
+#: inc/custom-header.php:42
+#@ javo_fr
+msgid "javo_house_admin_header_style"
+msgstr ""
+
+#: inc/custom-header.php:43
+#@ javo_fr
+msgid "javo_house_admin_header_image"
+msgstr ""
+
+#: index.php:39
+#@ javo_fr
+msgid "No posts to display"
+msgstr ""
+
+#: index.php:43
+#, php-format
+#@ javo_fr
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:2
+#@ javo_fr
+msgid "Contact information settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:5
+#@ javo_fr
+msgid "Contact Information"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:7
+#@ javo_fr
+msgid "Add Your Contact Information"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:10
+#: templates/tp-add.php:506
+#@ javo_fr
+msgid "Address"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:15
+#@ javo_fr
+msgid "Phone"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:20
+#: library/admin/post-meta-box.php:932
+#: templates/tp-register.php:187
+#@ javo_fr
+msgid "Mobile"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:25
+#: library/admin/post-meta-box.php:936
+#: templates/tp-register.php:191
+#@ javo_fr
+msgid "Fax"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:30
+#: single-agent.php:197
+#: templates/parts/modal-contact-us.php:17
+#: templates/tp-register-general.php:137
+#: templates/tp-register.php:177
+#@ javo_fr
+msgid "Email"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:35
+#@ javo_fr
+msgid "Working hours"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:40
+#@ javo_fr
+msgid "Additional info"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:45
+#@ javo_fr
+msgid "Social network service IDs"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:47
+#@ javo_fr
+msgid "Add Your Social information."
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:50
+#@ javo_fr
+msgid "Facebook ex) http://facebook.com/yourid"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:55
+#: library/admin/post-meta-box.php:940
+#: templates/tp-register.php:233
+#@ javo_fr
+msgid "Twitter"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:60
+#@ javo_fr
+msgid "Google+"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:65
+#@ javo_fr
+msgid "Dribbble"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:70
+#@ javo_fr
+msgid "Forrst"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:75
+#@ javo_fr
+msgid "Pinterest"
+msgstr ""
+
+#: library/admin/assets/theme-settings-contact.php:80
+#@ javo_fr
+msgid "Website"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:4
+#@ javo_fr
+msgid "Fonts Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:7
+#@ javo_fr
+msgid "Basic Font"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:9
+#: library/admin/assets/theme-settings-font.php:42
+#: library/admin/assets/theme-settings-font.php:75
+#: library/admin/assets/theme-settings-font.php:108
+#: library/admin/assets/theme-settings-font.php:142
+#: library/admin/assets/theme-settings-font.php:176
+#: library/admin/assets/theme-settings-font.php:210
+#@ javo_fr
+msgid "Setup font size, tags"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:12
+#@ javo_fr
+msgid "Choose basic font-family"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:24
+#@ javo_fr
+msgid "Normal Font size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:32
+#: library/admin/assets/theme-settings-font.php:65
+#: library/admin/assets/theme-settings-font.php:98
+#: library/admin/assets/theme-settings-font.php:132
+#: library/admin/assets/theme-settings-font.php:166
+#: library/admin/assets/theme-settings-font.php:200
+#: library/admin/assets/theme-settings-font.php:234
+#: library/admin/assets/theme-settings-header.php:47
+#@ javo_fr
+msgid "Line height"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:40
+#@ javo_fr
+msgid "H1"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:45
+#@ javo_fr
+msgid "Choose H1 font-family"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:57
+#@ javo_fr
+msgid "H1 Font size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:73
+#@ javo_fr
+msgid "H2"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:78
+#@ javo_fr
+msgid "Choose H2 font-family"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:90
+#@ javo_fr
+msgid "H2 Font size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:106
+#@ javo_fr
+msgid "H3"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:111
+#@ javo_fr
+msgid "Choose H3 font-family"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:123
+#@ javo_fr
+msgid "H3 Font size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:140
+#@ javo_fr
+msgid "H4"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:145
+#@ javo_fr
+msgid "Choose H4 font-family"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:157
+#@ javo_fr
+msgid "H4 Font size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:174
+#@ javo_fr
+msgid "H5"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:179
+#@ javo_fr
+msgid "Choose H5 font-family"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:191
+#@ javo_fr
+msgid "H5 Font size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:208
+#@ javo_fr
+msgid "H6"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:213
+#@ javo_fr
+msgid "Choose H6 font-family"
+msgstr ""
+
+#: library/admin/assets/theme-settings-font.php:225
+#@ javo_fr
+msgid "H6 Font size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:2
+#@ javo_fr
+msgid "Footer Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:5
+#@ javo_fr
+msgid "Copyright"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:7
+#@ javo_fr
+msgid "Type your copyright. It will be displayed on footer"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:10
+#@ javo_fr
+msgid "Display Text"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:15
+#@ javo_fr
+msgid "Google API"
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:17
+#@ javo_fr
+msgid "Get your google analytic tracking codes and add here."
+msgstr ""
+
+#: library/admin/assets/theme-settings-footer.php:20
+#@ javo_fr
+msgid "Analystics code"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:3
+#: library/admin/theme-settings.php:21
+#: templates/tp-register.php:143
+#@ javo_fr
+msgid "General"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:6
+#@ javo_fr
+msgid "Header Logo"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:8
+#@ javo_fr
+msgid "Head log :)"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:12
+#@ javo_fr
+msgid "Logo image url"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:18
+#: library/admin/assets/theme-settings-general.php:31
+#: library/admin/assets/theme-settings-general.php:44
+#: library/admin/assets/theme-settings-general.php:62
+#: library/admin/assets/theme-settings-general.php:75
+#: library/admin/assets/theme-settings-map.php:126
+#@ javo_fr
+msgid "Preview"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:23
+#: library/admin/assets/theme-settings-general.php:67
+#@ javo_fr
+msgid "Retina Logo"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:36
+#@ javo_fr
+msgid "Favicon"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:49
+#@ javo_fr
+msgid "Bottom Logo"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:51
+#@ javo_fr
+msgid "Logo for bottom line. Footer widgets"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:54
+#@ javo_fr
+msgid "Logo"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:80
+#@ javo_fr
+msgid "Background"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:82
+#@ javo_fr
+msgid "Setup Background Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:85
+#@ javo_fr
+msgid "Background Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:90
+#@ javo_fr
+msgid "Opacity"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:95
+#@ javo_fr
+msgid "percent"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:99
+#@ javo_fr
+msgid "Color Accent"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:101
+#@ javo_fr
+msgid "Select Primary Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:104
+#@ javo_fr
+msgid "Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:109
+#@ javo_fr
+msgid "Login Redirect"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:111
+#@ javo_fr
+msgid "Setup redirect page after login"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:114
+#@ javo_fr
+msgid "Redirect to"
+msgstr ""
+
+#: library/admin/assets/theme-settings-general.php:124
+#@ javo_fr
+msgid "Default (Profile page"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:3
+#@ javo_fr
+msgid "Header Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:6
+#@ javo_fr
+msgid "Header Type"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:8
+#@ javo_fr
+msgid "Please head style / option"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:11
+#@ javo_fr
+msgid "Use search form on menu"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:13
+#: library/admin/assets/theme-settings-map.php:18
+#: library/admin/post-meta-box.php:505
+#: library/admin/post-meta-box.php:844
+#@ javo_fr
+msgid "Use"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:15
+#@ javo_fr
+msgid "Menu width"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:18
+#@ javo_fr
+msgid "Box width"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:21
+#@ javo_fr
+msgid "Full Width"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:25
+#@ javo_fr
+msgid "Header layout"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:27
+#@ javo_fr
+msgid "Header Height, Font, Size, Color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:30
+#: library/admin/theme-settings.php:22
+#@ javo_fr
+msgid "Font"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:39
+#@ javo_fr
+msgid "Font size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:53
+#: library/admin/assets/theme-settings-header.php:67
+#: library/admin/assets/theme-settings-header.php:75
+#: library/admin/assets/theme-settings-map.php:179
+#: library/admin/post-meta-box.php:851
+#@ javo_fr
+msgid "px"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:56
+#@ javo_fr
+msgid "Sub Menu"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:58
+#@ javo_fr
+msgid "Sub Menu Font Setting"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:61
+#@ javo_fr
+msgid "Submenu Font Size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-header.php:69
+#@ javo_fr
+msgid "Sub Font Line height"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:2
+#@ javo_fr
+msgid "Javo Property Map Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:5
+#: templates/parts/part-map-option1.php:13
+#@ javo_fr
+msgid "Panel"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:7
+#@ javo_fr
+msgid "Control Panel Setting"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:10
+#@ javo_fr
+msgid "Open/Close Control panel when it loads"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:12
+#@ javo_fr
+msgid "Open"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:13
+#: library/classes/paypal-class.php:65
+#: library/widgets/wg-javo-search.php:277
+#: single-agent.php:215
+#: templates/parts/modal-contact-us.php:35
+#: templates/parts/modal-emailme.php:59
+#: templates/parts/modal-emailme.php:82
+#: templates/parts/modal-login.php:39
+#: templates/parts/modal-map-brief.php:19
+#: templates/tp-add.php:748
+#@ javo_fr
+msgid "Close"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:14
+#@ javo_fr
+msgid "Hide (No panel. only google maps and marks)"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:16
+#@ javo_fr
+msgid "Show Keyword Field on Searching"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:19
+#@ javo_fr
+msgid "Don`t use"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:22
+#@ javo_fr
+msgid "Post Type Setting"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:24
+#@ javo_fr
+msgid "Fixed : Property"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:27
+#@ javo_fr
+msgid "Post type"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:32
+#@ javo_fr
+msgid "Setting Filtering"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:34
+#@ javo_fr
+msgid "Please Select 3 Filtering Categories"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:37
+#: library/admin/post-meta-box.php:338
+#@ javo_fr
+msgid "Filtering 1."
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:42
+#: library/admin/assets/theme-settings-map.php:61
+#: library/admin/assets/theme-settings-map.php:80
+#: library/admin/assets/theme-settings-map.php:99
+#@ javo_fr
+msgid "Category"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:44
+#: library/admin/assets/theme-settings-map.php:63
+#: library/admin/assets/theme-settings-map.php:82
+#: library/admin/assets/theme-settings-map.php:101
+#: library/admin/post-meta-box.php:341
+#: library/admin/post-meta-box.php:368
+#: library/admin/post-meta-box.php:425
+#: library/widgets/wg-javo-search.php:30
+#@ javo_fr
+msgid "None"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:58
+#: library/admin/post-meta-box.php:365
+#@ javo_fr
+msgid "Filtering 2."
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:77
+#@ javo_fr
+msgid "Filtering 3."
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:96
+#@ javo_fr
+msgid "Filtering 4"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:115
+#@ javo_fr
+msgid "Map Marker"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:117
+#@ javo_fr
+msgid "Please Upload Your Custom Map Marker Image."
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:120
+#@ javo_fr
+msgid "Marker Image"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:133
+#@ javo_fr
+msgid "Panel Color Setting"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:135
+#@ javo_fr
+msgid "customize panel color"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:138
+#@ javo_fr
+msgid "Panel Background Color."
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:142
+#@ javo_fr
+msgid "Panel Button Color."
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:146
+#@ javo_fr
+msgid "Panel Hide Button Color."
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:150
+#@ javo_fr
+msgid "Panel Button Text Color."
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:154
+#@ javo_fr
+msgid "Panel Active Button Color."
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:158
+#@ javo_fr
+msgid "Panel  Active Button and Hide Button Text Color."
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:162
+#@ javo_fr
+msgid "Panel Tile Color."
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:166
+#@ javo_fr
+msgid "Panel Text Color."
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:172
+#@ javo_fr
+msgid "Map template Setup"
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:174
+#@ javo_fr
+msgid "Default height. you can still setup on each pages."
+msgstr ""
+
+#: library/admin/assets/theme-settings-map.php:177
+#@ javo_fr
+msgid "Default Map area height size"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:9
+#@ javo_fr
+msgid "Property Default Page Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:12
+#@ javo_fr
+msgid "Agents Pages Setup"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:14
+#: library/admin/assets/theme-settings-page.php:62
+#: library/admin/assets/theme-settings-page.php:111
+#@ javo_fr
+msgid "Creat Pages First. Select and Match The Pages"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:18
+#@ javo_fr
+msgid "Agent - Add / Modify Page"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:20
+#: library/admin/assets/theme-settings-page.php:34
+#: library/admin/assets/theme-settings-page.php:48
+#: library/admin/assets/theme-settings-page.php:68
+#: library/admin/assets/theme-settings-page.php:82
+#: library/admin/assets/theme-settings-page.php:96
+#: library/admin/assets/theme-settings-page.php:117
+#@ javo_fr
+msgid "Not Selected"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:32
+#@ javo_fr
+msgid "Saved property list page"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:46
+#@ javo_fr
+msgid "Agent property active payment history"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:60
+#@ javo_fr
+msgid "Properties Pages Setup"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:66
+#@ javo_fr
+msgid "Property - Add / Modify Page"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:80
+#@ javo_fr
+msgid "Search Result Page from search form (shortcode and widget)"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:94
+#@ javo_fr
+msgid "Search result page from head search form"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:109
+#@ javo_fr
+msgid "Order Pages Setup"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:115
+#@ javo_fr
+msgid "Payment Success Page"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:129
+#@ javo_fr
+msgid "Property Detail Page Style"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:131
+#@ javo_fr
+msgid "There are 2 styles of property detail pages."
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:142
+#@ javo_fr
+msgid "Page Style"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:154
+#@ javo_fr
+msgid "Show unchecked amenities"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:156
+#: library/admin/assets/theme-settings-page.php:162
+#@ javo_fr
+msgid "Visible"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:157
+#: library/admin/assets/theme-settings-page.php:163
+#@ javo_fr
+msgid "Hidden"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:160
+#@ javo_fr
+msgid "Show agent information on single property page"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:167
+#@ javo_fr
+msgid "Property page map setup"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:169
+#: library/admin/assets/theme-settings-page.php:217
+#@ javo_fr
+msgid "Display map position on property page."
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:173
+#: library/admin/theme-settings.php:27
+#@ javo_fr
+msgid "Header"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:178
+#@ javo_fr
+msgid "Use map in header"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:181
+#: library/admin/assets/theme-settings-page.php:195
+#: library/admin/assets/theme-settings-page.php:209
+#: library/admin/post-meta-box.php:670
+#@ javo_fr
+msgid "Default"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:182
+#: library/admin/assets/theme-settings-page.php:196
+#: library/admin/assets/theme-settings-page.php:210
+#: library/admin/post-meta-box.php:672
+#@ javo_fr
+msgid "Road Map"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:187
+#@ javo_fr
+msgid "Sidebar"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:192
+#@ javo_fr
+msgid "Use map in sidebar"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:201
+#: templates/parts/property-type1.php:394
+#@ javo_fr
+msgid "Content"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:206
+#@ javo_fr
+msgid "Use map in content"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:215
+#@ javo_fr
+msgid "Main search shortcode price default "
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:220
+#@ javo_fr
+msgid "Setup default price range"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:231
+#@ javo_fr
+msgid "Total Price Range"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:235
+#@ javo_fr
+msgid "Min"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:236
+#@ javo_fr
+msgid "ex) 100"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:241
+#@ javo_fr
+msgid "Max"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:242
+#@ javo_fr
+msgid "ex) 30000000"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:248
+#@ javo_fr
+msgid "Prefix"
+msgstr ""
+
+#: library/admin/assets/theme-settings-page.php:249
+#@ javo_fr
+msgid "ex) $"
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:2
+#@ javo_fr
+msgid "Paypal Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:5
+#@ javo_fr
+msgid "Property publish"
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:7
+#@ javo_fr
+msgid "Paypal setting."
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:10
+#@ javo_fr
+msgid "Payment type"
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:12
+#@ javo_fr
+msgid "Free"
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:13
+#: templates/tp-payment-history.php:92
+#@ javo_fr
+msgid "Paid"
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:17
+#@ javo_fr
+msgid "Pay information"
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:19
+#@ javo_fr
+msgid "This information is for paypal payment"
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:22
+#@ javo_fr
+msgid "Company(work place) Name"
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:27
+#@ javo_fr
+msgid "Company(work place) Email"
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:32
+#@ javo_fr
+msgid "Company(work place) Phone"
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:37
+#@ javo_fr
+msgid "Paypal Item setting"
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:39
+#@ javo_fr
+msgid "This setting is for paypal payment"
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:42
+#@ javo_fr
+msgid "Produce Name"
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:47
+#@ javo_fr
+msgid "Produce price (only number)"
+msgstr ""
+
+#: library/admin/assets/theme-settings-paypal.php:52
+#@ javo_fr
+msgid "Produce price prefix (e.g. USD, KRW, Required uppercase string)"
+msgstr ""
+
+#: library/admin/assets/theme-settings-rating.php:2
+#@ javo_fr
+msgid "Rating Settings"
+msgstr ""
+
+#: library/admin/assets/theme-settings-rating.php:5
+#@ javo_fr
+msgid "Rating"
+msgstr ""
+
+#: library/admin/assets/theme-settings-rating.php:7
+#@ javo_fr
+msgid "Todo : insert description here. :D"
+msgstr ""
+
+#: library/admin/assets/theme-settings-rating.php:10
+#@ javo_fr
+msgid "Use Rating system"
+msgstr ""
+
+#: library/admin/assets/theme-settings-rating.php:15
+#@ javo_fr
+msgid "Only use rating to logined user "
+msgstr ""
+
+#: library/admin/assets/theme-settings-rating.php:17
+#: library/admin/assets/theme-settings-rating.php:22
+#@ javo_fr
+msgid "Active"
+msgstr ""
+
+#: library/admin/assets/theme-settings-rating.php:20
+#@ javo_fr
+msgid "Don`t duplicate user ip address "
+msgstr ""
+
+#: library/admin/assets/theme-settings-rating.php:25
+#@ javo_fr
+msgid "Enable rating count"
+msgstr ""
+
+#: library/admin/assets/theme-settings-rating.php:34
+#@ javo_fr
+msgid "Apply"
+msgstr ""
+
+#: library/admin/assets/theme-settings-rating.php:35
+#@ javo_fr
+msgid "Items"
+msgstr ""
+
+#: library/admin/assets/theme-settings-rating.php:44
+#: library/admin/assets/theme-settings-rating.php:52
+#@ javo_fr
+msgid "Display rating field name"
+msgstr ""
+
+#: library/admin/edit-post-list-column.php:15
+#@ javo_fr
+msgid "Avatar"
+msgstr ""
+
+#: library/admin/edit-post-list-column.php:16
+#: library/admin/edit-post-list-column.php:41
+#@ javo_fr
+msgid "Agent Subject"
+msgstr ""
+
+#: library/admin/edit-post-list-column.php:17
+#: library/admin/edit-post-list-column.php:42
+#: templates/parts/part-ratings-form.php:45
+#: templates/parts/property-type2.php:315
+#@ javo_fr
+msgid "Author"
+msgstr ""
+
+#: library/admin/edit-post-list-column.php:18
+#: library/admin/edit-post-list-column.php:43
+#: library/wp_init.php:462
+#@ javo_fr
+msgid "Reply"
+msgstr ""
+
+#: library/admin/edit-post-list-column.php:21
+#: library/admin/edit-post-list-column.php:46
+#: templates/parts/property-type2.php:316
+#@ javo_fr
+msgid "Date"
+msgstr ""
+
+#: library/admin/edit-post-list-column.php:40
+#@ javo_fr
+msgid "Featured"
+msgstr ""
+
+#: library/admin/meta-options.php:77
+#@ javo_fr
+msgid "Categories"
+msgstr ""
+
+#: library/admin/meta-options.php:80
+#@ javo_fr
+msgid "ALL"
+msgstr ""
+
+#: library/admin/post-meta-box.php:62
+#@ javo_fr
+msgid "Sidebar position"
+msgstr ""
+
+#: library/admin/post-meta-box.php:65
+#: library/admin/post-meta-box.php:211
+#@ javo_fr
+msgid "Left"
+msgstr ""
+
+#: library/admin/post-meta-box.php:69
+#: library/admin/post-meta-box.php:213
+#@ javo_fr
+msgid "Right"
+msgstr ""
+
+#: library/admin/post-meta-box.php:73
+#@ javo_fr
+msgid "Fullwidth"
+msgstr ""
+
+#: library/admin/post-meta-box.php:88
+#@ javo_fr
+msgid "Show page title"
+msgstr ""
+
+#: library/admin/post-meta-box.php:92
+#@ javo_fr
+msgid "Hide page title"
+msgstr ""
+
+#: library/admin/post-meta-box.php:96
+#@ javo_fr
+msgid "Fancy Header"
+msgstr ""
+
+#: library/admin/post-meta-box.php:100
+#@ javo_fr
+msgid "Slide Show"
+msgstr ""
+
+#: library/admin/post-meta-box.php:142
+#@ javo_fr
+msgid "Title left"
+msgstr ""
+
+#: library/admin/post-meta-box.php:146
+#@ javo_fr
+msgid "Title center"
+msgstr ""
+
+#: library/admin/post-meta-box.php:150
+#@ javo_fr
+msgid "Title right"
+msgstr ""
+
+#: library/admin/post-meta-box.php:156
+#: templates/tp-add.php:276
+#: templates/tp-saved.php:27
+#@ javo_fr
+msgid "Title"
+msgstr ""
+
+#: library/admin/post-meta-box.php:160
+#@ javo_fr
+msgid "Title Color"
+msgstr ""
+
+#: library/admin/post-meta-box.php:166
+#@ javo_fr
+msgid "Subtitle"
+msgstr ""
+
+#: library/admin/post-meta-box.php:170
+#@ javo_fr
+msgid "Subtitle color"
+msgstr ""
+
+#: library/admin/post-meta-box.php:175
+#@ javo_fr
+msgid "Background color"
+msgstr ""
+
+#: library/admin/post-meta-box.php:179
+#@ javo_fr
+msgid "Background Image"
+msgstr ""
+
+#: library/admin/post-meta-box.php:180
+#@ javo_fr
+msgid "Upload"
+msgstr ""
+
+#: library/admin/post-meta-box.php:183
+#@ javo_fr
+msgid "Background image preview"
+msgstr ""
+
+#: library/admin/post-meta-box.php:198
+#@ javo_fr
+msgid "Repeat Option"
+msgstr ""
+
+#: library/admin/post-meta-box.php:201
+#@ javo_fr
+msgid "no-repeat"
+msgstr ""
+
+#: library/admin/post-meta-box.php:202
+#@ javo_fr
+msgid "repeat-x"
+msgstr ""
+
+#: library/admin/post-meta-box.php:203
+#@ javo_fr
+msgid "repeat-y"
+msgstr ""
+
+#: library/admin/post-meta-box.php:208
+#@ javo_fr
+msgid "Position X"
+msgstr ""
+
+#: library/admin/post-meta-box.php:212
+#: library/admin/post-meta-box.php:222
+#@ javo_fr
+msgid "Center"
+msgstr ""
+
+#: library/admin/post-meta-box.php:218
+#@ javo_fr
+msgid "Position Y"
+msgstr ""
+
+#: library/admin/post-meta-box.php:221
+#@ javo_fr
+msgid "Top"
+msgstr ""
+
+#: library/admin/post-meta-box.php:223
+#@ javo_fr
+msgid "Bottom"
+msgstr ""
+
+#: library/admin/post-meta-box.php:229
+#@ javo_fr
+msgid "Height(pixel)"
+msgstr ""
+
+#: library/admin/post-meta-box.php:257
+#@ javo_fr
+msgid "Revolution"
+msgstr ""
+
+#: library/admin/post-meta-box.php:274
+#@ javo_fr
+msgid "Choose slider"
+msgstr ""
+
+#: library/admin/post-meta-box.php:292
+#@ javo_fr
+msgid "Please install revolition slider plugin or create slide item."
+msgstr ""
+
+#: library/admin/post-meta-box.php:303
+#@ javo_fr
+msgid "Hide featured image on post page"
+msgstr ""
+
+#: library/admin/post-meta-box.php:310
+#@ javo_fr
+msgid "Related posts category"
+msgstr ""
+
+#: library/admin/post-meta-box.php:312
+#@ javo_fr
+msgid "from the same category"
+msgstr ""
+
+#: library/admin/post-meta-box.php:313
+#@ javo_fr
+msgid "choose category(s)"
+msgstr ""
+
+#: library/admin/post-meta-box.php:318
+#@ javo_fr
+msgid "Post Preview Options"
+msgstr ""
+
+#: library/admin/post-meta-box.php:320
+#@ javo_fr
+msgid "Normal"
+msgstr ""
+
+#: library/admin/post-meta-box.php:321
+#@ javo_fr
+msgid "Wide"
+msgstr ""
+
+#: library/admin/post-meta-box.php:400
+#@ javo_fr
+msgid "Show Map (on header)"
+msgstr ""
+
+#: library/admin/post-meta-box.php:503
+#@ javo_fr
+msgid "Display controller"
+msgstr ""
+
+#: library/admin/post-meta-box.php:510
+#@ javo_fr
+msgid "Multiple Buttons and Listings"
+msgstr ""
+
+#: library/admin/post-meta-box.php:516
+#@ javo_fr
+msgid "Default View Type"
+msgstr ""
+
+#: library/admin/post-meta-box.php:522
+#@ javo_fr
+msgid "Number of Listings per Page"
+msgstr ""
+
+#: library/admin/post-meta-box.php:548
+#@ javo_fr
+msgid "Sorry, find address failed"
+msgstr ""
+
+#: library/admin/post-meta-box.php:640
+#@ javo_fr
+msgid "Display map areas"
+msgstr ""
+
+#: library/admin/post-meta-box.php:667
+#@ javo_fr
+msgid "map in"
+msgstr ""
+
+#: library/admin/post-meta-box.php:678
+#: library/process.php:875
+#: templates/parts/property-type1.php:248
+#: templates/parts/property-type2.php:122
+#: templates/parts/property-type2.php:263
+#: templates/tp-add.php:349
+#@ javo_fr
+msgid "Bedrooms"
+msgstr ""
+
+#: library/admin/post-meta-box.php:682
+#: library/process.php:878
+#: templates/parts/property-type2.php:123
+#: templates/tp-add.php:358
+#@ javo_fr
+msgid "Bathrooms"
+msgstr ""
+
+#: library/admin/post-meta-box.php:686
+#: library/classes/javo-post-class.php:53
+#: library/process.php:881
+#: library/process.php:1679
+#: library/process.php:1791
+#: templates/parts/property-type1.php:44
+#: templates/parts/property-type1.php:254
+#: templates/parts/property-type2.php:131
+#: templates/parts/property-type2.php:269
+#: templates/tp-add.php:364
+#@ javo_fr
+msgid "Parking"
+msgstr ""
+
+#: library/admin/post-meta-box.php:690
+#@ javo_fr
+msgid "Built year"
+msgstr ""
+
+#: library/admin/post-meta-box.php:694
+#: templates/tp-add.php:412
+#@ javo_fr
+msgid "Plot size"
+msgstr ""
+
+#: library/admin/post-meta-box.php:698
+#: templates/parts/property-type1.php:223
+#: templates/parts/property-type2.php:238
+#: templates/tp-add.php:421
+#@ javo_fr
+msgid "Orientation"
+msgstr ""
+
+#: library/admin/post-meta-box.php:702
+#@ javo_fr
+msgid "Living rooms"
+msgstr ""
+
+#: library/admin/post-meta-box.php:706
+#: templates/parts/property-type1.php:231
+#: templates/parts/property-type2.php:246
+#: templates/tp-add.php:435
+#@ javo_fr
+msgid "Kitchens"
+msgstr ""
+
+#: library/admin/post-meta-box.php:710
+#@ javo_fr
+msgid "Sale price"
+msgstr ""
+
+#: library/admin/post-meta-box.php:713
+#@ javo_fr
+msgid "(Only number type! Please exclude \",\", \".\")"
+msgstr ""
+
+#: library/admin/post-meta-box.php:717
+#@ javo_fr
+msgid "Price prostfix"
+msgstr ""
+
+#: library/admin/post-meta-box.php:720
+#@ javo_fr
+msgid "(e.g. \"$s\")"
+msgstr ""
+
+#: library/admin/post-meta-box.php:724
+#: templates/parts/property-type1.php:260
+#: templates/parts/property-type2.php:275
+#: templates/tp-add.php:386
+#@ javo_fr
+msgid "Area"
+msgstr ""
+
+#: library/admin/post-meta-box.php:727
+#@ javo_fr
+msgid "(only number type! please exclude \",\", \".\")"
+msgstr ""
+
+#: library/admin/post-meta-box.php:731
+#@ javo_fr
+msgid "Area postfix"
+msgstr ""
+
+#: library/admin/post-meta-box.php:734
+#@ javo_fr
+msgid "(e.g. \"Ft Sq\", \"Sq\")"
+msgstr ""
+
+#: library/admin/post-meta-box.php:738
+#: templates/parts/property-type1.php:306
+#: templates/parts/property-type2.php:322
+#: templates/tp-add.php:465
+#@ javo_fr
+msgid "Video"
+msgstr ""
+
+#: library/admin/post-meta-box.php:746
+#@ javo_fr
+msgid "Location position"
+msgstr ""
+
+#: library/admin/post-meta-box.php:748
+#@ javo_fr
+msgid "Find"
+msgstr ""
+
+#: library/admin/post-meta-box.php:760
+#@ javo_fr
+msgid "Detail Images"
+msgstr ""
+
+#: library/admin/post-meta-box.php:792
+#@ javo_fr
+msgid "side fixed"
+msgstr ""
+
+#: library/admin/post-meta-box.php:793
+#@ javo_fr
+msgid "Side left"
+msgstr ""
+
+#: library/admin/post-meta-box.php:794
+#@ javo_fr
+msgid "Side right"
+msgstr ""
+
+#: library/admin/post-meta-box.php:817
+#@ javo_fr
+msgid "Map Type"
+msgstr ""
+
+#: library/admin/post-meta-box.php:840
+#@ javo_fr
+msgid "Show Content"
+msgstr ""
+
+#: library/admin/post-meta-box.php:849
+#@ javo_fr
+msgid "Map height size"
+msgstr ""
+
+#: library/admin/post-meta-box.php:902
+#@ javo_fr
+msgid "Change Avatar"
+msgstr ""
+
+#: library/admin/post-meta-box.php:906
+#@ javo_fr
+msgid "User login ID"
+msgstr ""
+
+#: library/admin/post-meta-box.php:911
+#: single-agent.php:191
+#: templates/parts/modal-contact-us.php:11
+#: templates/parts/part-ratings-form-label.php:93
+#: templates/tp-register-general.php:118
+#: templates/tp-register.php:158
+#@ javo_fr
+msgid "Name"
+msgstr ""
+
+#: library/admin/post-meta-box.php:918
+#: templates/parts/modal-emailme.php:46
+#@ javo_fr
+msgid "Email Address"
+msgstr ""
+
+#: library/admin/post-meta-box.php:922
+#@ javo_fr
+msgid "Introduce"
+msgstr ""
+
+#: library/admin/post-meta-box.php:928
+#: templates/tp-register.php:183
+#@ javo_fr
+msgid "Telephone"
+msgstr ""
+
+#: library/admin/post-meta-box.php:944
+#: templates/tp-register.php:237
+#@ javo_fr
+msgid "Facebook"
+msgstr ""
+
+#: library/admin/theme-settings.php:24
+#: library/process.php:542
+#: templates/parts/property-type2.php:424
+#@ javo_fr
+msgid "Contact"
+msgstr ""
+
+#: library/admin/theme-settings.php:25
+#@ javo_fr
+msgid "Property Pages"
+msgstr ""
+
+#: library/admin/theme-settings.php:26
+#@ javo_fr
+msgid "Maps"
+msgstr ""
+
+#: library/admin/theme-settings.php:28
+#@ javo_fr
+msgid "Footer"
+msgstr ""
+
+#: library/admin/theme-settings.php:30
+#@ javo_fr
+msgid "Paypal"
+msgstr ""
+
+#: library/admin/theme-settings.php:49
+#@ javo_fr
+msgid "Theme settings"
+msgstr ""
+
+#: library/admin/theme-settings.php:90
+#@ javo_fr
+msgid "Real Estate theme settings"
+msgstr ""
+
+#: library/admin/theme-settings.php:91
+#@ javo_fr
+msgid "Themes Settings"
+msgstr ""
+
+#: library/admin/theme-settings.php:159
+#@ javo_fr
+msgid "Real Estate"
+msgstr ""
+
+#: library/admin/theme-settings.php:161
+#@ javo_fr
+msgid "Theme settings save successfully."
+msgstr ""
+
+#: library/admin/theme-settings.php:240
+#@ javo_fr
+msgid ""
+"Warning : All option results remove and Style initialize. \\\n"
+" Continue?"
+msgstr ""
+
+#: library/classes/javo-post-class.php:28
+#: single-agent.php:50
+#: templates/parts/property-type2.php:402
+#@ javo_fr
+msgid "M"
+msgstr ""
+
+#: library/classes/javo-post-class.php:50
+#@ javo_fr
+msgid "Sq ft"
+msgstr ""
+
+#: library/classes/javo-post-class.php:51
+#: library/process.php:1673
+#@ javo_fr
+msgid "Beds"
+msgstr ""
+
+#: library/classes/javo-post-class.php:52
+#: library/process.php:1676
+#@ javo_fr
+msgid "Baths"
+msgstr ""
+
+#: library/classes/javo-post-class.php:65
+#@ javo_fr
+msgid "Month"
+msgstr ""
+
+#: library/classes/javo-post-class.php:181
+#@ javo_fr
+msgid "not found information."
+msgstr ""
+
+#: library/classes/javo-switcher.php:8
+#@ javo_fr
+msgid "Quick move<br> to<br> demo sites"
+msgstr ""
+
+#: library/classes/javo-switcher.php:11
+#@ javo_fr
+msgid "Classic"
+msgstr ""
+
+#: library/classes/javo-switcher.php:16
+#: templates/parts/property-type1.php:323
+#@ javo_fr
+msgid "Map"
+msgstr ""
+
+#: library/classes/javo-switcher.php:21
+#@ javo_fr
+msgid "Classic + Map"
+msgstr ""
+
+#: library/classes/javo-switcher.php:26
+#@ javo_fr
+msgid "Buy now"
+msgstr ""
+
+#: library/classes/list-view-button.php:15
+#@ javo_fr
+msgid "Detailed - 2 Columns"
+msgstr ""
+
+#: library/classes/list-view-button.php:16
+#@ javo_fr
+msgid "Medium Fancy View"
+msgstr ""
+
+#: library/classes/list-view-button.php:17
+#@ javo_fr
+msgid "Grid View"
+msgstr ""
+
+#: library/classes/paypal-class.php:60
+#@ javo_fr
+msgid "Now pay"
+msgstr ""
+
+#: library/classes/paypal-class.php:61
+#@ javo_fr
+msgid "Later Pay"
+msgstr ""
+
+#: library/header/head-line.php:32
+#@ javo_fr
+msgid "Toggle navigation"
+msgstr ""
+
+#: library/header/head-line.php:62
+#: library/shortcodes/sc-javo-main-search.php:39
+#: library/widgets/wg-javo-search.php:63
+#: templates/parts/part-map-option4.php:22
+#: templates/parts/part-map-option5.php:40
+#: templates/parts/property-type2.php:217
+#: templates/parts/property-type2.php:464
+#: templates/tp-add.php:315
+#@ javo_fr
+msgid "Location"
+msgstr ""
+
+#: library/header/head-line.php:77
+#: library/shortcodes/sc-javo-main-search.php:108
+#: library/widgets/wg-javo-search.php:56
+#@ javo_fr
+msgid "Search"
+msgstr ""
+
+#: library/header/head-line.php:96
+#@ javo_fr
+msgid "MY PAGE"
+msgstr ""
+
+#: library/header/head-line.php:102
+#@ javo_fr
+msgid "My Properties"
+msgstr ""
+
+#: library/header/head-line.php:108
+#@ javo_fr
+msgid "Add Properties"
+msgstr ""
+
+#: library/header/head-line.php:114
+#: templates/parts/mypage-menu.php:59
+#: templates/tp-register-general.php:99
+#@ javo_fr
+msgid "Edit Profile"
+msgstr ""
+
+#: library/header/head-line.php:117
+#: templates/parts/mypage-menu.php:71
+#@ javo_fr
+msgid "Change Password"
+msgstr ""
+
+#: library/header/head-line.php:118
+#@ javo_fr
+msgid "LOG OUT"
+msgstr ""
+
+#: library/header/head-line.php:122
+#: templates/parts/mypage-menu.php:47
+#: templates/parts/mypage-menu.php:70
+#@ javo_fr
+msgid "LOGIN"
+msgstr ""
+
+#: library/header/head-line.php:124
+#@ javo_fr
+msgid "REGISTER"
+msgstr ""
+
+#: library/header/post-header.php:60
+#@ javo_fr
+msgid "No select slider."
+msgstr ""
+
+#: library/process.php:94
+#: library/wp_init.php:51
+#: templates/tp-add.php:485
+#@ javo_fr
+msgid "Amenities"
+msgstr ""
+
+#: library/process.php:498
+#: library/shortcodes/sc-javo-main-search.php:65
+#: library/widgets/wg-javo-search.php:94
+#: library/wp_init.php:57
+#: templates/parts/part-map-option4.php:30
+#: templates/parts/part-map-option5.php:51
+#: templates/parts/property-type1.php:190
+#: templates/parts/property-type2.php:205
+#: templates/tp-add.php:298
+#@ javo_fr
+msgid "Type"
+msgstr ""
+
+#: library/process.php:499
+#@ javo_fr
+msgid "Bed :"
+msgstr ""
+
+#: library/process.php:500
+#@ javo_fr
+msgid "Parking :"
+msgstr ""
+
+#: library/process.php:501
+#@ javo_fr
+msgid "Bath :"
+msgstr ""
+
+#: library/process.php:540
+#: templates/parts/modal-map-brief.php:9
+#@ javo_fr
+msgid "Brief"
+msgstr ""
+
+#: library/process.php:541
+#@ javo_fr
+msgid "Detail"
+msgstr ""
+
+#: library/process.php:681
+#@ javo_fr
+msgid "< Prev"
+msgstr ""
+
+#: library/process.php:682
+#@ javo_fr
+msgid "Next >"
+msgstr ""
+
+#: library/process.php:878
+#@ javo_fr
+msgid "Comments"
+msgstr ""
+
+#: library/process.php:1175
+#@ javo_fr
+msgid "COMMENT"
+msgstr ""
+
+#: library/process.php:1287
+#: library/shortcodes/sc-javo-property-fancy.php:91
+#: library/shortcodes/sc-javo-property.php:81
+#: single-agent.php:141
+#: templates/tp-property-results.php:159
+#@ javo_fr
+msgid "MORE"
+msgstr ""
+
+#: library/process.php:1299
+#: library/shortcodes/sc-javo-property-fancy.php:107
+#: single-agent.php:153
+#: templates/tp-property-results.php:171
+#@ javo_fr
+msgid "SHARE ON"
+msgstr ""
+
+#: library/process.php:1513
+#: library/shortcodes/sc-javo-property-fancy.php:95
+#: library/shortcodes/sc-properties.php:108
+#: single-agent.php:145
+#: templates/tp-property-results.php:163
+#@ javo_fr
+msgid "bed"
+msgstr ""
+
+#: library/process.php:1514
+#: library/shortcodes/sc-javo-property-fancy.php:96
+#: library/shortcodes/sc-properties.php:107
+#: single-agent.php:146
+#: templates/tp-property-results.php:164
+#@ javo_fr
+msgid "bath"
+msgstr ""
+
+#: library/process.php:1515
+#: library/process.php:1563
+#: library/shortcodes/sc-javo-property-fancy.php:97
+#: library/shortcodes/sc-properties.php:109
+#: single-agent.php:147
+#: templates/tp-property-results.php:165
+#@ javo_fr
+msgid "parking"
+msgstr ""
+
+#: library/process.php:1561
+#@ javo_fr
+msgid "beds"
+msgstr ""
+
+#: library/process.php:1562
+#@ javo_fr
+msgid "baths"
+msgstr ""
+
+#: library/process.php:1574
+#@ javo_fr
+msgid "reply"
+msgstr ""
+
+#: library/process.php:1588
+#@ javo_fr
+msgid "Share"
+msgstr ""
+
+#: library/process.php:1653
+#@ javo_fr
+msgid "More"
+msgstr ""
+
+#: library/process.php:1744
+#: library/shortcodes/sc-agents.php:58
+#: single-agent.php:31
+#: single-agent.php:54
+#: single-agent.php:96
+#: templates/tp-payment-history.php:28
+#@ javo_fr
+msgid "Properties"
+msgstr ""
+
+#: library/process.php:1766
+#: templates/tp-map.php:33
+#@ javo_fr
+msgid "Error"
+msgstr ""
+
+#: library/process.php:1790
+#: templates/parts/property-type1.php:42
+#@ javo_fr
+msgid "Bed"
+msgstr ""
+
+#: library/process.php:1792
+#: templates/parts/property-type1.php:43
+#@ javo_fr
+msgid "Bath"
+msgstr ""
+
+#: library/process.php:1841
+#: templates/tp-add.php:233
+#@ javo_fr
+msgid "No results found!"
+msgstr ""
+
+#: library/process.php:1847
+#@ javo_fr
+msgid "Please try to following"
+msgstr ""
+
+#: library/process.php:1849
+#@ javo_fr
+msgid "Add new property or blog posts"
+msgstr ""
+
+#: library/process.php:1850
+#@ javo_fr
+msgid "Change to search condition."
+msgstr ""
+
+#: library/shortcodes/sc-agents.php:71
+#: library/shortcodes/sc-javo-property-fancy.php:124
+#: library/shortcodes/sc-properties.php:122
+#@ javo_fr
+msgid "No posts."
+msgstr ""
+
+#: library/shortcodes/sc-javo-main-search.php:52
+#: library/widgets/wg-javo-search.php:78
+#: library/wp_init.php:69
+#: templates/parts/part-map-option4.php:38
+#: templates/parts/part-map-option5.php:62
+#: templates/parts/property-type1.php:196
+#: templates/parts/property-type2.php:211
+#: templates/tp-add.php:333
+#@ javo_fr
+msgid "Status"
+msgstr ""
+
+#: library/shortcodes/sc-javo-main-search.php:78
+#@ javo_fr
+msgid "Min Beds"
+msgstr ""
+
+#: library/shortcodes/sc-javo-main-search.php:83
+#: library/shortcodes/sc-javo-main-search.php:98
+#: library/shortcodes/sc-javo-main-search.php:199
+#: library/shortcodes/sc-javo-main-search.php:212
+#: library/widgets/wg-javo-search.php:19
+#: library/widgets/wg-javo-search.php:25
+#: library/widgets/wg-javo-search.php:68
+#: library/widgets/wg-javo-search.php:83
+#: library/widgets/wg-javo-search.php:99
+#: library/widgets/wg-javo-search.php:123
+#: library/widgets/wg-javo-search.php:142
+#: library/widgets/wg-javo-search.php:165
+#: library/widgets/wg-javo-search.php:184
+#@ javo_fr
+msgid "Any"
+msgstr ""
+
+#: library/shortcodes/sc-javo-main-search.php:93
+#@ javo_fr
+msgid "Min Baths"
+msgstr ""
+
+#: library/shortcodes/sc-javo-main-search.php:111
+#@ javo_fr
+msgid "Advanced"
+msgstr ""
+
+#: library/shortcodes/sc-javo-main-search.php:126
+#: library/widgets/wg-javo-search.php:59
+#@ javo_fr
+msgid "Keyword"
+msgstr ""
+
+#: library/shortcodes/sc-javo-main-search.php:129
+#@ javo_fr
+msgid "Propert ID"
+msgstr ""
+
+#: library/shortcodes/sc-javo-main-search.php:143
+#: templates/parts/property-type1.php:208
+#: templates/parts/property-type2.php:223
+#: templates/tp-add.php:372
+#@ javo_fr
+msgid "Price"
+msgstr ""
+
+#: library/shortcodes/sc-javo-main-search.php:194
+#@ javo_fr
+msgid "Min Price"
+msgstr ""
+
+#: library/shortcodes/sc-javo-main-search.php:207
+#@ javo_fr
+msgid "Max Price"
+msgstr ""
+
+#: library/shortcodes/sc-javo-main-search.php:220
+#@ javo_fr
+msgid "Min Area"
+msgstr ""
+
+#: library/shortcodes/sc-javo-main-search.php:223
+#@ javo_fr
+msgid "Max Area"
+msgstr ""
+
+#: library/shortcodes/sc-properties.php:106
+#@ javo_fr
+msgid "No Type"
+msgstr ""
+
+#: library/widgets/wg-javo-contact-us.php:13
+#@ javo_fr
+msgid "[JAVO] Contact Us"
+msgstr ""
+
+#: library/widgets/wg-javo-contact-us.php:14
+#@ javo_fr
+msgid "Javo contact information display widget."
+msgstr ""
+
+#: library/widgets/wg-javo-contact-us.php:81
+#@ javo_fr
+msgid "Contact info"
+msgstr ""
+
+#: library/widgets/wg-javo-contact-us.php:85
+#: library/widgets/wg-javo-recent-photos.php:173
+#: library/widgets/wg-javo-recent-post.php:150
+#: library/widgets/wg-javo-recent.php:92
+#@ javo_fr
+msgid "Title:"
+msgstr ""
+
+#: library/widgets/wg-javo-recent-photos.php:14
+#@ javo_fr
+msgid "Recent Photos with thumbnails widget."
+msgstr ""
+
+#: library/widgets/wg-javo-recent-photos.php:16
+#@ javo_fr
+msgid "[JAVO] Recent Photos"
+msgstr ""
+
+#: library/widgets/wg-javo-recent-photos.php:110
+#@ javo_fr
+msgid "read more"
+msgstr ""
+
+#: library/widgets/wg-javo-recent-photos.php:177
+#: library/widgets/wg-javo-recent-post.php:154
+#@ javo_fr
+msgid "Limit:"
+msgstr ""
+
+#: library/widgets/wg-javo-recent-photos.php:187
+#: library/widgets/wg-javo-recent-post.php:168
+#@ javo_fr
+msgid "Choose the Post Type: "
+msgstr ""
+
+#: library/widgets/wg-javo-recent-post.php:14
+#@ javo_fr
+msgid "Recent posts with thumbnails widget."
+msgstr ""
+
+#: library/widgets/wg-javo-recent-post.php:16
+#@ javo_fr
+msgid "[JAVO] Recent posts"
+msgstr ""
+
+#: library/widgets/wg-javo-recent-post.php:163
+#@ javo_fr
+msgid "Excerpt length:"
+msgstr ""
+
+#: library/widgets/wg-javo-recent.php:10
+#@ javo_fr
+msgid "Your site&#8217;s most recent Posts."
+msgstr ""
+
+#: library/widgets/wg-javo-recent.php:11
+#@ javo_fr
+msgid "[JAVO] Recent Posts!!"
+msgstr ""
+
+#: library/widgets/wg-javo-recent.php:36
+#@ javo_fr
+msgid "Recent Posts"
+msgstr ""
+
+#: library/widgets/wg-javo-recent.php:95
+#@ javo_fr
+msgid "Number of posts to show:"
+msgstr ""
+
+#: library/widgets/wg-javo-recent.php:99
+#@ javo_fr
+msgid "Display post date?"
+msgstr ""
+
+#: library/widgets/wg-javo-search.php:6
+#@ javo_fr
+msgid "[JAVO] Property search Widget"
+msgstr ""
+
+#: library/widgets/wg-javo-search.php:7
+#@ javo_fr
+msgid "Javo theme quick property search widgets."
+msgstr ""
+
+#: library/widgets/wg-javo-search.php:118
+#@ javo_fr
+msgid "Bed (Min)"
+msgstr ""
+
+#: library/widgets/wg-javo-search.php:137
+#@ javo_fr
+msgid "Bath (Min)"
+msgstr ""
+
+#: library/widgets/wg-javo-search.php:160
+#@ javo_fr
+msgid "Price (Min)"
+msgstr ""
+
+#: library/widgets/wg-javo-search.php:179
+#@ javo_fr
+msgid "Price (Max)"
+msgstr ""
+
+#: library/widgets/wg-javo-search.php:207
+#@ javo_fr
+msgid "Quick Result"
+msgstr ""
+
+#: library/widgets/wg-javo-search.php:214
+#@ javo_fr
+msgid "Result page"
+msgstr ""
+
+#: library/widgets/wg-javo-search.php:221
+#@ javo_fr
+msgid "Search Now"
+msgstr ""
+
+#: library/widgets/wg-javo-search.php:271
+#@ javo_fr
+msgid "Quick Search"
+msgstr ""
+
+#: library/wp_init.php:63
+#: templates/parts/property-type1.php:202
+#@ javo_fr
+msgid "City"
+msgstr ""
+
+#: library/wp_init.php:91
+#@ javo_fr
+msgid "Agents"
+msgstr ""
+
+#: library/wp_init.php:109
+#@ javo_fr
+msgid "Primary"
+msgstr ""
+
+#: library/wp_init.php:111
+#@ javo_fr
+msgid "Footer Menu"
+msgstr ""
+
+#: library/wp_init.php:192
+#@ javo_fr
+msgid "Default Sidebar"
+msgstr ""
+
+#: library/wp_init.php:194
+#@ javo_fr
+msgid "Widgets in this area will be shown on the default pages."
+msgstr ""
+
+#: library/wp_init.php:202
+#@ javo_fr
+msgid "Property Sidebar"
+msgstr ""
+
+#: library/wp_init.php:204
+#@ javo_fr
+msgid "Widgets in this area will be shown on the property pages."
+msgstr ""
+
+#: library/wp_init.php:213
+#@ javo_fr
+msgid "Blog Sidebar"
+msgstr ""
+
+#: library/wp_init.php:215
+#@ javo_fr
+msgid "Widgets in this area will be shown on the blog pages."
+msgstr ""
+
+#: library/wp_init.php:225
+#@ javo_fr
+msgid "Footer Sidebar1"
+msgstr ""
+
+#: library/wp_init.php:227
+#: library/wp_init.php:237
+#: library/wp_init.php:247
+#: library/wp_init.php:257
+#@ javo_fr
+msgid "Widgets in this area will be shown on the footer side."
+msgstr ""
+
+#: library/wp_init.php:235
+#@ javo_fr
+msgid "Footer Sidebar2"
+msgstr ""
+
+#: library/wp_init.php:245
+#@ javo_fr
+msgid "Footer Sidebar3"
+msgstr ""
+
+#: library/wp_init.php:255
+#@ javo_fr
+msgid "Footer Sidebar4"
+msgstr ""
+
+#: library/wp_init.php:362
+#, php-format
+#@ javo_fr
+msgid "Page %s"
+msgstr ""
+
+#: library/wp_init.php:397
+#: single.php:24
+#: single.php:38
+#: single.php:51
+#@ javo_fr
+msgid "Post navigation"
+msgstr ""
+
+#: library/wp_init.php:398
+#@ javo_fr
+msgid "<i class=\"glyphicon glyphicon-chevron-left\"></i> Older posts"
+msgstr ""
+
+#: library/wp_init.php:399
+#@ javo_fr
+msgid "Newer posts <i class=\"glyphicon glyphicon-chevron-right\"></i>"
+msgstr ""
+
+#: library/wp_init.php:426
+#@ javo_fr
+msgid "Pingback:"
+msgstr ""
+
+#: library/wp_init.php:426
+#@ javo_fr
+msgid "(Edit)"
+msgstr ""
+
+#: library/wp_init.php:441
+#@ javo_fr
+msgid "Post author"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: library/wp_init.php:447
+#, php-format
+#@ javo_fr
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: library/wp_init.php:453
+#@ javo_fr
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: library/wp_init.php:485
+#: library/wp_init.php:488
+#@ javo_fr
+msgid ", "
+msgstr ""
+
+#: library/wp_init.php:499
+#, php-format
+#@ javo_fr
+msgid "View all posts by %s"
+msgstr ""
+
+#: library/wp_init.php:505
+#, php-format
+#@ javo_fr
+msgid "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr ""
+
+#: library/wp_init.php:507
+#, php-format
+#@ javo_fr
+msgid "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr ""
+
+#: library/wp_init.php:509
+#, php-format
+#@ javo_fr
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr ""
+
+#: search.php:20
+#, php-format
+#@ javo_fr
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:40
+#@ javo_fr
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: single-agent.php:22
+#: single-agent.php:38
+#: single-agent.php:74
+#: templates/parts/property-type1.php:135
+#: templates/parts/property-type1.php:281
+#: templates/parts/property-type2.php:296
+#: templates/parts/property-type2.php:387
+#: templates/tp-register.php:144
+#@ javo_fr
+msgid "Agent"
+msgstr ""
+
+#: single-agent.php:49
+#: templates/parts/property-type2.php:401
+#@ javo_fr
+msgid "T"
+msgstr ""
+
+#: single-agent.php:51
+#: templates/parts/property-type2.php:403
+#@ javo_fr
+msgid "F"
+msgstr ""
+
+#: single-agent.php:66
+#: templates/parts/property-type1.php:168
+#@ javo_fr
+msgid "Contact Us"
+msgstr ""
+
+#: single-agent.php:148
+#@ javo_fr
+msgid "No type"
+msgstr ""
+
+#: single-agent.php:149
+#@ javo_fr
+msgid "No status"
+msgstr ""
+
+#: single-agent.php:186
+#: templates/parts/modal-contact-us.php:6
+#@ javo_fr
+msgid "Agent Contact"
+msgstr ""
+
+#: single-agent.php:193
+#@ javo_fr
+msgid "Insert your name."
+msgstr ""
+
+#: single-agent.php:199
+#@ javo_fr
+msgid "Insert your E-mail address."
+msgstr ""
+
+#: single-agent.php:209
+#: templates/parts/modal-contact-us.php:29
+#: templates/parts/part-ratings-form-label.php:112
+#: templates/parts/property-type1.php:405
+#: templates/parts/property-type2.php:444
+#@ javo_fr
+msgid "Send a message"
+msgstr ""
+
+#: single-agent.php:222
+#@ javo_fr
+msgid "Please, type email address."
+msgstr ""
+
+#: single-agent.php:223
+#@ javo_fr
+msgid "Please, type your email adress."
+msgstr ""
+
+#: single-agent.php:224
+#@ javo_fr
+msgid "Please, type your name."
+msgstr ""
+
+#: single-agent.php:225
+#@ javo_fr
+msgid "Please, type your message"
+msgstr ""
+
+#: single-agent.php:226
+#@ javo_fr
+msgid "Sorry, failed to send your message"
+msgstr ""
+
+#: single-agent.php:227
+#@ javo_fr
+msgid "Successfully sent!"
+msgstr ""
+
+#: single-agent.php:228
+#@ javo_fr
+msgid "Do you want to send this email ?"
+msgstr ""
+
+#: single.php:25
+#: single.php:39
+#@ javo_fr
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: single.php:26
+#: single.php:40
+#@ javo_fr
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: single.php:52
+#@ javo_fr
+msgctxt "Previous post link"
+msgid "<i class=\"glyphicon glyphicon-chevron-left\"></i>"
+msgstr ""
+
+#: single.php:53
+#@ javo_fr
+msgctxt "Next post link"
+msgid "<i class=\"glyphicon glyphicon-chevron-right\"></i>"
+msgstr ""
+
+#: tag.php:22
+#, php-format
+#@ javo_fr
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: templates/parts/modal-emailme.php:42
+#@ javo_fr
+msgid "Email This post"
+msgstr ""
+
+#: templates/parts/modal-emailme.php:47
+#@ javo_fr
+msgid "Please type email address to send"
+msgstr ""
+
+#: templates/parts/modal-emailme.php:54
+#@ javo_fr
+msgid "Please add some memo, if you need"
+msgstr ""
+
+#: templates/parts/modal-emailme.php:60
+#@ javo_fr
+msgid "Send"
+msgstr ""
+
+#: templates/parts/modal-emailme.php:71
+#@ javo_fr
+msgid "Share This post"
+msgstr ""
+
+#: templates/parts/modal-emailme.php:75
+#@ javo_fr
+msgid "You need to login to share this post"
+msgstr ""
+
+#: templates/parts/modal-emailme.php:80
+#@ javo_fr
+msgid "Login"
+msgstr ""
+
+#: templates/parts/modal-emailme.php:81
+#: templates/tp-register-general.php:99
+#@ javo_fr
+msgid "Register"
+msgstr ""
+
+#: templates/parts/modal-login.php:10
+#@ javo_fr
+msgid "SIGN INTO YOUR ACCOUNT"
+msgstr ""
+
+#: templates/parts/modal-login.php:16
+#@ javo_fr
+msgid "Email address"
+msgstr ""
+
+#: templates/parts/modal-login.php:20
+#: templates/tp-register-general.php:128
+#: templates/tp-register.php:168
+#@ javo_fr
+msgid "Password"
+msgstr ""
+
+#: templates/parts/modal-login.php:27
+#@ javo_fr
+msgid "Remember Me"
+msgstr ""
+
+#: templates/parts/modal-login.php:33
+#@ javo_fr
+msgid "Your <a target=\"_blank\" href=\"#\">privacy</a> is important to us and we will never rent or sell your information."
+msgstr ""
+
+#: templates/parts/modal-login.php:38
+#@ javo_fr
+msgid "LOG IN"
+msgstr ""
+
+#: templates/parts/modal-login.php:44
+#@ javo_fr
+msgid "FORGOT YOUR USERNAME?"
+msgstr ""
+
+#: templates/parts/mypage-menu.php:6
+#@ javo_fr
+msgid "Dashboard"
+msgstr ""
+
+#: templates/parts/mypage-menu.php:15
+#@ javo_fr
+msgid "Saved Items"
+msgstr ""
+
+#: templates/parts/mypage-menu.php:19
+#: templates/parts/mypage-menu.php:33
+#@ javo_fr
+msgid "ALERT"
+msgstr ""
+
+#: templates/parts/mypage-menu.php:20
+#@ javo_fr
+msgid "Please page connection setting. Admin > Theme settings > Property page > Agent favorite display page"
+msgstr ""
+
+#: templates/parts/mypage-menu.php:29
+#@ javo_fr
+msgid "Payment History"
+msgstr ""
+
+#: templates/parts/mypage-menu.php:34
+#@ javo_fr
+msgid "Please page connection setting. Admin > Theme settings > Property page > Agent property active payment history"
+msgstr ""
+
+#: templates/parts/mypage-menu.php:45
+#@ javo_fr
+msgid "My Settings"
+msgstr ""
+
+#: templates/parts/mypage-menu.php:63
+#@ javo_fr
+msgid "DANGER"
+msgstr ""
+
+#: templates/parts/mypage-menu.php:64
+#@ javo_fr
+msgid "Please page connection setting. Admin > Theme settings > Property page > Agent - Add / Modify Page"
+msgstr ""
+
+#: templates/parts/part-map-option4.php:49
+#: templates/parts/part-map-option5.php:80
+#@ javo_fr
+msgid "Reset"
+msgstr ""
+
+#: templates/parts/part-ratings-form-label.php:95
+#@ javo_fr
+msgid "Insert your name here."
+msgstr ""
+
+#: templates/parts/part-ratings-form-label.php:101
+#@ javo_fr
+msgid "Insert your E-mail address here."
+msgstr ""
+
+#: templates/parts/part-ratings-form.php:6
+#@ javo_fr
+msgid "Please login"
+msgstr ""
+
+#: templates/parts/part-ratings-form.php:7
+#@ javo_fr
+msgid "Processing"
+msgstr ""
+
+#: templates/parts/part-ratings-form.php:8
+#@ javo_fr
+msgid "Send Rating"
+msgstr ""
+
+#: templates/parts/property-type1.php:19
+#: templates/parts/property-type2.php:60
+#@ javo_fr
+msgid "Property ID"
+msgstr ""
+
+#: templates/parts/property-type1.php:34
+#@ javo_fr
+msgid "Built In"
+msgstr ""
+
+#: templates/parts/property-type1.php:122
+#: templates/parts/property-type2.php:164
+#@ javo_fr
+msgid "SEND"
+msgstr ""
+
+#: templates/parts/property-type1.php:123
+#: templates/parts/property-type2.php:165
+#@ javo_fr
+msgid "PRINT"
+msgstr ""
+
+#: templates/parts/property-type1.php:163
+#: templates/parts/property-type2.php:416
+#@ javo_fr
+msgid "See More"
+msgstr ""
+
+#: templates/parts/property-type1.php:182
+#@ javo_fr
+msgid "Detail Information"
+msgstr ""
+
+#: templates/parts/property-type1.php:215
+#: templates/parts/property-type2.php:230
+#@ javo_fr
+msgid "Built Year"
+msgstr ""
+
+#: templates/parts/property-type1.php:242
+#: templates/parts/property-type2.php:257
+#@ javo_fr
+msgid "Bethrooms"
+msgstr ""
+
+#: templates/parts/property-type1.php:267
+#: templates/parts/property-type2.php:282
+#@ javo_fr
+msgid "Plot Size"
+msgstr ""
+
+#: templates/parts/property-type1.php:274
+#: templates/parts/property-type2.php:289
+#: templates/tp-add.php:427
+#@ javo_fr
+msgid "Living Rooms"
+msgstr ""
+
+#: templates/parts/property-type1.php:293
+#@ javo_fr
+msgid "Options"
+msgstr ""
+
+#: templates/parts/property-type1.php:300
+#@ javo_fr
+msgid "Details"
+msgstr ""
+
+#: templates/parts/property-type1.php:317
+#@ javo_fr
+msgid "Not found video"
+msgstr ""
+
+#: templates/parts/property-type1.php:354
+#: templates/parts/property-type2.php:359
+#@ javo_fr
+msgid "no information map"
+msgstr ""
+
+#: templates/parts/property-type1.php:418
+#: templates/parts/property-type2.php:366
+#: templates/tp-map.php:25
+#@ javo_fr
+msgid "Please, to email adress."
+msgstr ""
+
+#: templates/parts/property-type1.php:419
+#: templates/parts/property-type2.php:367
+#: templates/tp-map.php:26
+#@ javo_fr
+msgid "Please, from email adress."
+msgstr ""
+
+#: templates/parts/property-type1.php:420
+#: templates/parts/property-type2.php:368
+#: templates/tp-map.php:27
+#@ javo_fr
+msgid "Please, insert name."
+msgstr ""
+
+#: templates/parts/property-type1.php:421
+#: templates/parts/property-type2.php:369
+#: templates/tp-map.php:28
+#@ javo_fr
+msgid "Please, insert content"
+msgstr ""
+
+#: templates/parts/property-type1.php:422
+#: templates/parts/property-type2.php:370
+#: templates/tp-map.php:29
+#@ javo_fr
+msgid "Sorry, mail send failed."
+msgstr ""
+
+#: templates/parts/property-type1.php:423
+#: templates/parts/property-type2.php:371
+#: templates/tp-map.php:30
+#@ javo_fr
+msgid "Successfully !"
+msgstr ""
+
+#: templates/parts/property-type1.php:424
+#: templates/parts/property-type2.php:372
+#: templates/tp-map.php:31
+#@ javo_fr
+msgid "Send this email ?"
+msgstr ""
+
+#: templates/parts/property-type2.php:129
+#@ javo_fr
+msgid "Not set status"
+msgstr ""
+
+#: templates/parts/property-type2.php:132
+#: templates/parts/property-type2.php:218
+#@ javo_fr
+msgid "Not set city."
+msgstr ""
+
+#: templates/parts/property-type2.php:149
+#@ javo_fr
+msgid "Property Edit"
+msgstr ""
+
+#: templates/parts/property-type2.php:163
+#: templates/parts/property-type2.php:177
+#: templates/tp-saved.php:57
+#: templates/tp-saved.php:76
+#@ javo_fr
+msgid "Unsave"
+msgstr ""
+
+#: templates/parts/property-type2.php:163
+#: templates/parts/property-type2.php:176
+#: templates/tp-saved.php:57
+#: templates/tp-saved.php:75
+#: templates/tp-saved.php:77
+#@ javo_fr
+msgid "Save"
+msgstr ""
+
+#: templates/parts/property-type2.php:175
+#: templates/tp-saved.php:74
+#@ javo_fr
+msgid "if you wan`t favorite, please login."
+msgstr ""
+
+#: templates/parts/property-type2.php:178
+#: templates/tp-saved.php:78
+#@ javo_fr
+msgid "Sorry, server error."
+msgstr ""
+
+#: templates/parts/property-type2.php:179
+#: templates/tp-saved.php:79
+#@ javo_fr
+msgid "favorite regist fail."
+msgstr ""
+
+#: templates/parts/property-type2.php:197
+#@ javo_fr
+msgid "Featured options"
+msgstr ""
+
+#: templates/parts/property-type2.php:206
+#@ javo_fr
+msgid "Not set types."
+msgstr ""
+
+#: templates/parts/property-type2.php:212
+#@ javo_fr
+msgid "Not set status."
+msgstr ""
+
+#: templates/parts/property-type2.php:308
+#@ javo_fr
+msgid "Detail & Description"
+msgstr ""
+
+#: templates/parts/property-type2.php:314
+#@ javo_fr
+msgid "Post Type"
+msgstr ""
+
+#: templates/parts/property-type2.php:351
+#@ javo_fr
+msgid "Map and Location"
+msgstr ""
+
+#: templates/tp-add.php:11
+#@ javo_fr
+msgid "Please login."
+msgstr ""
+
+#: templates/tp-add.php:25
+#@ javo_fr
+msgid "You are a general user. Please create an account for agent, agency or landload."
+msgstr ""
+
+#: templates/tp-add.php:39
+#@ javo_fr
+msgid "Access Rejected"
+msgstr ""
+
+#: templates/tp-add.php:75
+#@ javo_fr
+msgid "Lordview"
+msgstr ""
+
+#: templates/tp-add.php:221
+#@ javo_fr
+msgid "Find address on map"
+msgstr ""
+
+#: templates/tp-add.php:235
+#@ javo_fr
+msgid "Address found!"
+msgstr ""
+
+#: templates/tp-add.php:269
+#@ javo_fr
+msgid "Edit My Property"
+msgstr ""
+
+#: templates/tp-add.php:269
+#@ javo_fr
+msgid "Add a Property"
+msgstr ""
+
+#: templates/tp-add.php:284
+#: templates/tp-register.php:228
+#@ javo_fr
+msgid "Description"
+msgstr ""
+
+#: templates/tp-add.php:293
+#@ javo_fr
+msgid "Features (Requested)"
+msgstr ""
+
+#: templates/tp-add.php:378
+#@ javo_fr
+msgid "Currency"
+msgstr ""
+
+#: templates/tp-add.php:389
+#@ javo_fr
+msgid "Only Number"
+msgstr ""
+
+#: templates/tp-add.php:393
+#@ javo_fr
+msgid "Unit"
+msgstr ""
+
+#: templates/tp-add.php:400
+#@ javo_fr
+msgid "Features (Option)"
+msgstr ""
+
+#: templates/tp-add.php:406
+#@ javo_fr
+msgid "Buit year"
+msgstr ""
+
+#: templates/tp-add.php:442
+#@ javo_fr
+msgid "Pictures"
+msgstr ""
+
+#: templates/tp-add.php:449
+#@ javo_fr
+msgid "Upload Images"
+msgstr ""
+
+#: templates/tp-add.php:474
+#@ javo_fr
+msgid "insert never only video share address."
+msgstr ""
+
+#: templates/tp-add.php:543
+#@ javo_fr
+msgid "Edit Property"
+msgstr ""
+
+#: templates/tp-add.php:543
+#@ javo_fr
+msgid "Submit This Property"
+msgstr ""
+
+#: templates/tp-add.php:554
+#@ javo_fr
+msgid "please type house property title."
+msgstr ""
+
+#: templates/tp-add.php:555
+#@ javo_fr
+msgid "please type house property description."
+msgstr ""
+
+#: templates/tp-add.php:556
+#@ javo_fr
+msgid "please type house property bed room count."
+msgstr ""
+
+#: templates/tp-add.php:557
+#@ javo_fr
+msgid "please type house property bath rooms count."
+msgstr ""
+
+#: templates/tp-add.php:558
+#@ javo_fr
+msgid "please type house property parkings count."
+msgstr ""
+
+#: templates/tp-add.php:559
+#@ javo_fr
+msgid "please type house price."
+msgstr ""
+
+#: templates/tp-add.php:560
+#@ javo_fr
+msgid "please type house price currency prefix."
+msgstr ""
+
+#: templates/tp-add.php:561
+#@ javo_fr
+msgid "please type house area size."
+msgstr ""
+
+#: templates/tp-add.php:562
+#@ javo_fr
+msgid "please type house area size prefix word."
+msgstr ""
+
+#: templates/tp-add.php:563
+#@ javo_fr
+msgid "please address find or marker drag."
+msgstr ""
+
+#: templates/tp-add.php:564
+#@ javo_fr
+msgid "Property modify successfully!"
+msgstr ""
+
+#: templates/tp-add.php:565
+#@ javo_fr
+msgid "Thank you !"
+msgstr ""
+
+#: templates/tp-add.php:638
+#@ javo_fr
+msgid "Upload images"
+msgstr ""
+
+#: templates/tp-add.php:647
+#@ javo_fr
+msgid "Feature image"
+msgstr ""
+
+#: templates/tp-add.php:666
+#@ javo_fr
+msgid "Detail images"
+msgstr ""
+
+#: templates/tp-add.php:681
+#: templates/tp-add.php:732
+#@ javo_fr
+msgid "Delete"
+msgstr ""
+
+#: templates/tp-map.php:32
+#@ javo_fr
+msgid "Server error "
+msgstr ""
+
+#: templates/tp-map.php:34
+#@ javo_fr
+msgid "Please refresh"
+msgstr ""
+
+#: templates/tp-map.php:35
+#@ javo_fr
+msgid "CLUSTER_COUNT"
+msgstr ""
+
+#: templates/tp-map.php:36
+#@ javo_fr
+msgid "No Results Found"
+msgstr ""
+
+#: templates/tp-map.php:37
+#@ javo_fr
+msgid "No Result!"
+msgstr ""
+
+#: templates/tp-payment-history.php:92
+#@ javo_fr
+msgid "Do you want to make a payment for your item?"
+msgstr ""
+
+#: templates/tp-payment-success.php:19
+#@ javo_fr
+msgid "Thank you"
+msgstr ""
+
+#: templates/tp-payment-success.php:20
+#@ javo_fr
+msgid "Access Error"
+msgstr ""
+
+#: templates/tp-payment-success.php:22
+#@ javo_fr
+msgid "Your payment has been successfully completed!"
+msgstr ""
+
+#: templates/tp-payment-success.php:23
+#@ javo_fr
+msgid "Entry invalid. page. pleae return back."
+msgstr ""
+
+#: templates/tp-payment-success.php:35
+#@ javo_fr
+msgid "Go my property"
+msgstr ""
+
+#: templates/tp-payment-success.php:36
+#@ javo_fr
+msgid "Go home"
+msgstr ""
+
+#: templates/tp-property-results.php:241
+#@ javo_fr
+msgid "Not found results"
+msgstr ""
+
+#: templates/tp-register-general.php:51
+#: templates/tp-register.php:74
+#@ javo_fr
+msgid "change your information successfully!"
+msgstr ""
+
+#: templates/tp-register-general.php:51
+#: templates/tp-register.php:74
+#@ javo_fr
+msgid "Create account Successfully! please, login."
+msgstr ""
+
+#: templates/tp-register-general.php:54
+#@ javo_fr
+msgid "Create user failed"
+msgstr ""
+
+#: templates/tp-register-general.php:108
+#: templates/tp-register.php:131
+#@ javo_fr
+msgid "Requred"
+msgstr ""
+
+#: templates/tp-register-general.php:112
+#: templates/tp-register.php:135
+#@ javo_fr
+msgid "Default information"
+msgstr ""
+
+#: templates/tp-register-general.php:114
+#@ javo_fr
+msgid "ID"
+msgstr ""
+
+#: templates/tp-register-general.php:132
+#@ javo_fr
+msgid "Password another"
+msgstr ""
+
+#: templates/tp-register-general.php:142
+#: templates/tp-register.php:243
+#@ javo_fr
+msgid "OK, Create my account!"
+msgstr ""
+
+#: templates/tp-register.php:17
+#@ javo_fr
+msgid " login ID."
+msgstr ""
+
+#: templates/tp-register.php:18
+#@ javo_fr
+msgid " First name."
+msgstr ""
+
+#: templates/tp-register.php:19
+#@ javo_fr
+msgid " Last name."
+msgstr ""
+
+#: templates/tp-register.php:20
+#@ javo_fr
+msgid " Password."
+msgstr ""
+
+#: templates/tp-register.php:21
+#@ javo_fr
+msgid " Re-enter Password"
+msgstr ""
+
+#: templates/tp-register.php:22
+#@ javo_fr
+msgid " Email address."
+msgstr ""
+
+#: templates/tp-register.php:23
+#@ javo_fr
+msgid " String length four at login id"
+msgstr ""
+
+#: templates/tp-register.php:24
+#@ javo_fr
+msgid " Not equal to password and re-enter password."
+msgstr ""
+
+#: templates/tp-register.php:25
+#@ javo_fr
+msgid " String length four at login password."
+msgstr ""
+
+#: templates/tp-register.php:30
+#@ javo_fr
+msgid " Duplicate UserId."
+msgstr ""
+
+#: templates/tp-register.php:36
+#@ javo_fr
+msgid " Duplicate Email address."
+msgstr ""
+
+#: templates/tp-register.php:77
+#@ javo_fr
+msgid "Create user failed."
+msgstr ""
+
+#: templates/tp-register.php:139
+#@ javo_fr
+msgid "Register type"
+msgstr ""
+
+#: templates/tp-register.php:142
+#@ javo_fr
+msgid "Select User Type"
+msgstr ""
+
+#: templates/tp-register.php:154
+#@ javo_fr
+msgid "Username"
+msgstr ""
+
+#: templates/tp-register.php:172
+#@ javo_fr
+msgid "Password again"
+msgstr ""
+
+#: templates/tp-register.php:196
+#@ javo_fr
+msgid "Picture"
+msgstr ""
+
+#: templates/tp-register.php:231
+#@ javo_fr
+msgid "Social network ids"
+msgstr ""
+
+#: templates/tp-register.php:249
+#@ javo_fr
+msgid "Please select your user type"
+msgstr ""
+
+#: templates/tp-saved.php:22
+#@ javo_fr
+msgid "Saved My Favorite Properties"
+msgstr ""
+
+#: templates/tp-saved.php:28
+#@ javo_fr
+msgid "Posted Date"
+msgstr ""
+
+#: templates/tp-saved.php:29
+#@ javo_fr
+msgid "Action"
+msgstr ""
+
+#: templates/tp-saved.php:57
+#@ javo_fr
+msgid "saved"
+msgstr ""
+
+#: templates/tp-saved.php:66
+#@ javo_fr
+msgid "You have not saved any post. please press save buttons on list"
+msgstr ""
+

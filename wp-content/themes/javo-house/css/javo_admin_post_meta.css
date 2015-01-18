@@ -1,0 +1,52 @@
+@charset("utf-8");
+.javo_pmb_title{ padding:5px 0; margin:0px; font:bold 1.0em/1.2em sans-serif; }
+.javo_pmb_option{ display:inline-block; }
+.javo_pmb_option > span.ico_img{ display:inline-block; width:75px; height:50px; clear:both; }
+.javo_pmb_option > p{ padding:0px; margin:0px; font:.9em/1.2em sans-serif; }
+.javo_pmb_option.header{ width:100px; font-size:.8em; }
+.javo_pmb_option > span.ico_img{ border-radius:5px; }
+.javo_pmb_option input[type="radio"]{ border:none; }
+
+.javo_pmb_option.sidebar.op_s_left > span.ico_img{ background:url("../images/sidebar-left.png") no-repeat; }
+.javo_pmb_option.sidebar.op_s_right > span.ico_img{ background:url("../images/sidebar-right.png") no-repeat; }
+.javo_pmb_option.sidebar.op_s_full > span.ico_img{ background:url("../images/sidebar-full.png") no-repeat; }
+
+
+.javo_pmb_option.header.op_h_title_show > span.ico_img{ background:url("../images/backend-icon-head-default.png") no-repeat; }
+.javo_pmb_option.header.op_h_title_hide > span.ico_img{ background:url("../images/backend-icon-head-notitle.png") no-repeat; }
+.javo_pmb_option.header.op_h_title_fancy > span.ico_img{ background:url("../images/backend-icon-head-fancy.png") no-repeat; }
+.javo_pmb_option.header.op_h_title_slide > span.ico_img{ background:url("../images/backend-icon-head-slider.png") no-repeat; }
+.javo_pmb_option.fancy.op_f_left > span.ico_img{ background:url("../images/backend-icon-fancy-left.png") no-repeat;  }
+.javo_pmb_option.fancy.op_f_center > span.ico_img{ background:url("../images/backend-icon-fancy-center.png") no-repeat;  }
+.javo_pmb_option.fancy.op_f_right > span.ico_img{ background:url("../images/backend-icon-fancy-right.png") no-repeat;  }
+.javo_pmb_option.slider.op_d_porthold > span.ico_img{ background:url("../images/ico_slider_port.png") no-repeat;  }
+.javo_pmb_option.slider.op_d_metro > span.ico_img{ background:url("../images/ico_slider_metro.png") no-repeat;  }
+.javo_pmb_option.slider.op_d_rev > span.ico_img{ background:url("../images/backend-icon-slider-rev.png") no-repeat;  }
+
+.javo_pmb_option.active span.ico_img{ background-position:0px -50px !important;  }
+#javo_post_header_fancy,
+#javo_post_header_slide{ display:none; }
+
+.javo_pmb_field{ display:block; }
+.javo_pmb_field:after{ content: " "; display:block; clear:both; }
+.javo_pmb_field dl, .javo_pmb_field dt, .javo_pmb_field dd{ padding:0; margin:5px 0; }
+.javo_pmb_field dl{ position:relative; }
+.javo_pmb_field dl:after{ content: " "; display:block; clear:both; }
+.javo_pmb_field dt{ position:absolute; top:0px; left:0px; width:175px; text-align:right; padding:0 5px 0 0; color:#999; }
+.javo_pmb_field dd{ padding:0 0 0 180px; }
+.javo_pmb_field dd > input[type="text"]:focus{ border:solid 2px #f00; color:#f00; }
+.javo_pmb_field dt label,
+.javo_pmb_field dd input:not:("input[type='radio']"),
+.javo_pmb_field dd select{ line-height:30px; height:30px; }
+
+.javo_pmb_tabs{}
+.javo_pmb_tabs:after{ content:" "; display:block; clear:both; }
+.javo_pmb_tabs .javo_pmb_tab{ display:none; }
+.javo_pmb_tabs .javo_pmb_tab.active{ display:block; }
+
+
+#javo_post_control,
+#javo_page_options,
+#javo_blog_options{
+	display:none;
+}

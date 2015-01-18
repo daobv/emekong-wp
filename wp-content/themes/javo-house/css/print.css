@@ -1,0 +1,51 @@
+@media print {
+	#header-box{height:80px;}
+	.panel-body{padding:0;}
+	iframe{display:none;}
+	.flex-direction-nav{display:none;}
+	.widgettitle{margin-bottom:0px;}
+	.form-video{display:none;}
+	.title_featured h2{
+		margin-top:10px;
+		margin-bottom:0px;
+	}
+	.title_detail h2{
+		margin-top:-15px;
+		margin-bottom:10px;
+	}
+	.featured_box .features{display:none;}
+	.featured_box .active{
+		display:block;
+		width:25%;
+		float:left;
+	}
+	.title_video{display:none;}
+	.sigle-feature-details .list-group-item .col-md-4, .sigle-feature-details .list-group-item .col-md-8{float:left;}
+	.sigle-feature-details .list-group-item{
+		width:50%;
+		float:left;
+	}
+	.main-content-wrap .property-meta{height:30px;}
+	.main-content-wrap .property-meta span{
+		width:25%;
+		padding:0px;
+		margin:0px;
+	}
+	.main-content-wrap .property-meta .property-meta_sns,
+	.main-content-wrap .property-meta .printer-icon,
+	.main-content-wrap .javo_detail_slide_cnt,
+	.main-content-wrap .contact-panel,
+	#property_basic_type .sidebar-right,
+	footer,
+	.footer-bottom,
+	.list-group-item .col-md-3 .pull-right,
+	.sidebar-right{display:none;}
+	.title_featured{ margin-top:50px;}
+	.single-property #property_basic_type .main-content-wrap .row .col-md-6{width:50%; float:left;}
+	.single-property #property_basic_type .main-content-wrap .row .col-md-6 .list-group-item{width:100%;}
+	.single-property #property_basic_type .main-content-wrap .row .col-md-6 .list-group-item .col-md-4{width:45%; float:left; padding-right:0px;}
+	.single-property #property_basic_type .main-content-wrap .row .col-md-6 .list-group-item .col-md-8{width:55%; float:left;}
+	.single-property #property_basic_type .propert-meta-list .list-group-item .titles{width:50%; float:left; padding-left: 5px;}
+	.map_area{width:1100px;}
+	.featured_box{margin:20px 0px;}
+}

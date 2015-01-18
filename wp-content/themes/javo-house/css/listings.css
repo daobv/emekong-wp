@@ -1,0 +1,348 @@
+@charset("utf-8");
+/**************************/
+/** styles for listing types **/
+/** version : 1.0 **/
+/** Date : Mar 28. 2014 **/
+/**************************/
+
+/** 1. box - 2 colums **/
+/** 2. grid listing - 3 colums **/
+
+.text-rb-meta {
+position: absolute;
+right: 0px;
+bottom: 0;
+color: white;
+font-size: 13px;
+padding: 2px 9px;
+background-color: #ec894d;
+}
+
+
+/****** listing type *****/
+/* box - two colums case 11 */
+#box-listing .img-wrap,
+#property-result .col-md-5{ padding: 0 0 0 0; }
+
+
+#box-listing .img-wrap {min-height:148px;}
+
+#box-listing .javo_img_hover {max-height:152px;}
+#box-listing .javo_img_hover img,
+#property-result .javo_img_hover img{
+	width:165px;
+}
+
+#property-result .javo_img {position:relative;}
+#property-result .img_wrap {min-height:213px;}
+
+#box-listing .item-wrap {
+	height: 270px;
+}
+
+#box-listing .blog-wrap {
+	height: 220px;
+}
+
+#box-listing .main-box,
+#property-result .main-box{
+	padding:15px 15px 0 15px;
+	overflow: hidden;
+}
+
+#box-listing .detail h2, h5,
+#property-result .detail h2, h5 {
+	padding-top:0;
+	margin-top:0;
+}
+
+#box-listing .detail h3, #property-result h2 {
+	font-weight:600;
+	padding: 0px 0px 14px 0;
+	margin: 0px;
+}
+
+#box-listing .expert,
+#property-result .expert{
+	min-height:50px;
+}
+
+#box-listing li.main-box-icons,
+#property-result li.main-box-icons{
+	margin: 0px 0 0 0;
+	height:40px;
+	background:#f4f4f4;
+	padding: 10px 5px 0 10px;
+	border-right:1px solid #ddd;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	color:#666;
+}
+
+#box-listing li.first,
+#property-result li.first{
+	border-left:1px solid #ddd;
+}
+
+#box-listing .main-box-icons i,
+#property-result .main-box-icons i{
+	display: inline-block;
+	width:19px;
+	height:19px;
+	background-position: 0px 0px;
+}
+
+#box-listing .main-box-icons .icon-size,
+#property-result .main-box-icons .icon-size{
+	background: url('../images/icons/icon-size.png') no-repeat;		
+}
+
+#box-listing .main-box-icons .icon-bed,
+#property-result .main-box-icons .icon-bed{
+	background: url('../images/icons/icon-bed.png') no-repeat;		
+}
+
+#box-listing .main-box-icons .icon-bath,
+#property-result .main-box-icons .icon-bath{
+	background: url('../images/icons/icon-bath.png') no-repeat;		
+}
+
+#box-listing .main-box-icons .icon-garage,
+#property-result .main-box-icons .icon-garage{
+	background: url('../images/icons/icon-garage.png') no-repeat;		
+}
+#box-listing .main-box-icons .icon-area,
+#property-result .main-box-icons .icon-area{
+	background: url(../images/icons/icon-size.png) no-repeat left center;
+}
+#box-listing .text-rb-meta,
+#property-result .text-rb-meta{
+	position: absolute;
+	right: 0px;
+	bottom: 0;
+	color: white;
+	font-size: 13px;
+	padding: 2px 9px;
+	background-color: #ec894d;
+}
+
+#box-listing .javo-left-overlay,
+#property-result .javo-left-overlay{
+position: absolute;
+top: 4px;
+left: -4px;
+}
+
+
+
+/** 2. grid listing - 3 colums **/
+
+#grid-listing h2 {	
+	margin-top:0;
+	padding-top:0;
+	line-height:15px;
+}
+
+#grid-listing .javo-left-overlay {
+position: absolute;
+top: 23px;
+left: 11px;
+}
+
+#grid-listing .text-rb-meta {
+	position: absolute;
+	right: 0px;
+	bottom: 0;
+	color: white;
+	font-size: 13px;
+	padding: 2px 9px;
+	background-color: #ec894d;
+}
+
+
+/** standard-listing **/
+#standard-listing h2 {margin-top:0; padding-top:0;}
+#standard-listing .javo-left-overlay {
+position: absolute;
+top: 10px;
+left: 11px;
+}
+
+#standard-listing .property-meta {
+border: 1px solid #dedede;
+margin: 4px 0 0 0;
+padding: 0;
+}
+
+#standard-listing .property-meta > span {
+min-width: 100px;
+padding: 8px 1px 6px 0;
+}
+
+/** excerpt-listing **/
+#excerpt-listing h2 {margin-top:0; padding-top:0; padding-left:20px;}
+#excerpt-listing .property-meta {
+border: 1px solid #dedede;
+margin: 4px 0 0 10px;
+padding: 0;
+}
+
+#excerpt-listing .property-meta > span {
+min-width: 100px;
+padding: 8px 1px 6px 0;
+}
+
+
+
+/** pretty blogs = mini album **/
+
+.pretty_blogs {min-height:280px; margin-bottom:70px;}
+
+
+.pretty_blogs .blog-thum-box img{
+	display: block;
+		border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	margin:0px;
+}
+
+.pretty_blogs h2 {
+	color:#454545;
+	font-size: 1.4em;
+	font-weight:600;
+}
+
+.pretty_blogs .blog-meta-box, .pretty_blogs .meta {
+	font-size: 0.9em;
+	color: #888;
+}
+
+.pretty_blogs .excerpt {
+	height:110px;
+	overflow:hidden;
+	line-height:1.8em;
+}
+
+.pretty_blogs .meta {
+	padding:5px 0 5px 0px;
+}
+
+.javo-bubble-dark.small{
+	bottom:-9px !important;
+	left:-1px !important;
+
+}
+.pretty_blogs .javo-bubble-dark {
+position: absolute;
+background: url('../images/javo-balloon.png') no-repeat;
+bottom:0px;
+left:9px;
+width:89px;
+height:81px;
+}
+
+
+.pretty_blogs .javo-bubble-dark span{
+display: block;
+float: left;
+position: relative;
+text-transform: uppercase;
+font-size: 11px;
+}
+
+
+.pretty_blogs .javo-bubble-dark .down-text {
+	color:#FF7347;
+	text-align: center;
+	top: 27px;
+	left:0;
+	width: 85px;
+	font-size:1.15em;
+}
+
+
+.pretty_blogs .up-text {
+	color: #FFFFFF;
+	top: 26px;
+	left:-1px;
+	width:85px;
+	text-align:center;
+	font-size:0.9em;
+}
+
+
+.pretty_blogs .text_small_image{
+	margin-top: 15px;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	font-size: 15px;
+}
+
+.pretty_blogs .text_title{
+	color: #000;
+	margin-bottom: 80px;
+	font-size: 15px;
+}
+
+.pretty_blogs p.social span{
+	font-size: 10px;
+	display: block;
+	float: left;
+	position: relative;
+	margin-top:10px;
+	margin-right:10px;
+
+}
+.pretty_blogs p.social a{
+	margin-right:10px;
+	margin-top:-4px;
+}
+
+.pretty_blogs a.facebook{
+	background-image:url('../images/FB.png');
+	background-position: 0px 21px;
+	width: 20px;
+	height:20px;
+	display: block;
+	float:left;
+}
+
+.pretty_blogs a.twitter{
+	background-image:url('../images/twitter.png') ;
+	background-position: 0px 21px;
+	width: 20px;
+	height:20px;
+	display: block;
+	float:left;
+}
+
+.pretty_blogs a.facebook:hover, .pretty_blogs a.twitter:hover{   /* when it's on mouse */
+	background-position: 0px 0px;
+}
+
+.pretty_blogs .property-meta {
+	margin:0px;
+}
+.pretty_blogs .property-meta > span {
+	width:145px;
+	margin-right:0px;
+}
+
+.pretty_blogs .property-meta {
+	border-right:0px;
+	margin-bottom:13px;
+}
+
+.more-details {font: 12px/17px 'Open Sans';}
+.meta-wrap li {font-size:12px;}
+
+.pretty_blogs .javo_img_hover {
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+border-bottom-right-radius: 25px;
+border-bottom-left-radius: 25px;
+position: relative;
+overflow: auto;
+display: inline-block;
+}

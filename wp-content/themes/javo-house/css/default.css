@@ -1,0 +1,21 @@
+@charset "utf-8";
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+@import url("http://fonts.googleapis.com/css?family=Roboto");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+
+
+
+/* *{ font:10pt/1.2em 'Nanum Gothic', sans-serif; } */
+/* *{ font:10pt/1.2em 'Roboto';} */
+html, body{ font:10pt/1.2em 'Open Sans'; height:100%; min-height:100%; }
+body{ overflow-y:scroll; }
+img{ border:none; }
+a{ text-decoration:none; color:#454545;}
+a:hover{ text-decoration:none; color:#3399ff; }
+html, body, h1, h2, h3, h4, h5, h6 {
+	color:#646464;
+	font-family:'Open Sans';
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:14px;
+}
